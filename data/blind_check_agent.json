@@ -1,0 +1,1181 @@
+[
+ {
+  "claim_id": "nycha-section8-waitlist#0",
+  "extracted_value": 200000,
+  "extracted_unit": "households (also called applications in the same release)",
+  "extracted_period_or_date": "Aug. 1, 2024 (release date); list created from applications June 3-9, 2024",
+  "verbatim_quote": "'200,000 households were randomly selected for the waitlist via lottery, with online applications accepted between June 3 and June 9, 2024' (subhead); 'with 200,000 households randomly selected via lottery following an online application process that ran from June 3 through June 9, 2024' (lede); 'a total of 200,000 applications were randomly selected by lottery' (body).",
+  "definition_verbatim": "'Households who applied for the waitlist are currently being notified of the outcome of the lottery.' ... 'Being named to the waitlist does not necessarily guarantee receipt of a voucher, as applicant eligibility must be confirmed.' ... 'Anyone who remained on the existing waitlist will continue to be served and did not have to reapply.'",
+  "definition_check": "match",
+  "definition_notes": "Registry unit 'households' with a caveat naming the households/applications inconsistency: both sentences verified verbatim. 'will continue to be served and did not have to reapply' verified. The release does not describe how households leave the list (the registry's 'when housed, when they fail to respond or when found ineligible' is the registry's gloss, though 'applicant eligibility must be confirmed' supports the ineligibility route).",
+  "problems": [
+   "Registry caveat cites 'the Mayor's Management Report count ... shows 203,000 for fiscal 2025'; rbed-zzin fiscal 2025 monthly rows are [('2024-07', '203'), ('2024-08', '205'), ('2024-09', '204'), ('2024-10', '204'), ('2024-11', '204'), ('2024-12', '203'), ('2025-01', '203'), ('2025-02', '202'), ('2025-03', '200'), ('2025-04', '198'), ('2025-05', '197'), ('2025-06', '197')] (thousands). 203 is the July 2024 and Dec. 2024-Jan. 2025 value; fiscal year-end (June 2025) is 197, peak 205 in Aug. 2024. The month should be stated."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#1",
+  "extracted_value": "633,808 online applications; 4,416 paper applications (638,224 total)",
+  "extracted_unit": "applications",
+  "extracted_period_or_date": "Online: June 3-9, 2024 (\"during the eligible window\"); paper: postmarked by June 28, 2024",
+  "verbatim_quote": "'In total, NYCHA received 633,808 online applications during the eligible window, including 301,044 within the first 24 hours. Households could also request a paper application; NYCHA received 4,416 paper applications that were postmarked by the June 28 deadline.'",
+  "definition_verbatim": "'As part of the application process re-opened in June, a total of 200,000 applications were randomly selected by lottery, ensuring that all households had an equal opportunity to be chosen regardless of when their applications were received.'",
+  "definition_check": "match",
+  "definition_notes": "Registry unit 'applications' and period label match the release. The registry caveat 'duplicates were possible before deduplication into the 200,000 list' is not stated in the release; the release does not mention duplicates or deduplication.",
+  "problems": [
+   "Registry caveat about duplicates/deduplication is not in the source text."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#2",
+  "extracted_value": 1000,
+  "extracted_unit": "vouchers per month (goal)",
+  "extracted_period_or_date": "Stated Aug. 1, 2024, 'over the next several years'",
+  "verbatim_quote": "'NYCHA will utilize and call households off this waitlist over the next several years, with a goal of issuing 1,000 vouchers a month contingent on funding and the authorized voucher capacity.'",
+  "definition_verbatim": "'Last year, NYCHA issued 7,538 vouchers, a continuation of progress that reduced the eligible pool over time and led to the need to replenish the waitlist.'",
+  "definition_check": "match",
+  "definition_notes": "Registry caveats quote 'contingent on funding and the authorized voucher capacity' and the 7,538 sentence correctly. The Sept. 29, 2025 pause is confirmed in sources/nycha-20250929-section8-ehv-testimony.txt: 'NYCHA must temporarily pause voucher issuance and outreach to applicants on the general HCV waitlist.'",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#3",
+  "extracted_value": "200 months = 16.7 years (200,000 / 1,000 per month); 26.5 years at the 2023 actual pace (200,000 / 7,538 per year)",
+  "extracted_unit": "years (implied)",
+  "extracted_period_or_date": "Arithmetic on Aug. 1, 2024 figures",
+  "verbatim_quote": "200,000 households / 1,000 vouchers a month = 200 months = 16.67 years. Using the release's actual 2023 issuance: 200,000 / 7,538 = 26.5 years.",
+  "definition_verbatim": "n/a (derived)",
+  "definition_check": "match",
+  "definition_notes": "Registry caveat 'Shown only as an illustration of scale, never in totals' is appropriate; the goal rate is not a measured rate, and the Sept. 2025 pause makes even the 16.7-year figure optimistic.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-housing-connect#0",
+  "extracted_value": 6000000,
+  "extracted_unit": "applications",
+  "extracted_period_or_date": "Calendar 2024 (\"In 2024 alone\")",
+  "verbatim_quote": "'In 2024 alone, Housing Connect received six million applications for just 10,000 available units.'",
+  "definition_verbatim": "'With just 10,000 affordable units available in 2024 and a staggering six million applications submitted, she notes that the odds of securing housing through the platform are minuscule.'",
+  "definition_check": "match",
+  "definition_notes": "Registry: applications, demand, not a queue; 'One household can apply to many lotteries' is supported by the article's testimony (e.g. an applicant who 'applied to 63 lotteries'). The article attributes the figure loosely (no HPD dataset cited).",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dohmh-food-vendor-permit-waitlist#0",
+  "extracted_value": 5236,
+  "extracted_unit": "persons ('people')",
+  "extracted_period_or_date": "'currently' as of Dec. 18, 2025 article; agency date not given",
+  "verbatim_quote": "'The Department of Health said 5,236 people are on the waitlist for food vendor licenses.'",
+  "definition_verbatim": "'A 2021 city law created a new licensing system for food vendors, adding 445 licenses for food vendors annually from July 2022 through 2032, on top of the roughly 3,000 permits capped since 1983.'",
+  "definition_check": "mismatch",
+  "definition_notes": "Registry line: 'Full-term mobile food vending permit waiting list', what_for 'A year-round mobile food vending permit'. The source says the waitlist is for food vendor *licenses* and speaks of adding '445 licenses'; the registry says permits. In DOHMH's scheme the capped, waitlisted item is the permit (the cart), and the article's usage is loose, but the registry's wording is not the source's wording and the article does not say 'full-term' or 'year-round'. The 445-a-year, July 2022 to 2032 schedule matches the registry caveat.",
+  "problems": [
+   "Source says 'waitlist for food vendor licenses'; registry says 'permit'. Registry adds 'full-term'/'year-round', which the source does not say.",
+   "Registry caveat on 'Local Law 54 of 2026' cannot be checked here: the Dec. 18, 2025 source describes a bill passed by Council, not yet law."
+  ],
+  "confidence": "medium"
+ },
+ {
+  "claim_id": "dcwp-general-vendor-waitlist#0",
+  "extracted_value": "about 8,900",
+  "extracted_unit": "persons ('people'), approximate",
+  "extracted_period_or_date": "'currently' as of Dec. 18, 2025 article; agency date not given",
+  "verbatim_quote": "'About 8,900 people are currently on the waitlist for general merchandise licenses, according to the Department of Consumer and Worker Protection.'",
+  "definition_verbatim": "'The number of general vendor licenses has been capped at 853 since 1979.' ... 'The bill would also add 10,500 licenses for general merchandise vendors on Jan. 15, 2027, which city data shows would clear the current waitlist for those sellers.'",
+  "definition_check": "match",
+  "definition_notes": "Registry: 'General vendor license waitlist', persons. The 853 cap since 1979 (47 years to 2026) is stated in this source too, not only on the NYC Rules page as the caveat says.",
+  "problems": [
+   "Registry caveat attributes the 853-cap figure to 'public comment quoted on the NYC Rules page, not an agency figure'; the Gothamist source states it directly ('capped at 853 since 1979')."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-filing-to-approval-computed#0",
+  "extracted_value": {
+   "n": 141118,
+   "median_days": 6.87,
+   "p90_days": 89.49,
+   "mean_days": 36.47,
+   "median_days_dateonly": 6.0,
+   "p90_days_dateonly": 89.0,
+   "by_filing_review_type": {
+    "Professional Certification": {
+     "n": 65704,
+     "median_days": 1.62,
+     "p90_days": 5.59,
+     "mean_days": 4.42
+    },
+    "Standard Plan Examination": {
+     "n": 75414,
+     "median_days": 27.14,
+     "p90_days": 150.43,
+     "mean_days": 64.39
+    }
+   },
+   "negative_durations_excluded": 0
+  },
+  "extracted_unit": "calendar days (approved_date minus filing_date, fractional; date-only variant also given)",
+  "extracted_period_or_date": "Filings with approved_date 2025-09-01 through 2026-08-31 (server-side filter), dataset w9ak-ipjd as of 2026-09-05; 141,120 rows in window, 141,118 with a filing_date",
+  "verbatim_quote": "Fresh recompute (stdlib only, own code): n=141118, median=6.87 d, p90=89.49 d, mean=36.47 d. Professional Certification: n=65704, median=1.62, p90=5.59. Standard Plan Examination: n=75414, median=27.14, p90=150.43. Negative durations: 0.",
+  "definition_verbatim": "Dataset fields used: filing_date, approved_date, filing_review_type. No indicator definition text; the registry defines the measure itself.",
+  "definition_check": "match",
+  "definition_notes": "Registry: 'Only filings that reached approval are in the window' (true of the filter); 'Approval is plan approval, not permit issuance or sign-off' (approved_date is distinct from first_permit_date and signoff_date in the dataset); 'Negative durations (none found) would be excluded' -- I also found none. Registry center 'median' and unit 'applications' fit. The distribution is sharply bimodal by filing_review_type (professionally certified filings approve in about a day and a half; standard plan examination in about four weeks), which a single median hides; the registry description does not mention the split.",
+  "problems": [
+   "A single median (about 7 days) blends two populations with medians of about 1.6 and 27 days; the registry description does not flag the professional-certification/plan-examination split."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-problem-close-computed#0",
+  "extracted_value": {
+   "n": 377002,
+   "median_days": 8.27,
+   "p90_days": 67.19,
+   "mean_days": 23.21,
+   "by_type": {
+    "EMERGENCY": {
+     "n": 177038,
+     "median_days": 6.11,
+     "p90_days": 56.96,
+     "mean_days": 19.88
+    },
+    "NON EMERGENCY": {
+     "n": 182842,
+     "median_days": 12.68,
+     "p90_days": 81.78,
+     "mean_days": 28.33
+    },
+    "IMMEDIATE EMERGENCY": {
+     "n": 17122,
+     "median_days": 2.24,
+     "p90_days": 5.92,
+     "mean_days": 3.12
+    }
+   },
+   "negative_durations_excluded": 0,
+   "dup_flag_values_in_pull": {
+    "N": 377002
+   }
+  },
+  "extracted_unit": "calendar days (problem_status_date minus received_date, fractional)",
+  "extracted_period_or_date": "problem_status='CLOSE', problem_status_date 2026-03-01 through 2026-08-31, problem_duplicate_flag != 'Y' (or null), dataset ygpa-z7cr as of 2026-09-05; 414,661 CLOSE rows in window before the duplicate filter",
+  "verbatim_quote": "Fresh recompute (stdlib only, own code): n=377002, median=8.27 d, p90=67.19 d, mean=23.21 d. By type: EMERGENCY: n=177038, median=6.11, p90=56.96; NON EMERGENCY: n=182842, median=12.68, p90=81.78; IMMEDIATE EMERGENCY: n=17122, median=2.24, p90=5.92. Negative durations excluded: 0.",
+  "definition_verbatim": "Dataset fields used: received_date, problem_status, problem_status_date, problem_duplicate_flag, type. No indicator definition text; the registry defines the measure itself.",
+  "definition_check": "match",
+  "definition_notes": "Registry: 'Closed is HPD's status, not a repair: it includes no-access, not-found and tenant-withdrawn outcomes' -- consistent with the dataset's status_description texts; 'Problems still open are not in the window' -- true of the filter. Registry unit 'requests' (the dataset's unit is a problem, one complaint can have several problems).",
+  "problems": [
+   "Unit: the dataset row is a problem, not a request or complaint; one complaint_id can carry several problem_ids. Registry unit 'requests' should say problems."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcas-eligible-lists#0",
+  "extracted_value": {
+   "vx8i_nprf_rows_2026_09_05": 403777,
+   "distinct_exam_no": 855,
+   "distinct_list_title_code": 432,
+   "established_date_range": [
+    "2018-02-14",
+    "2026-08-26"
+   ],
+   "stats_json_candidates_2026_07_13": 403200,
+   "stats_json_exams": 850,
+   "stats_json_titles": 428
+  },
+  "extracted_unit": "rows (list entries)",
+  "extracted_period_or_date": "Live dataset queried 2026-09-05 (lists established through 2026-08-26); stats.json generated 2026-07-13",
+  "verbatim_quote": "SoQL count(*) on vx8i-nprf = 403,777; count(distinct exam_no) = 855; count(distinct list_title_code) = 432. stats.json: \"stock\":{\"candidates\":403200,\"exams\":850,\"titles\":428,\"agencies\":64,\"oldest\":\"2018-02-14\",\"newest\":\"2026-07-01\"}; \"funnel\":{\"appointed\":452206,...,\"removed_total\":1674337}; \"cert_range\":[\"2007-11-07\",\"2026-07-13\"].",
+  "definition_verbatim": "stats.json 'stock' block counts rows of the active-list dataset; 'funnel' counts appointments and removals across certifications since 2007-11-07.",
+  "definition_check": "match",
+  "definition_notes": "Live row count (403,777) is within 0.14 percent of stats.json's 403,200 seven weeks earlier; five more exams and four more titles have been established since. Registry caveats 'List entries, not unique people', 'Lists expire after at most four years' (sample anniversary_date is established_date + 4 years; window_median_days 1461) and '1.67 million removals against 452,206 appointments since 2007' (removed_total 1,674,337; appointed 452,206; cert_range from 2007-11-07) all check out against stats.json. end_event 'list expiry (one to four years)': the one-year lower bound is not in stats.json.",
+  "problems": [
+   "Registry end_event says lists expire in 'one to four years'; stats.json supports the four-year maximum (window_median_days 1461) but not the one-year minimum."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-housing-connect-furman#0",
+  "extracted_value": 118,
+  "extracted_unit": "days (median)",
+  "extracted_period_or_date": "NOT STATED: the report gives no date range for the sample. Sample = approximately 64,000 applications across lotteries for 101 buildings, measured from log-number receipt. Report published April 2026.",
+  "verbatim_quote": "'The process is too long. The median time to complete the verification and offering process and be approved is 118 days.' ... 'the median time to be verified and approved for an offer is approximately 118 days.' ... 'the median time from when an applicant is logged to when they are approved for a unit is currently around 118 days in our data.'",
+  "definition_verbatim": "'using anonymized applicant data from software that marketing agents use to review applicants, we analyze a sample of approximately 64,000 applications as they progressed through the lotteries for 101 buildings, starting from when each application received a log number. These data focus on batches of applicants as they go through the verification and offer steps with a marketing agent; our analysis does not cover appeals, complaints, or HPD's audit or review of applicants' submitted documents.' ... 'The data are not necessarily representative of the lottery process as a whole (see Appendix). ... We think it is more likely to result in overestimates of processing times'.",
+  "definition_check": "mismatch",
+  "definition_notes": "Registry end_event 'Applicant approved for an offer' and center 'median', duration_kind 'completed' match. Registry caveat 'A sample of lotteries processed through one software vendor, per the report' -- the report says 'software used by marketing agents' / 'software that marketing agents use'; it never says one vendor. Registry period label says the sample dates are 'as stated in the report's methodology section'; I could find no sample date range anywhere in the report text. Registry does not carry the report's own warning that the sample skews to larger, lower-income buildings and 'is more likely to result in overestimates of processing times'.",
+  "problems": [
+   "Period: the report states no date range for its sample; the registry period label implies one exists.",
+   "'one software vendor' is not in the report.",
+   "Report's representativeness warning (likely overestimate) omitted from registry caveats."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-housing-connect-furman#1",
+  "extracted_value": "nearly 600,000",
+  "extracted_unit": "unique Housing Connect applicants (approx., HPD officials' estimate)",
+  "extracted_period_or_date": "NOT STATED: an undated estimate from conversations with HPD, in footnote 17 of an April 2026 report; the footnote otherwise cites May 12, 2023 testimony",
+  "verbatim_quote": "'17. Carrion, A., Jr. (2023, May 12). Testimony before the New York City Council Committee on Housing and Buildings. ... Separately, in conversations with HPD, officials estimated nearly 600,000 unique Housing Connect applicants.'",
+  "definition_verbatim": "Footnote 17 as quoted. No period, no method.",
+  "definition_check": "mismatch",
+  "definition_notes": "Registry period label: 'Calendar 2024'. The source gives no period for the 600,000 figure. Registry caveat 'roughly ten applications per unique applicant' divides amNY's six million 2024 applications by this undated estimate; the ratio appears nowhere in the report.",
+  "problems": [
+   "Period 'Calendar 2024' is not supported by the source; the estimate is undated.",
+   "The 'roughly ten applications per unique applicant' ratio is a registry computation combining two sources with different (and one unknown) periods, not a figure in either source."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "doe-3k-waitlist#0",
+  "extracted_value": "more than 6,000 (roughly 15% of 3-K applicants)",
+  "extracted_unit": "students (children)",
+  "extracted_period_or_date": "3-K offers for 2025-26, released May 20, 2025",
+  "verbatim_quote": "'Roughly 15% of 3-K applicants, more than 6,000 students, didn't get into any of the programs they listed on their application and were instead assigned other options by the city — leaving some facing long commutes.'",
+  "definition_verbatim": "'City officials noted that this year, unlike last, every family at least got an offer. Some families might get into programs off waitlists over the summer, officials added.'",
+  "definition_check": "mismatch",
+  "definition_notes": "Registry line_name: '3-K seats: children without an offer'. The source says the opposite: these 6,000-plus children did receive an offer, just not to any program they listed; 'every family at least got an offer'. The correct description is children not offered any program they applied to (assigned elsewhere). Registry caveats check out: CBS May 16, 2024: 'more than 2,400 New York City kids were left without seats, out of the 43,000 who applied'; Chalkbeat Jan. 30, 2026: 'some 94,840' applications last year, 'more than 27,000 of roughly 136,000 seats, went unfilled', 'any family that applies by the deadline will receive an offer'.",
+  "problems": [
+   "line_name 'children without an offer' contradicts the source: 'every family at least got an offer'; the 6,000 were placed in programs they did not list."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "parks-trees-sidewalks#0",
+  "extracted_value": {
+   "request_to_inspection_mean_days": 101,
+   "inspection_to_repair_mean_days": 419,
+   "n_service_requests_reviewed": 11392,
+   "n_repaired_sidewalks_reviewed": 1069,
+   "share_repaired_within_2_years": "95 percent",
+   "longest_repair": "over 11 years"
+  },
+  "extracted_unit": "days (mean)",
+  "extracted_period_or_date": "Audit released June 20, 2019 (MH18-058A). The local copy (web summary) does not state the fiscal years covered; the registry's \"fiscal 2017 and 2018\" cannot be verified from it.",
+  "verbatim_quote": "'Our review of 11,392 service requests and 9,118 associated addresses found that homeowners had to wait an average of 101 days after submitting a request to have their sidewalks inspected, 71 days longer than the 30 day internal DPR SLA.  Additionally, our review of 1,069 repaired sidewalks found that the average time from inspection to repair was 419 days, with the longest time for a repair taking over 11 years.'",
+  "definition_verbatim": "'According to DPR's internal standard, known as the Service Level Agreement (SLA), an inspector should evaluate each eligible site within 30 days and assign a priority rating.' ... 'According to DPR officials, the Trees & Sidewalks Program does not have a target time frame for how long it should take for a sidewalk scoring above the priority rating threshold to be repaired following an inspection.'",
+  "definition_check": "mismatch",
+  "definition_notes": "Registry standard: 'No target time frame exists, per the audit'. That is true only for the inspection-to-repair leg; the audit states a 30-day SLA for request-to-inspection, and the registry does not mention it. The audit reports two mean durations (101 days request-to-inspection over 11,392 requests; 419 days inspection-to-repair over 1,069 repaired sidewalks) with different populations; the claim does not say which the registry uses, and they are not additive as a single completed wait. Registry end_event 'Repair completed; or waitlisted; or told to hire a contractor' mixes outcomes: the 419-day figure covers repaired sidewalks only. Eligibility caveat (owner-occupied Tax Class 1) matches the audit and the Parks page. Parks page rating bands read '<80', '80-90', '90-100' with 'Site has been waitlisted' and 'Site expected to be repaired within three years'; registry's '80 to 89' and '90 and above' are a fair paraphrase.",
+  "problems": [
+   "Standard 'No target time frame exists' omits the audit's 30-day inspection SLA, which the audit says was missed by 71 days on average.",
+   "Two figures (101 and 419 days) with different denominators; registry end_event mixes repaired, waitlisted and refused cases while the 419-day mean covers repaired sidewalks only.",
+   "Audit period (fiscal 2017-18) not verifiable from the local copy."
+  ],
+  "confidence": "medium"
+ },
+ {
+  "claim_id": "housing-court-eviction-cases#0",
+  "extracted_value": "approximately 177,000",
+  "extracted_unit": "active eviction cases",
+  "extracted_period_or_date": "March 2024 (key findings); the executive summary dates the same rise from the January 2021 expiration of the eviction moratorium",
+  "verbatim_quote": "'Between March 2020 and March 2024, the number of active eviction cases in New York rose 440%, from approximately 33,000 cases to 177,000 cases.'",
+  "definition_verbatim": "'Following the expiration of the eviction moratorium in January 2021 , the number of active eviction cases in New York City rose 440%, from approximately 33,000 cases to 177,000 cases .' (executive summary)",
+  "definition_check": "match",
+  "definition_notes": "Registry: stock, cases, 'Case disposed', Tier 3 state courts, as-of March 2024, both versions of the start date noted. All verified. Arithmetic: 33,000 to 177,000 is a 436 percent rise, rounded to 440. The report does not define 'active'.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist-mmr#0",
+  "extracted_value": "202 (thousands) = 202,000",
+  "extracted_unit": "000",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 202)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Section 8 — Families on waiting list (000)'; acceptedvalueytd='202'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1000'. Indicator carries '(000)'; multiplication_factor=1000; value is in thousands -> 202,000.",
+  "definition_verbatim": "The number of families on the waiting list to receive a Section 8 voucher (federal rent assistance), including applicants in the eligibility and certification stages of the process and those who are in the preliminary stage of the application process.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The number of families on the waiting list to receive a Section 8 voucher (federal rent assistance), including applicants in the eligibility and certification stages of the process and those who are in the preliminary stage of the application process.' Registry: unit 'households', caveat about preliminary/eligibility/certification stages. Source says 'families', registry says 'households'; same meaning for a waiting list count. Value 202 with multiplication_factor 1000 = 202,000, matching the registry caveat 'Reported in thousands; the registry multiplies by 1,000.'",
+  "problems": [
+   "Registry caveat says 'the Mayor's Management Report count ... shows 203,000 for fiscal 2025'. The dataset's fiscal 2025 monthly rows run [('2024-07', '203'), ('2024-08', '205'), ('2024-09', '204'), ('2024-10', '204'), ('2024-11', '204'), ('2024-12', '203'), ('2025-01', '203'), ('2025-02', '202'), ('2025-03', '200'), ('2025-04', '198'), ('2025-05', '197'), ('2025-06', '197')] (thousands): 203 is the July 2024, Dec. 2024 and Jan. 2025 value; the fiscal year-end (June 2025) value is 197 and the peak is 205 (Aug. 2024). A single 'fiscal 2025' figure should say which month it is."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-vacant-unit-turnaround#0",
+  "extracted_value": "340.3",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 343.9)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Average turnaround time for vacant units (days)'; acceptedvalueytd='340.3'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time from when a unit becomes vacant to when it's re-occupied.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average time from when a unit becomes vacant to when it's re-occupied.' Registry: mean, completed, end_event 'Apartment re-occupied'. Clock start (unit becomes vacant) and stop (re-occupied) match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-maintenance-work-orders#0",
+  "extracted_value": "3.94",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 4.05)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Average time to complete maintenance work orders (days)'; acceptedvalueytd='3.94'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average days to complete a work order performed by a Maintenance Worker from the date the work order is created to the date the work is completed.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average days to complete a work order performed by a Maintenance Worker from the date the work order is created to the date the work is completed.' Registry end_event: 'Work order closed'. Source stops the clock at 'the date the work is completed', not at closure; and starts it at work-order creation, which the registry does not state. Minor.",
+  "problems": [
+   "end_event 'Work order closed' vs source 'date the work is completed'; clock starts at 'date the work order is created' (registry silent)."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-skilled-trades-work-orders#0",
+  "extracted_value": "117.06",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 119.63)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Average time to complete skilled trades and vendor work orders (days)'; acceptedvalueytd='117.06'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average days to complete a work order performed by a skilled trades worker (i.e. carpenter, painter, plasterer, plumber, etc.) from the date the work order is created to the date the work is completed.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average days to complete a work order performed by a skilled trades worker (i.e. carpenter, painter, plasterer, plumber, etc.) from the date the work order is created to the date the work is completed.' Registry what_for lists 'plasterer, painter, carpenter, plumber, electrician or outside vendor'; the description names carpenter, painter, plasterer, plumber 'etc.' Electrician is not named; 'vendor' appears only in the indicator title, not in the description. end_event 'Work order closed' vs source 'date the work is completed'. Minor.",
+  "problems": [
+   "'electrician' and 'outside vendor' in what_for are not in the description text (vendor is in the title only).",
+   "end_event 'closed' vs source 'work is completed'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-elevator-outages#0",
+  "extracted_value": "6.41",
+  "extracted_unit": "hours:minutes",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 5.34)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Average time to resolve elevator outages (hours:minutes)'; acceptedvalueytd='6.41'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of hours to resolve reported elevator outages.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average number of hours to resolve reported elevator outages.' Registry: mean, completed, end_event 'Outage resolved' -- matches. But the indicator is labelled '(hours:minutes)' and the registry/claim treats the value as 'hours (decimal)'. Across all 258 published values of this indicator the fractional part never exceeds .58, which is what an H.MM encoding produces and what a decimal encoding would not. 6.41 therefore most likely means 6 hours 41 minutes (6.68 hours), not 6.41 hours.",
+  "problems": [
+   "Unit: value appears to be hours:minutes encoded as H.MM (no fractional part >= .60 in 258 values); registry reads it as decimal hours. 6.41 -> 6h41m = 6.68 h."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-heat-outages#0",
+  "extracted_value": "7.12",
+  "extracted_unit": "hours:minutes",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 7.36)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Average time to resolve heat outages (hours:minutes)'; acceptedvalueytd='7.12'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time to resolve a heat outage from the date/time it is reported to when the work is completed. A heat outage is a disruption of heat service to a line of apartments, stair hall, building(s), or development.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average time to resolve a heat outage from the date/time it is reported to when the work is completed. A heat outage is a disruption of heat service to a line of apartments, stair hall, building(s), or development.' Registry what_for 'Heat restored', end_event 'Outage resolved': source stops the clock at 'when the work is completed'. Same hours:minutes encoding issue as elevators: across 164 values the fractional part never exceeds .59. 7.12 most likely means 7 hours 12 minutes (7.20 h). Also note the fiscal-year-to-date value reads 0.00 for July-Sept (outside heat season).",
+  "problems": [
+   "Unit: hours:minutes encoded as H.MM, registry reads as decimal hours. 7.12 -> 7h12m = 7.20 h.",
+   "Registry does not carry the source's definition of an outage ('a line of apartments, stair hall, building(s), or development')."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-nonemergency-service-requests#0",
+  "extracted_value": "62.4",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 64.9)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Average time to resolve non-emergency service requests (days)'; acceptedvalueytd='62.4'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of days to resolve complaints that are not emergency complaints.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of days to resolve complaints that are not emergency complaints.' Registry: mean, completed, 'Request resolved'. Source says 'complaints', registry 'requests'; the indicator title says 'service requests'. No clock-start stated in source.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-nonemergency-within-15#0",
+  "extracted_value": "76",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 76)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Non-emergency service requests resolved within 15 days (%)'; acceptedvalueytd='76'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The percentage of non-emergency service requests that are resolved within 15 days.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The percentage of non-emergency service requests that are resolved within 15 days.' Registry standard: '15 days (NYCHA's own standard)'. The source states the 15-day threshold but does not call it NYCHA's standard; that attribution is the registry's.",
+  "problems": [
+   "Source does not say 15 days is 'NYCHA's own standard'; it is a reporting threshold in the description."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-nonemergency-within-60#0",
+  "extracted_value": "86",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 87)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Non-emergency service requests resolved within 60 days (%)'; acceptedvalueytd='86'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The percentage of non-emergency service requests that are resolved within 60 days.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The percentage of non-emergency service requests that are resolved within 60 days.' Same as the 15-day line: threshold stated, 'NYCHA's own standard' is the registry's attribution.",
+  "problems": [
+   "Source does not say 60 days is 'NYCHA's own standard'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-emergency-transfer#0",
+  "extracted_value": "13.17",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 13.54)",
+  "verbatim_quote": "agency='NYCHA'; indicator='Emergency transfer disposition time (days)'; acceptedvalueytd='13.17'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Average number of days to disposition Emergency Transfer Program cases.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Average number of days to disposition Emergency Transfer Program cases.' Registry: mean, completed, end_event 'Disposition issued', unit 'requests' (source: 'cases'). No clock start stated in source.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-section8-voucher-issuance#0",
+  "extracted_value": "78",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency Quarterly, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='HPD'; indicator='Section 8 — Median time from completed application to voucher issuance (days)'; acceptedvalueytd='78'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time from application received by to the issuance of a voucher in the Housing Choice Voucher tenant-based program. Includes both complete as well as incomplete applications, which require additional information in order to proceed to voucher issuance, impacting the amount of time.",
+  "definition_check": "match",
+  "definition_notes": "Source description: 'The average time from application received by to the issuance of a voucher in the Housing Choice Voucher tenant-based program. Includes both complete as well as incomplete applications, which require additional information in order to proceed to voucher issuance, impacting the amount of time.' Indicator title: 'Median time from completed application to voucher issuance (days)'. Registry records center as 'mean or median (source contradicts itself)' and quotes both; that is accurate. Frequency is Quarterly; 78 appears for valuedate 2025-09 and 2025-10, later rows are NA/blank.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-section8-lease-up#0",
+  "extracted_value": "137",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency Quarterly, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='HPD'; indicator='Section 8 — Median time from voucher issuance to lease up (days)'; acceptedvalueytd='137'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time from voucher issued to successful lease up in the Housing Choice Voucher tenant-based program. Includes both HPD processing times, as well as search times for the voucher holder.",
+  "definition_check": "mismatch",
+  "definition_notes": "Indicator title: 'Section 8 — Median time from voucher issuance to lease up (days)'. Source description: 'The average time from voucher issued to successful lease up in the Housing Choice Voucher tenant-based program. Includes both HPD processing times, as well as search times for the voucher holder.' Registry center: 'median', caveats: []. The description says 'average' while the title says 'median' -- the same title/description contradiction the registry flagged on the sibling voucher-issuance line is present here and is not flagged. Registry also omits that the span includes the voucher holder's own search time, which is stated in the source.",
+  "problems": [
+   "center 'median' vs description 'The average time'; contradiction not recorded (it was recorded for hpd-section8-voucher-issuance).",
+   "Source states the span 'Includes both HPD processing times, as well as search times for the voucher holder'; registry caveats are empty."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-lottery-applicant-approval#0",
+  "extracted_value": "142",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-06-01, fiscalyear 2025, frequency Annually, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='HPD'; indicator='Lottery units — Median time to approve an applicant (days)'; acceptedvalueytd='142'; valuedate='2025-06-01T00:00:00.000'; fiscalyear='2025'; multiplication_factor='1'.",
+  "definition_verbatim": "Median days from the certificate of occupancy issuance to applicant approval for a lottery unit.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Median days from the certificate of occupancy issuance to applicant approval for a lottery unit.' Registry what_for: 'Approval for a lottery unit, measured from the building's certificate of occupancy'; caveat states the CO clock. Match. Annual indicator; fiscal 2025 value 142.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-lottery-project-approvals#0",
+  "extracted_value": "210",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-06-01, fiscalyear 2025, frequency Annually, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='HPD'; indicator='Lottery projects — Median time to complete applicant approvals (days)'; acceptedvalueytd='210'; valuedate='2025-06-01T00:00:00.000'; fiscalyear='2025'; multiplication_factor='1'.",
+  "definition_verbatim": "Median days from the certificate of occupancy issuance to approval to completion of 95% of applicant approvals for a lottery project.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'Median days from the certificate of occupancy issuance to approval to completion of 95% of applicant approvals for a lottery project.' Registry what_for: 'All approvals for a lottery project completed'; end_event 'Approvals complete'; caveats []. Source stops at 95 percent of applicant approvals, not all; and starts at certificate of occupancy issuance, which the registry does not say.",
+  "problems": [
+   "'All approvals ... completed' vs source 'completion of 95% of applicant approvals'.",
+   "Clock starts at 'certificate of occupancy issuance'; registry silent."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-homeless-setaside-leaseup#0",
+  "extracted_value": "235",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-06-01, fiscalyear 2025, frequency Annually, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='HPD'; indicator='Median time to lease-up a homeless placement set-aside new construction unit (days)'; acceptedvalueytd='235'; valuedate='2025-06-01T00:00:00.000'; fiscalyear='2025'; multiplication_factor='1'.",
+  "definition_verbatim": "Lease-up for new construction units is the timing between when the project received TCO and the homeless household exited shelter. Homeless set-aside units are the units designated for homeless households. Median days from TCO to shelter exit date for set-aside units.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'Lease-up for new construction units is the timing between when the project received TCO and the homeless household exited shelter. Homeless set-aside units are the units designated for homeless households. Median days from TCO to shelter exit date for set-aside units.' Registry end_event: 'Lease signed'; what_for 'A set-aside apartment leased to a homeless household'. Source measures TCO to shelter exit date, not to lease signing; registry does not state the TCO start.",
+  "problems": [
+   "end_event 'Lease signed' vs source 'shelter exit date'.",
+   "Clock starts at temporary certificate of occupancy; registry silent."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-homeless-voluntary-leaseup#0",
+  "extracted_value": "162",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-06-01, fiscalyear 2025, frequency Annually, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='HPD'; indicator='Median time to lease-up a homeless placement voluntary new construction unit (days)'; acceptedvalueytd='162'; valuedate='2025-06-01T00:00:00.000'; fiscalyear='2025'; multiplication_factor='1'.",
+  "definition_verbatim": "Lease-up for new construction units is the timing between when the project revealed TCO and the homeless household exited shelter. Voluntary units are additional affordable units developers chose to lease-up for homeless households through HPS. Median days from TCO to shelter exit date for voluntary units.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'Lease-up for new construction units is the timing between when the project revealed TCO and the homeless household exited shelter. Voluntary units are additional affordable units developers chose to lease-up for homeless households through HPS. Median days from TCO to shelter exit date for voluntary units.' Registry end_event 'Lease signed'. Same mismatch as the set-aside line.",
+  "problems": [
+   "end_event 'Lease signed' vs source 'shelter exit date'.",
+   "Clock starts at TCO; registry silent."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-inspection-heat#0",
+  "extracted_value": "1.3",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 1.3)",
+  "verbatim_quote": "agency='HPD'; indicator='Median time to first inspection (days) — Heat and hot water problems'; acceptedvalueytd='1.3'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of days it takes a Housing Inspector to make the first physical inspection attempt in response to an original (non-duplicate) problem related to heat or hot water received within the period.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The median number of days it takes a Housing Inspector to make the first physical inspection attempt in response to an original (non-duplicate) problem related to heat or hot water received within the period.' Registry end_event 'First inspection'. Source's stop is the first inspection *attempt* (which may not gain access), and the population is original, non-duplicate problems received within the period; registry does not say either.",
+  "problems": [
+   "end_event 'First inspection' vs source 'first physical inspection attempt'.",
+   "Population restriction 'original (non-duplicate) problem ... received within the period' not in registry."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-inspection-nonemergency#0",
+  "extracted_value": "5.3",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 4)",
+  "verbatim_quote": "agency='HPD'; indicator='Median time to first inspection (days) — Non-emergency problems'; acceptedvalueytd='5.3'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of days it takes a Housing Inspector to make the first physical inspection attempt in response to a report of an non-emergency problem (not including lead-based paint hazard problems) received within the period.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The median number of days it takes a Housing Inspector to make the first physical inspection attempt in response to a report of an non-emergency problem (not including lead-based paint hazard problems) received within the period.' Registry end_event 'First inspection', caveats []. Source: inspection *attempt*; excludes lead-based paint hazard problems; problems received within the period.",
+  "problems": [
+   "end_event 'First inspection' vs source 'first physical inspection attempt'.",
+   "Exclusion 'not including lead-based paint hazard problems' not in registry."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-close-emergency#0",
+  "extracted_value": "5.0",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 2)",
+  "verbatim_quote": "agency='HPD'; indicator='Median time to close emergency problems (days)'; acceptedvalueytd='5.0'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of calendar days to close a unique emergency housing maintenance problems received before or during the period in a privately-owned building that was closed within the reporting period. An emergency problem can be closed due to an inspection, callback to tenant, or repeated attempts for access. Time related to the processing of administrative tasks to close the complaint is included in this indicator.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The median number of calendar days to close a unique emergency housing maintenance problems received before or during the period in a privately-owned building that was closed within the reporting period. An emergency problem can be closed due to an inspection, callback to tenant, or repeated attempts for access. Time related to the processing of administrative tasks to close the complaint is included in this indicator.' Registry caveat: closed 'includes cases HPD could not access or found no violation'. 'Repeated attempts for access' supports the no-access part; 'found no violation' is not stated in the source (an inspection closes the problem whatever it finds). Registry omits 'privately-owned building' and 'unique' (non-duplicate) and that 'calendar days' is stated.",
+  "problems": [
+   "Registry caveat 'found no violation' is not in the source text; source lists 'inspection, callback to tenant, or repeated attempts for access'.",
+   "Scope 'in a privately-owned building' and 'unique' problems not in registry."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-close-nonemergency#0",
+  "extracted_value": "11.0",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 8)",
+  "verbatim_quote": "agency='HPD'; indicator='Median time to close non-emergency problems (days)'; acceptedvalueytd='11.0'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of calendar days to close a nonemergency problem in a privately-owned building received before or during the period that was closed during the reporting period. Problems can be closed due to an inspection, callback to tenant, or repeated attempts for access.  Time related to the processing of administrative tasks to close the complaint is included in this indicator.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The median number of calendar days to close a nonemergency problem in a privately-owned building received before or during the period that was closed during the reporting period. Problems can be closed due to an inspection, callback to tenant, or repeated attempts for access.  Time related to the processing of administrative tasks to close the complaint is included in this indicator.' Same notes as the emergency line.",
+  "problems": [
+   "'found no violation' not in source text.",
+   "Scope 'in a privately-owned building' not in registry."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-cash-assistance-timeliness#0",
+  "extracted_value": "67.5",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 77.8)",
+  "verbatim_quote": "agency='HRA'; indicator='Cash Assistance — Application timeliness rate (%)'; acceptedvalueytd='67.5'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "This indicator measures the percent of Cash Assistance application processing completed by the Agency in the required 30-day time frame.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'This indicator measures the percent of Cash Assistance application processing completed by the Agency in the required 30-day time frame.' Registry standard quotes 'the required 30-day time frame' correctly and adds 18 NYCRR 351.8 and the Forest settlement, which are outside this source (not checked here). end_event 'Application accepted or denied' vs source 'application processing completed' -- consistent.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-snap-timeliness#0",
+  "extracted_value": "86.5",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 88)",
+  "verbatim_quote": "agency='HRA'; indicator='Supplemental Nutrition Assistance Program (SNAP) — Application timeliness rate (%)'; acceptedvalueytd='86.5'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The percent of Supplemental Nutrition Assistance Program Cash Assistance and Non-Cash Assistance application processing completed by the Agency in the federally required timeframe.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The percent of Supplemental Nutrition Assistance Program Cash Assistance and Non-Cash Assistance application processing completed by the Agency in the federally required timeframe.' Registry says the definition 'says the federally required timeframe and covers both cash-assistance and non-cash-assistance SNAP cases' -- accurate. The 30-day/7-day CFR figures are the registry's addition, labelled as such.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-medicaid-timeliness#0",
+  "extracted_value": "88.4",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2024-06-01, fiscalyear 2024, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 87.4)",
+  "verbatim_quote": "agency='HRA'; indicator='Medicaid — Application timeliness rate (%)'; acceptedvalueytd='88.4'; valuedate='2024-06-01T00:00:00.000'; fiscalyear='2024'; multiplication_factor='1'.",
+  "definition_verbatim": "Percent of Community and Hospital new applications processed by the Agency within required timeframes.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Percent of Community and Hospital new applications processed by the Agency within required timeframes.' Registry quotes this and adds 42 CFR 435.912 as its own gloss. Latest non-NA value is fiscal 2024 (valuedate 2024-06-01); later rows are NA or blank, consistent with the registry caveat.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-idnyc-timeliness#0",
+  "extracted_value": "98.9",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 94)",
+  "verbatim_quote": "agency='HRA'; indicator='IDNYC — Application timeliness rate (%)'; acceptedvalueytd='98.9'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "This indicator measures the City Fiscal Year to Date percentage of mailed IDNYC cards that have been mailed within 14 business days of receiving an application.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'This indicator measures the City Fiscal Year to Date percentage of mailed IDNYC cards that have been mailed within 14 business days of receiving an application.' Registry unit: 'applications'; standard '14 business days from receipt of application to mailing of the card' (correct). The denominator in the source is mailed cards, not applications: applications that were denied or never produced a card are not in the rate.",
+  "problems": [
+   "unit 'applications' vs source denominator 'mailed IDNYC cards'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-hasa-timeliness#0",
+  "extracted_value": "92.2",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 95.5)",
+  "verbatim_quote": "agency='HRA'; indicator='HIV/AIDS Services Administration (HASA) — Rental assistance application timeliness rate (%)'; acceptedvalueytd='92.2'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The percentage of HASA rent-related financial benefits applications submitted in the reporting month that are processed by the agency in the required 30-day timeframe.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The percentage of HASA rent-related financial benefits applications submitted in the reporting month that are processed by the agency in the required 30-day timeframe.' Registry standard quotes 'the required 30-day timeframe'. end_event 'Application approved or denied' vs source 'processed'. Note the source defines the cohort as applications 'submitted in the reporting month'; the registry's period label describes a fiscal-year-to-date figure.",
+  "problems": [
+   "Source cohort is 'applications submitted in the reporting month'; registry period label treats the value as fiscal-year-to-date (the dataset field is acceptedvalueytd, so both readings are defensible but the registry does not note the monthly-cohort wording)."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-home-care-initiation#0",
+  "extracted_value": "42.4",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 42)",
+  "verbatim_quote": "agency='HRA'; indicator='Average days to initiate home attendant and housekeeper services for all cases'; acceptedvalueytd='42.4'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "At the end of the reporting period, the average number of days from the date of application to the commencement of service for all new Home Attendant and Housekeeping cases during the reporting month. All cases with service start dates during the reporting month are included in this measure and include applicants who are currently enrolled in Medicaid and those who have applied for but not begun to receive Medicaid.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'At the end of the reporting period, the average number of days from the date of application to the commencement of service for all new Home Attendant and Housekeeping cases during the reporting month. All cases with service start dates during the reporting month are included in this measure and include applicants who are currently enrolled in Medicaid and those who have applied for but not begun to receive Medicaid.' Registry: mean, completed, cases, 'Services initiated'. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-phone-wait#0",
+  "extracted_value": "96.38",
+  "extracted_unit": "minutes:seconds",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 98.06)",
+  "verbatim_quote": "agency='HRA'; indicator='Average wait time to speak with a customer service agent (minutes:seconds)'; acceptedvalueytd='96.38'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time in minutes from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative.",
+  "definition_check": "mismatch",
+  "definition_notes": "Indicator: 'Average wait time to speak with a customer service agent (minutes:seconds)'. Source description: 'The average time in minutes from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative.' This is an in-person wait at an HRA center (greeter/information desk to service representative), not a telephone hold. Registry line_name 'HRA phone wait (Infoline)', what_for 'A person on the phone', end_event 'Call answered', caveat 'A phone hold is a wait...' -- none of that is supported by the description. No HRA indicator in rbed-zzin mentions Infoline; the only call-related HRA indicators are 'Calls answered within 30 seconds (%)' and a vendor finance call line. Separately, the value is labelled minutes:seconds and across 258 values the fractional part never exceeds .59, so 96.38 most likely means 96 minutes 38 seconds, not 96.38 decimal minutes.",
+  "problems": [
+   "Line is described as a phone wait ('HRA phone wait (Infoline)', 'Call answered'); source describes an in-person wait 'from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative'.",
+   "Unit: minutes:seconds encoded as M.SS; registry reads as decimal minutes. 96.38 -> 96m38s = 96.63 min."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dhs-los-families-children#0",
+  "extracted_value": "407",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 418)",
+  "verbatim_quote": "agency='DHS'; indicator='Average length of stay — Families with children in shelter (days)'; acceptedvalueytd='407'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of days families with children spend in shelter, excluding overnight facilities, from their first date of application. Families who leave the DHS shelter system for more than 30 days are considered new applicants.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of days families with children spend in shelter, excluding overnight facilities, from their first date of application. Families who leave the DHS shelter system for more than 30 days are considered new applicants.' Registry caveat quotes this accurately and correctly notes the text is silent on completed vs current stays.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dhs-los-single-adults#0",
+  "extracted_value": "368",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 372)",
+  "verbatim_quote": "agency='DHS'; indicator='Average length of stay — Single adults in shelter (days)'; acceptedvalueytd='368'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of days an adult has spent in the DHS shelter services system during the reporting period, excluding clients in Safe Havens and Veterans short-term housing. Non-consecutive days spent in shelter are counted as one stay in the average calculation.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average number of days an adult has spent in the DHS shelter services system during the reporting period, excluding clients in Safe Havens and Veterans short-term housing. Non-consecutive days spent in shelter are counted as one stay in the average calculation.' Registry caveat: 'See families line.' The single-adult definition differs from the families definition on every point: it excludes Safe Havens and Veterans short-term housing (not 'overnight facilities'); it does not start from 'first date of application'; it counts non-consecutive days as one stay (no 30-day re-application rule); and 'has spent ... during the reporting period' reads as current residents, so the duration_kind ambiguity is different in kind.",
+  "problems": [
+   "Registry points to the families definition; the source definition for single adults is different (exclusions, clock start, treatment of gaps).",
+   "Wording 'an adult has spent ... during the reporting period' suggests a wait-so-far over current residents rather than a completed stay."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dhs-los-adult-families#0",
+  "extracted_value": "334",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 344)",
+  "verbatim_quote": "agency='DHS'; indicator='Average length of stay — Adult families in shelters (days)'; acceptedvalueytd='334'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of days adult families spend in shelter, excluding overnight facilities, from their first date of application. Families who leave the DHS shelter system for more than 30 days are considered new applicants.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of days adult families spend in shelter, excluding overnight facilities, from their first date of application. Families who leave the DHS shelter system for more than 30 days are considered new applicants.' Identical structure to the families-with-children definition, so 'See families line' is accurate here.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "acs-child-care-eligibility#0",
+  "extracted_value": "89",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 98)",
+  "verbatim_quote": "agency='ACS'; indicator='Child care assistance applicants with eligibility determinations within 30 days (%)'; acceptedvalueytd='89'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Percent of childcare voucher applications with eligibility determinations within 30 days of submission.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Percent of childcare voucher applications with eligibility determinations within 30 days of submission.' Registry standard quotes '30 days of submission (indicator definition)' and separately notes the state regulation clock; accurate.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hh-third-next-adult#0",
+  "extracted_value": "9.0",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 9)",
+  "verbatim_quote": "agency='NYCHH'; indicator='Calendar days to third next available new appointment – Adult medicine'; acceptedvalueytd='9.0'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The number of calendar days to the third next available appointment (TNAA) reflects patient access and availability within the System’s services. TNAA is calculated by identifying the date of the third next available new appointment slot for a patient and counting the number of days from the date of request (adult medicine).",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The number of calendar days to the third next available appointment (TNAA) reflects patient access and availability within the System's services. TNAA is calculated by identifying the date of the third next available new appointment slot for a patient and counting the number of days from the date of request (adult medicine).' Registry center: 'mean'; unit 'persons'. The source does not say the figure is an average; it describes a slot-count measure (how the system-wide figure is aggregated across sites is not stated). Unit 'persons' is not what is counted -- it is days to a slot.",
+  "problems": [
+   "center 'mean' not stated in source.",
+   "unit 'persons' -- source counts days to an appointment slot, not people."
+  ],
+  "confidence": "medium"
+ },
+ {
+  "claim_id": "hh-third-next-pediatric#0",
+  "extracted_value": "11.0",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 11)",
+  "verbatim_quote": "agency='NYCHH'; indicator='Calendar days to third next available new appointment – Pediatric medicine'; acceptedvalueytd='11.0'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The number of calendar days to the third next available appointment (TNAA) reflects patient access and availability within the System’s services. TNAA is calculated by identifying the date of the third next available new appointment slot for a patient and counting the number of days from the date of request (pediatric medicine).",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: same TNAA definition with '(pediatric medicine)'. Same notes: 'mean' and 'persons' are not in the source.",
+  "problems": [
+   "center 'mean' not stated in source.",
+   "unit 'persons' not supported."
+  ],
+  "confidence": "medium"
+ },
+ {
+  "claim_id": "dcas-exam-results#0",
+  "extracted_value": "101",
+  "extracted_unit": "business days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 101)",
+  "verbatim_quote": "agency='DCAS'; indicator='Median time from exam administration to exam results completion for DCAS-administered exams (business days)'; acceptedvalueytd='101'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of business days elapsed from the date a civil service exam was given to the date exam results were completed (list published or directly established at the request of a hiring agency) for all single-part (i.e., education & experience or multiple choice exams) and multi-part (i.e., qualifying education & experience or qualifying practical exams with competitive multiple choice exams) exams, excluding NYCTA exams during the reporting period. NYCTA exams are excluded from this indicator as NYCTA has jurisdiction over the development, administration, and scoring of its civil service exams; DCAS is only responsible for processing NYCTA’s eligible lists. List publication refers to the point at which results are sent to candidates and published lists are sent to hiring agencies. Appointments cannot be made until a list has been established and certified to hiring agencies.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The median number of business days elapsed from the date a civil service exam was given to the date exam results were completed (list published or directly established at the request of a hiring agency) for all single-part ... and multi-part ... exams, excluding NYCTA exams during the reporting period. ...' Registry caveats (business days; excludes NYC Transit exams; results completion = list published or established at a hiring agency's request) all match the text.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-scrie-initial#0",
+  "extracted_value": "19.1",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 43.5)",
+  "verbatim_quote": "agency='DOF'; indicator='Average time to process initial Senior Citizen Rent Increase Exemption applications (days)'; acceptedvalueytd='19.1'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The time, measured in calendar days, between the date an initial SCRIE application is received at the SCRIE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The time, measured in calendar days, between the date an initial SCRIE application is received at the SCRIE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.' Registry: mean, completed, end_event 'Application processed'. The source's stop includes applications 'deemed incomplete', which ends the clock without a decision; registry does not say so. 'Average' appears only in the indicator title; the description says 'The time'.",
+  "problems": [
+   "Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-drie-initial#0",
+  "extracted_value": "19.9",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 47.3)",
+  "verbatim_quote": "agency='DOF'; indicator='Average time to process initial Disability Rent Increase Exemption applications (days)'; acceptedvalueytd='19.9'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The time, measured in calendar days, between the date an initial DRIE application is received at the DRIE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The time, measured in calendar days, between the date an initial DRIE application is received at the DRIE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.' Registry: mean, completed, end_event 'Application processed'. The source's stop includes applications 'deemed incomplete', which ends the clock without a decision; registry does not say so. 'Average' appears only in the indicator title; the description says 'The time'.",
+  "problems": [
+   "Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-sche-initial#0",
+  "extracted_value": "3.9",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 9)",
+  "verbatim_quote": "agency='DOF'; indicator='Average time to process initial Senior Citizen Homeowners' Exemption applications (days)'; acceptedvalueytd='3.9'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The time, measured in calendar days, between the date an initial SCHE application is received at the SCHE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The time, measured in calendar days, between the date an initial SCHE application is received at the SCHE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.' Registry: mean, completed, end_event 'Application processed'. The source's stop includes applications 'deemed incomplete', which ends the clock without a decision; registry does not say so. 'Average' appears only in the indicator title; the description says 'The time'.",
+  "problems": [
+   "Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-dhe-initial#0",
+  "extracted_value": "4.2",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 4)",
+  "verbatim_quote": "agency='DOF'; indicator='Average time to process initial Disability Homeowners' Exemption applications (days)'; acceptedvalueytd='4.2'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The time, measured in calendar days, between the date an initial DHE application is received at the DHE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The time, measured in calendar days, between the date an initial DHE application is received at the DHE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.' Registry: mean, completed, end_event 'Application processed'. The source's stop includes applications 'deemed incomplete', which ends the clock without a decision; registry does not say so. 'Average' appears only in the indicator title; the description says 'The time'.",
+  "problems": [
+   "Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-property-tax-refund#0",
+  "extracted_value": "25",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 23)",
+  "verbatim_quote": "agency='DOF'; indicator='Average time to issue a property tax refund (days)'; acceptedvalueytd='25'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of calendar days it takes Finance to issue a property tax refund, measured from when the application is received to the date the check is mailed.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of calendar days it takes Finance to issue a property tax refund, measured from when the application is received to the date the check is mailed.' Registry: mean, completed, 'Refund issued'. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-parking-hearing-mail#0",
+  "extracted_value": "6.8",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 7)",
+  "verbatim_quote": "agency='DOF'; indicator='Average turnaround time to issue decision for parking summons hearing-by-mail (days)'; acceptedvalueytd='6.8'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of calendar days from receipt of a written request for a hearing until a decision is issued by an Administrative Law Judge.  The time to process settlement offers for those eligible non-commercial motorists who opted to participate in the Parking Violations Settlement Program is included in the calculation through January 31, 2012, at which time the Program ended.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of calendar days from receipt of a written request for a hearing until a decision is issued by an Administrative Law Judge. ...' Registry: mean, completed, 'Decision issued'. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-parking-hearing-inperson#0",
+  "extracted_value": "7.5",
+  "extracted_unit": "minutes",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 2.2)",
+  "verbatim_quote": "agency='DOF'; indicator='Average turnaround time for in-person parking summons hearings (minutes)'; acceptedvalueytd='7.5'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Average number of minutes from the time a motorist(non-commercial vehicle driver) receives a Q-Matic ticket to the completion of the hearing by an Administrative Law Judge or the completion of a  settlement conference by a clerk for those eligible motorists who opt to participate in the Parking Violations Settlement Program. (Note: The Program ended January 31, 2012.)",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Average number of minutes from the time a motorist(non-commercial vehicle driver) receives a Q-Matic ticket to the completion of the hearing by an Administrative Law Judge ...' Registry end_event 'Hearing held'; the source clock runs to the *completion* of the hearing, so the hearing itself is inside the measured span. Non-commercial motorists only.",
+  "problems": [
+   "Span includes the hearing itself ('to the completion of the hearing'); registry end_event 'Hearing held' is close but does not say the hearing time is included. Non-commercial drivers only."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-filing-to-approval#0",
+  "extracted_value": "25.3",
+  "extracted_unit": "DOB NOW",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 29.4)",
+  "verbatim_quote": "agency='DOB'; indicator='Average days from filing to approval – All applications (DOB NOW)'; acceptedvalueytd='25.3'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Averaged count of business days (or fraction thereof) from filing date to first approval date (total time with the agency and the applicant).",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Averaged count of business days (or fraction thereof) from filing date to first approval date (total time with the agency and the applicant).' Registry: business days; 'Definition counts total time with the agency and the applicant.' Match. Source says 'first approval date'.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-first-plan-review#0",
+  "extracted_value": "5.4",
+  "extracted_unit": "DOB NOW",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 5.3)",
+  "verbatim_quote": "agency='DOB'; indicator='Average days to complete first plan review – All applications (DOB NOW)'; acceptedvalueytd='5.4'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "For plan reviews of applications completed in DOB NOW, the average number of business days for jobs to go from status of application processed - completed to either disapproved status or approved status during first review.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'For plan reviews of applications completed in DOB NOW, the average number of business days for jobs to go from status of application processed - completed to either disapproved status or approved status during first review.' Registry/claim unit_of_value: 'days'; registry caveats []. Source is in business days, and the clock starts at the status 'application processed - completed', not at filing.",
+  "problems": [
+   "Unit: source is 'business days'; registry says 'days'.",
+   "Clock starts at status 'application processed - completed', not filing; stop is 'either disapproved status or approved status during first review'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-first-plan-review-nb#0",
+  "extracted_value": "9.9",
+  "extracted_unit": "DOB NOW",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 9)",
+  "verbatim_quote": "agency='DOB'; indicator='Average days to complete first plan review – New Buildings – All applications (DOB NOW)'; acceptedvalueytd='9.9'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "For plan reviews of new building applications completed in DOB NOW, the average number of business days for jobs to go from status of application processed - completed to either disapproved status or approved status during first review.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'For plan reviews of new building applications completed in DOB NOW, the average number of business days for jobs to go from status of application processed - completed to either disapproved status or approved status during first review.' Same as the all-applications line: business days, clock starts at 'application processed - completed'.",
+  "problems": [
+   "Unit: source is 'business days'; registry says 'days'.",
+   "Clock start 'application processed - completed' not stated."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-inspection-construction#0",
+  "extracted_value": "5.1",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 5.9)",
+  "verbatim_quote": "agency='DOB'; indicator='Average days between construction inspection request and inspection'; acceptedvalueytd='5.1'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of business days between the receipt of a request for a construction inspection and the first available date that an inspector can visit a job site.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average number of business days between the receipt of a request for a construction inspection and the first available date that an inspector can visit a job site.' Registry unit_of_value 'days'; end_event 'Inspection performed'. Source is business days and stops at the first *available* appointment date, not at the inspection performed.",
+  "problems": [
+   "Unit: source 'business days'; registry 'days'.",
+   "end_event 'Inspection performed' vs source 'the first available date that an inspector can visit a job site' (an appointment-availability measure)."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-inspection-electrical#0",
+  "extracted_value": "10.2",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 16.5)",
+  "verbatim_quote": "agency='DOB'; indicator='Average days between electrical inspection request and inspection'; acceptedvalueytd='10.2'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Appointment wait time is the average number of business days between the receipt of a request for an electrical inspection and the first available date that an inspector can visit a job site.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'Appointment wait time is the average number of business days between the receipt of a request for an electrical inspection and the first available date that an inspector can visit a job site.' Same two issues as construction.",
+  "problems": [
+   "Unit: source 'business days'; registry 'days'.",
+   "end_event 'Inspection performed' vs source 'first available date that an inspector can visit'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-inspection-plumbing#0",
+  "extracted_value": "5.8",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 3.6)",
+  "verbatim_quote": "agency='DOB'; indicator='Average days between plumbing inspection request and inspection'; acceptedvalueytd='5.8'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Appointment wait time is the average number of business days between the receipt of a request for a plumbing inspection and the first available date that an inspector can visit a job site.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'Appointment wait time is the average number of business days between the receipt of a request for a plumbing inspection and the first available date that an inspector can visit a job site.' Same two issues.",
+  "problems": [
+   "Unit: source 'business days'; registry 'days'.",
+   "end_event 'Inspection performed' vs source 'first available date that an inspector can visit'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcp-simple-zoning-review#0",
+  "extracted_value": "308",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency PMMR/MMR, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='DCP'; indicator='Median days for simple zoning action projects to enter public review'; acceptedvalueytd='308'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of days that simple zoning actions spent under internal review and revision before starting the public review process. Before entering public review, simple zoning actions must be pre-certified and evaluated in internal review, which entails checking that all the documents associated with the land use application are accurate and complete.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The median number of days that simple zoning actions spent under internal review and revision before starting the public review process. Before entering public review, simple zoning actions must be pre-certified and evaluated in internal review, which entails checking that all the documents associated with the land use application are accurate and complete.' Registry caveat quotes 'under internal review and revision'. The claim that DCP publishes the applicant/agency split separately is outside this source.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcp-eas-zoning-review#0",
+  "extracted_value": "731",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency PMMR/MMR, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='DCP'; indicator='Median days for zoning actions with CEQR (EAS) to enter public review'; acceptedvalueytd='731'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of days that zoning actions with CEQR requiring an Environmental Assessment Statement spent under internal review and revision before starting the public review process. Before entering public review, zoning actions with CEQR requiring an EAS must be pre-certified and evaluated in internal review, which entails checking that all the documents associated with the land use application are accurate and complete.",
+  "definition_check": "match",
+  "definition_notes": "Source: same structure for 'zoning actions with CEQR requiring an Environmental Assessment Statement'. Registry 'See simple zoning line' is apt.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcp-eis-zoning-review#0",
+  "extracted_value": "234",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2025-10-01, fiscalyear 2026, frequency PMMR/MMR, field acceptedvalueytd (acceptedvalue for the month = None)",
+  "verbatim_quote": "agency='DCP'; indicator='Median days for zoning actions with CEQR (EIS) to enter public review'; acceptedvalueytd='234'; valuedate='2025-10-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of days that zoning actions with CEQR requiring an Environmental Impact Statement spent under internal review and revision before starting the public review process. Before entering public review, zoning actions with CEQR requiring an EIS must be pre-certified and evaluated in internal review, which entails checking that all the documents associated with the land use application are accurate and complete.",
+  "definition_check": "match",
+  "definition_notes": "Source: same structure for 'zoning actions with CEQR requiring an Environmental Impact Statement'. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-license-processing#0",
+  "extracted_value": "2",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 2)",
+  "verbatim_quote": "agency='DCWP'; indicator='Median processing time (days)'; acceptedvalueytd='2'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The median number of calendar days required to process new and renewal applications for DCWP-issued licenses. Licenses requiring approval by outside agencies, special inspections, mandatory waiting periods, or extensive legal review are excluded from this calculation. Days where the renewal is pending additional information from the applicant or clearance of certain requirements, such as passing a qualifying exam or being fingerprinted or acquiring a commercial driver's license, are not included in the processing time.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The median number of calendar days required to process new and renewal applications for DCWP-issued licenses. Licenses requiring approval by outside agencies, special inspections, mandatory waiting periods, or extensive legal review are excluded from this calculation. Days where the renewal is pending additional information from the applicant or clearance of certain requirements, such as passing a qualifying exam or being fingerprinted or acquiring a commercial driver's license, are not included in the processing time.' Registry caveat only says the vendor waitlists are separate. Registry omits: renewals are included; categories of licenses excluded; applicant-pending days are excluded.",
+  "problems": [
+   "Exclusions not in registry: licenses needing outside-agency approval, special inspections, mandatory waiting periods or extensive legal review are excluded; days pending on the applicant are excluded.",
+   "Population includes renewal applications; registry what_for 'A business or worker license' does not say so."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-license-within-30#0",
+  "extracted_value": "99",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 96)",
+  "verbatim_quote": "agency='DCWP'; indicator='Applications approved within 30 days (%)'; acceptedvalueytd='99'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The percent of new and renewal applications for DCWP-issued licenses approved within 30 calendar days. Licenses requiring approval by outside agencies, special inspections, mandatory waiting periods, or extensive legal review are excluded from this calculation.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The percent of new and renewal applications for DCWP-issued licenses approved within 30 calendar days. Licenses requiring approval by outside agencies, special inspections, mandatory waiting periods, or extensive legal review are excluded from this calculation.' Registry standard '30 days (agency standard)'; caveats []. Source does not call 30 days an agency standard; exclusions and renewals omitted.",
+  "problems": [
+   "Exclusions (outside-agency approval, special inspections, mandatory waiting periods, extensive legal review) not in registry.",
+   "'agency standard' is the registry's attribution; source states a 30-calendar-day threshold only.",
+   "Includes renewals."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-licensing-center-wait#0",
+  "extracted_value": "5",
+  "extracted_unit": "minutes",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 9)",
+  "verbatim_quote": "agency='DCWP'; indicator='Average Licensing Center wait time (minutes)'; acceptedvalueytd='5'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of minutes a customer waits to speak with a customer service representative who processes applications at all DCWP Licensing Centers, measured from the time the customer receives a Q-matic ticket to the time the customer reaches their first service window.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of minutes a customer waits to speak with a customer service representative who processes applications at all DCWP Licensing Centers, measured from the time the customer receives a Q-matic ticket to the time the customer reaches their first service window.' Registry: mean, completed, 'Served'. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dohmh-birth-certificates#0",
+  "extracted_value": "2.8",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 2.9)",
+  "verbatim_quote": "agency='DOHMH'; indicator='Average response time for birth certificates by mail/online/in person (days)'; acceptedvalueytd='2.8'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average response time for birth certificates by mail/online/in person (days) from receipt of necessary documentation to response/issuance. Outlier, voided and canceled orders are excluded.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average response time for birth certificates by mail/online/in person (days) from receipt of necessary documentation to response/issuance. Outlier, voided and canceled orders are excluded.' Registry end_event 'Certificate issued'; caveats []. Clock starts at receipt of *necessary documentation*, not at the request; stop is 'response/issuance' (a response may not be a certificate); outliers, voided and canceled orders are excluded.",
+  "problems": [
+   "Clock starts at 'receipt of necessary documentation', not at the request.",
+   "Exclusion 'Outlier, voided and canceled orders are excluded' not in registry.",
+   "Stop 'response/issuance' is broader than 'Certificate issued'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dohmh-death-certificates#0",
+  "extracted_value": "1.5",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 2.1)",
+  "verbatim_quote": "agency='DOHMH'; indicator='Average response time for death certificates by mail/online/in person (days)'; acceptedvalueytd='1.5'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average response time for death certificates by mail/online/in person (days) from receipt of necessary documentation to response/issuance, including funeral director orders. Outlier, voided and canceled orders are excluded.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average response time for death certificates by mail/online/in person (days) from receipt of necessary documentation to response/issuance, including funeral director orders. Outlier, voided and canceled orders are excluded.' Same issues as birth certificates, plus funeral director orders are included (bulk professional orders, not individual requests).",
+  "problems": [
+   "Clock starts at 'receipt of necessary documentation'.",
+   "Outliers, voided and canceled orders excluded; funeral director orders included; registry silent."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "doris-vital-records#0",
+  "extracted_value": "10.7",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 5.7)",
+  "verbatim_quote": "agency='DORIS'; indicator='Average response time to vital record requests (days)'; acceptedvalueytd='10.7'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time it took the Department to conduct a record search and send the search results (either a certified copy of the record or a “not found” statement) to the customer.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average time it took the Department to conduct a record search and send the search results (either a certified copy of the record or a \"not found\" statement) to the customer.' Registry end_event 'Record sent'. The source's stop includes 'not found' statements, so not every completed case ends with a record.",
+  "problems": [
+   "end_event 'Record sent' -- source counts sending 'either a certified copy of the record or a \"not found\" statement'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dot-permit-processing#0",
+  "extracted_value": "2.61",
+  "extracted_unit": "calendar days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 2.09)",
+  "verbatim_quote": "agency='DOT'; indicator='Average time to process a permit application for customers (calendar days)'; acceptedvalueytd='2.61'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Average time to issue an approved permit from the time the customer applies using NYCStreets.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Average time to issue an approved permit from the time the customer applies using NYCStreets.' Registry end_event 'Permit processed'. Source counts only approved permits (denied applications are not in the span).",
+  "problems": [
+   "Population is approved permits only ('to issue an approved permit'); registry 'Permit processed' does not say so."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "bic-waste-hauling-pending-age#0",
+  "extracted_value": "257",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 223)",
+  "verbatim_quote": "agency='BIC'; indicator='Average age of pending waste hauling applications (days) — New'; acceptedvalueytd='257'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of days new waste hauling license and registration applications are pending, from the date of the filing through the current reporting period.  This does not include applications slated for denial or under long-term investigation.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of days new waste hauling license and registration applications are pending, from the date of the filing through the current reporting period.  This does not include applications slated for denial or under long-term investigation.' Registry: waiting_so_far; caveat about the exclusion. Match. Source covers 'license and registration' applications; registry says 'trade waste license'.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "bic-waste-hauling-approval#0",
+  "extracted_value": "234",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 112)",
+  "verbatim_quote": "agency='BIC'; indicator='Average time to approve waste hauling applications (days) — New'; acceptedvalueytd='234'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of days to process and approve new waste hauling license and registration applications, from the date of filing of the application to the date of approval by the Legal Unit. This does not include applications that undergo long-term investigations and are subsequently approved.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The average number of days to process and approve new waste hauling license and registration applications, from the date of filing of the application to the date of approval by the Legal Unit. This does not include applications that undergo long-term investigations and are subsequently approved.' Registry caveats: []. The exclusion of long-investigation approvals (which removes the longest completed waits) is not recorded, though the sibling pending-age line records the analogous exclusion.",
+  "problems": [
+   "Exclusion 'does not include applications that undergo long-term investigations and are subsequently approved' not in registry.",
+   "Stop is 'approval by the Legal Unit'; population includes registrations as well as licenses."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "bic-waste-hauling-pending#0",
+  "extracted_value": "63",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 63)",
+  "verbatim_quote": "agency='BIC'; indicator='Waste hauling applications pending — New'; acceptedvalueytd='63'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The number of new waste hauling license and registration applications pending, from the date of the filing, at the end of the current reporting period.  This does not include applications slated for denial or under long-term investigation.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The number of new waste hauling license and registration applications pending, from the date of the filing, at the end of the current reporting period.  This does not include applications slated for denial or under long-term investigation.' Registry caveats: []. Exclusion not recorded.",
+  "problems": [
+   "Exclusion 'does not include applications slated for denial or under long-term investigation' not in registry.",
+   "Counts 'license and registration applications'; registry what_for 'A trade waste license'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "cchr-caseload-age#0",
+  "extracted_value": "658",
+  "extracted_unit": "days",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 658)",
+  "verbatim_quote": "agency='CCHR'; indicator='Average age of complaint caseload (days)'; acceptedvalueytd='658'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time open complaints have been in progress measured from the date the complaint was filed through to the close of the reporting period.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average time open complaints have been in progress measured from the date the complaint was filed through to the close of the reporting period.' Registry: waiting_so_far, mean, caveat 'Measures open cases'. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "cchr-open-matters#0",
+  "extracted_value": "1742",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-02-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 1742)",
+  "verbatim_quote": "agency='CCHR'; indicator='Open matters'; acceptedvalueytd='1742'; valuedate='2026-02-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Number of pending matters at the close of the reporting period.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Number of pending matters at the close of the reporting period.' Registry: stock, cases. Match. Data note: the Nov 2025 value (1,257) sits far below Oct (1,591) and Dec (1,664), which looks like a reporting artefact.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "oath-hearing-decisions#0",
+  "extracted_value": "15",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 16)",
+  "verbatim_quote": "agency='OATH'; indicator='Average days for Judicial Hearings Officers to render decisions'; acceptedvalueytd='15'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average time decisions were pending at the OATH Hearings Division calculated by dividing the total number of days decisions were pending at the Hearings Division by the total number of summonses heard and having a decision rendered at the OATH Hearings Division during the reporting period.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average time decisions were pending at the OATH Hearings Division calculated by dividing the total number of days decisions were pending at the Hearings Division by the total number of summonses heard and having a decision rendered at the OATH Hearings Division during the reporting period.' Registry: mean, completed, 'Decision rendered', unit 'cases' (source: summonses). Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "oath-trials-decisions#0",
+  "extracted_value": "43.9",
+  "extracted_unit": "business days",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 42.2)",
+  "verbatim_quote": "agency='OATH'; indicator='Average time for OATH Trials Division to issue decisions after records closed (business days)'; acceptedvalueytd='43.9'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The average number of business days it took the OATH Trials Division to issue a decision after the record is closed.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'The average number of business days it took the OATH Trials Division to issue a decision after the record is closed.' Registry: business days, mean, completed. Match.",
+  "problems": [],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "oath-special-ed-hearings#0",
+  "extracted_value": "118.65",
+  "extracted_unit": "as titled",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Quarterly, field acceptedvalueytd (acceptedvalue for the month = 126.82)",
+  "verbatim_quote": "agency='OATH'; indicator='Average time from appointment to OATH Special Education Hearing Officer to case closure'; acceptedvalueytd='118.65'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "Average calendar days from appointment of Special Education Hearing Officer to case closure by either resolution, withdrawal, dismissal, or final decision, across all Special Education Hearing Officers.",
+  "definition_check": "match",
+  "definition_notes": "Source: 'Average calendar days from appointment of Special Education Hearing Officer to case closure by either resolution, withdrawal, dismissal, or final decision, across all Special Education Hearing Officers.' Registry end_event 'Case closed' and caveat on the appointment start match. what_for 'A decision in a special education due process case' is narrower than the source, whose closures include withdrawal and dismissal.",
+  "problems": [
+   "what_for 'A decision' -- source closures include 'resolution, withdrawal, dismissal, or final decision'."
+  ],
+  "confidence": "high"
+ },
+ {
+  "claim_id": "lpc-minor-work-permits#0",
+  "extracted_value": "91",
+  "extracted_unit": "%",
+  "extracted_period_or_date": "valuedate 2026-03-01, fiscalyear 2026, frequency Monthly, field acceptedvalueytd (acceptedvalue for the month = 96)",
+  "verbatim_quote": "agency='LPC'; indicator='Permits for minor work issued within 10 business days (%)'; acceptedvalueytd='91'; valuedate='2026-03-01T00:00:00.000'; fiscalyear='2026'; multiplication_factor='1'.",
+  "definition_verbatim": "The percentage of Permits for Minor Work issued within 10 business days of the application being completed. This type of permit is issued for work that requires a Landmarks Commission permit but does not require a Department of Buildings permit. Examples include exterior painting, window and door replacements, and brick repointing.",
+  "definition_check": "mismatch",
+  "definition_notes": "Source: 'The percentage of Permits for Minor Work issued within 10 business days of the application being completed. This type of permit is issued for work that requires a Landmarks Commission permit but does not require a Department of Buildings permit. ...' Registry standard '10 business days (agency standard)'. The clock starts when the application is *completed*, not when it is received; the source does not call the threshold an agency standard.",
+  "problems": [
+   "Clock starts at 'the application being completed', not receipt; registry silent.",
+   "'agency standard' is the registry's attribution."
+  ],
+  "confidence": "high"
+ }
+]

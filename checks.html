@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fact-checking record · The Waiting City</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="house.css">
+<style>
+:root{--ink3:#7a4f2f}
+.doc{max-width:78ch;padding:18px 26px 40px}
+.doc h2{font-family:var(--display);font-size:1.5rem;letter-spacing:-.02em;margin:26px 0 8px;line-height:1.15}
+.doc h3{font-family:var(--display);font-size:1.15rem;margin:22px 0 6px}
+.doc h4{font-size:var(--t-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);font-weight:700;margin:18px 0 6px}
+.doc p,.doc li{font-size:1rem;line-height:1.62}
+.doc p.num{margin:4px 0}
+.doc code{font-family:ui-monospace,Menlo,monospace;font-size:.88em;background:var(--paper2);padding:0 4px}
+.doc .tw{overflow-x:auto;margin:10px 0 16px}
+.doc table{border-collapse:collapse;font-size:.9rem;min-width:100%}
+.doc th{font-size:var(--t-micro);letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--ink2);text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--ink);vertical-align:bottom}
+.doc td{padding:6px 10px 6px 0;border-bottom:1px solid var(--hair2);vertical-align:top}
+hr.rule{border:0;border-top:1px solid var(--ink);margin:36px 0 10px}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="strip"><span><a href="index.html">The Waiting City</a> · Fact-checking record</span><span>Registry built 2026-09-05 · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
+  <div class="head" style="padding-right:26px"><h1>Fact-checking record</h1></div>
+  <div class="doc"><h2>Blind check report</h2>
+<p>Pass 1 (values and definitions) ran against the registry as built at about 14:00 ET on Sept. 5, 2026, with the checker blind to every registry value. It found 32 definition mismatches and about 20 further notes (data/blind_check_agent_summary.md); every one was then addressed in data/mmr_lines.json and data/queues_manual.json and the registry rebuilt. Pass 2 re-checked the corrected descriptions against the sources (data/blind_check_pass2_summary.md): 76 match, 5 caveat-wording issues, all corrected. Pass 3 was a fresh checker barred from the registry and from both earlier check files (data/blind_check_pass3_summary.md): values agreed on every figure; 4 definition mismatches and 33 notes, all addressed in the rebuild at about 17:15 ET, including a switch to the month value (dataset field acceptedvalue) for point-in-time counts, which the fiscal-year-to-date field had been averaging. Source-internal defects the passes surfaced are listed in data/source_issues.md. Pass 2 and 3 notes shown below describe the registry text as it stood before each fix.</p>
+<p>Values: 79 figures compared, 78 agree with the checker's independent extraction, 1 do not.</p>
+<div class="tw"><table>
+<tr><th>claim</th><th>line</th><th>value result / remaining definition issue</th><th>pass 2 definition</th></tr>
+<tr><td>nycha-section8-waitlist#0</td><td>Section 8 Housing Choice Voucher waitlist</td><td>PASS-2 DEFINITION: 200,000 households; release: '200,000 households randomly selected via lottery' and later 'a total of 200,000 applications were randomly selected by lottery' -- both units present, caveat correct. 'will continue to be served and did not have to reapply' verbatim. MMR series checked live: July 2024 = 203, Aug 2024 = 205, June 2025 = 197 (thousands), as the caveat says. One unsupp</td><td>mismatch</td></tr>
+<tr><td>nycha-section8-waitlist#1</td><td>Section 8 Housing Choice Voucher waitlist</td><td>PASS-3 VALUE registry=633808 checker={'online': 633808, 'paper': 4416, 'total': 638224}</td><td>match</td></tr>
+<tr><td>nycha-section8-waitlist#2</td><td>Section 8 Housing Choice Voucher waitlist</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-section8-waitlist#3</td><td>Section 8 Housing Choice Voucher waitlist</td><td>match</td><td>match</td></tr>
+<tr><td>hpd-housing-connect#0</td><td>Housing Connect affordable housing lotteries</td><td>match</td><td>match</td></tr>
+<tr><td>dohmh-food-vendor-permit-waitlist#0</td><td>Food vendor waiting list (Department of Health)</td><td>match</td><td>match</td></tr>
+<tr><td>dcwp-general-vendor-waitlist#0</td><td>General vendor license waitlist</td><td>match</td><td>match</td></tr>
+<tr><td>dob-filing-to-approval-computed#0</td><td>DOB NOW filings: filing to approval (computed distribution)</td><td>PASS-3 NOTE: Single median masks a bimodal split by filing_review_type (about 1.6 vs 27 days).; PASS-3 NOTE: Timestamp vs date-only computation changes the median by up to a day; registry should state which it used.</td><td>match</td></tr>
+<tr><td>hpd-problem-close-computed#0</td><td>HPD housing complaint problems: received to closed (computed distribution)</td><td>PASS-3 NOTE: Registry caveats do not mention the duplicate-flag exclusion or the emergency/non-emergency split.</td><td>match</td></tr>
+<tr><td>dcas-eligible-lists#0</td><td>Civil service eligible lists</td><td>PASS-3 VALUE registry=403200 checker={'live_2026_09_05': {'rows': 403777, 'exams': 855, 'titles': 432}, 'stats_json_2026_07_13': {'candidates': 403200, 'exams': 850, 'titles': 428, 'oldest_list': '2018-02-14', 'newest_list': '2026-07-01'}, 'funnel': {'appointed': 452206, 'removed_total': 1674337}}; PASS-3 DEFINITION: Counts, the 1.67 million removals and 452,206 appointments, and the Sept. 5 live</td><td>match</td></tr>
+<tr><td>hpd-housing-connect-furman#0</td><td>Housing Connect: verification and approval (Furman Center sample)</td><td>PASS-3 NOTE: Registry omits the clock start (receipt of a log number) and the exclusions (appeals, complaints, HPD audit) the report states.</td><td>match</td></tr>
+<tr><td>hpd-housing-connect-furman#1</td><td>Housing Connect: verification and approval (Furman Center sample)</td><td>PASS-3 NOTE: Wording: source 'nearly 600,000', registry 'roughly 600,000'.</td><td>match</td></tr>
+<tr><td>parks-trees-sidewalks#0</td><td>Trees and Sidewalks repair program</td><td>PASS-2 DEFINITION: Landing page: 'our review of 1,069 repaired sidewalks found that the average time from inspection to repair was 419 days'; 'homeowners had to wait an average of 101 days ... 71 days longer than the 30 day internal DPR SLA'; 'does not have a target time frame'; eligibility 'owner occupied one-, two-, and three-family homes (property tax class 1)'. Those match. Two mismatches: (1)</td><td>mismatch</td></tr>
+<tr><td>housing-court-eviction-cases#0</td><td>Housing Court active eviction cases</td><td>PASS-3 NOTE: Source contradicts itself on the moratorium end (January 2021 in the intro vs January 15, 2022 in the body); registry notes only the intro-vs-key-findings difference.</td><td>match</td></tr>
+<tr><td>nycha-section8-waitlist-mmr#0</td><td>Section 8 voucher waiting list (Mayor's Management Report count)</td><td>PASS-3 NOTE: Unit word: source says 'families', registry says 'households'.</td><td>match</td></tr>
+<tr><td>nycha-vacant-unit-turnaround#0</td><td>Turnaround of vacant public housing apartments</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-maintenance-work-orders#0</td><td>NYCHA maintenance work orders</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-skilled-trades-work-orders#0</td><td>NYCHA skilled-trades and vendor work orders</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-elevator-outages#0</td><td>NYCHA elevator outages</td><td>PASS-3 NOTE: Encoding as hours:minutes is inferred from the title and measurement_type, not stated in the description; the registry should say so.</td><td>match</td></tr>
+<tr><td>nycha-heat-outages#0</td><td>NYCHA heat outages</td><td>PASS-3 NOTE: FYTD value averages only heating-season months; July-Sept rows are 0.00.</td><td>match</td></tr>
+<tr><td>nycha-nonemergency-service-requests#0</td><td>NYCHA non-emergency service requests</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-nonemergency-within-15#0</td><td>NYCHA non-emergency requests within 15 days</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-nonemergency-within-60#0</td><td>NYCHA non-emergency requests within 60 days</td><td>match</td><td>match</td></tr>
+<tr><td>nycha-emergency-transfer#0</td><td>NYCHA emergency transfer requests</td><td>PASS-3 NOTE: Unit word: source says 'cases', registry says 'requests'.</td><td>match</td></tr>
+<tr><td>hpd-section8-voucher-issuance#0</td><td>HPD Section 8: completed application to voucher</td><td>PASS-3 NOTE: Period label 'through quarter beginning Oct. 2025' is not supported by the dataset; the source only gives valuedate 2025-10-01 (and an identical 78 at 2025-09-01).; PASS-3 NOTE: Unit: description counts 'applications'; registry says 'households'.</td><td>match</td></tr>
+<tr><td>hpd-section8-lease-up#0</td><td>HPD Section 8: voucher to lease</td><td>PASS-3 NOTE: Period label 'through quarter beginning Oct. 2025' is not supported by the dataset (valuedate 2025-10-01; identical 137 at 2025-09-01).</td><td>match</td></tr>
+<tr><td>hpd-lottery-applicant-approval#0</td><td>Housing Connect: certificate of occupancy to applicant approval</td><td>match</td><td>match</td></tr>
+<tr><td>hpd-lottery-project-approvals#0</td><td>Housing Connect: certificate of occupancy to 95% of applicant approvals</td><td>PASS-3 NOTE: Source description is internally garbled ('from the certificate of occupancy issuance to approval to completion of 95%').</td><td>match</td></tr>
+<tr><td>hpd-homeless-setaside-leaseup#0</td><td>Homeless set-aside units in new construction: lease-up</td><td>match</td><td>match</td></tr>
+<tr><td>hpd-homeless-voluntary-leaseup#0</td><td>Homeless voluntary units in new construction: lease-up</td><td>PASS-3 NOTE: Source description typos: 'revealed TCO' and 'HPS'.</td><td>match</td></tr>
+<tr><td>hpd-inspection-heat#0</td><td>HPD heat and hot water complaints: first inspection</td><td>match</td><td>match</td></tr>
+<tr><td>hpd-inspection-nonemergency#0</td><td>HPD non-emergency complaints: first inspection</td><td>match</td><td>match</td></tr>
+<tr><td>hpd-close-emergency#0</td><td>HPD emergency complaint problems: close</td><td>PASS-3 NOTE: Unit inconsistency inside the registry: 'requests' here vs 'items (problems...)' on hpd-problem-close-computed for the same object; source says 'problems'.</td><td>match</td></tr>
+<tr><td>hpd-close-nonemergency#0</td><td>HPD non-emergency complaint problems: close</td><td>PASS-2 DEFINITION: Definition: 'The median number of calendar days to close a nonemergency problem in a privately-owned building received before or during the period that was closed during the reporting period. Problems can be closed due to an inspection, callback to tenant, or repeated attempts for access.' Registry caveat says 'Scope is unique problems in privately owned buildings' -- the word '</td><td>mismatch</td></tr>
+<tr><td>hra-cash-assistance-timeliness#0</td><td>Cash assistance applications decided on time</td><td>PASS-3 NOTE: end_event 'accepted or denied' is not the source's wording ('application processing completed').</td><td>match</td></tr>
+<tr><td>hra-snap-timeliness#0</td><td>SNAP applications decided on time</td><td>PASS-3 NOTE: Nov. 2025 monthly and YTD values are blank in the dataset.</td><td>match</td></tr>
+<tr><td>hra-medicaid-timeliness#0</td><td>Medicaid applications decided on time</td><td>PASS-3 NOTE: Caveat wording: data are unavailable after fiscal 2024 (from fiscal 2025), not 'since fiscal 2024'.; PASS-3 NOTE: Query per instructions ($limit=20) returns no non-NA row; had to widen to 129 rows.</td><td>match</td></tr>
+<tr><td>hra-idnyc-timeliness#0</td><td>IDNYC cards issued on time</td><td>match</td><td>match</td></tr>
+<tr><td>hra-hasa-timeliness#0</td><td>HASA rental assistance applications decided on time</td><td>PASS-3 NOTE: end_event 'approved or denied' vs source 'processed'.</td><td>match</td></tr>
+<tr><td>hra-home-care-initiation#0</td><td>Home attendant and housekeeper services: start of care</td><td>match</td><td>match</td></tr>
+<tr><td>dhs-los-families-children#0</td><td>Families with children in shelter: length of stay</td><td>match</td><td>match</td></tr>
+<tr><td>dhs-los-single-adults#0</td><td>Single adults in shelter: length of stay</td><td>match</td><td>match</td></tr>
+<tr><td>dhs-los-adult-families#0</td><td>Adult families in shelter: length of stay</td><td>PASS-3 NOTE: Caveat overstates: adult-families and families-with-children definitions are word-for-word the same; only single adults differs.</td><td>match</td></tr>
+<tr><td>acs-child-care-eligibility#0</td><td>Child care assistance eligibility decided on time</td><td>match</td><td>match</td></tr>
+<tr><td>hh-third-next-adult#0</td><td>NYC Health + Hospitals: new adult primary care appointment</td><td>match</td><td>match</td></tr>
+<tr><td>hh-third-next-pediatric#0</td><td>NYC Health + Hospitals: new pediatric appointment</td><td>match</td><td>match</td></tr>
+<tr><td>dcas-exam-results#0</td><td>Civil service exam results</td><td>match</td><td>match</td></tr>
+<tr><td>dof-scrie-initial#0</td><td>SCRIE initial applications</td><td>match</td><td>match</td></tr>
+<tr><td>dof-drie-initial#0</td><td>DRIE initial applications</td><td>match</td><td>match</td></tr>
+<tr><td>dof-sche-initial#0</td><td>SCHE initial applications</td><td>match</td><td>match</td></tr>
+<tr><td>dof-dhe-initial#0</td><td>DHE initial applications</td><td>match</td><td>match</td></tr>
+<tr><td>dof-property-tax-refund#0</td><td>Property tax refunds</td><td>match</td><td>match</td></tr>
+<tr><td>dof-parking-hearing-mail#0</td><td>Parking summons hearings by mail</td><td>match</td><td>match</td></tr>
+<tr><td>dof-parking-hearing-inperson#0</td><td>Parking summons hearings in person</td><td>match</td><td>match</td></tr>
+<tr><td>dob-filing-to-approval#0</td><td>DOB NOW filings: filing to approval</td><td>match</td><td>match</td></tr>
+<tr><td>dob-first-plan-review#0</td><td>DOB NOW filings: first plan review</td><td>match</td><td>match</td></tr>
+<tr><td>dob-first-plan-review-nb#0</td><td>DOB NOW new building filings: first plan review</td><td>match</td><td>match</td></tr>
+<tr><td>dob-inspection-construction#0</td><td>DOB construction inspections</td><td>match</td><td>match</td></tr>
+<tr><td>dob-inspection-electrical#0</td><td>DOB electrical inspections</td><td>match</td><td>match</td></tr>
+<tr><td>dob-inspection-plumbing#0</td><td>DOB plumbing inspections</td><td>match</td><td>match</td></tr>
+<tr><td>dcp-simple-zoning-review#0</td><td>Simple zoning actions: pre-certification</td><td>PASS-3 NOTE: Caveat about DCP publishing applicant-vs-agency time split is not in this source (cannot check here).</td><td>match</td></tr>
+<tr><td>dcp-eas-zoning-review#0</td><td>Zoning actions with an environmental assessment: pre-certification</td><td>match</td><td>match</td></tr>
+<tr><td>dcp-eis-zoning-review#0</td><td>Zoning actions with an environmental impact statement: pre-certification</td><td>match</td><td>match</td></tr>
+<tr><td>dcwp-license-processing#0</td><td>DCWP license applications</td><td>PASS-3 DEFINITION: Description: 'median number of calendar days required to process new and renewal applications for DCWP-issued licenses. Licenses requiring approval by outside agencies, special inspections, mandatory waiting periods, or extensive legal review are excluded ... Days where the renewal is pending additional information from the applicant or clearance of certain requirements ... are</td><td>match</td></tr>
+<tr><td>dcwp-license-within-30#0</td><td>DCWP license applications within 30 days</td><td>match</td><td>match</td></tr>
+<tr><td>dcwp-licensing-center-wait#0</td><td>DCWP Licensing Center in-person wait</td><td>match</td><td>match</td></tr>
+<tr><td>dohmh-birth-certificates#0</td><td>Birth certificate requests</td><td>match</td><td>match</td></tr>
+<tr><td>dohmh-death-certificates#0</td><td>Death certificate requests</td><td>match</td><td>match</td></tr>
+<tr><td>doris-vital-records#0</td><td>Municipal Archives vital record requests</td><td>match</td><td>match</td></tr>
+<tr><td>dot-permit-processing#0</td><td>DOT permit applications</td><td>match</td><td>match</td></tr>
+<tr><td>bic-waste-hauling-pending-age#0</td><td>Waste hauling license applications: age of pending</td><td>VALUE registry=223.0 checker=257; PASS-3 VALUE registry=223.0 checker=257; PASS-3 DEFINITION: Description: 'average number of days new waste hauling license and registration applications are pending, from the date of the filing through the current reporting period. This does not include applications slated for denial or under long-term investigation.' Registry text matches. But the value: accepted</td><td>match</td></tr>
+<tr><td>bic-waste-hauling-approval#0</td><td>Waste hauling license applications: time to approve</td><td>match</td><td>match</td></tr>
+<tr><td>bic-waste-hauling-pending#0</td><td>Waste hauling license applications pending</td><td>match</td><td>match</td></tr>
+<tr><td>cchr-caseload-age#0</td><td>Human Rights Commission complaints: age of open caseload</td><td>match</td><td>match</td></tr>
+<tr><td>cchr-open-matters#0</td><td>Human Rights Commission open matters</td><td>PASS-3 NOTE: Source says 'matters'; registry assumes these are discrimination complaints.</td><td>match</td></tr>
+<tr><td>oath-hearing-decisions#0</td><td>OATH hearings: decision after hearing</td><td>PASS-2 DEFINITION: Definition: 'The average time decisions were pending at the OATH Hearings Division calculated by dividing the total number of days decisions were pending at the Hearings Division by the total number of summonses heard and having a decision rendered at the OATH Hearings Division during the reporting period.' Registry unit is 'cases'; the definition counts summonses. The figure is</td><td>mismatch</td></tr>
+<tr><td>oath-trials-decisions#0</td><td>OATH Trials Division decisions</td><td>match</td><td>match</td></tr>
+<tr><td>oath-special-ed-hearings#0</td><td>Special education impartial hearings</td><td>PASS-3 NOTE: Period label 'through quarter beginning Mar. 2026' is not supported; rows fall at Sept./Dec./March, which are fiscal quarter ends.</td><td>match</td></tr>
+<tr><td>lpc-minor-work-permits#0</td><td>Landmarks permits for minor work within 10 business days</td><td>match</td><td>match</td></tr>
+</table></div>
+<hr class="rule">
+<h2>Blind check, agent pass</h2>
+<p>Checked 81 claims on Sept. 5, 2026 without opening the registry: 66 rbed-zzin indicators queried live, 12 document or derived claims read from sources/, 3 recomputed from Open Data with fresh code.</p>
+<p>Definition check: 49 match, 32 mismatch, 0 cannot check.</p>
+<h3>Mismatches</h3>
+<ul>
+<li><strong>dohmh-food-vendor-permit-waitlist#0</strong> (value 5236): Source says 'waitlist for food vendor licenses'; registry says 'permit'. Registry adds 'full-term'/'year-round', which the source does not say. Registry caveat on 'Local Law 54 of 2026' cannot be checked here: the Dec. 18, 2025 source describes a bill passed by Council, not yet law.</li>
+<li><strong>hpd-housing-connect-furman#0</strong> (value 118): Period: the report states no date range for its sample; the registry period label implies one exists. 'one software vendor' is not in the report. Report's representativeness warning (likely overestimate) omitted from registry caveats.</li>
+<li><strong>hpd-housing-connect-furman#1</strong> (value nearly 600,000): Period 'Calendar 2024' is not supported by the source; the estimate is undated. The 'roughly ten applications per unique applicant' ratio is a registry computation combining two sources with different (and one unknown) periods, not a figure in either source.</li>
+<li><strong>doe-3k-waitlist#0</strong> (value more than 6,000 (roughly 15% of 3-K applicants)): line_name 'children without an offer' contradicts the source: 'every family at least got an offer'; the 6,000 were placed in programs they did not list.</li>
+<li><strong>parks-trees-sidewalks#0</strong> (value see JSON): Standard 'No target time frame exists' omits the audit's 30-day inspection SLA, which the audit says was missed by 71 days on average. Two figures (101 and 419 days) with different denominators; registry end_event mixes repaired, waitlisted and refused cases while the 419-day mean covers repaired sidewalks only. Audit period (fiscal 2017-18) not verifiable from the local copy.</li>
+<li><strong>nycha-maintenance-work-orders#0</strong> (value 3.94): end_event 'Work order closed' vs source 'date the work is completed'; clock starts at 'date the work order is created' (registry silent).</li>
+<li><strong>nycha-skilled-trades-work-orders#0</strong> (value 117.06): 'electrician' and 'outside vendor' in what_for are not in the description text (vendor is in the title only). end_event 'closed' vs source 'work is completed'.</li>
+<li><strong>nycha-elevator-outages#0</strong> (value 6.41): Unit: value appears to be hours:minutes encoded as H.MM (no fractional part &gt;= .60 in 258 values); registry reads it as decimal hours. 6.41 -&gt; 6h41m = 6.68 h.</li>
+<li><strong>nycha-heat-outages#0</strong> (value 7.12): Unit: hours:minutes encoded as H.MM, registry reads as decimal hours. 7.12 -&gt; 7h12m = 7.20 h. Registry does not carry the source's definition of an outage ('a line of apartments, stair hall, building(s), or development').</li>
+<li><strong>hpd-section8-lease-up#0</strong> (value 137): center 'median' vs description 'The average time'; contradiction not recorded (it was recorded for hpd-section8-voucher-issuance). Source states the span 'Includes both HPD processing times, as well as search times for the voucher holder'; registry caveats are empty.</li>
+<li><strong>hpd-lottery-project-approvals#0</strong> (value 210): 'All approvals ... completed' vs source 'completion of 95% of applicant approvals'. Clock starts at 'certificate of occupancy issuance'; registry silent.</li>
+<li><strong>hpd-homeless-setaside-leaseup#0</strong> (value 235): end_event 'Lease signed' vs source 'shelter exit date'. Clock starts at temporary certificate of occupancy; registry silent.</li>
+<li><strong>hpd-homeless-voluntary-leaseup#0</strong> (value 162): end_event 'Lease signed' vs source 'shelter exit date'. Clock starts at TCO; registry silent.</li>
+<li><strong>hpd-inspection-heat#0</strong> (value 1.3): end_event 'First inspection' vs source 'first physical inspection attempt'. Population restriction 'original (non-duplicate) problem ... received within the period' not in registry.</li>
+<li><strong>hpd-inspection-nonemergency#0</strong> (value 5.3): end_event 'First inspection' vs source 'first physical inspection attempt'. Exclusion 'not including lead-based paint hazard problems' not in registry.</li>
+<li><strong>hra-idnyc-timeliness#0</strong> (value 98.9): unit 'applications' vs source denominator 'mailed IDNYC cards'.</li>
+<li><strong>hra-phone-wait#0</strong> (value 96.38): Line is described as a phone wait ('HRA phone wait (Infoline)', 'Call answered'); source describes an in-person wait 'from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative'. Unit: minutes:seconds encoded as M.SS; registry reads as decimal minutes. 96.38 -&gt; 96m38s = 96.63 min.</li>
+<li><strong>dhs-los-single-adults#0</strong> (value 368): Registry points to the families definition; the source definition for single adults is different (exclusions, clock start, treatment of gaps). Wording 'an adult has spent ... during the reporting period' suggests a wait-so-far over current residents rather than a completed stay.</li>
+<li><strong>hh-third-next-adult#0</strong> (value 9.0): center 'mean' not stated in source. unit 'persons' -- source counts days to an appointment slot, not people.</li>
+<li><strong>hh-third-next-pediatric#0</strong> (value 11.0): center 'mean' not stated in source. unit 'persons' not supported.</li>
+<li><strong>dob-first-plan-review#0</strong> (value 5.4): Unit: source is 'business days'; registry says 'days'. Clock starts at status 'application processed - completed', not filing; stop is 'either disapproved status or approved status during first review'.</li>
+<li><strong>dob-first-plan-review-nb#0</strong> (value 9.9): Unit: source is 'business days'; registry says 'days'. Clock start 'application processed - completed' not stated.</li>
+<li><strong>dob-inspection-construction#0</strong> (value 5.1): Unit: source 'business days'; registry 'days'. end_event 'Inspection performed' vs source 'the first available date that an inspector can visit a job site' (an appointment-availability measure).</li>
+<li><strong>dob-inspection-electrical#0</strong> (value 10.2): Unit: source 'business days'; registry 'days'. end_event 'Inspection performed' vs source 'first available date that an inspector can visit'.</li>
+<li><strong>dob-inspection-plumbing#0</strong> (value 5.8): Unit: source 'business days'; registry 'days'. end_event 'Inspection performed' vs source 'first available date that an inspector can visit'.</li>
+<li><strong>dcwp-license-processing#0</strong> (value 2): Exclusions not in registry: licenses needing outside-agency approval, special inspections, mandatory waiting periods or extensive legal review are excluded; days pending on the applicant are excluded. Population includes renewal applications; registry what_for 'A business or worker license' does not say so.</li>
+<li><strong>dcwp-license-within-30#0</strong> (value 99): Exclusions (outside-agency approval, special inspections, mandatory waiting periods, extensive legal review) not in registry. 'agency standard' is the registry's attribution; source states a 30-calendar-day threshold only. Includes renewals.</li>
+<li><strong>dohmh-birth-certificates#0</strong> (value 2.8): Clock starts at 'receipt of necessary documentation', not at the request. Exclusion 'Outlier, voided and canceled orders are excluded' not in registry. Stop 'response/issuance' is broader than 'Certificate issued'.</li>
+<li><strong>dohmh-death-certificates#0</strong> (value 1.5): Clock starts at 'receipt of necessary documentation'. Outliers, voided and canceled orders excluded; funeral director orders included; registry silent.</li>
+<li><strong>bic-waste-hauling-approval#0</strong> (value 234): Exclusion 'does not include applications that undergo long-term investigations and are subsequently approved' not in registry. Stop is 'approval by the Legal Unit'; population includes registrations as well as licenses.</li>
+<li><strong>bic-waste-hauling-pending#0</strong> (value 63): Exclusion 'does not include applications slated for denial or under long-term investigation' not in registry. Counts 'license and registration applications'; registry what_for 'A trade waste license'.</li>
+<li><strong>lpc-minor-work-permits#0</strong> (value 91): Clock starts at 'the application being completed', not receipt; registry silent. 'agency standard' is the registry's attribution.</li>
+</ul>
+<h3>Problems on lines that otherwise match</h3>
+<ul>
+<li><strong>nycha-section8-waitlist#0</strong>: Registry caveat cites 'the Mayor's Management Report count ... shows 203,000 for fiscal 2025'; rbed-zzin fiscal 2025 monthly rows are [('2024-07', '203'), ('2024-08', '205'), ('2024-09', '204'), ('2024-10', '204'), ('2024-11', '204'), ('2024-12', '203'), ('2025-01', '203'), ('2025-02', '202'), ('2025-03', '200'), ('2025-04', '198'), ('2025-05', '197'), ('2025-06', '197')] (thousands). 203 is the July 2024 and Dec. 2024-Jan. 2025 value; fiscal year-end (June 2025) is 197, peak 205 in Aug. 2024. The month should be stated.</li>
+<li><strong>nycha-section8-waitlist#1</strong>: Registry caveat about duplicates/deduplication is not in the source text.</li>
+<li><strong>dcwp-general-vendor-waitlist#0</strong>: Registry caveat attributes the 853-cap figure to 'public comment quoted on the NYC Rules page, not an agency figure'; the Gothamist source states it directly ('capped at 853 since 1979').</li>
+<li><strong>dob-filing-to-approval-computed#0</strong>: A single median (about 7 days) blends two populations with medians of about 1.6 and 27 days; the registry description does not flag the professional-certification/plan-examination split.</li>
+<li><strong>hpd-problem-close-computed#0</strong>: Unit: the dataset row is a problem, not a request or complaint; one complaint_id can carry several problem_ids. Registry unit 'requests' should say problems.</li>
+<li><strong>dcas-eligible-lists#0</strong>: Registry end_event says lists expire in 'one to four years'; stats.json supports the four-year maximum (window_median_days 1461) but not the one-year minimum.</li>
+<li><strong>nycha-section8-waitlist-mmr#0</strong>: Registry caveat says 'the Mayor's Management Report count ... shows 203,000 for fiscal 2025'. The dataset's fiscal 2025 monthly rows run [('2024-07', '203'), ('2024-08', '205'), ('2024-09', '204'), ('2024-10', '204'), ('2024-11', '204'), ('2024-12', '203'), ('2025-01', '203'), ('2025-02', '202'), ('2025-03', '200'), ('2025-04', '198'), ('2025-05', '197'), ('2025-06', '197')] (thousands): 203 is the July 2024, Dec. 2024 and Jan. 2025 value; the fiscal year-end (June 2025) value is 197 and the peak is 205 (Aug. 2024). A single 'fiscal 2025' figure should say which month it is.</li>
+<li><strong>nycha-nonemergency-within-15#0</strong>: Source does not say 15 days is 'NYCHA's own standard'; it is a reporting threshold in the description.</li>
+<li><strong>nycha-nonemergency-within-60#0</strong>: Source does not say 60 days is 'NYCHA's own standard'.</li>
+<li><strong>hpd-close-emergency#0</strong>: Registry caveat 'found no violation' is not in the source text; source lists 'inspection, callback to tenant, or repeated attempts for access'. Scope 'in a privately-owned building' and 'unique' problems not in registry.</li>
+<li><strong>hpd-close-nonemergency#0</strong>: 'found no violation' not in source text. Scope 'in a privately-owned building' not in registry.</li>
+<li><strong>hra-hasa-timeliness#0</strong>: Source cohort is 'applications submitted in the reporting month'; registry period label treats the value as fiscal-year-to-date (the dataset field is acceptedvalueytd, so both readings are defensible but the registry does not note the monthly-cohort wording).</li>
+<li><strong>dof-scrie-initial#0</strong>: Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it.</li>
+<li><strong>dof-drie-initial#0</strong>: Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it.</li>
+<li><strong>dof-sche-initial#0</strong>: Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it.</li>
+<li><strong>dof-dhe-initial#0</strong>: Source stop includes 'deemed incomplete' (no decision); registry end_event 'Application processed' does not mention it.</li>
+<li><strong>dof-parking-hearing-inperson#0</strong>: Span includes the hearing itself ('to the completion of the hearing'); registry end_event 'Hearing held' is close but does not say the hearing time is included. Non-commercial drivers only.</li>
+<li><strong>doris-vital-records#0</strong>: end_event 'Record sent' -- source counts sending 'either a certified copy of the record or a "not found" statement'.</li>
+<li><strong>dot-permit-processing#0</strong>: Population is approved permits only ('to issue an approved permit'); registry 'Permit processed' does not say so.</li>
+<li><strong>oath-special-ed-hearings#0</strong>: what_for 'A decision' -- source closures include 'resolution, withdrawal, dismissal, or final decision'.</li>
+</ul>
+<h3>Cross-cutting</h3>
+<ul>
+<li>Three indicators are labelled hours:minutes or minutes:seconds (NYCHA elevator outages, NYCHA heat outages, HRA customer service wait). Across every published value of each, the fractional part never exceeds .59, so the numbers are H.MM / M.SS, not decimals. The registry reads them as decimal hours and minutes.</li>
+<li>The HRA 'phone wait' line is not a phone wait. The dataset's definition describes the in-person wait from greeter to customer service representative.</li>
+<li>Five DOB indicators are in business days per their definitions; the registry carries 'days' on the four plan-review and inspection lines (it gets business days right only on filing-to-approval). The three DOB inspection lines stop at the first available appointment date, not at an inspection performed.</li>
+<li>Registry caveats are empty on several lines whose definitions carry material exclusions (DCWP licensing, BIC approval and pending counts, DOHMH certificates, HPD non-emergency inspections).</li>
+<li>The registry caveat that the Mayor's Management Report shows 203,000 Section 8 waitlist families for fiscal 2025 matches the July 2024 and Dec. 2024-Jan. 2025 monthly rows only; the fiscal year-end (June 2025) row is 197,000 and the peak was 205,000 (Aug. 2024). Fiscal 2025 monthly values: 2024-07: 203, 2024-08: 205, 2024-09: 204, 2024-10: 204, 2024-11: 204, 2024-12: 203, 2025-01: 203, 2025-02: 202, 2025-03: 200, 2025-04: 198, 2025-05: 197, 2025-06: 197 (thousands).</li>
+</ul>
+<h3>Recomputes</h3>
+<ul>
+<li>DOB w9ak-ipjd, approvals Sept. 1, 2025 to Aug. 31, 2026: n=141118, median 6.87 days, p90 89.49 days. Professional Certification median 1.62, Standard Plan Examination median 27.14.</li>
+<li>HPD ygpa-z7cr, problems closed March 1 to Aug. 31, 2026, non-duplicate: n=377002, median 8.27 days, p90 67.19 days. By type: EMERGENCY median 6.11 (n=177038); NON EMERGENCY median 12.68 (n=182842); IMMEDIATE EMERGENCY median 2.24 (n=17122).</li>
+<li>Civil service vx8i-nprf: 403,777 rows live vs 403,200 in stats.json (July 13, 2026); 855 vs 850 exams; 432 vs 428 titles.</li>
+</ul>
+<hr class="rule">
+<h2>Blind check, pass 2: definitions against sources</h2>
+<p>Checked Sept. 5, 2026. Scope: the 81 claims in data/blind_claims.json. For the 66 Mayor's Management Report claims the live <code>description</code> field of rbed-zzin was pulled for every indicator (129 rows each, description text identical across the series). For the 15 document and computed claims the local copies under sources/ were read, plus the full Comptroller audit PDF (MH18-058A.pdf), the source project's stats.json, the live column lists of w9ak-ipjd and ygpa-z7cr and a live row count of vx8i-nprf. The registry itself was not opened.</p>
+<p>Result: 76 match, 5 mismatch, 0 cannot check. All five mismatches are wording or scope slips in caveats; no headline figure, unit, center or clock start was found wrong.</p>
+<h3>Encoding check</h3>
+<p>The three time-span indicators encode the printed clock form as a decimal:</p>
+<ul>
+<li>NYCHA elevator outages (hours:minutes): 129 values, fractional part never above .58.</li>
+<li>NYCHA heat outages (hours:minutes): 82 values, fractional part never above .59.</li>
+<li>HRA benefits-center wait (minutes:seconds): 129 values, fractional part never above .59.</li>
+</ul>
+<p>That is consistent with H.MM and M.SS across the whole series. Decoding to decimal hours or minutes is the right treatment.</p>
+<h3>Remaining mismatches</h3>
+<p class="num">1. parks-trees-sidewalks#0. The caveat says "Stale: fiscal 2017-18 data." The audit says "The scope of this audit was July 1, 2015 through December 31, 2017" and "1,069 sidewalks were repaired during Fiscal Year 2017 (July 1, 2016 through June 30, 2017)." The 419-day average is fiscal 2017 repairs and the audit covers fiscal 2016 and 2017, not 2017-18. The period_label's note that "the full report should be pulled" can be closed out with that scope sentence. Separately, the caveat describes the program page as having "a waitlist tier for sites rated 80 to 89 and a three-year expectation for 90 and above"; the page's chart reads "&lt;80", "80-90" and "90-100", with "Site has been waitlisted" under 80-90 and "Site expected to be repaired within three years" under 90-100.</p>
+<p class="num">2. nycha-section8-waitlist#0. The caveat says "Households leave the list when housed, when they fail to respond or when found ineligible." The release supports only the eligibility part: "Being named to the waitlist does not necessarily guarantee receipt of a voucher, as applicant eligibility must be confirmed." Failure to respond is not in the source.</p>
+<p class="num">3. doe-3k-unlisted-placement#0. The caveat pairs "94,840 3-K and pre-K applications in 2025" with "about 27,000 of 136,000 seats unfilled." Chalkbeat's 136,000 is "seats for the city's free child care programs for children ages 4 and under," which includes infant and toddler care; 3-K plus pre-K capacity in the May 2025 story was roughly 117,000.</p>
+<p class="num">4. hpd-close-nonemergency#0. The caveat says "Scope is unique problems in privately owned buildings." Only the emergency indicator's definition says "unique"; the non-emergency definition reads "a nonemergency problem in a privately-owned building received before or during the period that was closed during the reporting period."</p>
+<p class="num">5. oath-hearing-decisions#0. The registry unit is "cases"; the definition divides "the total number of days decisions were pending" by "the total number of summonses heard and having a decision rendered." Summonses, not cases, and the figure is a ratio of pending-days to decisions rather than a straightforward per-case mean.</p>
+<h3>Notes on matches worth a glance</h3>
+<ul>
+<li>nycha-section8-waitlist-mmr#0: the indicator counts "families"; the registry says "households." HUD's "family" includes single persons, so the two are interchangeable here, but the definition's word is families. The caveat's monthly figures were confirmed live: 203 (July 2024), 205 (Aug. 2024), 197 (June 2025), thousands.</li>
+<li>hpd-housing-connect#0: the six-million sentence is in the reporter's voice; the Tigani attribution is inferred from the sentence that follows it.</li>
+<li>dcas-eligible-lists#0: live count on Sept. 5, 2026 was 403,777 rows, 855 exams, 432 titles, exactly as the caveat says; stats.json gives 1,674,337 removals and 452,206 appointments from certifications starting Nov. 7, 2007.</li>
+<li>The four HRA and ACS timeliness standards cite regulations (18 NYCRR 351.8, 7 CFR 273.2, 42 CFR 435.912, 18 NYCRR 415) that were not checked in this pass; the quoted definition text for each does match.</li>
+</ul>
+<hr class="rule">
+<h2>Blind check, pass 3</h2>
+<p>Checked all 81 claims in data/blind_claims.json on Sept. 5, 2026 without opening the registry, the queue files, the computed files or scripts/. Sources used: the local copies under sources/, the live rbed-zzin dataset (66 claims), fresh recomputations from w9ak-ipjd and ygpa-z7cr, the live vx8i-nprf dataset and nyc-civil-service-hiring/data/stats.json.</p>
+<p>Counts: 81 claims; definition_check match 77, mismatch 4, cannot check 0. 29 claims carry at least one problem note; 33 problem notes in total. Confidence: high 76, medium 5, low 0.</p>
+<h3>Values extracted</h3>
+<p>Every rbed-zzin indicator returned a value except Medicaid timeliness, which needed 129 rows rather than 20 to reach its last non-NA figure (88.4, June 2024). The Section 8 waitlist (000) indicator reads 202, i.e. 202,000 families, multiplication_factor 1000. The three time-format indicators (elevator 6.41 hours:minutes, heat 7.12 hours:minutes, HRA counter wait 96.38 minutes:seconds) are consistent with H.MM / M.SS encoding: no fractional part in any FY2026 row exceeds .59, though the dataset never says so.</p>
+<p>DOB recomputation (w9ak-ipjd, approvals Sept. 1, 2025 to Aug. 31, 2026): n 141118, median 6.87 days, p90 89.49 days; Professional Certification median 1.62 days (n 65704), Standard Plan Examination median 27.14 days (n 75414). Because filing_date is date-only and approved_date has a time of day, a date-only computation gives median 6.0 and p90 89.0.</p>
+<p>HPD recomputation (ygpa-z7cr, problems closed March 1 to Aug. 31, 2026, duplicates excluded): n 377002 (37659 duplicate rows dropped), median 8.27 days, p90 67.19 days; by type: EMERGENCY median 6.11 (n 177038); IMMEDIATE EMERGENCY median 2.24 (n 17122); NON EMERGENCY median 12.68 (n 182842).</p>
+<p>Civil service: live vx8i-nprf holds 403,777 rows, 855 exams, 432 titles on Sept. 5, 2026; stats.json (generated 2026-07-13) says 403,200 candidates, 850 exams, 428 titles, 452,206 appointed and 1,674,337 removed since 2007. All match the registry caveats.</p>
+<h3>Mismatches</h3>
+<ul>
+<li>dcas-eligible-lists#0: 'Lists last up to four years' / 'expire after at most four years' is contradicted by extension_date on 92,636 rows; 88,082 current entries are on lists past their four-year anniversary.</li>
+<li>parks-trees-sidewalks#0: Unit 'requests' vs source '1,069 repaired sidewalks' (work orders). Period label details (scope July 1, 2015-Dec. 31, 2017; fiscal 2017) are absent from the local copy in sources/ and verified only against the live full PDF, which should be added to sources/.</li>
+<li>dcwp-license-processing#0: Registry caveat generalizes the applicant-pending exclusion to all applications; source text limits it to 'the renewal'.</li>
+<li>bic-waste-hauling-pending-age#0: Value selection: acceptedvalueytd 257 is a fiscal-year average of monthly pending ages; the March 2026 snapshot is 223. Registry period label promises the as-of-March value for point-in-time measures.</li>
+</ul>
+<h3>All problem notes, by claim</h3>
+<ul>
+<li>nycha-section8-waitlist#0 (match): Release uses four unit words for 200,000 (households, applications, applicants, New Yorkers); registry caveat cites two.</li>
+<li>dob-filing-to-approval-computed#0 (match): Single median masks a bimodal split by filing_review_type (about 1.6 vs 27 days).</li>
+<li>dob-filing-to-approval-computed#0 (match): Timestamp vs date-only computation changes the median by up to a day; registry should state which it used.</li>
+<li>hpd-problem-close-computed#0 (match): Registry caveats do not mention the duplicate-flag exclusion or the emergency/non-emergency split.</li>
+<li>dcas-eligible-lists#0 (mismatch): 'Lists last up to four years' / 'expire after at most four years' is contradicted by extension_date on 92,636 rows; 88,082 current entries are on lists past their four-year anniversary.</li>
+<li>hpd-housing-connect-furman#0 (match): Registry omits the clock start (receipt of a log number) and the exclusions (appeals, complaints, HPD audit) the report states.</li>
+<li>hpd-housing-connect-furman#1 (match): Wording: source 'nearly 600,000', registry 'roughly 600,000'.</li>
+<li>doe-3k-unlisted-placement#0 (match): 'including infant and toddler care' is inferred, not stated, in the Jan. 30, 2026 Chalkbeat text.</li>
+<li>parks-trees-sidewalks#0 (mismatch): Unit 'requests' vs source '1,069 repaired sidewalks' (work orders).</li>
+<li>parks-trees-sidewalks#0 (mismatch): Period label details (scope July 1, 2015-Dec. 31, 2017; fiscal 2017) are absent from the local copy in sources/ and verified only against the live full PDF, which should be added to sources/.</li>
+<li>housing-court-eviction-cases#0 (match): Source contradicts itself on the moratorium end (January 2021 in the intro vs January 15, 2022 in the body); registry notes only the intro-vs-key-findings difference.</li>
+<li>nycha-section8-waitlist-mmr#0 (match): Unit word: source says 'families', registry says 'households'.</li>
+<li>nycha-elevator-outages#0 (match): Encoding as hours:minutes is inferred from the title and measurement_type, not stated in the description; the registry should say so.</li>
+<li>nycha-heat-outages#0 (match): FYTD value averages only heating-season months; July-Sept rows are 0.00.</li>
+<li>nycha-emergency-transfer#0 (match): Unit word: source says 'cases', registry says 'requests'.</li>
+<li>hpd-section8-voucher-issuance#0 (match): Period label 'through quarter beginning Oct. 2025' is not supported by the dataset; the source only gives valuedate 2025-10-01 (and an identical 78 at 2025-09-01).</li>
+<li>hpd-section8-voucher-issuance#0 (match): Unit: description counts 'applications'; registry says 'households'.</li>
+<li>hpd-section8-lease-up#0 (match): Period label 'through quarter beginning Oct. 2025' is not supported by the dataset (valuedate 2025-10-01; identical 137 at 2025-09-01).</li>
+<li>hpd-lottery-project-approvals#0 (match): Source description is internally garbled ('from the certificate of occupancy issuance to approval to completion of 95%').</li>
+<li>hpd-homeless-voluntary-leaseup#0 (match): Source description typos: 'revealed TCO' and 'HPS'.</li>
+<li>hpd-close-emergency#0 (match): Unit inconsistency inside the registry: 'requests' here vs 'items (problems...)' on hpd-problem-close-computed for the same object; source says 'problems'.</li>
+<li>hpd-close-nonemergency#0 (match): Unit: source 'problem', registry 'requests'.</li>
+<li>hra-cash-assistance-timeliness#0 (match): end_event 'accepted or denied' is not the source's wording ('application processing completed').</li>
+<li>hra-snap-timeliness#0 (match): Nov. 2025 monthly and YTD values are blank in the dataset.</li>
+<li>hra-medicaid-timeliness#0 (match): Caveat wording: data are unavailable after fiscal 2024 (from fiscal 2025), not 'since fiscal 2024'.</li>
+<li>hra-medicaid-timeliness#0 (match): Query per instructions ($limit=20) returns no non-NA row; had to widen to 129 rows.</li>
+<li>hra-hasa-timeliness#0 (match): end_event 'approved or denied' vs source 'processed'.</li>
+<li>dhs-los-adult-families#0 (match): Caveat overstates: adult-families and families-with-children definitions are word-for-word the same; only single adults differs.</li>
+<li>dcp-simple-zoning-review#0 (match): Caveat about DCP publishing applicant-vs-agency time split is not in this source (cannot check here).</li>
+<li>dcwp-license-processing#0 (mismatch): Registry caveat generalizes the applicant-pending exclusion to all applications; source text limits it to 'the renewal'.</li>
+<li>bic-waste-hauling-pending-age#0 (mismatch): Value selection: acceptedvalueytd 257 is a fiscal-year average of monthly pending ages; the March 2026 snapshot is 223. Registry period label promises the as-of-March value for point-in-time measures.</li>
+<li>cchr-open-matters#0 (match): Source says 'matters'; registry assumes these are discrimination complaints.</li>
+<li>oath-special-ed-hearings#0 (match): Period label 'through quarter beginning Mar. 2026' is not supported; rows fall at Sept./Dec./March, which are fiscal quarter ends.</li>
+</ul>
+<h3>Things that checked out and are worth saying</h3>
+<ul>
+<li>NYCHA press release: 200,000; 633,808 online and 4,416 paper applications; the 1,000-a-month goal 'contingent on funding and the authorized voucher capacity'; 'Last year, NYCHA issued 7,538 vouchers'; the Sept. 29, 2025 pause ('NYCHA must temporarily pause voucher issuance and outreach to applicants on the general HCV waitlist'); and the MMR trail 203,000 (July 2024), 205,000 (Aug. 2024), 197,000 (June 2025) all verified.</li>
+<li>Gothamist: 5,236 people (food, Department of Health) and about 8,900 people (general merchandise, DCWP); 853 cap since 1979; NYC Rules pages confirm the Dec. 12, 2021 effective date, 'full-term permit waiting list', up to 445 permits a year for 10 years from July 1, 2022, and Local Law 54 of 2026.</li>
+<li>Furman: 118-day median from log number to approval for an offer, about 64,000 applications in 101 buildings, sample 'more likely to result in overestimates of processing times', 'nearly 600,000 unique Housing Connect applicants', HPD's 142 days in fiscal 2025.</li>
+<li>Chalkbeat 2025: 'Roughly 15% of 3-K applicants, more than 6,000 students'; CBS 2024: 'more than 2,400 ... out of the 43,000 who applied'; Chalkbeat 2026: 94,840 applications, 'more than 27,000 of roughly 136,000 seats', offer for any family applying by the deadline.</li>
+<li>Comptroller trees audit: 419-day mean over 1,069 repaired sidewalks; 30-day SLA missed by 71 days; no repair target. Parks page: 80-90 waitlisted, 90-100 within three years, below 80 hire a contractor.</li>
+<li>Comptroller evictions: about 33,000 to 177,000 active cases, March 2020 to March 2024 in the key findings.</li>
+<li>Of the 66 rbed-zzin descriptions, 64 match the registry's plain-language reading on center (mean/median), clock start and stop, calendar vs business days, and the exclusions the registry lists. Registry caveats that quote the description ('the definition does not call it a standard', 'first physical inspection attempt', 'received before or during the period', 'Includes both HPD processing times, as well as search times') are verbatim-accurate.</li>
+</ul></div>
+  <div class="foot">The Waiting City · Josh Greenman · <a href="index.html">Back to the registry</a></div>
+</div>
+</body>
+</html>

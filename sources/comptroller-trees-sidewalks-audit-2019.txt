@@ -1,0 +1,278 @@
+
+  Audit Report On The Department Of Parks And Recreation’s Trees & Sidewalks Program - Office of the New York City Comptroller
+Mark Levine
+Microsoft Internet Explorer is no longer a supported browser on NYC Comptroller’s website.
+		Please use Microsoft Edge, Google Chrome, Apple Safari or Mozilla Firefox.
+Español
+繁體中文
+简体中文
+Русский
+한 국 어
+Kreyòl ayisyen
+Italiano
+Join Mailing List
+About
+Leadership Team
+Learn about the Comptroller’s senior staff members
+Contact Our Office
+No matter what your question is, the Office is here to help
+Duties Of The Comptroller
+View Powers and Duties under New York State Law
+Mission Statement and Office Overview
+Learn about each of the different bureaus’ functions
+About
+                    Mark Levine                    
+The Comptroller’s biography and policies
+Services
+Services
+Audit
+Certificate of Residence
+City Retirees’ Services
+File a Claim
+FOIL Requests
+Judgment and Claim Settlement Payment Inquiry
+Meeting Disclosure Reporting
+Report a Language Access Problem
+Wage Schedules
+Workers Compensation
+Resources / Topics
+Accessibility
+Confronting the Climate Crisis
+Employer Wall of Shame (2025)
+Equity
+Federal Funding Support
+Immigrant Workers Guide
+Infrastructure
+LGBTQIA+ Guide
+Protecting NYC
+NYC Audit Committee
+Workers’ Rights
+Data Dashboards
+Agency Staffing
+Asylum Seeker Services
+Checkbook NYC
+Claims Filed & Settled
+Climate
+Creative Economy
+Department of Correction
+Employer Violations
+Government Performance
+Homelessness
+For Businesses
+Doing Business with the Comptroller
+NYC Comptroller's Office Vendor Forms W-9 and W-8
+Prequalified CPA
+Retainage and Franchise
+RFPs & Solicitations
+Tax Reporting Guidelines
+Zero-Interest Loans
+For City Agencies
+Comptroller's Directives and Memoranda
+Contract Registration
+Fiscal Year-End Closing Instructions 2026
+Prequalified CPA
+Tax Reporting Guidelines
+Financial Matters
+Annual Comprehensive Financial Reports (ACFR)
+Boardroom Accountability Project
+Checkbook NYC 
+Economically Targeted Investments
+NYC Bonds
+NYC Component Units Financial Statements
+NYC Fiduciary Funds Financial Statements
+Pension / Investment Management
+Reports
+Recent
+Annual
+View All (
+                    2175                    )
+Sep 2, 2026
+ Recent Trends in Personal Income & Wage Inequality 
+Aug 24, 2026
+ Comment Letter to the Equal Employment Opportunity Commission Re: Removal... 
+Aug 20, 2026
+ The Right-of-Play: Expanding “School Streets” Access in NYC 
+Aug 18, 2026
+ Review of the New York City Department of Veterans’ Services’... 
+Aug 17, 2026
+ Joint Letter to Paramount Skydance Corporation Re: DEI Rollbacks 
+Aug 17, 2026
+ Joint Letter to Nexstar Media Group Re: DEI Rollbacks 
+Apr 16, 2024
+ Annual Claims Report 
+Oct 31, 2025
+ Annual Comprehensive Financial Reports (ACFR) 
+Jan 30, 2024
+ Annual Summary Contracts Report for the City of New York 
+Dec 27, 2023
+ New York City Retirement Systems 2023 Shareowner Initiatives 
+Nov 24, 2025
+ Popular Annual Financial Report (PAFR) 
+Feb 2, 2024
+ Report to the Mayor and City Council on City Comptroller... 
+Newsroom
+Press Releases & Statements
+ Comptroller Levine Unveils 2026 Edition of the Employer Violations Dashboard Tracking Companies... 
+Sep 4, 2026
+ Ahead of School Year Kick Off, Comptroller Levine Finds Just 48 NYC... 
+Aug 20, 2026
+ After VetConnectNYC Review Finds Persistent Failures, Comptroller Levine Calls to Overhaul Key... 
+Aug 18, 2026
+ Top Financial Officers from Six Jurisdictions Raise Concerns Over Media Companies Retreat... 
+Aug 17, 2026
+ NYC Comptroller Levine and Pension Trustees Announce Robust 13% Pension Aggregate Return... 
+Aug 12, 2026
+ Comptroller Review Urges Stronger Support for ATWORK to Expand Employment Opportunities for... 
+Jul 29, 2026
+Testimonies
+Newsletters
+Videos
+Events
+Tweets
+Press Kit
+About
+Services
+Reports
+Newsroom
+Employment
+Newsletter
+search
+Top Searches
+A-M
+Certificate of 
+Residence
+Contact
+ Our Office
+Directives
+ and Memoranda
+Employment
+ Opportunities
+File a 
+Claim
+Freedom Of Information Law (
+FOIL
+) Requests
+Jobs
+Municipal 
+Bonds
+N-Z
+Notice of 
+Claim
+NYC 
+Bonds
+Prevailing Wage
+Tax-exempt 
+Bonds
+Unclaimed
+ Prevailing Wage
+Vendor Forms 
+W-9
+ and 
+W-8
+Reports
+ / 
+Audit Report On The Department Of Parks And Recreation’s Trees & Sidewalks Program
+ARCHIVE
+ from Comptroller Stringer's Administration			
+Audit & Investigation
+Parks And Recreation, Department Of
+Audit Report On The Department Of Parks And Recreation’s Trees & Sidewalks Program
+																			June 20, 2019									
+																			| MH18-058A																	
+Table of Contents
+Executive Summary
+We conducted this audit to determine whether the New York City (City) Department of Parks and Recreation (DPR) has adequate controls over its Trees & Sidewalks Program to ensure sidewalks are repaired in a timely manner.
+DPR’s mission is to plan, maintain, and care for the more than 30,000-acre municipal parks system that encompasses over 1,900 parks, 1,000 playgrounds, 650,000 street trees, and 2 million park trees.  In connection with its responsibility for street trees, DPR manages the Trees & Sidewalks Program, initiated in March 2005, which seeks to repair sidewalks damaged by the roots of City trees in front of owner occupied one-, two-, and three-family homes (property tax class 1) not used for commercial purposes.  The mission of the program is to preserve the integrity of the trees, address any potential tree-related safety concerns, and reduce liability of the City and owners of adjacent private property.
+According to DPR’s procedures, the sidewalk repair process is initiated when an individual makes a request by either calling 3-1-1, entering information into the 3-1-1 website, or entering a request into DPR’s website.  All requests received under the Trees & Sidewalks Program for a sidewalk inspection should be entered into DPR’s Forestry Management System (ForMS) 2.0.  DPR’s staff should review the service request to ensure that the address is eligible for the Trees & Sidewalks Program and check ForMS 2.0 to determine whether it contains a record of any other complaints at that address.  According to DPR’s internal standard, known as the Service Level Agreement (SLA), an inspector should evaluate each eligible site within 30 days and assign a priority rating.  For each sidewalk that receives a priority rating above DPR’s threshold, DPR is supposed to create a repair design and subsequently generate a corresponding work order.  Once DPR has a budget and a contract to complete sidewalk repairs, its procedures call for it to identify those sidewalks with work orders within a geographic area to be repaired by the contractor.
+Audit Findings and Conclusions
+This audit found that DPR had inadequate controls over its Trees & Sidewalks Program to ensure that sidewalks are repaired in a timely manner.  DPR has a weekly Trees and Sidewalks Indicator Report that contains various activity and performance measures; however, it does not track the timeliness with which the sidewalks are inspected or repaired.  Our review of 11,392 service requests and 9,118 associated addresses found that homeowners had to wait an average of 101 days after submitting a request to have their sidewalks inspected, 71 days longer than the 30 day internal DPR SLA.  Additionally, our review of 1,069 repaired sidewalks found that the average time from inspection to repair was 419 days, with the longest time for a repair taking over 11 years.  DPR’s data reveals that 95 percent of the sidewalk repairs were completed within 2 years and 98 percent were completed within 2.5 years.  According to DPR officials, the Trees & Sidewalks Program does not have a target time frame for how long it should take for a sidewalk scoring above the priority rating threshold to be repaired following an inspection.
+In addition, we found that no data was recorded within the inspection fields in ForMS 2.0 for 1,527 service requests (associated with 1,509 unique addresses).  According to DPR, no inspection record was generated for these service requests.  For many of them, the only indication that an inspection may have been performed is in the service request Notes to Customer field; however, there are no supporting details (e.g., inspection identification number, date, sidewalk rating, or inspector’s name) to provide a clear indication that an inspection was actually performed.  This includes 143 service requests (associated with 141 unique addresses), where the Notes to Customer field either contained no information at all or contained information that did not pertain to the complaint.
+We also found that DPR did not consistently label service requests as duplicates when it received multiple service requests for the same address; we reviewed 6,446 service requests, associated with 2,706 unique addresses, each of which had two or more service requests recorded in ForMS 2.0, and found that 1,494 service requests were not identified as duplicates by DPR.  Of these, 187 addresses received two or more inspections.  Additionally, of the 2,741 service requests in ForMS 2.0 that we reviewed and that were marked as duplicates, we were unable to find additional service requests for 72 of them.
+Audit Recommendations
+Based on our findings, we make seven recommendations, including the following:
+DPR should incorporate additional timeliness metrics for the Trees & Sidewalks Program, including for inspections, into its internal management reports.
+DPR should include a new step when completing inspections to record all relevant information in the appropriate inspection fields and to identify any address that is ineligible for the Trees & Sidewalks Program with the reason why the site is ineligible.
+DPR should ensure that the Forestry staff performing Trees & Sidewalks inspections are fully trained on the entire process, including identifying duplicate service requests.
+DPR should establish a reasonable SLA target to complete sidewalk repairs after an inspection is performed and results in the site’s receiving a priority rating above the threshold.
+Agency Response
+In its response, DPR agreed with five recommendations, did not directly address the recommendation that DPR include a new step when completing inspections, and stated that it will take under consideration the recommendation that DPR establish a reasonable SLA target for completing sidewalk repairs once program eligibility has been determined.
+Download The Report
+Audit Report On The Department Of Parks And Recreation’s Trees & Sidewalks Program
+Table of Contents
+The Office
+									One Centre Street
+									New York, NY 10007
+									(212) 669-3916
+Suspect Wasteful Spending?
+									Call (212) NO-WASTE
+Navigate
+About
+Services
+Reports
+Newsroom
+Employment
+Contact Us
+Follow Us
+Join Mailing List
+Get the latest news in your inbox.
+Sign Up
+Sign Up
+© 2026 Copyright, Office of the New York City Comptroller
+Sitemap
+Disclaimer
+Privacy Policy
+Language Disclaimer
+Text Size
+Accessibility
+Text Size
+To change the text size you can use your web browser's settings. Most browsers include functionality to let you increase or decrease the text on a web page. For example, to increase text size using:
+Chrome
+ In the menu to the right of the address bar, select and set Zoom level. Menu > Zoom > +
+Firefox
+ In the menu to the right of the address bar, select and set Zoom level. Menu > Zoom > +
+Safari
+ In the View menu, select Zoom In. View > Zoom In. Macintosh Shortcut: Command+
+Microsoft Edge
+ In the menu to the right of the address bar, select and set Zoom level. Menu > Zoom > +
+No Web Browser Endorsement. Common browsers are included in this page; mention of a specific browser does not imply endorsement or recommendation.
+$326.26 billion
+Jun
+2026
+Comptroller's 
+Mailing List
+Investor Relations
+ Mailing List
+Comptroller's Mailing List
+Receive important news and analysis from the Comptroller's Office on major issues affecting New York City.
+*
+ indicates required
+Email Address 
+*
+Subscriptions
+Comptroller's Office Updates 
+(1-2 emails/week)
+Monthly Economic and Fiscal Outlook 
+(1 email/month)
+Note: To unsubscribe from a mailing list, please follow the instructions in the footer of the email you've received.
+Email: 
+Subscribe
+Investor Relations Mailing List
+Receive investor-related news and financial reports.
+*
+ indicates required
+Email Address 
+*
+Subscriptions
+Bonds Quarterly Wrap Up 
+(4 emails/year)
+Bond Sale Notification 
+(~12 emails/year)
+Comptroller's Budget Reports 
+(~6 emails/year)
+Comptroller's Cash Reports 
+(4 emails/year)
+Annual Comprehensive Financial Report 
+(1 email/year)
+Note: To unsubscribe from a mailing list, please follow the instructions in the footer of the email you've received.
+Email: 
+Subscribe

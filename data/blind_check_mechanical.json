@@ -1,0 +1,20 @@
+{
+ "checked": 78,
+ "problems": [
+  [
+   "dob-filing-to-approval-computed",
+   "COMPUTED (blind agent recomputes independently)",
+   "https://data.cityofnewyork.us/City-Government/DOB-NOW-Build-Job-Application-Fili"
+  ],
+  [
+   "hpd-problem-close-computed",
+   "COMPUTED (blind agent recomputes independently)",
+   "https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Compl"
+  ],
+  [
+   "dcas-eligible-lists",
+   "COMPUTED (blind agent recomputes independently)",
+   "https://joshgreenman1973.github.io/nyc-civil-service-hiring/"
+  ]
+ ]
+}

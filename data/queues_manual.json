@@ -1,0 +1,937 @@
+[
+ {
+  "id": "nycha-section8-waitlist",
+  "name": "Section 8 Housing Choice Voucher waitlist",
+  "agency": "NYCHA",
+  "tier": 2,
+  "what_for": "A Section 8 voucher",
+  "end_event": "Voucher issued (or removed from list)",
+  "unit": "households",
+  "list_status": "closed to new applicants; opened by lottery June 3 to 9, 2024 (online), paper postmark deadline June 28, 2024; first opening since Dec. 10, 2009",
+  "figures": [
+   {
+    "type": "stock",
+    "value": 200000,
+    "unit_of_value": "households",
+    "center": "n/a",
+    "spread": null,
+    "spread_note": "Point count at list creation; NYCHA has not published the current remaining count.",
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": "2024-08-01",
+    "period_end": "2024-08-01",
+    "period_label": "At list creation, Aug. 1, 2024",
+    "source": {
+     "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+     "title": "NYCHA Establishes New Section 8 Housing Choice Voucher Waitlist and Begins Notifying Applicants of Lottery Results",
+     "publisher": "New York City Housing Authority",
+     "date": "2024-08-01",
+     "quote": "200,000 households were randomly selected for the waitlist via lottery",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/nycha-pr-20240801.txt"
+    },
+    "definition_quote": null,
+    "grade": "B",
+    "grade_reason": "Agency press release with date; not structured data; current remaining count not published.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page"
+    },
+    "caveats": [
+     "Count at creation, not today. The release says only that 'applicant eligibility must be confirmed'; how households leave the list is not described in the source.",
+     "The release uses several words for the same 200,000: 'households' and 'applications' in the body, 'New Yorkers' and 'families and individuals' in quotations. The registry records households, following the sentence that describes the list, and flags the inconsistency.",
+     "People who remained on the pre-2024 list 'will continue to be served and did not have to reapply', so the total list at creation exceeded 200,000; the Mayor's Management Report monthly count (nycha-section8-waitlist-mmr) was 203,000 in July 2024, peaked at 205,000 in August 2024 and stood at 197,000 in June 2025.",
+     "One household may also be on the public housing list and in Housing Connect lotteries."
+    ]
+   },
+   {
+    "type": "demand",
+    "value": 633808,
+    "unit_of_value": "applications",
+    "center": "n/a",
+    "spread": {
+     "first_24_hours": 301044,
+     "paper_applications": 4416
+    },
+    "spread_note": null,
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": "2024-06-03",
+    "period_end": "2024-06-28",
+    "period_label": "Online applications June 3 to June 9, 2024; paper applications postmarked by June 28, 2024",
+    "source": {
+     "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+     "title": "NYCHA Establishes New Section 8 Housing Choice Voucher Waitlist and Begins Notifying Applicants of Lottery Results",
+     "publisher": "New York City Housing Authority",
+     "date": "2024-08-01",
+     "quote": "In total, NYCHA received 633,808 online applications during the eligible window, including 301,044 within the first 24 hours. Households could also request a paper application; NYCHA received 4,416 paper applications that were postmarked by the June 28 deadline.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/nycha-pr-20240801.txt"
+    },
+    "definition_quote": null,
+    "grade": "B",
+    "grade_reason": "Agency press release.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page"
+    },
+    "caveats": [
+     "Applications, not households: the release counts 633,808 online and 4,416 paper applications and separately says 200,000 were selected."
+    ]
+   },
+   {
+    "type": "throughput",
+    "value": 1000,
+    "unit_of_value": "vouchers per month (goal)",
+    "center": "n/a",
+    "spread": {
+     "prior_year_actual_2023": 7538
+    },
+    "spread_note": "2023 actual was 7,538 vouchers for the year, about 628 a month (release: 'Last year, NYCHA issued 7,538 vouchers').",
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": "2024-08-01",
+    "period_end": null,
+    "period_label": "Stated goal, Aug. 1, 2024, for 'the next several years'",
+    "source": {
+     "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+     "title": "NYCHA Establishes New Section 8 Housing Choice Voucher Waitlist and Begins Notifying Applicants of Lottery Results",
+     "publisher": "New York City Housing Authority",
+     "date": "2024-08-01",
+     "quote": "NYCHA will utilize and call households off this waitlist over the next several years, with a goal of issuing 1,000 vouchers a month contingent on funding and the authorized voucher capacity.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/nycha-pr-20240801.txt"
+    },
+    "definition_quote": null,
+    "grade": "B",
+    "grade_reason": "A goal, not a measured rate; the 2023 actual is measured.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page"
+    },
+    "caveats": [
+     "A goal 'contingent on funding and the authorized voucher capacity', in the release's words; not a measured rate.",
+     "NYCHA testified Sept. 29, 2025 that issuance to the general waitlist was temporarily paused to absorb Emergency Housing Voucher households.",
+     "The 7,538 figure for 2023 is in a separate sentence: 'Last year, NYCHA issued 7,538 vouchers'."
+    ]
+   },
+   {
+    "type": "derived",
+    "value": 16.7,
+    "unit_of_value": "years (implied)",
+    "center": "n/a",
+    "spread": {
+     "at_2023_actual_pace_years": 26.5
+    },
+    "spread_note": "200,000 / 12,000 a year = 16.7 years at the stated goal; 200,000 / 7,538 = 26.5 years at the 2023 pace.",
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": "2024-08-01",
+    "period_end": "2024-08-01",
+    "period_label": "Arithmetic on Aug. 1, 2024 figures",
+    "source": {
+     "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+     "title": "Derived from the Aug. 1, 2024 release",
+     "publisher": "This project",
+     "date": "2026-09-05",
+     "quote": "",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/nycha-pr-20240801.txt"
+    },
+    "definition_quote": null,
+    "grade": "D",
+    "grade_reason": "Derived; assumes list worked in order, no attrition, constant throughput. All three assumptions are false in practice.",
+    "refresh": {
+     "method": "manual",
+     "query_or_url": ""
+    },
+    "caveats": [
+     "Shown only as an illustration of scale, never in totals."
+    ]
+   }
+  ],
+  "related_lines": [
+   "nycha-public-housing-waitlist",
+   "hpd-housing-connect"
+  ],
+  "duplicates_with": [
+   "nycha-public-housing-waitlist",
+   "hpd-housing-connect"
+  ],
+  "raise_grade": "FOIL to NYCHA for current waitlist count by household size and borough preference, and vouchers issued per month since Aug. 2024."
+ },
+ {
+  "id": "hpd-housing-connect",
+  "name": "Housing Connect affordable housing lotteries",
+  "agency": "HPD",
+  "tier": 1,
+  "what_for": "An affordable apartment through a lottery",
+  "end_event": "Lease signed",
+  "unit": "applications",
+  "list_status": "lottery-gated (rolling lotteries; no single list)",
+  "figures": [
+   {
+    "type": "demand",
+    "value": 6000000,
+    "unit_of_value": "applications",
+    "center": "n/a",
+    "spread": {
+     "average_applications_per_development": 16000
+    },
+    "spread_note": "Per-development counts range widely; see Furman Center report for distribution if obtainable.",
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "period_label": "Calendar 2024",
+    "source": {
+     "url": "https://www.amny.com/news/housing-lottery-new-yorkers-10000-units/",
+     "title": "6 million applicants for 10,000 units: Housing lottery leaves out New Yorkers most in need",
+     "publisher": "amNewYork (Shane O'Brien), attributing HPD Acting Commissioner Ahmed Tigani, City Council hearing April 29, 2025",
+     "date": "2025-05-13",
+     "quote": "In 2024 alone, Housing Connect received six million applications for just 10,000 available units.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/amny-housing-lottery-2025-05-13.txt"
+    },
+    "definition_quote": null,
+    "grade": "C",
+    "grade_reason": "Press report attributing agency testimony; primary transcript not yet captured. Headline of the article says 'applicants'; the text says 'applications'. This is applications.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://citymeetings.nyc/meetings/new-york-city-council/2025-04-29-1000-am-committee-on-housing-and-buildings/"
+    },
+    "caveats": [
+     "Applications, not households. One household can apply to many lotteries.",
+     "Not a queue by the project's definition: lottery entrants are recorded as demand, not stock."
+    ]
+   }
+  ],
+  "related_lines": [
+   "nycha-section8-waitlist"
+  ],
+  "duplicates_with": [
+   "nycha-section8-waitlist",
+   "nycha-public-housing-waitlist"
+  ],
+  "raise_grade": "Capture the April 29, 2025 hearing transcript; obtain HPD's per-lottery application counts and lease-up times (Furman Center 2026 report; HPD Open Data)."
+ },
+ {
+  "id": "dohmh-food-vendor-permit-waitlist",
+  "name": "Food vendor waiting list (Department of Health)",
+  "agency": "DOHMH",
+  "tier": 1,
+  "what_for": "A mobile food vending permit or license: the source says 'licenses'; DOHMH's rule governs the 'full-term permit waiting list'. The registry keeps both words until the agency clarifies.",
+  "end_event": "Permit offered",
+  "unit": "persons",
+  "list_status": "open in periods set by rule (last application period deadline April 28, 2026)",
+  "figures": [
+   {
+    "type": "stock",
+    "value": 5236,
+    "unit_of_value": "persons",
+    "center": "n/a",
+    "spread": null,
+    "spread_note": "No breakdown published.",
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": null,
+    "period_end": "2025-12-18",
+    "period_label": "On or before Dec. 18, 2025 (date of report; agency date not given)",
+    "source": {
+     "url": "https://gothamist.com/news/thousands-more-nyc-street-vendors-will-be-able-to-operate-legally-under-bill-set-to-pass",
+     "title": "Thousands more NYC street vendors will be able to operate legally under new Council bill",
+     "publisher": "Gothamist (Arya Sundaram), attributing the Department of Health and Mental Hygiene",
+     "date": "2025-12-18",
+     "quote": "The Department of Health said 5,236 people are on the waitlist for food vendor licenses.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/gothamist-vendors-2025-12-18.txt"
+    },
+    "definition_quote": null,
+    "grade": "C",
+    "grade_reason": "Press report attributing the agency; no agency date; the article says 'licenses' where the rule says 'permits'.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://rules.cityofnewyork.us/rule/waiting-list-for-full-term-mobile-food-vending-permits/"
+    },
+    "caveats": [
+     "The Gothamist source says 'waitlist for food vendor licenses'; the DOHMH rule (effective Dec. 12, 2021) creates a 'full-term permit waiting list' with up to 445 permits a year for 10 years from July 1, 2022. Which list the 5,236 refers to is not stated.",
+     "The Dec. 18, 2025 source describes a Council bill, later Local Law 54 of 2026 per the DCWP proposed rule; the enacted text has not been captured here."
+    ]
+   }
+  ],
+  "related_lines": [
+   "dcwp-general-vendor-waitlist"
+  ],
+  "duplicates_with": [],
+  "raise_grade": "FOIL to DOHMH for waiting list count by date, position ordering rule and permits issued per year since 2022."
+ },
+ {
+  "id": "dcwp-general-vendor-waitlist",
+  "name": "General vendor license waitlist",
+  "agency": "DCWP",
+  "tier": 1,
+  "what_for": "A general (non-food) street vendor license",
+  "end_event": "License offered",
+  "unit": "persons",
+  "list_status": "closed (rule to repeal current waitlist and create new ones proposed 2026; hearing Aug. 19, 2026)",
+  "figures": [
+   {
+    "type": "stock",
+    "value": 8900,
+    "unit_of_value": "persons (approx.)",
+    "center": "n/a",
+    "spread": null,
+    "spread_note": "No breakdown published.",
+    "duration_kind": "n/a",
+    "standard": null,
+    "period_start": null,
+    "period_end": "2025-12-18",
+    "period_label": "On or before Dec. 18, 2025 (date of report; agency date not given)",
+    "source": {
+     "url": "https://gothamist.com/news/thousands-more-nyc-street-vendors-will-be-able-to-operate-legally-under-bill-set-to-pass",
+     "title": "Thousands more NYC street vendors will be able to operate legally under new Council bill",
+     "publisher": "Gothamist (Arya Sundaram), attributing the Department of Consumer and Worker Protection",
+     "date": "2025-12-18",
+     "quote": "About 8,900 people are currently on the waitlist for general merchandise licenses, according to the Department of Consumer and Worker Protection.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/gothamist-vendors-2025-12-18.txt"
+    },
+    "definition_quote": null,
+    "grade": "C",
+    "grade_reason": "Press report attributing the agency; rounded; no agency date.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://rules.cityofnewyork.us/rule/general-vendor-license-waitlists/"
+    },
+    "caveats": [
+     "Gothamist states the general vendor license cap was 853 since 1979 (the NYC Rules page carries the same figure in a public comment). Local Law 54 of 2026 expands the count; the enacted text is needed."
+    ]
+   }
+  ],
+  "related_lines": [
+   "dohmh-food-vendor-permit-waitlist"
+  ],
+  "duplicates_with": [],
+  "raise_grade": "DCWP's proposed rule (2026) and its hearing record may state the count; FOIL for the list size by year."
+ },
+ {
+  "id": "dob-filing-to-approval-computed",
+  "name": "Buildings filings (DOB NOW): filing to approval, computed distribution",
+  "agency": "DOB",
+  "tier": 1,
+  "what_for": "Approval of a construction job filing",
+  "end_event": "Filing approved",
+  "unit": "applications",
+  "list_status": "rolling",
+  "figures": [
+   {
+    "type": "duration",
+    "value": 6.87,
+    "unit_of_value": "days",
+    "center": "median",
+    "duration_kind": "completed",
+    "standard": null,
+    "spread": {
+     "mean": 36.5,
+     "p75": 30.61,
+     "p90": 89.49,
+     "p99": 422.6,
+     "max": 2721.27,
+     "share_over_30_days": 0.248,
+     "share_over_90_days": 0.098,
+     "n": 141118,
+     "by_review_type": {
+      "Professional Certification": {
+       "median": 1.62,
+       "p90": 5.59,
+       "n": 65704
+      },
+      "Standard Plan Examination": {
+       "median": 27.14,
+       "p90": 150.4309999999999,
+       "n": 75414
+      }
+     },
+     "by_job_type": {
+      "Alteration": {
+       "median": 4.47,
+       "p90": 56.5,
+       "share_over_90_days": 0.054,
+       "n": 106907
+      },
+      "No Work": {
+       "median": 6.7,
+       "p90": 74.43700000000001,
+       "share_over_90_days": 0.087,
+       "n": 2458
+      },
+      "Alteration CO": {
+       "median": 29.44,
+       "p90": 190.65000000000003,
+       "share_over_90_days": 0.246,
+       "n": 11219
+      },
+      "ALT-CO - New Building with Existing Elements to Remain": {
+       "median": 39.43,
+       "p90": 215.00599999999997,
+       "share_over_90_days": 0.284,
+       "n": 4120
+      },
+      "New Building": {
+       "median": 29.41,
+       "p90": 226.48000000000002,
+       "share_over_90_days": 0.254,
+       "n": 14065
+      },
+      "Full Demolition": {
+       "median": 29.86,
+       "p90": 144.43800000000002,
+       "share_over_90_days": 0.203,
+       "n": 2349
+      }
+     },
+     "by_borough": {
+      "Brooklyn": {
+       "median": 9.69,
+       "p90": 109.599,
+       "share_over_90_days": 0.122,
+       "n": 38492
+      },
+      "Manhattan": {
+       "median": 4.95,
+       "p90": 60.888000000000176,
+       "share_over_90_days": 0.064,
+       "n": 52383
+      },
+      "Queens": {
+       "median": 8.58,
+       "p90": 113.53600000000006,
+       "share_over_90_days": 0.127,
+       "n": 28327
+      },
+      "Staten Island": {
+       "median": 4.35,
+       "p90": 92.542,
+       "share_over_90_days": 0.102,
+       "n": 7975
+      },
+      "Bronx": {
+       "median": 11.62,
+       "p90": 99.66,
+       "share_over_90_days": 0.112,
+       "n": 13941
+      }
+     }
+    },
+    "spread_note": "Computed by this project from every DOB NOW job filing with an approved_date in the window, in fractional calendar days. The single median blends two populations: professionally certified filings (median about 1.6 days) and standard plan examination (median about 27 days, 90th percentile about 150). The mean (36.5) is five times the median.",
+    "period_start": "2025-09-01",
+    "period_end": "2026-08-31",
+    "period_label": "Filings approved Sept. 1, 2025 to Aug. 31, 2026",
+    "source": {
+     "url": "https://data.cityofnewyork.us/City-Government/DOB-NOW-Build-Job-Application-Filings/w9ak-ipjd",
+     "title": "DOB NOW: Build \u2013 Job Application Filings",
+     "publisher": "Department of Buildings via NYC Open Data",
+     "date": "2026-09-05",
+     "quote": "fields filing_date and approved_date",
+     "retrieved": "2026-09-05",
+     "local_copy": "data/computed_dob_filing_to_approval.json"
+    },
+    "definition_quote": "filing_date: date the job filing was submitted. approved_date: date the filing was approved (dataset field names; DOB's data dictionary should be quoted here once retrieved).",
+    "grade": "A-c",
+    "grade_reason": "Computed from record-level public data with the query published; reconciles against the Mayor's Management Report average (dob-filing-to-approval).",
+    "refresh": {
+     "method": "soql",
+     "query_or_url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=approved_date+%3E%3D+%272025-09-01T00%3A00%3A00%27+and+approved_date+%3C+%272026-09-01T00%3A00%3A00%27+and+filing_date+IS+NOT+NULL&%24select=job_filing_number%2Cfiling_date%2Capproved_date%2Cborough%2Cjob_type%2Cfiling_review_type"
+    },
+    "caveats": [
+     "Only filings that reached approval are in the window; filings still pending are not counted, so this is a completed-wait figure.",
+     "Approval is plan approval, not permit issuance or sign-off.",
+     "Negative durations (none found) would be excluded.",
+     "filing_date carries no time of day, so durations are computed from midnight; a date-only computation gives a median of 6.0 and 90th percentile of 89."
+    ]
+   }
+  ],
+  "related_lines": [
+   "dob-filing-to-approval"
+  ],
+  "duplicates_with": [],
+  "raise_grade": "Already re-queryable. Add the still-pending filings as a waiting-so-far figure."
+ },
+ {
+  "id": "hpd-problem-close-computed",
+  "name": "Housing complaint problems: received to closed, computed distribution",
+  "agency": "HPD",
+  "tier": 1,
+  "what_for": "Resolution of a housing maintenance complaint",
+  "end_event": "Problem closed",
+  "unit": "items (problems; one complaint can carry several problems)",
+  "list_status": "rolling",
+  "figures": [
+   {
+    "type": "duration",
+    "value": 8.3,
+    "unit_of_value": "days",
+    "center": "median",
+    "duration_kind": "completed",
+    "standard": null,
+    "spread": {
+     "mean": 23.2,
+     "p75": 23.6,
+     "p90": 67.2,
+     "p99": 171.4,
+     "max": 4543.1,
+     "share_over_21_days": 0.273,
+     "share_over_90_days": 0.07,
+     "n": 377002,
+     "by_type": {
+      "EMERGENCY": {
+       "median": 6.1,
+       "p90": 57.0,
+       "share_over_21_days": 0.228,
+       "n": 177038
+      },
+      "NON EMERGENCY": {
+       "median": 12.7,
+       "p90": 81.8,
+       "share_over_21_days": 0.342,
+       "n": 182842
+      },
+      "IMMEDIATE EMERGENCY": {
+       "median": 2.2,
+       "p90": 5.9,
+       "share_over_21_days": 0.003,
+       "n": 17122
+      }
+     },
+     "by_type_borough": {
+      "EMERGENCY|BROOKLYN": {
+       "median": 6.2,
+       "p90": 54.6,
+       "n": 54471
+      },
+      "EMERGENCY|MANHATTAN": {
+       "median": 6.0,
+       "p90": 69.3,
+       "n": 39559
+      },
+      "EMERGENCY|QUEENS": {
+       "median": 6.0,
+       "p90": 59.9,
+       "n": 23179
+      },
+      "NON EMERGENCY|MANHATTAN": {
+       "median": 15.6,
+       "p90": 107.3,
+       "n": 43181
+      },
+      "EMERGENCY|BRONX": {
+       "median": 6.2,
+       "p90": 54.0,
+       "n": 55979
+      },
+      "NON EMERGENCY|BROOKLYN": {
+       "median": 12.1,
+       "p90": 73.2,
+       "n": 54973
+      },
+      "NON EMERGENCY|BRONX": {
+       "median": 11.6,
+       "p90": 71.8,
+       "n": 57311
+      },
+      "NON EMERGENCY|QUEENS": {
+       "median": 13.7,
+       "p90": 80.9,
+       "n": 22812
+      },
+      "IMMEDIATE EMERGENCY|MANHATTAN": {
+       "median": 2.0,
+       "p90": 5.9,
+       "n": 3466
+      },
+      "EMERGENCY|STATEN ISLAND": {
+       "median": 6.0,
+       "p90": 27.6,
+       "n": 3850
+      },
+      "NON EMERGENCY|STATEN ISLAND": {
+       "median": 7.2,
+       "p90": 26.9,
+       "n": 4565
+      },
+      "IMMEDIATE EMERGENCY|BROOKLYN": {
+       "median": 3.0,
+       "p90": 6.4,
+       "n": 5249
+      },
+      "IMMEDIATE EMERGENCY|BRONX": {
+       "median": 2.0,
+       "p90": 5.2,
+       "n": 5898
+      },
+      "IMMEDIATE EMERGENCY|QUEENS": {
+       "median": 2.2,
+       "p90": 6.0,
+       "n": 2184
+      },
+      "IMMEDIATE EMERGENCY|STATEN ISLAND": {
+       "median": 2.5,
+       "p90": 5.9,
+       "n": 325
+      }
+     }
+    },
+    "spread_note": "Computed by this project. Non-emergency problems: median 12.7 days, 90th percentile 81.8; in Manhattan the 90th percentile is 107 days, in Staten Island 27.",
+    "period_start": "2026-03-01",
+    "period_end": "2026-08-31",
+    "period_label": "Problems closed March 1 to Aug. 31, 2026",
+    "source": {
+     "url": "https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Complaints-and-Problems/ygpa-z7cr",
+     "title": "Housing Maintenance Code Complaints and Problems",
+     "publisher": "Department of Housing Preservation and Development via NYC Open Data",
+     "date": "2026-09-05",
+     "quote": "fields received_date and problem_status_date, problem_status = CLOSE, problem_duplicate_flag != Y",
+     "retrieved": "2026-09-05",
+     "local_copy": "data/computed_hpd_problem_close.json"
+    },
+    "definition_quote": null,
+    "grade": "A-c",
+    "grade_reason": "Computed from record-level public data with the query published; reconciles against HPD's Mayor's Management Report medians (hpd-close-emergency, hpd-close-nonemergency).",
+    "refresh": {
+     "method": "soql",
+     "query_or_url": "https://data.cityofnewyork.us/resource/ygpa-z7cr.json?%24where=problem_status%3D%27CLOSE%27+and+problem_status_date+%3E%3D+%272026-03-01T00%3A00%3A00%27+and+problem_status_date+%3C+%272026-09-01T00%3A00%3A00%27&%24select=problem_id%2Creceived_date%2Cproblem_status_date%2Cborough%2Ctype%2Cmajor_category%2Cproblem_status%2Cproblem_duplicate_flag"
+    },
+    "caveats": [
+     "'Closed' is HPD's status, not a repair: it includes no-access, not-found and tenant-withdrawn outcomes.",
+     "Problems still open are not in the window (completed-wait figure).",
+     "37,659 rows flagged as duplicates were dropped before computing (blind recount).",
+     "Durations use full timestamps; 105 problems were received before 2025, one in 2013, and are included."
+    ]
+   }
+  ],
+  "related_lines": [
+   "hpd-close-emergency",
+   "hpd-close-nonemergency"
+  ],
+  "duplicates_with": [],
+  "raise_grade": "Quote HPD's data dictionary for status_description categories; add open problems as waiting-so-far."
+ },
+ {
+  "id": "dcas-eligible-lists",
+  "name": "Civil service eligible lists",
+  "agency": "DCAS",
+  "tier": 1,
+  "what_for": "Appointment to a permanent civil service job from a ranked list",
+  "end_event": "Appointment, or the list's expiry; lists are established for one to four years and can be extended",
+  "unit": "persons",
+  "list_status": "rolling (lists established as exams are scored)",
+  "figures": [
+   {
+    "type": "stock",
+    "value": 403200,
+    "unit_of_value": "persons (list entries)",
+    "center": "n/a",
+    "duration_kind": "n/a",
+    "standard": null,
+    "spread": {
+     "exams": 850,
+     "titles": 428,
+     "oldest_list_established": "2018-02-14",
+     "newest_list_established": "2026-07-01"
+    },
+    "spread_note": "Distribution across 850 lists and 428 titles is in the source project's data; a person can appear on more than one list.",
+    "period_start": "2026-07-13",
+    "period_end": "2026-07-13",
+    "period_label": "Active lists as of July 13, 2026",
+    "source": {
+     "url": "https://joshgreenman1973.github.io/nyc-civil-service-hiring/",
+     "title": "How New York City hires (methodology and data)",
+     "publisher": "Josh Greenman, computed from DCAS Civil Service List (Active), vx8i-nprf",
+     "date": "2026-07-13",
+     "quote": "\"stock\":{\"candidates\":403200,\"exams\":850,\"titles\":428,\"agencies\":64,\"oldest\":\"2018-02-14\",\"newest\":\"2026-07-01\"}",
+     "retrieved": "2026-09-05",
+     "local_copy": "/Users/joshgreenman/Experiments/nyc-civil-service-hiring/data/stats.json"
+    },
+    "definition_quote": "Stock: Civil Service List (Active), vx8i-nprf (source project methodology).",
+    "grade": "A-c",
+    "grade_reason": "Computed from a re-queryable DCAS dataset; entries not deduplicated to persons.",
+    "refresh": {
+     "method": "soql",
+     "query_or_url": "https://data.cityofnewyork.us/resource/vx8i-nprf.json?$select=count(*)"
+    },
+    "caveats": [
+     "List entries, not unique people: one person can be on several lists.",
+     "Many on a list hold other jobs; being on a list is a formal ask (an exam taken and passed) but not always an active wait.",
+     "Live count on Sept. 5, 2026 was 403,777 rows, 855 exams, 432 titles (blind recount); the registry keeps the dated July 13, 2026 figure.",
+     "Lists are often extended past four years: on Sept. 5, 2026, 92,636 of 403,777 rows carried an extension date beyond their anniversary and 88,082 entries sat on lists past the four-year mark (example: Conductor exam 6601, established Feb. 14, 2018, extended to Feb. 14, 2027). Blind recount, live data."
+    ]
+   }
+  ],
+  "related_lines": [
+   "dcas-exam-results"
+  ],
+  "duplicates_with": [],
+  "raise_grade": "Deduplicate to persons (names are in the dataset) and compute time-on-list distribution by title."
+ },
+ {
+  "id": "hpd-housing-connect-furman",
+  "name": "Housing Connect: verification and approval (Furman Center sample)",
+  "agency": "HPD",
+  "tier": 1,
+  "what_for": "Approval for an affordable lottery unit",
+  "end_event": "Applicant approved for an offer",
+  "unit": "applications",
+  "list_status": "lottery-gated",
+  "figures": [
+   {
+    "type": "duration",
+    "value": 118,
+    "unit_of_value": "days",
+    "center": "median",
+    "duration_kind": "completed",
+    "standard": null,
+    "spread": {
+     "documentation_stage_median_approved": 43,
+     "documentation_stage_median_rejected": 29,
+     "lottery_open_to_log_number_minimum_days": 76,
+     "lottery_open_to_approval_median_total": 194,
+     "share_of_sample_rejected": 0.77,
+     "sample_rejected_approx": 49000,
+     "sample_approved_approx": 9000
+    },
+    "spread_note": "Furman reports medians by stage and the funnel shares; it notes 'many applicants face significantly longer times' without publishing percentiles.",
+    "period_start": null,
+    "period_end": "2026-04-30",
+    "period_label": "Furman Center sample; the report does not state the sample's date range (report published April 2026)",
+    "source": {
+     "url": "https://www.furmancenter.org/wp-content/uploads/2026/04/The-House-Doesnt-Always-Win_508.pdf",
+     "title": "The House Doesn't Always Win: Understanding NYC's Housing Connect Lottery System and How to Improve It",
+     "publisher": "NYU Furman Center",
+     "date": "2026-04",
+     "quote": "the median time to complete the verification and offering process and be approved is 118 days",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/furman-house-doesnt-always-win-2026-04.pdf"
+    },
+    "definition_quote": "Median Time from receiving a log number and median time from document review to decision (Figure 5 caption).",
+    "grade": "B",
+    "grade_reason": "Independent research center report from a sample of marketing-agent records; not re-queryable.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://www.furmancenter.org/wp-content/uploads/2026/04/The-House-Doesnt-Always-Win_508.pdf"
+    },
+    "caveats": [
+     "A sample of lotteries drawn from marketing-agent processing records; the report warns its sample may overestimate processing times. Not all lotteries.",
+     "HPD's own fiscal 2025 median of 142 days runs from certificate of occupancy to approval (see hpd-lottery-applicant-approval), a different span.",
+     "Excludes, per the report, the time for appeals, complaints, HPD's audit of files and lease signing."
+    ],
+    "what_for": "Approval for an affordable lottery unit, measured from receipt of a log number"
+   },
+   {
+    "type": "demand",
+    "value": 600000,
+    "unit_of_value": "unique applicants ('nearly 600,000', HPD estimate cited by Furman)",
+    "center": "n/a",
+    "duration_kind": "n/a",
+    "standard": null,
+    "spread": {
+     "registered_users": 1000000,
+     "applications_2024": 6000000,
+     "units_2024": 10000,
+     "buildings_2024": 300
+    },
+    "spread_note": "Applications per building range from about 1,000 to more than 40,000 (Furman citing HPD). The 600,000 unique-applicant estimate is undated; the six million applications are for 2024.",
+    "period_start": null,
+    "period_end": "2026-04-30",
+    "period_label": "Undated HPD estimate cited by the Furman Center (report published April 2026)",
+    "source": {
+     "url": "https://www.furmancenter.org/wp-content/uploads/2026/04/The-House-Doesnt-Always-Win_508.pdf",
+     "title": "The House Doesn't Always Win",
+     "publisher": "NYU Furman Center",
+     "date": "2026-04",
+     "quote": "estimated nearly 600,000 unique Housing Connect applicants",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/furman-house-doesnt-always-win-2026-04.pdf"
+    },
+    "definition_quote": null,
+    "grade": "B",
+    "grade_reason": "Research report citing HPD; the six million is applications and the 600,000 is Furman's estimate of unique applicants.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": ""
+    },
+    "caveats": [
+     "Two units from two periods: six million applications (2024) and roughly 600,000 unique applicants (undated HPD estimate). The registry does not compute a ratio between them."
+    ]
+   }
+  ],
+  "related_lines": [
+   "hpd-housing-connect",
+   "hpd-lottery-applicant-approval"
+  ],
+  "duplicates_with": [
+   "nycha-section8-waitlist-mmr"
+  ],
+  "raise_grade": "Read the report's methodology pages for sample dates and size; request HPD's per-lottery application and approval data."
+ },
+ {
+  "id": "doe-3k-unlisted-placement",
+  "name": "3-K applicants placed in a program they did not list",
+  "agency": "DOE",
+  "tier": 2,
+  "what_for": "A seat in one of the 3-K programs the family listed",
+  "end_event": "Offer to a listed program (from the waitlist over the summer) or acceptance of the assigned program",
+  "unit": "persons",
+  "list_status": "annual application round; waitlists per program",
+  "figures": [
+   {
+    "type": "stock",
+    "value": 6000,
+    "unit_of_value": "children (approx.)",
+    "center": "n/a",
+    "duration_kind": "n/a",
+    "standard": null,
+    "spread": {
+     "share_of_applicants": 0.15,
+     "offers_made": 44000,
+     "capacity": 47000,
+     "filled_seat_share_range_by_district": "61% (District 23) to 98% (District 30), per Independent Budget Office"
+    },
+    "spread_note": "Every applicant received an offer, per the source; the 6,000 received a program they had not listed and were waitlisted for their listed choices. District variation in filled seats is from an Independent Budget Office report cited in the article.",
+    "period_start": "2025-05-20",
+    "period_end": "2025-05-20",
+    "period_label": "3-K offers for the 2025-26 school year, released May 20, 2025",
+    "source": {
+     "url": "https://www.chalkbeat.org/newyork/2025/05/20/preschool-offers-long-commutes-empty-seats/",
+     "title": "NYC's preschool offers leave waitlists in some districts, empty seats in others",
+     "publisher": "Chalkbeat New York (Michael Elsen-Rooney), citing Education Department officials",
+     "date": "2025-05-20",
+     "quote": "Roughly 15% of 3-K applicants, more than 6,000 students, didn't get into any of the programs they listed on their application",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/chalkbeat-preschool-2025-05-20.txt"
+    },
+    "definition_quote": null,
+    "grade": "C",
+    "grade_reason": "Press report attributing Education Department officials; no primary document captured.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": ""
+    },
+    "caveats": [
+     "Prior round (offers April 2024): more than 2,400 children left without seats out of 43,000 applicants (CBS New York, May 16, 2024).",
+     "For 2026-27 the city said every on-time applicant would receive an offer (Chalkbeat, Jan. 30, 2026); 94,840 3-K and pre-K applications in 2025. Chalkbeat's 'more than 27,000 of roughly 136,000 seats' unfilled is for 'the city's free child care programs for children ages 4 and under', a wider set than 3-K and pre-K alone."
+    ]
+   }
+  ],
+  "related_lines": [],
+  "duplicates_with": [],
+  "raise_grade": "Education Department offer-round data by district (FOIL or Council testimony)."
+ },
+ {
+  "id": "parks-trees-sidewalks",
+  "name": "Trees and Sidewalks repair program",
+  "agency": "DPR",
+  "tier": 1,
+  "what_for": "City repair of a sidewalk damaged by a street tree, for owner-occupied one- to three-family homes",
+  "end_event": "Repair completed (the 419-day figure covers repaired sidewalks only); other outcomes are waitlisting or a referral to hire a contractor",
+  "unit": "items (the 419-day mean is over 1,069 repaired sidewalks; the 101-day mean is over service requests)",
+  "list_status": "open; sites rated 1 to 100, only the highest rated repaired",
+  "figures": [
+   {
+    "type": "duration",
+    "value": 419,
+    "unit_of_value": "days",
+    "center": "mean",
+    "duration_kind": "completed",
+    "standard": "30-day internal service level for inspection after a request (audit: missed by 71 days on average); no target time frame for inspection-to-repair (audit)",
+    "spread": {
+     "longest": "over 11 years",
+     "share_within_2_years": 0.95,
+     "share_within_2_5_years": 0.98,
+     "request_to_inspection_mean_days": 101,
+     "inspection_standard_days": 30,
+     "requests_reviewed": 11392,
+     "addresses": 9118
+    },
+    "spread_note": "Audit gives two means with different denominators: 101 days request-to-inspection (all inspected requests) and 419 days inspection-to-repair (repaired sidewalks only), plus tail shares and the maximum; no median.",
+    "period_start": "2016-07-01",
+    "period_end": "2017-06-30",
+    "period_label": "Audit scope July 1, 2015 through Dec. 31, 2017 (report: 'The scope of this audit was July 1, 2015 through December 31, 2017'); the 419-day mean covers 1,069 sidewalks repaired in fiscal 2017, July 1, 2016 to June 30, 2017",
+    "source": {
+     "url": "https://comptroller.nyc.gov/wp-content/uploads/documents/MH18-058A.pdf",
+     "title": "Audit Report on the Department of Parks and Recreation's Trees & Sidewalks Program (MH18-058A)",
+     "publisher": "New York City Comptroller",
+     "date": "2019-06-20",
+     "quote": "our review of 1,069 repaired sidewalks found that the average time from inspection to repair was 419 days, with the longest time for a repair taking over 11 years.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/comptroller-trees-sidewalks-audit-MH18-058A.txt"
+    },
+    "definition_quote": "Site has been waitlisted: This site meets the criteria for repair. However due to a high number of requests we are only able to repair the very highest rated sites at this time. (Parks program page, retrieved Sept. 5, 2026)",
+    "grade": "B",
+    "grade_reason": "Oversight audit with dates; seven years old; no current count of waitlisted sites is published.",
+    "refresh": {
+     "method": "foil_pending",
+     "query_or_url": "https://www.nycgovparks.org/services/forestry/trees-sidewalks-program"
+    },
+    "caveats": [
+     "Stale: repairs from fiscal 2017. The program page (2026) still shows a waitlist tier for sites rated 80-90 and a three-year expectation for 90-100.",
+     "Eligibility is limited to owner-occupied Tax Class 1 homes; everyone else is told to hire a contractor, which is a rationing rule, not a queue."
+    ]
+   }
+  ],
+  "related_lines": [],
+  "duplicates_with": [],
+  "raise_grade": "FOIL to Parks for the count of sites in 'Inspected - Site Waitlisted' status by borough and year of inspection, and repairs completed per year."
+ },
+ {
+  "id": "housing-court-eviction-cases",
+  "name": "Housing Court active eviction cases",
+  "agency": "NYS Unified Court System",
+  "tier": 3,
+  "what_for": "Resolution of an eviction case (both parties wait)",
+  "end_event": "Case disposed",
+  "unit": "cases",
+  "list_status": "rolling",
+  "figures": [
+   {
+    "type": "stock",
+    "value": 177000,
+    "unit_of_value": "cases (approx.)",
+    "center": "n/a",
+    "duration_kind": "n/a",
+    "standard": null,
+    "spread": {
+     "january_2021_approx": 33000
+    },
+    "spread_note": "No distribution of case age published in the source.",
+    "period_start": "2020-03-01",
+    "period_end": "2024-03-31",
+    "period_label": "March 2020 to March 2024 per the report's key findings (the report's introduction instead dates the rise from the January 2021 end of the eviction moratorium; the registry uses the dated version)",
+    "source": {
+     "url": "https://comptroller.nyc.gov/wp-content/uploads/documents/Evictions-Up-Representation-Down.pdf",
+     "title": "Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel",
+     "publisher": "New York City Comptroller",
+     "date": "2025-05-02",
+     "quote": "Between March 2020 and March 2024, the number of active eviction cases in New York rose 440%, from approximately 33,000 cases to 177,000 cases.",
+     "retrieved": "2026-09-05",
+     "local_copy": "sources/comptroller-evictions-up-representation-down-2025-05.txt"
+    },
+    "definition_quote": "Data from the New York State Office of Court Administration via the OCA Data Collective (report footnote 6); 'active eviction cases' is not further defined in the report.",
+    "grade": "B",
+    "grade_reason": "Oversight report with a stated data source and period; the report gives two different start points for the same rise; 'active' undefined.",
+    "refresh": {
+     "method": "document",
+     "query_or_url": "https://comptroller.nyc.gov/wp-content/uploads/documents/Evictions-Up-Representation-Down.pdf"
+    },
+    "caveats": [
+     "Tier 3: state courts. Never in city totals.",
+     "The figure is as of March 2024, more than a year before the report and two and a half years before this registry.",
+     "Both landlords and tenants are in this line; it is a docket, not an application queue.",
+     "The report's introduction dates the rise from the January 2021 end of the moratorium; its body says the moratorium 'expired on January 15, 2022'; the key findings give March 2020 to March 2024. The registry uses the dated key-findings version."
+    ]
+   }
+  ],
+  "related_lines": [],
+  "duplicates_with": [],
+  "raise_grade": "Pull current pending-case counts from the Office of Court Administration or the Housing Data Coalition, with 'active' defined."
+ }
+]

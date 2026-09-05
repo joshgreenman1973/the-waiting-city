@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How the counting works · The Waiting City</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="house.css">
+<style>
+:root{--ink3:#7a4f2f}
+.doc{max-width:78ch;padding:18px 26px 40px}
+.doc h2{font-family:var(--display);font-size:1.5rem;letter-spacing:-.02em;margin:26px 0 8px;line-height:1.15}
+.doc h3{font-family:var(--display);font-size:1.15rem;margin:22px 0 6px}
+.doc h4{font-size:var(--t-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);font-weight:700;margin:18px 0 6px}
+.doc p,.doc li{font-size:1rem;line-height:1.62}
+.doc p.num{margin:4px 0}
+.doc code{font-family:ui-monospace,Menlo,monospace;font-size:.88em;background:var(--paper2);padding:0 4px}
+.doc .tw{overflow-x:auto;margin:10px 0 16px}
+.doc table{border-collapse:collapse;font-size:.9rem;min-width:100%}
+.doc th{font-size:var(--t-micro);letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--ink2);text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--ink);vertical-align:bottom}
+.doc td{padding:6px 10px 6px 0;border-bottom:1px solid var(--hair2);vertical-align:top}
+hr.rule{border:0;border-top:1px solid var(--ink);margin:36px 0 10px}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="strip"><span><a href="index.html">The Waiting City</a> · How the counting works</span><span>Registry built 2026-09-05 · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
+  <div class="head" style="padding-right:26px"><h1>How the counting works</h1></div>
+  <div class="doc"><h2>The Waiting City: how the counting works</h2>
+<p>Draft 1, Sept. 5, 2026. This document comes before the numbers. Nothing appears on the page unless it can be described in the terms below.</p>
+<h3>1. What this project measures</h3>
+<p>A line, for this project, is a set of people (or households, applications, cases or objects) who have formally asked a government body for a specific thing, have been accepted into a waiting state and have not yet received either the thing or a final decision.</p>
+<p>Three tests, all required:</p>
+<p class="num">1. <strong>A formal ask.</strong> The person filed an application, a request, a complaint or a claim that the agency acknowledges as pending. Wanting something is not a line. Being eligible for something is not a line.</p>
+<p class="num">2. <strong>A defined end.</strong> There is an identifiable event that ends the wait: a voucher issued, a case decided, a permit granted or denied, a repair completed, a seat offered.</p>
+<p class="num">3. <strong>A record.</strong> The agency, a court, an oversight body or a public dataset records either how many are waiting, how long they wait, or both.</p>
+<p>Excluded, with reasons, in Section 7.</p>
+<h3>2. Four kinds of measurement</h3>
+<p>Every figure in the registry is tagged with exactly one measurement type. They are not interchangeable and are never added together.</p>
+<div class="tw"><table>
+<tr><th>Type</th><th>What it counts</th><th>Example</th><th>Trap</th></tr>
+<tr><td><strong>Stock</strong></td><td>How many are waiting at one moment</td><td>200,000 households on the Section 8 waitlist</td><td>A closed list stops growing without the need going away</td></tr>
+<tr><td><strong>Duration</strong></td><td>How long a wait lasts</td><td>Average 45.5 days to start home attendant services</td><td>Completed waits vs. waits still in progress are different populations (Section 4)</td></tr>
+<tr><td><strong>Timeliness rate</strong></td><td>Share handled within a stated standard</td><td>67% of cash assistance applications processed within 30 days</td><td>Meaningless without the standard attached; the standard can be legal, administrative or self-set</td></tr>
+<tr><td><strong>Throughput</strong></td><td>How many are cleared per period</td><td>NYCHA goal of 1,000 vouchers a month</td><td>Only becomes a wait estimate when divided into a stock, and then it is a derived figure (Section 5)</td></tr>
+</table></div>
+<h3>3. Units, and why sums are mostly forbidden</h3>
+<p>Every figure carries a unit: <strong>persons</strong>, <strong>households</strong>, <strong>applications</strong>, <strong>cases</strong>, <strong>requests</strong>, <strong>items</strong> (an elevator, a tree, a sidewalk flag) or <strong>seats</strong>. These differ in ways that matter:</p>
+<ul>
+<li>One household can file many applications. Housing Connect received about six million applications in 2024. That is not six million households; one household applying to 50 lotteries is 50 applications. The registry records the figure as applications and says so.</li>
+<li>Applications are not the waitlist. NYCHA received 633,808 online applications for the 2024 Section 8 lottery and placed 200,000 households on the list. The stock is 200,000 households. The 633,808 measures demand at the door, a different quantity, recorded separately.</li>
+<li>One person can be on several lists at once. A family can be on the NYCHA public housing list, the Section 8 list and in a dozen Housing Connect lotteries. No dataset lets us deduplicate across agencies.</li>
+</ul>
+<p>Consequence: <strong>the registry does not produce one number for "New Yorkers waiting."</strong> Where the page shows a total, it is a sum over a named set of lines that share a unit and a measurement type, labeled "sum of published counts, overlap across lists unknown." A sum across units is never shown.</p>
+<h3>4. Duration is two different things</h3>
+<p>"How long do people wait" has two honest answers and they can diverge by years:</p>
+<ul>
+<li><strong>Completed-wait duration</strong>: among those who reached the end, how long it took. This is what agencies usually report. It cannot describe people who have not yet reached the end, and in a growing backlog it understates the wait of those still in line.</li>
+<li><strong>Waiting-so-far duration</strong>: among those still in line, how long they have waited to date. Rarely published. It understates the eventual wait because none of these waits is over.</li>
+</ul>
+<p>The registry tags every duration figure as one or the other, and as mean or median where the source says. Where the source does not say which, the figure is graded down (Section 6) and the ambiguity is printed next to it.</p>
+<h3>4a. Averages are not enough</h3>
+<p>A mean wait hides the people at the back of the line. For every duration and every timeliness figure the registry records whatever the source publishes about the spread, and prints it alongside the center:</p>
+<ul>
+<li><strong>Median and mean</strong> both, when both exist. A mean far above the median means a long tail.</li>
+<li><strong>Percentiles or tail shares</strong>: the 90th percentile, the share waiting over a threshold (over 30 days, over one year), the longest wait on record.</li>
+<li><strong>Breakdowns</strong>: by borough, office, program type, household size or year of application, wherever the source disaggregates. The gap between the best-served and worst-served group is itself a registry field.</li>
+<li><strong>Over time</strong>: the registry keeps every published period, not just the latest, so the reader can see whether the spread is widening.</li>
+</ul>
+<p>Where the source publishes only an average, the entry says "average only; distribution not published" and the grade notes what would fill the gap. A single mean with no spread is presented as a partial measurement, not a fact about the line.</p>
+<p>Two variability traps the registry names when they apply:</p>
+<ul>
+<li>A <strong>timeliness rate</strong> (share within 30 days) says nothing about how late the late ones are. 67% within 30 days is compatible with the other 33% taking 31 days or 300.</li>
+<li>An <strong>average over a shrinking backlog</strong> improves as the oldest cases are cleared, even if new applicants wait longer. The registry records the stock alongside the duration so this can be checked.</li>
+</ul>
+<h3>5. Derived figures</h3>
+<p>Some lines have a published stock and a published throughput but no published duration. Dividing one by the other (200,000 households at 1,000 vouchers a month is about 16.7 years) gives an implied wait under the assumption that the list is worked in order, nobody leaves it and throughput holds. Those assumptions are usually false. Derived figures are shown in a separate visual style, labeled "derived," with the arithmetic printed, and never mixed into totals.</p>
+<h3>6. Confidence grades</h3>
+<p>Each figure gets a grade based on who measured it and how it can be checked. The grade rates the measurement, not the agency.</p>
+<div class="tw"><table>
+<tr><th>Grade</th><th>Criteria</th></tr>
+<tr><td><strong>A</strong></td><td>Published as structured data by the agency or an oversight body, with a written indicator definition, refreshed on a schedule. We can re-query it. Example: Mayor's Management Report indicators on Open Data with a printed description.</td></tr>
+<tr><td><strong>B</strong></td><td>Published by the agency or an oversight body (Comptroller, Independent Budget Office, court monitor, State Comptroller) in a report, testimony or rulemaking document, with a date. Not re-queryable; we hold a copy of the document.</td></tr>
+<tr><td><strong>C</strong></td><td>Reported in the press with attribution to a named agency and a date, and we could not find the primary document. Or a primary document without a date or a definition.</td></tr>
+<tr><td><strong>D</strong></td><td>Derived by us (Section 5), or a figure whose unit or definition the source leaves ambiguous.</td></tr>
+</table></div>
+<p>One more class sits alongside grade A: <strong>computed</strong>. Where an agency publishes only a mean, but also publishes record-level data (every permit filing with its dates, every complaint with open and close dates, every exam with its administration and results dates), this project computes the distribution itself: median, 90th percentile, share over a threshold, spread across boroughs or offices. Computed figures are graded <strong>A-c</strong>: re-queryable and fully specified, but produced by this project rather than the agency, so the code and the query are published with the figure and the agency's own mean is shown next to it for reconciliation. Where the two disagree, the disagreement is printed, not resolved quietly.</p>
+<p>A grade C or D figure is never used in a headline or a total. It appears in the registry so the gap is visible, with a note on what would raise its grade (usually a Freedom of Information Law request, which is then logged).</p>
+<h3>7. What is left out</h3>
+<ul>
+<li><strong>Service response that is not a queue in the sense above</strong>: 911 and 311 response times are waits, but they are already measured by other projects and the request is not an application for a rationed thing. They are linked, not duplicated.</li>
+<li><strong>Court dockets</strong> are state-run. They appear in a separate section labeled as state lines that New Yorkers stand in, never in city totals. The same for Access-A-Ride eligibility (Metropolitan Transportation Authority), cannabis licensing (state Office of Cannabis Management) and Department of Motor Vehicles waits.</li>
+<li><strong>Private waits</strong> the city regulates but does not run (a landlord's repair, a hospital's appointment outside NYC Health + Hospitals).</li>
+<li><strong>Eligibility populations</strong> ("X New Yorkers qualify for Y but do not receive it"). Not a line by test 1.</li>
+<li><strong>Lotteries as such.</strong> A lottery entrant is not queued; a lottery winner placed on a waitlist is. Housing Connect application counts are recorded as demand, not stock.</li>
+</ul>
+<h3>8. Scope tiers</h3>
+<ul>
+<li><strong>Tier 1</strong>: mayoral agencies.</li>
+<li><strong>Tier 2</strong>: city-controlled entities that are not mayoral agencies: New York City Housing Authority, NYC Health + Hospitals, Department of Education, Economic Development Corporation.</li>
+<li><strong>Tier 3</strong>: state or independent bodies whose lines New Yorkers stand in. Shown apart.</li>
+</ul>
+<h3>9. Dates</h3>
+<p>Every figure carries the period it describes, printed as a date or date range ("first four months of fiscal 2026, July 1 to Oct. 31, 2025"), never as a relative phrase. Fiscal years are the city's (July to June) unless the source says otherwise. Where a source gives no date, the figure gets grade C at best and the publication date of the source is shown as an upper bound.</p>
+<h3>10. Refresh and provenance</h3>
+<p>Each registry entry records how its figure is refreshed: automated query (with the query stored), document re-fetch (with the URL and a hash of the copy we hold), manual (with the person and date) or FOIL pending (with the request date). Every number on the page opens the source and the verbatim sentence or table row it came from. Where our figure differs from a widely reported one, both are shown and the difference is explained.</p>
+<h3>11. What the agency's own words mean</h3>
+<p>Agencies define "timely," "processed," "pending" and "waitlist" differently, and the same agency changes definitions between years. The registry stores the source's own definition verbatim alongside each figure. Where the Mayor's Management Report changes an indicator's definition, the dataset's own description field is stored per fiscal year and breaks in the series are marked.</p>
+<p>Two habits this project adopted after the first blind check:</p>
+<ul>
+<li><strong>Read the definition, not the title.</strong> In the Mayor's Management Report dataset the title can say "median" while the definition says "average," or say "time to approve an applicant" while the definition starts the clock at the building's certificate of occupancy. Every registry line is described from the definition text, and where title and definition disagree the figure is graded B and the disagreement printed.</li>
+<li><strong>Decode the encoding.</strong> Indicators labeled "(hours:minutes)" or "(minutes:seconds)" are stored as H.MM and M.SS, not decimals: 6.41 is six hours and 41 minutes. The registry stores the printed form and the decoded decimal side by side.</li>
+</ul>
+<h3>12. AI involvement</h3>
+<p>Research, source retrieval and drafting were done with Claude (Anthropic) working under Josh Greenman's direction. Every figure was traced to a source document or query that a reader can open. Claude can misread a document; the verbatim quote next to each figure exists so the reader does not have to trust the reading.</p></div>
+  <div class="foot">The Waiting City · Josh Greenman · <a href="index.html">Back to the registry</a></div>
+</div>
+</body>
+</html>

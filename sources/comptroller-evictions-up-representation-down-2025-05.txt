@@ -1,0 +1,1220 @@
+[[p1]]
+   
+ 
+1 
+ 
+ 
+ 
+  
+  
+ 
+Evictions Up, 
+Representation Down: 
+How New York City is 
+Undermining the Right to 
+Counsel 
+BUREAU OF POLICY AND ORGANIZING 
+MAY 2025 
+1 Centre Street, New York, NY 10007 • (212) 669-3916 • www.comptroller.nyc.gov 
+[[p2]]
+   
+ 
+ 
+ 
+ 
+ 
+
+[[p3]]
+   
+ 
+Office of the New York City Comptroller Brad Lander     3 
+ 
+Contents 
+Executive Summary ................................................................................. 4 
+Key Findings ................................................................................................... 4 
+Recommendations ......................................................................................... 7 
+Background ........................................................................................... 10 
+Impact of Right to Counsel in New York City .......................................... 13 
+Geographic Disparities in RTC Representation ............................................ 16 
+Barriers in Implementing Right to Counsel in New York City .................. 20 
+Inadequate Funding ..................................................................................... 20 
+Recruitment, Hiring, and Retention Challenges .......................................... 23 
+Delays at Human Resources Administration in Processing Benefits 
+Applications ................................................................................................. 24 
+Brooklyn Administrative Pilot is Promising but Needs Evaluation Prior to 
+Expansion ..................................................................................................... 25 
+Recommendations ................................................................................. 27 
+Conclusion ............................................................................................. 30 
+Acknowledgements ............................................................................... 31 
+Methodology ......................................................................................... 32 
+Endnotes ............................................................................................... 34 
+ 
+ 
+ 
+[[p4]]
+  
+4     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Executive Summary   
+ 
+New York City passed the first-in-the-nation Right to Counsel (RTC) law in 2017 guaranteeing legal 
+representation in housing court for  low-income New Yorkers facing eviction.a The program is 
+incredibly effective: in 2024, 89% of households that were represented by an attorney remained 
+stably housed.1  
+Following the expiration of the eviction moratorium in January 2021 , the number of active 
+eviction cases in New York City rose 440%, from approximately 33,000 cases to 177,000 cases . 2 
+Unfortunately, management failures at City Hall and a lack of funding have limited Right to 
+Counsel providers ability to keep up with demand and the monthly rate of representation for 
+tenants facing evictions has hovered below 50% for the past three years, reaching a low point of 
+just 30% in March 2025.3 There have been nearly 37,000 court-ordered residential evictions since 
+January 2022.4  
+Rigid contract requirements, i nadequate funding, and insurmountable caseloads have made it 
+extremely difficult for providers to meet  increasing demand. These workplace conditions have 
+also caused persistent burnout, leading to high attrition rates and persistent staffing shortages 
+at non-profit legal service providers. In addition, staffing cuts at City agencies, including the Office 
+of Civil Justice (O CJ), the Department of Social Services (DSS ) and the Human Resources 
+Administration (HRA), have hamstrung implementation and caused preventable delays in 
+resolving eviction proceedings. Mayor Eric Adams’ failure to work with the New York City Council 
+to negotiate financially viable pathways for expanded rental assistance programs, following the 
+passage of Local Laws 99, 101, and 102 has likely caused thousands of preventable evictions.  
+As the first jurisdiction in the country to pass Right to Counsel, the landmark legislation became 
+a model for tenant organizers and housing advocates across the country and sparked a national 
+movement. Since 2017, 5 states and 17 localities have enacted t heir own RTC laws that ensure 
+low-income tenants facing eviction receive free legal services.5 New York City can continue to set 
+the national standard by successfully implementing a universal Right to Counsel program.   
+Key Findings 
+• Eviction rates have  returned to levels comparable to before the pandemic and 
+contributed directly to the City’s ballooning shelter population.  Between March 2020 
+and March 2024, the number of active eviction cases in New York rose 440%, from 
+ 
+a An income-eligible tenant is one whose household annual income does not exceed 200% of the federal poverty 
+guidelines, or $53,300 for a family of three in 2025. Local Law 136 of 2017 established a universal access to income 
+eligible tenants in 15 zip codes and included a plan to reach Citywide implementation by 2022. In 2021 the New 
+York City Council passed Local Law 54 and expanded the program Citywide before the original target date.  
+[[p5]]
+Office of the New York City Comptroller Brad Lander     5 
+approximately 33,000 cases to 177,000 cases. 6 Since January 2022, there have been 
+approximately 37,000 court-ordered evictions.7  
+• RTC representation rates citywide dropped dramatically from 71% in FY 21 to 42% in FY 
+24. With climbing eviction filings, increased case complexity, and inadequate funding, 
+Right to Counsel (RTC) providers struggled to meet growing demand, causing low rates of 
+legal representation for low -income New Yorkers facing eviction in Housing Court and 
+leaving thousands of New Yorkers who are eligible for RTC without legal counsel. From FY 
+2019 to 2024, the number of households that legal service providers were expected to 
+provide full representation increased by 51%, from approximately 16,300 households to 
+24,500 when the RTC program shifted from a zip code model to citywide expansion.  
+During the same period, the number of brief legal servicesb RTC providers were expected 
+to provide to any New York City tenant facing eviction increased exponentially— by 475%. 
+Legal representation citywide has steadily declined from 71% in Q4 of FY 21 to 63% in Q4 
+of FY 22 to 50% in Q4 of FY 23 and as low as 42% in Q4 of FY 24.   
+• The City’s failure to meet the Right to Counsel mandate has exacerbated inequities as, 
+the rate of representation in the Bronx has declined more precipitously than other 
+boroughs, down from 81% in Q4 of 2021 to just 31% in Q4 of 2024.  Eviction filings are 
+more common in neighborhoods where a greater portion of residents are Black or Latine.  
+• Legal counsel in housing court is the most effective tool for preventing eviction and 
+reducing the City’s shelter population. The Office of Civil Justice reported that 89% of 
+tenants who received full legal representation in an eviction proceeding in FY 2024 were 
+able to remain stably housed. When given proper resources, community groups and legal 
+service providers have helped th ousands of tenants stay in their homes and fight for 
+better living conditions and rental abatements. Tenant organizations educate tenants via 
+know your rights trainings, help bring about group cases against bad actor landlords, and 
+connect New Yorkers to vital financial resources, like rental and cash assistance, and other 
+income-building supports that improve financial stability . If properly implemented and 
+fully funded, Right to Counsel and expanded tenants’ rights could alter the landscape of 
+New York City housing court and dramatically reduce the City’s shelter population. 
+Between 2013 and 2024, eviction filings decreased by nearly 50% (from 247,000 cases to 
+118,000), as landlords likely stopped filing frivolous and serial eviction cases c due to 
+increased tenant protections.8 Unfortunately, thousands of eligible tenants are appearing 
+in housing court without adequate legal representation.   
+ 
+b  Local Law 136 defines brief legal assistance as “individualized legal assistance provided in a single consultation” 
+by a non-profit legal service provider.  
+c Prior to 2019, some landlords repeatedly filed eviction cases with no merit as a method of tenant harassment or 
+to scare tenants into self-evicting. Legal service providers state, and that data indicate, that following passage of 
+the Housing Stability and Tenant Protection Act (HSTPA) and RTC that practice declined significantly.  
+[[p6]]
+  
+6     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+• The City’s failure to provide adequate funding and resources to support RTC providers 
+has essentially created an unfunded mandate for legal service providers and is driving 
+rates of burnout and attrition within the legal services sector.  
+o Inadequate funding  and payment delays : Although the City has increased its 
+investment in tenant legal services since the passage of RTC, funding has not been 
+adequate to ensure that every eligible tenant receives full representation of brief 
+legal advice in housing court as required by local law . Legal service providers 
+estimate that the City would need to more than double its spending to meet 
+demand. Delays in the City’s contracting and procurement processes further strain 
+already underfunded legal service providers delivering RTC, making it hard er for 
+them to retain staff and meet the growing need for tenant representation.     
+o Recruitment, hiring and r etention challenges: Recent annual  attrition rates at 
+legal service organizations have ranged from 20 -55%, a major blow to the legal 
+community as housing courts reopened and citywide RTC expansion began. High 
+staff turnovers have a negative effect on the provision of legal services. Over 90% 
+of the non-profit legal service attorneys doing RTC work are unionized (either in 
+UAW Local 2325 or UAW Local 2320) and not funding RTC work through contracts 
+has an impact on collective bargain ing. When housing attorneys leave their 
+organization, their cases are then transferred to remaining staff, who may already 
+have high caseloads, increasing burnout of remaining staff  and exacerbating 
+attrition challenges.  
+• The Human Resources Administration’s (HRA) delay in processing rental assistance 
+applications is preventing lawyers from closing cases sooner and exacerbating capacity 
+issues in the legal aid community. HRA, which processes applications for emergency 
+rental assistance, has been extremely delayed in distributing these resources to tenants 
+in need. Before the pandemic these applications were typically processed within 30 -60 
+days, however, attorneys interviewed by the Office of the New York City Comptroller say 
+it can now take up to 10 -12 months for a client in housing court to receive these funds. 
+Prior to the pandemic, HRA published monthly Benefit Access Center reports, sometimes 
+referred to as JobStat, which provided key indicators on processing timeliness.  These 
+reports have not been published since February 2020.
+9  
+• The Brooklyn Administrative Program is a promising approach but lack of leadership 
+and collaboration with providers has prevented expansion. In February 2023, HRA 
+launched the Brooklyn Administrative Pilot to help tenants access the legal and social 
+services they need to avoid housing displacement. According to a 2023 OCJ report, “the 
+pilot co-located HRA homelessness prevention services in the courthouse to further assist 
+individuals in active eviction proceedings at their first appearances. Granted a 45 -day 
+adjournment by the court, individuals visit the HRA team at the courthouse to initiate 
+applications for emergency cash assistance ‘one -shot deals,’ rental assistance or other 
+benefits that could address housing concerns.” While the Brooklyn Administrati ve pilot 
+could help address some challenges, advocates report it has created  confusion among 
+[[p7]]
+Office of the New York City Comptroller Brad Lander     7 
+tenants, who often don't understand who they’re  meeting or why they’re being 
+redirected within the courthouse; unlike the early days of Right to Counsel, court -based 
+outreach and education by  legal providers and OCJ has not been able to meet demand  
+due to limited capacity and poor coordination. 
+• The State’s failure to do its fair share to meet the Right to Shelter mandate,  pass 
+essential tenant protection legislation, and properly fund those initiatives  has unfairly 
+placed the burden on the City of New York. Since 2011, when former Governor Andrew 
+Cuomo was elected, New York State has steadily reduced its support for shelter and failed 
+to fill the gap in housing subsidies. The State’s contribution to the City’s shelter system 
+plummeted from 47% in 2007 to just  6% as of Fiscal Year 2024, putting eno rmous strain 
+on the City’s budget to meet the right-to-shelter mandate which is grounded in the State 
+constitution. While the inclusion of the Housing Access Voucher Program and $50 million 
+allocation in the 2026 State budget is a move in the right direction, the funding represents 
+just a fraction of the City’s annual spending on homelessness prevention and rental 
+assistance. The State has also failed to pass S2721, which would create a statewide right 
+to counsel program.  
+Recommendations  
+• Develop and implement a strategic plan to f ulfill the City’s Right to Counsel mandate 
+providing 100% of eligible low -income New Yorkers facing eviction with legal counsel  
+within 5 years. To deliver on the City’s Right to Counsel mandate, the City should work 
+directly with legal service providers, advocates, and tenants to develop a full 
+implementation plan, including a clear timetable for increased funding needed to hire and 
+retain the staff needed. The funding must recognize the true cost of the program an d 
+allow legal service providers to assign manageable caseloads and pay competitive rates 
+that support the recruitment and retention of attorneys and support staff, including 
+interpreters, social workers, paralegals, intake specialists, and benefit associates. The City 
+should recognize that the law  was intended to establish a right  to counsel for eligible 
+individuals in housing court and enter into contracts with legal service providers that are 
+comparable to criminal legal services as such.    
+• Reform RTC contracts to ensure legal service providers have the capacity to deliver on 
+contract requirements:   
+o Reform the contracting process and pay service providers on -time. In the midst 
+of a growing funding crisis  for the non-profit sector, the City should immediately 
+implement the recommendations put forth by the Comptroller’s Office in 
+Nonprofit, Nonpayment, including deadlines for contract registration and fulfilling 
+the promise of ContractStat to ensure these critical nonprofits get paid on time 
+and in full. 10 In addition to these recommendations the City should also modify 
+existing RTC contracts to:  
+[[p8]]
+  
+8     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+ Eliminate or reform the 10% penalty, which withholds essential funds to 
+legal service providers if certain performance targets aren’t met, to ensure 
+that speed and case disposition is not prioritized over meaningful advocacy 
+and representation.   
+ Account for rollover cases. City contracts that funded RTC prior to FY 25, 
+allowed for legal service providers to roll over cases from year to year 
+towards their performance targets.  
+ Allow legal service providers the flexibility to include the provision of brief 
+legal advice as part of their performance requirements.   
+ Reform reporting requirements to reduce administrative burdens and 
+ensure that they accurately capture the work on the ground.  
+• Invest in the capacity of the City’s nonprofit legal services sector and workforce. The 
+City should partner with CUNY Law and other law schools to create fellowship programs  
+and loan forgiveness opportunities that inspire students to pursue a career in housing law 
+and tenant legal services.    
+• Invest in programs that provide upstream solutions to prevent evictions and relieve the 
+pressure on RTC providers:  
+o Reduce the number of people facing evictions via improved and expanded 
+Homebase contracts
+d that provide financial assistance and support to individuals 
+and families before an eviction case is filed.    
+o Increase funding for tenant organizing and social services. Addressing the root 
+causes that led to an increase in eviction proceedings takes more than just 
+immediate legal representation. Ensuring that legal service providers and partner 
+organizations have  adequate resources to assist clients in reaching stronger 
+economic footing such as enrolling in programs like the Senior Citizen Rent 
+Increase Exemption (SCRIE), cash assistance or workforce programs can be 
+essential to their long-term success.  
+o Create a court-based rental assistance program that ensures New Yorkers facing 
+eviction who are not eligible for one -time cash assistance can remain stably 
+housed.    
+o Evaluate, strengthen and expand the Brooklyn Administrative Pilot, a program 
+designed to increase representation rates, reduce evictions, and promote housing 
+stability.  
+ 
+d Homebase is a homelessness prevention program funded by the City. Households are provided services, 
+including accessing one-shot deals, other forms of cash assistance, landlord mediation, and other services that can 
+help New Yorkers avoid eviction as they navigate a housing crisis.  
+[[p9]]
+Office of the New York City Comptroller Brad Lander     9 
+• Reverse cuts to DSS that have resulted in serious delays in the processing of one -shot-
+deals and other forms of assistance that help tenants avoid eviction.  
+o DSS should hire more HRA staff to improve the processing time of CityFHEPS 
+applications, as well as One Shot Deals. The  City should also allocate more 
+resources to CBOs, who are helping low-income tenants access housing assistance 
+programs, job training, and other strategies to raise their incomes. Doing so will 
+reduce the strain on legal service providers in Housing Court, reduce the negative 
+consequences on a tenant’s mental health that an eviction or shelter stay can have 
+on a household, and produce many  cost savings on the City’s Right to Counsel 
+program and shelter system. 
+o HRA should play a more coordinated role in screening tenants for eligibility for 
+RTC. Providers say that HRA sends them cases that shouldn’t move forward, 
+including tenants who have gotten all their rental arrears paid and have resolved 
+their cases. Clear breakdowns of services HRA provided to tenants would be 
+helpful for providers, so they do not move cases forward that already have 
+resolution and alleviate some of their capacity issues.  
+• The State should do its fair share to prevent evictions and confront the City’s 
+homelessness crisis:  
+o Pass the Statewide Right to Counsel law  (S2721) and fund 50% of the cost of RTC 
+for jurisdictions across the State, including New York City. 
+o Increase funding for HAVP in the 2027 budget to at least $250M. 
+o Reverse Cuomo-era budgeting that shifted the cost of single adult shelter onto the 
+City to create more funding flexibility for prevention measures such as RTC.  
+[[p10]]
+  
+10     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Background  
+ 
+In 1972, New York State passed legislation that established the Housing Part of the Civil Court of 
+the City of New York, more commonly known as “housing court,” to create a single borough -
+based court system that oversees all housing -related actions and pro ceedings and to enforce 
+state and local housing codes.11 Housing court was intended to create a “more fair and judicious 
+forum for resolving owner-tenant complaints” as criminal sanctions issued against owners, in an 
+overburdened criminal court system, rarely resulted in repairs being made. Although the Civil 
+Court Act expressly named several existing statutory legal avenues through which tenants, either 
+individually or collectively, could withhold rent and demand repairs, housing court has been 
+dominated by landlords filing for eviction since its inception. Tenants have fought back from the 
+beginning – pushing for equal footing and more control over their homes.   
+Eviction and homeless rates steadily climbed  during the 2000s —  peaking at 29,000 court -
+ordered evictions in 2013.
+12 In March 2013, Community Action for Safe Apartments (CASA) and 
+the Urban Justice Center published a participatory research report detailing tenant experiences 
+in Bronx Housing Court.13 An earlier report published by Make the Road in 2011 documented the 
+similar inequity of Brooklyn housing court and impact of eviction. 14 These reports were widely 
+covered by local media and drew public attention to the crisis of eviction and the injustice of the 
+housing court system. The Right to Counsel coalition was formed shortly after in 2014 and Intro 
+214 was introduced by Council Member Mark Levine in the New York City Council within the 
+same year. The coalition fought hard for three years, and Local Law 136 was eventually passed in 
+August 2017, establishing the first-in-the-nation Right to Counsel program in New York City.
+ 15 
+Local Law 136 required that the recently established Office of Civil Justice (OCJ) create a program 
+to provide full representation to all income eligible tenants and access to legal services to every 
+tenant facing eviction  in New York City  within five years , or by 2022. “ Full representation” is 
+defined as ongoing legal representation by a designated legal service provider that includes legal 
+advice, advocacy, and assistance, such as filing a notice of appearance on behalf of an “income -
+eligible” individual in a “covered proceeding.” An income-eligible tenant is one whose household 
+annual income does not exceed 200% of the federal poverty guidelines,16 or $53,300 for a family 
+of three in 2025.17 A covered proceeding is “any summary proceeding in housing court to evict a 
+covered individual, including a summary proceeding to seek possession for the non- payment of 
+rent or a holdover, or an administrative proceeding of the New York City Housing Autho rity for 
+termination of tenancy.” Additionally, under the RTC law, all tenants facing eviction, who live in 
+NYC and whose incomes exceed 200% of the federal poverty guidelines are entitled to “brief legal 
+assistance,” which is a single consultation by a le gal service provider in connection to a covered 
+proceeding.18  
+  
+[[p11]]
+Office of the New York City Comptroller Brad Lander     11 
+The law allowed for a five-year phase-in approach to implement the program. In the first year of 
+implementation, legal service providers were required to provide free “full representation” to all 
+“income-eligible” tenants facing eviction in Housing Court in 15 zip codes across NYC. According 
+to a 2018 OCJ report: 
+“These ZIP codes were targeted for services in this first phase of Universal Access 
+implementation based on factors including shelter entries from the ZIP code; the 
+prevalence of rent-regulated housing; the volume of eviction proceedings in the 
+ZIP code; whether the area was already being served through other HRA OCJ-
+funded legal services programs; and other factors of need.”19 
+OCJ expanded the program as planned, adding five zip codes in 2019 and 2020, before the Right 
+to Counsel  expansion was accelerated, two years earlier than the required, to provide full 
+representation in emergency cases during the pandemic. 20  However, by the end of 2023, legal 
+representation had declined to 40%. 
+[[p12]]
+  
+12     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Figure 1: Target ZIP codes for right-to-counsel implementation 
+ 
+ 
+Source: Right to Counsel NYC Coalition 
+[[p13]]
+Office of the New York City Comptroller Brad Lander     13 
+Impact of Right to Counsel in 
+New York City  
+ 
+Right to Counsel and other recent legislation  significantly expanded tenants’ rights in New York 
+City. In June 2019, the New York State Legislature passed the Housing Stability of Tenant 
+Protections Act (HSTPA), which closed loopholes that incentivized and enabled landlords to evict 
+tenants and permanently deregulate apartments.21 Legal service providers immediately saw the 
+positive impacts of HSTPA and RTC in housing court, as the new laws  reduced the incentives 
+landlords had to file frivolous  eviction cases, expanded tenant defenses, and increased the 
+number of tenants with legal representation. 
+RTC also empowered tenants  to better exercise their proactive rights rather than just fight 
+eviction, including demanding better housing conditions and rental abatements. A 2022 Right to 
+Counsel Coalition report, which conducted tenant focus groups, also found that the RTC law 
+reduced the stress levels of tenants facing eviction and increased tenants’ confidence.22 
+In 2019, the year HSTPA passed and RTC implementation had begun, eviction filings decreased by 
+22% and court-ordered evictions decreased to approximately 17,000.23 It is difficult to measure the 
+ongoing impact of these new protections because shortly after passage, the pandemic began and 
+eviction moratoria were established and extended from March 2020 until January 2022. 24 
+However, eviction filings decreased by nearly 49% between 2016 and 2024, dropping from 234,892 
+cases citywide to 119,834. While executed evictions have steadily increased since 2021, there has 
+still been a nearly 26% decrease between 2016 and 2024, dropping from 18,830 to 13,955.   
+Figure 2: Total residential eviction cases filed in housing courts 
+ 
+Source: Office of the NYC Comptroller analysis of data from Office of Court Administration Data published by Housing Data 
+Coalition 
+ 
+234,892 226,872 218,548
+171,526
+75,041
+42,109
+108,145
+132,550
+119,834
+0
+50,000
+100,000
+150,000
+200,000
+250,000
+2016 2017 2018 2019 2020 2021 2022 2023 2024
+[[p14]]
+  
+14     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Figure 3: Residential evictions conducted by NYC marshals (2017-
+2024) 
+ 
+Source: NYC Department of Investigation 
+Overall, New York City’s RTC program has increased representation rates in New York City 
+housing courts but many of the gains have been lost in recent years. Representation rates peaked 
+during the pandemic as eviction filings slowed and moratoria remained in place. By the end of 
+2021, 71% of tenants facing eviction citywide received legal representation in housing court, up 
+from 38% in 2020, and 30% in 2018.25 26  
+However, in January 2022, New York Housing Court fully reopened with a two -year backlog of 
+pandemic-era cases, leading to an enormous rise  of eviction filings, and undoing many of the 
+positive gains New York has made over the last decade in ensuring that tenants have adequate 
+legal representation in housing court. Rates of representation have consistently hovered below 
+50% since the spring of 2022 and  33,781 households have been evicted from their homes  since 
+New York’s eviction moratorium expired on January 15, 2022.27   
+18,721 17,895
+15,088
+2,659
+128
+3,785
+11,300
+13,908
+0
+2,000
+4,000
+6,000
+8,000
+10,000
+12,000
+14,000
+16,000
+18,000
+20,000
+2017 2018 2019 2020 2021 2022 2023 2024
+Executed residential evictions
+[[p15]]
+Office of the New York City Comptroller Brad Lander     15 
+Figure 4: Tenants’ rate of representation in eviction cases (by case 
+start date) 
+ 
+Source: Office of the NYC Comptroller analysis of data from Office of Court Administration Data published by Housing Data 
+Coalition 
+When tenants do receive full legal representation in housing court, they overwhelmingly avoid 
+eviction. According to data compiled from OCJ annual reports on RTC, between 2018 and 2023, 
+81% (34,751) of households that received legal representation were abl e to remain stably 
+housed. The rate is consistently higher in the Bronx, Brooklyn, and Manhattan where tenants are 
+more likely to be rent -regulated than in Queens and Staten Island where tenants are less likely 
+to be rent -regulated and therefore, prior to the passage of Good Cause eviction, had fewer 
+defenses in housing court.  
+ 
+  
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Jan 2016
+Apr 2016
+Jul 2016
+Oct 2016
+Jan 2017
+Apr 2017
+Jul 2017
+Oct 2017
+Jan 2018
+Apr 2018
+Jul 2018
+Oct 2018
+Jan 2019
+Apr 2019
+Jul 2019
+Oct 2019
+Jan 2020
+Apr 2020
+Jul 2020
+Oct 2020
+Jan 2021
+Apr 2021
+Jul 2021
+Oct 2021
+Jan 2022
+Apr 2022
+Jul 2022
+Oct 2022
+Jan 2023
+Apr 2023
+Jul 2023
+Oct 2023
+Jan 2024
+Apr 2024
+Jul 2024
+Oct 2024
+Jan 2025
+[[p16]]
+  
+16     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Figure 5: Tenants’ ability to remain following full representation  
+Fiscal Year Households Allowed 
+to Remain 
+Households 
+Required to Leave 
+% Allowed to 
+Remain 
+2018 7,847 1,497 81% 
+2019 10,636 2,021 81% 
+2020 4,469 744 83% 
+2021 1,511 284 81% 
+2022 3,722 1,041 72% 
+2023 3,095 600 81% 
+2023 3,291 403 89% 
+Total 34,571 6,590 81% 
+Source: Office of Civil Justice: “Universal Access to Legal Services” reports 
+Geographic Disparities in RTC Representation   
+New York City neighborhoods with the highest rates of low- income residents Black and brown 
+residents have the highest rates of eviction filings and executed evictions and the lowest rates of 
+legal representation in housing court.  
+Eviction filings are more common in neighborhoods where a greater portion of residents are 
+Black or Latine. This strong correlation holds citywide: for every additional 1 percent of residents 
+within a ZIP code who are either Black or Latine, the rate of eviction filings per 1,000 rental units 
+was 0.69% higher. Areas with highest rate of executed evictions include much of the Bronx, parts 
+of Inwood and Harlem, Central Brooklyn, and Southeast Queens – all ZIP codes where many 
+residents are Black and/or  Latine. Marshal-executed evictions were also overall more common 
+in areas where more of the population are Black and/or Latine , however this subset of evictions 
+is less geographically concentrated in those neighborhoods than are all eviction filings.  
+ 
+[[p17]]
+Office of the New York City Comptroller Brad Lander     17 
+Figure 6: Eviction Filings since March 2020 per 1,000 rental units, by 
+ZIP Code area 
+ 
+[Including all residential evictions filed from Mar 23, 2020 through April 19, 2025. Source: Office of the NYC Comptroller 
+analysis of data from Office of Court Administration Data published by Housing Data Coalition] 
+ 
+The top 10 ZIP codes with the highest rate of filed evictions are all in the south and central Bronx 
+(see table below). More than half (54%) of families across these neighborhoods earn below 200 
+percent of the poverty level. Nearly two -thirds of the reside nts within this area are Latine and 
+additional 28% are Black. (In total, 93% of the residents within this area are either Latine or Black). 
+Additionally, areas where a greater portion of families earn below 200% of the poverty level 
+($53,300 for a family o f three) – and thus should be eligible for full representation —  also saw a 
+higher rate of eviction filings. Nearly all ZIP codes where most families earn below 200% of the 
+poverty level are in the Bronx and these areas also had among the highest rates of eviction filings.   
+
+[[p18]]
+  
+18     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Figure 7: Top 10 ZIP codes by rate of eviction filings 
+Rank ZIP Code Neighborhood Borough 
+Eviction ﬁlings (total 
+since 2020) per 1,000 
+rental units 
+1 10452 Highbridge, Concourse Bronx 427.0 
+2 10468 Kingsbridge Heights, University 
+Heights Bronx 417.9 
+3 10457 Claremont, Mt. Hope, Tremont, 
+East Tremont Bronx 411.6 
+4 10453 Morriss Heights, University 
+Heights Bronx 387.6 
+5 10458 Fordham, Belmont Bronx 378.8 
+6 10460 West Farms, East Tremont, 
+Crotona Park East Bronx 366.8 
+7 10459 Longwood Bronx 359.5 
+8 10456 Morrisania, Claremont Village, 
+Concourse Bronx 355.7 
+9 10474 Hunts Point Bronx 345.8 
+10 10451 Concourse Village Bronx 330.5 
+Source: Office of the NYC Comptroller analysis of data from Office of Court Administration Data published by Housing Data 
+Coalition 
+Legal service providers are struggling to keep up with the volume of eviction filings in the Bronx. 
+As the rate of representation in the Bronx has steadily declined since 2021, down from 81% in Q4 
+of that year to just 31% in Q4 of 2024.   
+[[p19]]
+Office of the New York City Comptroller Brad Lander     19 
+Figure 8: Rate of representation by year and borough 
+ 
+Source: NYC OCJ https://www.nyc.gov/assets/hra/downloads/pdf/services/civiljustice/OCJ_Annual_Report_2024.pdf 
+While evictions are concentrated in low-income neighborhoods, the Community Service Society 
+(CSS) recently found that moderate -income households are also facing increased eviction 
+attempts.28 This is likely due to skyrocketing rents across the city creating financial hardships and 
+lack of eligibility for means-tested programs such as Right to Counsel. According to CSS, over 58% 
+of residents experiencing an eviction attempt had no prior evictio n history – an indicator that 
+while evictions remained concentrations in low-income communities of color, housing precarity 
+is expanding to broader populations across the city.29 
+ 
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+FY20 Q1-2 FY21 Q4 FY22 Q4 FY23 Q4 FY24 Q4
+Citywide Bronx Brooklyn Manhattan Queens Staten Island
+[[p20]]
+  
+20     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Barriers in Implementing Right to 
+Counsel in New York City 
+ 
+Evictions in New York City have been occurring at rates comparable to before the pandemic and 
+while eviction filings remain below pre-pandemic levels, the rapid increase has created 
+challenges in the citywide implementation of RTC. In FY 2024, legal service providers were only 
+able to offer full representation to 42% of eligible households facing eviction.  
+Inadequate Funding 
+Although the City has significantly increased its investment in tenant legal services and eviction 
+defense since the passage of RTC,  funding remains woefully inadequate. Local Law 136 of 2017 
+states the OCJ shall establish a RTC program “[s] ubject to appropriation[.]” 30 This language 
+implies that funds for RTC are not guaranteed and are subject to approval by the Mayor and City 
+Council each fiscal year . Despite ongoing pressure from tenants, organizers, legal service 
+providers and members of the New York City Council, the City budget continues to  fall short of 
+providing the funding needed to fulfill the mandate.  
+Figure 9: City Spending on Access Counsel ($ in millions) 
+ 
+Source: NYC Financial Management System 
+  
+
+[[p21]]
+Office of the New York City Comptroller Brad Lander     21 
+This comes at a time when the City is struggling to timely register contracts and pay vendors for 
+work completed. In a recent report, the Comptroller’s Office analyzed delays in payments to 
+human services providers, finding that almost all agencies took over six months to make a first 
+payment to their vendors, including the Department of Social Services , where Right to Counsel  
+funding originates. DSS has 190 contracts valued at over $1.3 billion with start dates that have 
+already passed but are still awaiting registration.31 
+Analysis of Right to Counsel Contracts and Funding  
+The Comptroller’s Office conducted an internal review of dozens of contracts procured by the 
+Department of Social Services’ Human Resources Administration, which oversees the Office of 
+Civil Justice, for Right to Counsel legal service organizations between FY 2019 and FY 2025.  
+The City’s contracts with RTC providers include yearly minimum goals measured in “units of 
+service” (UOS) that the organization must meet to fulfill contract requirements. The contracts 
+include a minimum of full representation that each provider must take on within each fiscal year 
+as well as an allowance for the provision of brief legal services, to which every tenant facing 
+eviction is entitled to through the passage of Local Law 136. Between Fiscal Years 2019 and 2021, 
+one brief legal consultation was eq ual to one -fifth of a UOS and between Fiscal Year 2022 and 
+2024 one brief legal consultation was equal to one-third of a UOS. 
+Figure 10: Contractual Units of Service by Borough, 2019-2024 
+ 
+Source: NYC Comptroller analysis of Right to Counsel contracts 
+0
+10,000
+20,000
+30,000
+40,000
+50,000
+60,000
+70,000
+2019 2020 2021 2022 2023 2024
+Bronx Brooklyn Manhattan Queens Staten Island Brief Legal Services
+[[p22]]
+  
+22     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Figure 11: Contractual Units of Service by Borough, 2025-2027 
+ 
+Source: NYC Comptroller analysis of Right to Counsel contracts 
+According to City contracts, the number of full representation cases legal service providers were 
+expected to litigate for low -income tenants facing eviction increased by 61% from Fiscal Year 
+2019 to Fiscal Year 2022 when the RTC program shifted from a zip code model to citywide 
+expansion. The number of brief legal services  RTC providers were expected to provide to any 
+New York City tenant facing eviction increased exponentially between FY 2019 and FY 2024 — by 
+475%. 
+In August 2023, the City of New York released an RFx for Anti -Eviction services. The RFx 
+anticipated providing $408M in funding for Fiscal Y ears 2025 -2027 to cover full representation 
+for 44,000 cases each year. This funding would have  resulted in a case rate of approximately 
+$3,063 per case, a number far below what legal service providers indicate is needed to be able 
+to adequately cover their costs. In addition to having an insufficient case rate , the funding 
+allocation does not track with the number of tenants each year facing eviction who are eligible 
+for full representation, which legal service providers estimate to be nearly 71,000 households.  
+In addition to a case rate and overall funding that fails to meet the need, legal service providers 
+also state that the new contracts disincentive them from taking more complicated cases by not 
+allowing them to roll over cases between fiscal years and financially penalizing providers if they 
+do not meet service targets. The current intake process and performance metrics also decrease 
+legal service providers ’ discretion. Providers used to be able to evaluate  in which cases to take 
+on by prioritizing such factors as length of tenancy,  the client’s age, whether they have any 
+disabilities, or if they are a single parent. Today, providers must accept all cases that come 
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+2025 2026 2027
+Bronx Brooklyn Manhattan Queens Staten Island
+[[p23]]
+Office of the New York City Comptroller Brad Lander     23 
+through the court intake process, diminishing their ability to make considerations that center 
+equity.  
+What’s more, according to RTC providers, the current level of City funding only covers between 
+60-80% of their current operational costs. Legal service providers have had to seek discretionary 
+and philanthropic funding to make themselves whole, despite this program being a City mandate. 
+Housing advocates and the legal aid community have called for the City to allocate $350 million 
+into the budget to ensure quality legal services for tenants and maintain a sustainable housing 
+rights practice for RTC providers.
+32  
+New York City and State officials must work together to fairly allocate resources that ensure the 
+success of this program. This can include passing the statewide Right to Counsel bill 33 and the 
+State appropriating at least half of the costs of implementing a statewide program. Without 
+significant investments to the program from all levels of government, NYC’s Right to Counsel 
+program will continue to be an unfunded mandate. 
+Recruitment, Hiring, and Retention Challenges  
+During the first two years of citywide expansion, workers were quitting their jobs at the highest 
+rates the United States has seen in two decades.
+34 According to RTC providers, legal service 
+organizations lost 20-55% of their staff during this period and attrition rates remain high.  
+Frequent staff turnover h as a negative effect on the provision of legal services. When housing 
+attorneys leave their organization, their cases are transferred to remaining staff, who may be less 
+experienced or may already have high caseloads, increasing burnout and exacerbating attr ition. 
+Over 90% of the non-profit legal service attorneys doing RTC work are unionized (either in UAW 
+Local 2325 or UAW Local 2320). 
+A 2023 OCA report determined that an experienced full -time attorney should be assigned a 
+maximum 48 cases per year.35 However, the RTC caseload per attorney ranged from 50-80 cases 
+in 2023 according to service providers. RTC providers note that the OCA report does not factor in 
+other work that attorneys are doing, such as administrative work and brief legal services, and it 
+also does not consider that many of the attorneys working in housing court are recent law 
+graduates, many of whom are still training and are unable to meet that case standard in their 
+first year.  Several stakeholders with whom the Comptroller’s office spoke indicated that the 
+sustainable case assignments for attorneys is lower than the number determined by the OCA 
+report and that thresholds for individual attorneys must differentiate between new intakes and 
+how many cases an attorney is carrying overall.  
+Non-competitive salaries and limited opportunities to litigate other cases outside of eviction 
+defense cases are also partially to blame for low retention rates. According to the Bureau of Labor 
+Statistics, the average annual salary for New York City lawyers was $193,000 in 2023.36 Nonprofit 
+legal service providers contracted by the City are competing with corporations and government 
+agencies for talent with significantly fewer resources. Ma ny skilled and seasoned civil attorneys 
+leave after a few years of service in the legal services field, not to go into private practice, but to 
+do similar public service work for the City of New York or other government agencies. Ensuring 
+[[p24]]
+  
+24     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+competitive salaries between the public sector and the legal services sector can help us have a 
+more balanced, reciprocal relationship of talent sharing and professional growth. Staff attorneys 
+implementing the Right to Counsel program currently earn between $74,000-$90,000 per year.  
+A 2020 American Bar Association Report found that, on average, law school students graduate 
+with over $160,000 in student debt.
+37 Noncompetitive salaries combined with astronomical 
+student loan debt and NYC’s high cost of living in NYC make it extremely difficult to attract 
+talented attorneys to public interest law.  
+Delays at Human Resources Administration in 
+Processing Benefits Applications 
+Similarly, staffing at the Department of Social Services (DSS) has been trending downwards, with 
+a steep (1 7%) drop between 2020 and 2025 . As a result, DSS, which oversees the provision of 
+public assistance and legal services to New Yorkers, has experienced major delays in delivering 
+these critical services over the last two years. Rather than focusing on restaffing the agency, since 
+2022, the Adam’s Administration’s Program to Eliminate the Gap  (PEG), has removed nearly 
+2,900 positions from the DSS budget.  
+Delays at HRA in processing rental assistance applications, like One Shot Deals, have prevented 
+attorneys from closing cases sooner and finding a resolution for their clients. According to RTC 
+providers, before the pandemic, HRA processed One Shot Deal applications within 30 -60 days. 
+Now, HRA takes 10-12 months to process an application and distribute funds. This is likely due to 
+staffing shortages at the agency. Prior to the pandemic, HRA published monthly Benefit Access 
+Center reports, sometimes referred to as JobStat, which provided key indicators on processing 
+timeliness. These reports have not been published since February 2020.38  
+[[p25]]
+Office of the New York City Comptroller Brad Lander     25 
+Figure 12: Dept. Of Social Services Actual Headcount vs Adopted 
+Budget 
+ 
+Source: NYC Agency Staffing Dashboard, Office of the NYC Comptroller 
+According to the Comptroller report, “Title Vacant,” in 2022, DSS had a vacancy rate of 20% and 
+a 52% vacancy rate in its legal services division. These staff shortages and cuts by the Mayor’s 
+Program to Eliminate the Gap (PEG) occurred as Right to Counsel began and expanded citywide, 
+and as the City announced major reforms to the City’s rental assistance program, CityFHEPS. 
+Homebase providers, who process CityFHEPS applications, are also facing similar challenges with 
+limited funding and capacity. With 80 -90% of eviction filings being for nonpayment, these 
+programs are essential to keeping low-income tenants stably housed. However, the delays create 
+immense stress for tenants and further strain the legal aid community, reducing their capacity to 
+take on new cases and provide legal services to more at-risk households.  
+Brooklyn Administrative Pilot is Promising but 
+Needs Evaluation Prior to Expansion  
+In 2023, HRA launched  the Brooklyn Administrative Pilot to help tenants access the legal and 
+social services they need to avoid housing displacement. According to a 2023 OCJ report, “ the 
+pilot co -located HRA homelessness prevention services in the courthouse to further assist 
+individuals in active eviction proceedings at their first appearances. Granted a 45 -day 
+adjournment by the court, individuals visit the HRA team at the courthouse to initiate 
+applications for emergency cash assistance ‘one-shot deals,’ rental assistance or other benefits 
+that could address housing concerns.”39 
+14,689 14,673 14,510
+13,657 13,634
+13,023
+12,134 12,131
+13,214 13,037
+12,771
+12,480
+12,050
+11,254
+10,493
+10,947 10,978
+10,000
+10,500
+11,000
+11,500
+12,000
+12,500
+13,000
+13,500
+14,000
+14,500
+15,000
+2017 2018 2019 2020 2021 2022 2023 2024 2025
+Budgeted Headcount Actual Headcount (Average)
+[[p26]]
+  
+26     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+The Brooklyn Administrative Pilot is an innovative idea that grants tenants more time to secure 
+legal counsel and other public benefits. After their initial court appearance, tenants are sent to 
+HRA, where they often spend hours waiting for assistance due to inadequate staffing. Then they 
+are sent to another floor to meet with a legal service provider that screens them for RTC. 
+However, by the time to are sent to a legal service provider it is typically very late in the day and 
+slots for full legal representation have often been filled. Advocates argue that while the Brooklyn 
+Administrative pilot has the potential to address some of the challenges cited in this report, in 
+practice, it has caused great confusion among tenants, as they do not have a clear understanding 
+of who they are meeting and why they are being sent to different parts of the courthouse.  When 
+RTC was first implemented, advocates said that legal service providers and OCJ were always in 
+the court hallways educating tenants on the new law and their rights. Due to capacity issues and 
+lack of coordination, these outreach services in housing court no longer exist. 
+While an automatic 45-day adjournment is a major lifeline for tenants facing eviction, advocates 
+argue that HRA is not doing its due diligence to fact check the rental debt claimed by the landlord 
+or to investigate the inhabitable housing conditions claimed by the tenant before paying off their 
+rental arrears. Rather than immediately paying rental arrears for te nants, HRA should negotiate 
+with landlords with major habitability violations and secure rental abatements for tenants as 
+outlined under State law.
+40 Legal counsel is also not guaranteed , as RTC providers continue to 
+have large caseloads all year round. For tenants in Housing Court who are income eligible for 
+Right to Counsel, luck plays a larger role than need in determining who receives full legal 
+representation. 
+Advocates and legal service providers have called for a greater HRA and OCJ presence in Housing 
+Court to inform tenants they have a Right to Counsel. They also urge the City to accelerate the 
+processing of One -Shot Deals, only after housing code violations  and habitability concerns are 
+addressed.  
+ 
+[[p27]]
+Office of the New York City Comptroller Brad Lander     27 
+Recommendations  
+ 
+Right to Counsel, tenant protections, and rental assistance have been critical tools in the City’s 
+fight against homelessness. During the COVID -19 pandemic, preventing massive housing 
+displacement during a public health emergency became a priority for lawm akers, New York City 
+eviction rates fell to nearly zero. At the same time, the City shifted the RTC program from a zip 
+code model to citywide expansion, despite disconcerting staffing shortages at DSS and legal 
+service organizations. Tenant representation rates have fallen, threatening the housing stability 
+of thousands of low-income New Yorkers. To ensure that the intention of Local Law 136 is fulfilled 
+and that all tenants are adequately represented in housing court, the Comptroller’s Office 
+recommends the following: 
+• Develop and implement a strategic plan to f ulfill the City’s Right to Counsel mandate 
+providing 100% of eligible low -income New Yorkers facing eviction with legal counsel  
+within 5 years. To deliver on the City’s Right to Counsel mandate, the City should work 
+directly with legal service providers, advocates, and tenants to develop a full 
+implementation plan, including a clear timetable for increased funding needed to hire and 
+retain the staff needed to create a true RTC program in New York City. The funding must 
+recognize the true cost of the program and allow legal service providers to assign 
+manageable caseloads and pay competitive rates that support the recruitment and 
+retention of attorneys and support staff, including interpreters, social workers, 
+paralegals, intake specialists, and benefit associates. The City should recognize that Local 
+Law 136 was intended to establish a right to counsel for eligible individuals in housing 
+court and enter into contracts with legal service providers that are comparable to criminal 
+legal services as such.    
+• Reform RTC contracts to ensure legal service providers have the capacity to deliver on 
+contract requirements:   
+o Reform the contracting process and pay service providers on -time. In the midst 
+of a growing funding crisis  for the non-profit sector, the City should immediately 
+implement the recommendations put forth by the Comptroller’s Office in 
+Nonprofit, Nonpayment, including deadlines for contract registration and fulfilling 
+the promise of ContractStat to ensure these c ritical nonprofits get paid on time 
+and in full. 41 In addition to these recommendations the City should also modify 
+existing RTC contracts to:  
+ Eliminate or reform the 10% penalty, which withholds essential funds to 
+legal service providers if certain performance targets aren’t met, to ensure 
+that speed and case disposition is not prioritized over meaningful advocacy 
+and representation.   
+[[p28]]
+  
+28     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+ Account for rollover cases. City contracts that funded RTC prior to FY 25, 
+allowed for legal service providers to roll over cases from year to year 
+towards their performance targets.  
+ Allow legal service providers the flexibility to include the provision of brief 
+legal advice as part of their performance requirements.   
+ Reform reporting requirements to reduce administrative burdens and 
+ensure that they accurately capture the work on the ground.  
+• Invest in the capacity of the City’s nonprofit legal services sector and workforce.  
+o In order to recruit, hire, and retain more attorneys, paralegals, social workers and 
+support staff, the City must fund these positions and explore creative ways to 
+incentivize new and experienced lawyers to become housing attorneys. The City 
+should partner with CUNY Law and other law schools to create fellowship 
+programs and loan forgiveness opportunities  that inspire students to pursue a 
+career in housing law and tenant legal services.   
+o  To alleviate the pressures providers face when training new attorneys while fully 
+staffing housing courts, t he City should work collaboratively with tenants, 
+attorneys, and organizers to develop a standardized curriculum for new tenant 
+legal services work.  
+• Invest in programs that provide upstream solutions to prevent evictions and relieve the 
+pressure on RTC providers:  
+o Reduce the number of people facing evictions via improved and expanded 
+Homebase contracts
+e that provide financial assistance and support to individuals 
+and families before an eviction case is filed.    
+o Increase funding for tenant organizing and social services. Addressing the root 
+causes that led to an increase in eviction proceedings takes more than just 
+immediate legal representation. Ensuring that legal service providers and partner 
+organizations have  adequate resources to assist clients in reaching stronger 
+economic footing such as enrolling in programs like the Senior Citizen Rent 
+Increase Exemption (SCRIE), cash assistance or workforce programs can be 
+essential to their long-term success.  
+o Create a court-based rental assistance program that ensures New Yorkers facing 
+eviction who are not eligible for one -time cash assistance can remain stably 
+housed.    
+ 
+e Homebase is a homelessness prevention program funded by the City. Households are provided services, 
+including accessing one-shot deals, other forms of cash assistance, landlord mediation, and other services that can 
+help New Yorkers avoid eviction as they navigate a housing crisis.  
+[[p29]]
+Office of the New York City Comptroller Brad Lander     29 
+o Evaluate, strengthen and expand the Brooklyn Administrative Pilot, a program 
+designed to increase representation rates, reduce evictions, and promote housing 
+stability. Publicly report on the outcomes of the pilot and include feedback from 
+legal service providers, organizers, and tenants. HRA and OCJ should create 
+metrics to assess the program, screen all tenants in housing court for RTC 
+eligibility, and facilitate the timely processing of rental assistance and other public 
+benefits within the 45-day adjournment after a tenant’s first court appearance. If 
+deemed successful, the City should immediately expand the pilot program to 
+other boroughs, beginning in the Bronx which has the highest eviction rates. Using 
+lessons learned from the Brooklyn Administrative Pilot, the City should establish a 
+citywide court-based rental assistance program with RTC providers and HRA staff. 
+• Reverse cuts to DSS that have resulted in serious delays in the processing of one -shot-
+deals and other forms of assistance that help tenants avoid eviction.  
+o DSS should hire more HRA staff to improve the processing time of CityFHEPS 
+applications, as well as One Shot Deals. The City should also allocate more 
+resources to community based organizations , who are helping low -income 
+tenants access housing assistance programs, job training, and other strategies to 
+raise their incomes. Doing so will reduce the strain on legal service providers in 
+Housing Court, reduce the negative consequences on a tenant’s mental health 
+that an eviction or shelter stay can have on a household, and produce many cost 
+savings on the City’s Right to Counsel program and shelter system. 
+o HRA should play a more coordinated role in screening tenants for eligibility for 
+RTC. Providers say that HRA sends them cases that shouldn’t move forward, 
+including tenants who have gotten all their rental arrears paid and have resolved 
+their cases. Clear breakdowns of services HRA provided to tenants would be 
+helpful for providers, so they do not move cases forward that already have 
+resolution and alleviate some of their capacity issues.  
+• The State should do its fair share to prevent evictions and confront the City’s 
+homelessness crisis:  
+o Pass the Statewide Right to Counsel law (S2721) and fund 50% of the cost of RTC 
+for jurisdictions across the State, including New York City. 
+o Increase funding for Housing Access Voucher Program (HAVP) in the 2027 budget 
+to at least $250M. 
+o Reverse Cuomo-era budgeting that shifted the cost of single adult shelter onto the 
+City to create more funding flexibility for prevention measures such as RTC.  
+ 
+ 
+[[p30]]
+  
+30     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Conclusion  
+ 
+The City’s Right to Counsel is not just about winning cases –  it fundamentally changes the 
+relationship between landlords and tenants inside and outside of Housing Court. With the right 
+to representation, tenants can be more emboldened to fight for their homes. Right to Counsel 
+not only helps individual tenants remain stably housed but also helps push back against broader 
+displacement – especially in the predominantly low -income communities of color with the 
+highest levels of eviction filings.  
+The data makes clear that Right to Counsel is one of the City’s most successful eviction prevention 
+policies, with 89% of tenants with representation able to remain in their homes. However, the 
+City’s failure to fully implement the Right to Counsel with ad equate funding and resources 
+undermines this highly successful program. With rates of representation dropping –  
+disproportionately in the neighborhoods facing the most displacement pressures – tenants are 
+left highly vulnerable to a preventable eviction.  
+The City and State must act now to fully implement the Right to Counsel with proper funding, 
+support for the legal service provider community with more manageable caseloads, and strength 
+the capacity of the Department of Human Resources to prevent evictions in the first place. When 
+tenants have the tools to fight unlawful evictions and stay in their homes, we reduce entries into 
+the shelter system — making Right to Counsel not just a legal safeguard, but a critical 
+homelessness prevention strategy. 
+ 
+ 
+[[p31]]
+Office of the New York City Comptroller Brad Lander     31 
+Acknowledgements 
+Jade Vasquez, former Policy Analyst, was the lead author of this report with support from Celeste 
+Hornbach, Assistant Comptroller for Housing Policy, Robert Callahan, Director of Policy Analytics,  
+Daniel Levine, Senior Data Analyst and Products Manager, and Nicole Krishtul, S enior Strategic 
+Housing Organizer  and Policy Analyst . Report design was completed by Archer Hutchinson, 
+Creative Director. The Office of the New York City Comptroller thanks the Right to Counsel 
+Coalition and the 13 legal aid organizat ions that took the time and consideration to discuss the 
+successes and challenges of implementing NYC’s landmark Right to Counsel program.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[[p32]]
+  
+32     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Methodology  
+ 
+To better understand and address the challenges facing the RTC program, the Comptroller’s 
+Office reviewed all City contracts with RTC providers from Fiscal Years 2019 -2023, conducted 
+qualitative interviews with 1 3 legal service providers, participated in the Right to Counsel 
+Coalition’s court watch program in Bronx and Brooklyn Housing Courts, and analyzed OCA data, 
+budget data, and OCJ annual reports.  
+To better understa nd the challenges facing the R ight to Counsel (RTC)  program and the gaps 
+between the demand and provision of tenant legal services in New York City , the Comptroller’s 
+Office conducted an internal review of  all City contracts procured by the Department of Social 
+Services/ Human Resources Administration to  RTC providers from Fiscal Years 2019 -2023. The 
+Office calculated all the legal service providers’ annual service targets, including full 
+representation and brief legal services, for contra cts procured under the “Homelessness 
+Prevention Law Project (HPLP).” We then compared the contracts’ service targets to the number 
+of households served reported by the Office of Civil Justice (OCJ) in its 2023 Universal Access 
+Annual Report, and then compa red those figures to the total eviction filings provided by New 
+York’s Office of Court Administration. The Office calculated the total annual spending for RTC 
+contracts using the Checkbook NYC tool and compared it to the annual budget for Right to 
+Counsel and tenant legal services released in OCJ’s annual reports and Terms and Conditions 
+documents. 
+The Comptroller’s Office also  conducted qualitative interviews with  the 13 legal service 
+organizations contracted under HPLP, also known as Right to Counsel, to gain a first -hand 
+perspective of the challenges and successes of implementing the RTC program. Through these 
+interviews the Office confirmed salaries of attorneys and support staff, av erage caseloads per 
+attorney, and gaps in funding between what the organizations receive from the City to represent 
+tenants in housing court and provide brief legal assistance and the true full costs of implementing 
+the program.  The Office also participated in the Right to Counsel Coalition’s court watch program 
+in Bronx and Brooklyn Housing Courts  to witness the tenant experience, observing long lines to 
+enter housing court and eligible tenants both receiving and being denied access to counsel. 
+Rates of filed evictions by ZIP code were computed using data from the Office of Court 
+Administration (OCA), collected and distributed by the Housing Data Coalition. 42 This report 
+followed the methodology of Right to Counsel Coalition, counting as eviction filings all cases for 
+non-payment or holdover in residential buildings filed within any of the Housing Courts within 
+New York City. This number of filings was normalized by the total number of tax lots containing 
+more than one residential unit (an approximation of the total number of rental housing units). 
+Because the OCA data provide only ZIP code as location information, this analysis was performed 
+at that geographic level.  
+Rate of representation was also computed from the OCA data. This computation counts all 
+eviction cases which have had two or more court appearances. Each case is counted as having a 
+represented tenant if the tenant appears with counsel at any appearance. C ases are counted 
+[[p33]]
+Office of the New York City Comptroller Brad Lander     33 
+within the month they are first filed. The rate is computed as the number cases in which tenants 
+are represented, divided by the total number of cases (with two or more appearances). Months 
+with fewer than 100 total cases are excluded. 
+Marshal-executed evictions are summarized from data on NYC OpenData. 43 Duplicated records 
+– those with identical executed data, eviction address, and eviction apartment number, or 
+identical court index number and docket numbers, were removed before summing the yearly 
+counts. 
+Demographic (race and income) data  on neighborhoods was the highest eviction filings was 
+sourced from the U.S. Census 2021 5-year American Community Survey. Evaluation of the overall 
+relationship between the portion of the population who are Black and the eviction filing rate was 
+performed using a spatially-lagged regression at the ZIP code level. 
+ 
+ 
+[[p34]]
+  
+34     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+Endnotes
+ 
+1 Universal Access to Legal Services: A Report on Year Six Implementation in New York City, NYC  
+Office of Civil Justice, February 2024, 
+https://www.nyc.gov/assets/hra/downloads/pdf/services/civiljustice/OCJ_UA_Annual_Report_
+2023.pdf. 
+2 Data from the New York State Office of Court Administration via the OCA Data Collective in  
+collaboration with the Right to Counsel Coalition. 
+3 Data from the New York State Office of Court Administration via the OCA Data Collective in  
+collaboration with the Right to Counsel Coalition. 
+4 IBID. 
+5 Mironova, Oksana; Stein, Samuel; Thompson, Iziah. “Preventing Eviction in New York State: A 
+Snapshot of What Works and What Doesn’t.” Community Service Society of New York. March 
+2025. https://smhttp-ssl-
+58547.nexcesscdn.net/nycss/images/uploads/pubs/031825_AnnualSurvey2024_Eviction_repor
+t_V7.pdf   
+6 Data from the New York State Office of Court Administration via the OCA Data Collective in  
+collaboration with the Right to Counsel Coalition. 
+7 IBID. 
+8 Mironova, Oksana; Stein, Samuel; Thompson, Iziah. “Preventing Eviction in New York State: A 
+Snapshot of What Works and What Doesn’t.” Community Service Society of New York. March 
+2025. https://smhttp-ssl-
+58547.nexcesscdn.net/nycss/images/uploads/pubs/031825_AnnualSurvey2024_Eviction_repor
+t_V7.pdf   
+9 “Job State Reference Guide – 15.0.” Office of Planning and Performance Management, New 
+York City Human Resources Administration. job_stat_guide.pdf  
+10 “Nonproft, Nonpayment”, New York City Comptroller, April 29, 2025, 
+https://comptroller.nyc.gov/reports/nonprofit-nonpayment/ 
+11 1972 N.Y. Laws ch. 982, currently codified at CITY Civ. CT. AcT § 110 (McKinney Supp. 1978- 
+79), New York State Senate, https://www.nysenate.gov/legislation/laws/CCA/110. 
+ 
+[[p35]]
+Office of the New York City Comptroller Brad Lander     35 
+ 
+12 2016 Annual Report, New York City Office of Civil Justice, June 2016,  
+https://www.nyc.gov/assets/hra/downloads/pdf/services/civiljustice/OCJ_Annual_Report_201
+6.pdf. 
+13 “Tipping the Scales: A Report of Tenant Experiences in Bronx Housing Court.” New Settlement 
+Apartments’ Community Action for Safe Apartments and the Community Development Project 
+at the Urban Justice Center. March 2013. https://www.rtctoolkit.org/docs/2/Report-CASA-
+TippingScales-full-201303.pdf  
+14 “Home Court Advantage: How Landlords Are Winning and Tenants are Losing in Brooklyn 
+Housing Court.” Make the Road. December 2011.  
+https://www.rtctoolkit.org/docs/2/Home-Court-Advantage-12.13.11.pdf    
+15 Int 0214-2014, The New York City Council, Enacted August 11, 2017,  
+https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=1687978&GUID=29A4594B-9E8A-
+4C5E-A797-96BDC4F64F80. 
+16 Local Laws of the City of New York for the Year 2017: No. 136. 
+17 “2023 Poverty Guidelines: 48 Contiguous States (all states except Alaska and Hawaii),” U.S.  
+Department of Health and Human Services: Office of the Assistant Secretary for Planning and 
+Evaluation, updated January 2022, 
+https://aspe.hhs.gov/sites/default/files/documents/1c92a9207f3ed5915ca020d58fe77696/det
+ailed-guidelines-2023.pdf. 
+18 Local Laws of the City of New York for the Year 2017: No. 136. 
+19 “Universal Access to Legal Services: A Report on Year One of Implementation in New York  
+City,” New York City Office of Civil Justice, 2018. 
+20Annual Report, Office of Civil Justice, 2021,  
+https://www.nyc.gov/assets/hra/downloads/pdf/services/civiljustice/OCJ_Annual_Report_202
+1.pdf. 
+21 NY State Senate Bill 2019-S6458, The New York State Senate, Enacted June 14, 2019,  
+https://www.nysenate.gov/legislation/bills/2019/S6458. 
+22 “Organizing is Different Now: How the Right to Counsel Strengthens the Tenant Movement in  
+ 
+[[p36]]
+  
+36     Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel 
+ 
+New York City,” Right to Counsel Coalition and TakeRoot Justice, March 2022, 
+https://assets.nationbuilder.com/righttocounselnyc/pages/1334/attachments/original/164756
+2375/Organizing_is_Different_Now_FINAL.pdf?1647562375. 
+23 Evictions, NYC Open Data, last accessed March 8, 2024. 
+24 H.R.748 - CARES Act, 116th Congress (2019-2020), Enacted March 27, 2020,  
+https://www.congress.gov/bill/116th-congress/house-bill/748. 
+25 “Universal Access to Legal Services A Report on Year Four of Implementation in New York  
+City,” Office of Civil Justice, 2021, 
+https://www.nyc.gov/assets/hra/downloads/pdf/services/civiljustice/OCJ_UA_Annual_Report_
+2021.pdf. 
+26  “Universal Access to Legal Services: A Report on Year One of Implementation in New York  
+City,” New York City Office of Civil Justice, 2018. 
+27 “NYC Crisis Monitor,” Right to Counsel NYC Coalition, 
+https://www.righttocounselnyc.org/nyccrisismonitor. 
+28 Mironova, Oksana; Stein, Samuel; Thompson, Iziah. “Preventing Eviction in New York State: A 
+Snapshot of What Works and What Doesn’t.” Community Service Society of New York. March 
+2025. https://smhttp-ssl-
+58547.nexcesscdn.net/nycss/images/uploads/pubs/031825_AnnualSurvey2024_Eviction_repor
+t_V7.pdf  
+29 IBID.  
+30 Local Laws of the City of New York for the Year 2017: No. 136,  
+https://nyc.legistar1.com/nyc/attachments/0fedc614-f8c9-44d5-8b41-44518c1365a5.pdf. 
+31 “Nonproft, Nonpayment”, New York City Comptroller, April 29, 2025, 
+https://comptroller.nyc.gov/reports/nonprofit-nonpayment/ 
+32 “Civil Legal Service Providers of New York City Concept Paper: Right to Counsel in Eviction  
+Proceedings,” Updated April 4, 2023. 
+33 NY State Senate Bill S2721, The New York State Senate, Introduced January 24, 2023, 
+https://www.nysenate.gov/legislation/bills/2023/S2721. 
+34 Monthly Labor Review: “The ‘Great Resignation” in perspective,” U.S. Bureau of Labor  
+ 
+[[p37]]
+Office of the New York City Comptroller Brad Lander     37 
+ 
+Statistics, July 2022,   
+https://www.bls.gov/opub/mlr/2022/article/the-great-resignation-in-perspective.htm. 
+35 Universal Access to Justice Caseload Working Group Report and Recommendations,” NYS  
+Office of Court Administration, August 31, 2023,    
+https://citylimits.org/wp-content/uploads/2023/09/UA-Caseload-Working-Group-Report-and-
+Recommendations_08312023.pdf. 
+36 Occupational Employment and Wages: Lawyers, U.S. Bureau of Labor Statistics, May 2022  
+https://www.bls.gov/oes/current/oes231011.htm#st. 
+37 “2020 Student Loan Debt Survey Report,” American Bar Association, 2020   
+https://www.americanbar.org/content/dam/aba/administrative/young_lawyers/2020-student-
+loan-survey.pdf. 
+38 “Job State Reference Guide – 15.0.” Office of Planning and Performance Management, New 
+York City Human Resources Administration. job_stat_guide.pdf  
+39 “Universal Access to Legal Services: A Report on Year Six of Implementation in New York  
+City,” New York City Office of Civil Justice, 2023. 
+40 SECTION 235-B Warranty of habitability Real Property (RPP) CHAPTER 50, ARTICLE 7, The New  
+York State Senate, Enacted September 22, 2014, 
+https://www.nysenate.gov/legislation/laws/RPP/235-B. 
+41 “Nonproft, Nonpayment”, New York City Comptroller, April 29, 2025, 
+https://comptroller.nyc.gov/reports/nonprofit-nonpayment/ 
+42 Data from the New York State Office of Court Administration via the OCA Data Collective in 
+collaboration with the Right to Counsel Coalition. https://github.com/housing-data-
+coalition/oca  
+43 “Evictions.” New York City Open Data. https://data.cityofnewyork.us/City-
+Government/Evictions/6z8x-wfk4/about_data  
+[[p38]]
+   
+ 
+ 
+ 
+ 
+  
+
+[[p39]]
+Office of the New York City Comptroller Brad Lander     39 
+ 
+ 
+ 
+1 Centre Street, New York, NY 10007 
+www.comptroller.nyc.gov 
+ @NYCComptroller 
+(212) 669-3916 

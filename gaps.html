@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lines with no public count · The Waiting City</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="house.css">
+<style>
+:root{--ink3:#7a4f2f}
+.doc{max-width:78ch;padding:18px 26px 40px}
+.doc h2{font-family:var(--display);font-size:1.5rem;letter-spacing:-.02em;margin:26px 0 8px;line-height:1.15}
+.doc h3{font-family:var(--display);font-size:1.15rem;margin:22px 0 6px}
+.doc h4{font-size:var(--t-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);font-weight:700;margin:18px 0 6px}
+.doc p,.doc li{font-size:1rem;line-height:1.62}
+.doc p.num{margin:4px 0}
+.doc code{font-family:ui-monospace,Menlo,monospace;font-size:.88em;background:var(--paper2);padding:0 4px}
+.doc .tw{overflow-x:auto;margin:10px 0 16px}
+.doc table{border-collapse:collapse;font-size:.9rem;min-width:100%}
+.doc th{font-size:var(--t-micro);letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--ink2);text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--ink);vertical-align:bottom}
+.doc td{padding:6px 10px 6px 0;border-bottom:1px solid var(--hair2);vertical-align:top}
+hr.rule{border:0;border-top:1px solid var(--ink);margin:36px 0 10px}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="strip"><span><a href="index.html">The Waiting City</a> · Lines with no public count</span><span>Registry built 2026-09-05 · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
+  <div class="head" style="padding-right:26px"><h1>Lines with no public count</h1></div>
+  <div class="doc"><h2>Known lines with no usable public count (Sept. 5, 2026)</h2>
+<p>Lines that pass the definition in METHODOLOGY.md section 1 but fail test 3 (no record we can cite). Each is a candidate FOIL request. None appears in the registry as a figure.</p>
+<div class="tw"><table>
+<tr><th>Line</th><th>Agency</th><th>What exists</th><th>What is missing</th></tr>
+<tr><td>Public housing waiting list</td><td>NYCHA</td><td>Admissions policy (ACOP ch. 4) describes ordering; MMR has no indicator; the FY2026 annual plan PDFs at the URLs we found return 404</td><td>Count of applicant families, by borough list and bedroom size; time on list</td></tr>
+<tr><td>Transfer requests (non-emergency)</td><td>NYCHA</td><td>MMR covers emergency transfer disposition time only; a search snippet cites "over 8,000 households" waiting for transfer but we could not find the primary text</td><td>Count of pending transfer requests by category and age</td></tr>
+<tr><td>Trees and Sidewalks waitlisted sites</td><td>Parks</td><td>Program page defines the "Inspected - Site Waitlisted" status; 2019 audit gives fiscal 2017-18 durations</td><td>Current count of waitlisted sites by borough and year; repairs per year</td></tr>
+<tr><td>Food vendor permit waiting list</td><td>DOHMH</td><td>Press count (5,236) attributed to the agency, Dec. 2025; rule text</td><td>Agency-dated count; ordering rule; permits offered per year since 2022</td></tr>
+<tr><td>General vendor license waitlist</td><td>DCWP</td><td>Press count (about 8,900) attributed to the agency, Dec. 2025; proposed rule (2026)</td><td>Agency-dated count by year</td></tr>
+<tr><td>Shelter intake (PATH) to placement</td><td>DHS</td><td>MMR has length of stay, not time from application to first placement</td><td>Days from PATH application to eligibility decision and to placement</td></tr>
+<tr><td>3-K and pre-K seats not offered</td><td>DOE</td><td>Press counts attributed to the Education Department for 2024 and 2025 rounds</td><td>Offer-round data by district; waitlist counts after summer moves</td></tr>
+<tr><td>Special education impartial hearings, filing to appointment</td><td>OATH / DOE</td><td>MMR measures from hearing officer appointment to closure</td><td>Time from parent's due process complaint to hearing officer appointment</td></tr>
+<tr><td>Housing Court, current pending</td><td>NYS courts (tier 3)</td><td>Comptroller figure as of March 2024</td><td>Current pending count with "active" defined, from OCA</td></tr>
+<tr><td>Access-A-Ride eligibility</td><td>MTA (tier 3)</td><td>Agency states a 21-day standard after assessment</td><td>Actual processing times and assessment-appointment waits</td></tr>
+<tr><td>IDNYC appointment availability</td><td>HRA</td><td>MMR measures mailing within 14 business days of application</td><td>Days to next available enrollment appointment</td></tr>
+<tr><td>Cannabis retail licenses (NYC applicants)</td><td>NYS OCM (tier 3)</td><td>Public application counts exist statewide</td><td>Pending applications from New York City by age</td></tr>
+</table></div>
+<hr class="rule">
+<h2>Problems inside the sources themselves (recorded, not corrected)</h2>
+<p>Found by three blind-check passes on Sept. 5, 2026. These are defects in the agencies' own publications. The registry prints them next to the affected figures rather than smoothing them over.</p>
+<ul>
+<li>Mayor's Management Report dataset (rbed-zzin) never states that "(hours:minutes)" and "(minutes:seconds)" indicators are stored as H.MM and M.SS; the encoding is inferred from the fractional part never exceeding .59.</li>
+<li>NYCHA heat outage time: fiscal-year-to-date value covers heating months only; July to September rows are 0.00.</li>
+<li>HPD "Section 8 — Median time from completed application to voucher issuance" and "... from voucher issuance to lease up": titles say median, definitions say average; the first also includes incomplete applications.</li>
+<li>HPD "Lottery projects — Median time to complete applicant approvals": definition text garbled ("to approval to completion"). HPD "voluntary new construction unit" lease-up definition has typos ("revealed TCO", "HPS").</li>
+<li>HPD "Lottery units — Median time to approve an applicant": clock starts at certificate of occupancy, not at the applicant's log number, which is how the press and the Furman Center describe the figure.</li>
+<li>HRA "Average wait time to speak with a customer service agent": an in-person greeter-to-caseworker wait, not a phone wait. The printed PMMR shows "90:60" for a minutes:seconds value.</li>
+<li>HRA SNAP timeliness: November 2025 row blank. HRA Medicaid timeliness: no values after fiscal 2024.</li>
+<li>Commission on Human Rights "Open matters": "matters" undefined.</li>
+<li>Quarterly indicators carry valuedates that do not say which quarter a row closes; some rows repeat the prior month's value.</li>
+<li>NYCHA's Aug. 1, 2024 Section 8 release calls the same 200,000 "households," "applications," "New Yorkers" and "families and individuals."</li>
+<li>Comptroller's "Evictions Up, Representation Down" (May 2025) gives three framings for one rise in active eviction cases: from the January 2021 end of the moratorium (introduction), a moratorium that "expired on January 15, 2022" (body), and March 2020 to March 2024 (key findings).</li>
+<li>Furman Center's Housing Connect report does not state the date range of its sample.</li>
+<li>Gothamist's Dec. 18, 2025 vendor story says "licenses" where the DOHMH rule governs "permits."</li>
+<li>NYCHA Metrics repair-time page carries no as-of date.</li>
+</ul></div>
+  <div class="foot">The Waiting City · Josh Greenman · <a href="index.html">Back to the registry</a></div>
+</div>
+</body>
+</html>

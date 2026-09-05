@@ -1,0 +1,987 @@
+{
+ "NYCHA|Section 8 \u2014 Families on waiting list (000)": {
+  "id": "nycha-section8-waitlist-mmr",
+  "name": "Section 8 voucher waiting list (Mayor's Management Report count)",
+  "what_for": "A Section 8 Housing Choice Voucher",
+  "end_event": "Voucher issued, or removal from the list",
+  "unit": "households (the indicator says 'families')",
+  "type": "stock",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "households",
+  "standard": null,
+  "caveats": [
+   "Reported in thousands; the registry multiplies by 1,000.",
+   "Per the indicator's own definition the count includes applicants at the preliminary, eligibility and certification stages, not only those fully certified.",
+   "NYCHA testified on Sept. 29, 2025 that voucher issuance and outreach to the general waitlist were temporarily paused to absorb Emergency Housing Voucher households; applicants keep their position."
+  ],
+  "scale": 1000,
+  "tier": 2,
+  "list_status": "closed to new applicants; opened by lottery June 2024",
+  "related_lines": [
+   "nycha-section8-waitlist"
+  ],
+  "duplicates_with": [
+   "hpd-housing-connect",
+   "hpd-section8-voucher-issuance"
+  ],
+  "raise_grade": "Already grade A. Missing: distribution of time on list; count by household size and borough preference (FOIL)."
+ },
+ "NYCHA|Average turnaround time for vacant units (days)": {
+  "id": "nycha-vacant-unit-turnaround",
+  "name": "Turnaround of vacant public housing apartments",
+  "what_for": "A vacant NYCHA apartment made ready and re-rented",
+  "end_event": "Apartment re-occupied",
+  "unit": "items",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "This is the apartment's wait, not an applicant's; it bounds how fast the public housing waiting list can move."
+  ],
+  "tier": 2
+ },
+ "NYCHA|Average time to complete maintenance work orders (days)": {
+  "id": "nycha-maintenance-work-orders",
+  "name": "Public housing maintenance work orders",
+  "what_for": "A repair by NYCHA maintenance staff",
+  "end_event": "Work completed (definition: from the date the work order is created to the date the work is completed)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [],
+  "tier": 2,
+  "spread_note": "NYCHA Metrics (eapps.nycha.info/NychaMetrics) publishes averages by trade, which range from 11 days (maintenance) to 761 days (vendor); page carries no as-of date."
+ },
+ "NYCHA|Average time to complete skilled trades and vendor work orders (days)": {
+  "id": "nycha-skilled-trades-work-orders",
+  "name": "Public housing skilled-trades and vendor work orders",
+  "what_for": "A repair assigned to skilled trades or, per the title, a vendor",
+  "end_event": "Work completed (definition: from work order creation to the date the work is completed)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [],
+  "tier": 2,
+  "spread_note": "NYCHA Metrics publishes averages by trade: bricklayer 167, carpenter 477, electrician 228, glazier 102, painter 608, plaster 344, plumber 201, roofer 18, welder 542, vendor 761 days (undated page, retrieved Sept. 5, 2026)."
+ },
+ "NYCHA|Average time to resolve elevator outages (hours:minutes)": {
+  "id": "nycha-elevator-outages",
+  "name": "Public housing elevator outages",
+  "what_for": "A stopped elevator returned to service",
+  "end_event": "Outage resolved",
+  "unit": "items",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "hours (decoded from hours:minutes)",
+  "standard": null,
+  "caveats": [
+   "Published as hours:minutes encoded as H.MM (6.41 = 6 hours 41 minutes); decoded to decimal hours, printed form kept.",
+   "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
+  ],
+  "tier": 2
+ },
+ "NYCHA|Average time to resolve heat outages (hours:minutes)": {
+  "id": "nycha-heat-outages",
+  "name": "Public housing heat outages",
+  "what_for": "Heat restored",
+  "end_event": "Outage resolved",
+  "unit": "items",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "hours (decoded from hours:minutes)",
+  "standard": null,
+  "caveats": [
+   "Published as hours:minutes encoded as H.MM; decoded to decimal hours, printed form kept.",
+   "An outage, per the definition, is at the level of 'a line of apartments, stair hall, building(s), or development', not a single apartment.",
+   "Fiscal-year-to-date value covers heating-season months only: July to September rows are 0.00.",
+   "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
+  ],
+  "tier": 2
+ },
+ "NYCHA|Average time to resolve non-emergency service requests (days)": {
+  "id": "nycha-nonemergency-service-requests",
+  "name": "Public housing non-emergency service requests",
+  "what_for": "A non-emergency repair",
+  "end_event": "Request resolved",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [],
+  "tier": 2
+ },
+ "NYCHA|Non-emergency service requests resolved within 15 days (%)": {
+  "id": "nycha-nonemergency-within-15",
+  "name": "Public housing non-emergency requests within 15 days",
+  "what_for": "A non-emergency repair",
+  "end_event": "Request resolved",
+  "unit": "requests",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "15 days (a reporting threshold in the indicator; the definition does not call it a standard)",
+  "caveats": [],
+  "tier": 2
+ },
+ "NYCHA|Non-emergency service requests resolved within 60 days (%)": {
+  "id": "nycha-nonemergency-within-60",
+  "name": "Public housing non-emergency requests within 60 days",
+  "what_for": "A non-emergency repair",
+  "end_event": "Request resolved",
+  "unit": "requests",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "60 days (a reporting threshold in the indicator; the definition does not call it a standard)",
+  "caveats": [],
+  "tier": 2
+ },
+ "NYCHA|Emergency transfer disposition time (days)": {
+  "id": "nycha-emergency-transfer",
+  "name": "Public housing emergency transfer requests",
+  "what_for": "Decision on an emergency transfer to another apartment",
+  "end_event": "Disposition issued",
+  "unit": "cases (definition: 'Emergency Transfer Program cases')",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [],
+  "tier": 2
+ },
+ "HPD|Section 8 \u2014 Median time from completed application to voucher issuance (days)": {
+  "id": "hpd-section8-voucher-issuance",
+  "name": "Housing Preservation Section 8: application to voucher",
+  "what_for": "A voucher from HPD's Section 8 program",
+  "end_event": "Voucher issued",
+  "unit": "applications (definition); each is a household's application",
+  "type": "duration",
+  "center": "mean or median (source contradicts itself)",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "The indicator title says 'median' and 'completed application'; the dataset's definition text says 'average time from application received' and 'includes both complete as well as incomplete applications.' Registry records the value with the contradiction printed; grade lowered to B until HPD clarifies."
+  ],
+  "grade_override": "B"
+ },
+ "HPD|Section 8 \u2014 Median time from voucher issuance to lease up (days)": {
+  "id": "hpd-section8-lease-up",
+  "name": "Housing Preservation Section 8: voucher to lease",
+  "what_for": "An apartment found with an HPD voucher",
+  "end_event": "Lease signed",
+  "unit": "households (voucher holders)",
+  "type": "duration",
+  "center": "mean or median (source contradicts itself)",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Title says 'median'; the definition says 'the average time'. Recorded with the contradiction printed.",
+   "Per the definition the span 'includes both HPD processing times, as well as search times for the voucher holder'."
+  ],
+  "grade_override": "B"
+ },
+ "HPD|Lottery units \u2014 Median time to approve an applicant (days)": {
+  "id": "hpd-lottery-applicant-approval",
+  "name": "Housing Connect: certificate of occupancy to applicant approval",
+  "what_for": "Approval for a lottery unit, measured from the building's certificate of occupancy",
+  "end_event": "Applicant approved",
+  "unit": "applications",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "The indicator's own definition measures from certificate of occupancy issuance to applicant approval, not from the applicant's log number or application. Press and the Furman Center describe this figure as the time 'to approve an applicant through the lottery process'; the definition text is narrower."
+  ],
+  "related_lines": [
+   "hpd-housing-connect"
+  ]
+ },
+ "HPD|Lottery projects \u2014 Median time to complete applicant approvals (days)": {
+  "id": "hpd-lottery-project-approvals",
+  "name": "Housing Connect: certificate of occupancy to 95% of applicant approvals",
+  "what_for": "Completion of 95% of applicant approvals for a lottery project, measured from certificate of occupancy issuance",
+  "end_event": "95% of approvals complete",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "The definition text is garbled in the source ('to approval to completion'); the registry reads it as certificate of occupancy to completion of 95% of applicant approvals."
+  ],
+  "related_lines": [
+   "hpd-housing-connect"
+  ]
+ },
+ "HPD|Median time to lease-up a homeless placement set-aside new construction unit (days)": {
+  "id": "hpd-homeless-setaside-leaseup",
+  "name": "Homeless set-aside units in new construction: lease-up",
+  "what_for": "A homeless household moving from shelter into a set-aside new construction unit",
+  "end_event": "Shelter exit date (definition), measured from temporary certificate of occupancy",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "HPD|Median time to lease-up a homeless placement voluntary new construction unit (days)": {
+  "id": "hpd-homeless-voluntary-leaseup",
+  "name": "Homeless voluntary units in new construction: lease-up",
+  "what_for": "A homeless household moving from shelter into a voluntary placement new construction unit",
+  "end_event": "Shelter exit date (definition), measured from temporary certificate of occupancy",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "HPD|Median time to first inspection (days) \u2014 Heat and hot water problems": {
+  "id": "hpd-inspection-heat",
+  "name": "Heat and hot water complaints: first inspection attempt",
+  "what_for": "An inspection after a heat or hot water complaint",
+  "end_event": "First physical inspection attempt (definition)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Counts original, non-duplicate problems received within the period; the stop is an inspection attempt, not necessarily a completed inspection."
+  ]
+ },
+ "HPD|Median time to first inspection (days) \u2014 Non-emergency problems": {
+  "id": "hpd-inspection-nonemergency",
+  "name": "Non-emergency housing complaints: first inspection attempt",
+  "what_for": "An inspection after a non-emergency housing complaint",
+  "end_event": "First physical inspection attempt (definition)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Excludes lead-based paint hazard problems, per the definition; the stop is an inspection attempt."
+  ]
+ },
+ "HPD|Median time to close emergency problems (days)": {
+  "id": "hpd-close-emergency",
+  "name": "Emergency housing complaint problems: time to close",
+  "what_for": "Resolution of an emergency housing complaint",
+  "end_event": "Problem closed",
+  "unit": "items (problems; one complaint can carry several)",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Scope is unique problems in privately owned buildings. 'Closed' means HPD closed the problem by 'inspection, callback to tenant, or repeated attempts for access' (definition); it is not the same as 'repaired'."
+  ]
+ },
+ "HPD|Median time to close non-emergency problems (days)": {
+  "id": "hpd-close-nonemergency",
+  "name": "Non-emergency housing complaint problems: time to close",
+  "what_for": "Resolution of a non-emergency housing complaint",
+  "end_event": "Problem closed",
+  "unit": "items (problems; one complaint can carry several)",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Scope is non-emergency problems in privately owned buildings (the emergency indicator, not this one, specifies 'unique' problems). 'Closed' means HPD closed the problem by inspection, callback or repeated access attempts (definition); not the same as 'repaired'."
+  ]
+ },
+ "HRA|Cash Assistance \u2014 Application timeliness rate (%)": {
+  "id": "hra-cash-assistance-timeliness",
+  "name": "Cash assistance applications decided on time",
+  "what_for": "A decision on a cash assistance application",
+  "end_event": "Application processing completed (definition)",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "30 days from date of application: 18 NYCRR 351.8 (decision within 30 days for family assistance and safety net assistance); indicator definition says 'the required 30-day time frame'; Forest v. City of New York settlement, Dec. 8, 2025",
+  "caveats": [
+   "A rate says nothing about how late the late ones are."
+  ]
+ },
+ "HRA|Supplemental Nutrition Assistance Program (SNAP) \u2014 Application timeliness rate (%)": {
+  "id": "hra-snap-timeliness",
+  "name": "Supplemental Nutrition Assistance Program applications decided on time",
+  "what_for": "A decision on a SNAP application",
+  "end_event": "Application accepted or denied",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "30 days from date of application for non-expedited cases, 7 CFR 273.2(g); 7 days for expedited cases, 7 CFR 273.2(i). Indicator definition says 'the federally required timeframe' and covers both cash-assistance and non-cash-assistance SNAP cases.",
+  "caveats": []
+ },
+ "HRA|Medicaid \u2014 Application timeliness rate (%)": {
+  "id": "hra-medicaid-timeliness",
+  "name": "Medicaid applications decided on time",
+  "what_for": "A decision on a Medicaid application",
+  "end_event": "Application accepted or denied",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "45 days, or 90 days for disability-based applications, 42 CFR 435.912; indicator definition says 'within required timeframes' for community and hospital new applications",
+  "caveats": [
+   "Data unavailable after fiscal 2024 per the Preliminary Mayor's Management Report; latest value is fiscal 2024 (June 2024)."
+  ]
+ },
+ "HRA|IDNYC \u2014 Application timeliness rate (%)": {
+  "id": "hra-idnyc-timeliness",
+  "name": "IDNYC cards issued on time",
+  "what_for": "An IDNYC card (denominator is cards mailed, per the definition)",
+  "end_event": "Card issued",
+  "unit": "items",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "14 business days from receipt of application to mailing of the card (indicator definition)",
+  "caveats": [
+   "Denominator is mailed cards, not applications; applications not resulting in a mailed card are not in the rate."
+  ]
+ },
+ "HRA|HIV/AIDS Services Administration (HASA) \u2014 Rental assistance application timeliness rate (%)": {
+  "id": "hra-hasa-timeliness",
+  "name": "HIV/AIDS Services Administration rental assistance decided on time",
+  "what_for": "Rental assistance for a HASA client",
+  "end_event": "Application processed (definition)",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "30 days (indicator definition: 'the required 30-day timeframe')",
+  "caveats": [
+   "Definition describes the cohort as 'applications submitted in the reporting month'; the dataset field is fiscal-year-to-date, so the value may be a year-to-date aggregate of monthly cohorts."
+  ]
+ },
+ "HRA|Average days to initiate home attendant and housekeeper services for all cases": {
+  "id": "hra-home-care-initiation",
+  "name": "Home attendant and housekeeper services: start of care",
+  "what_for": "Home care services beginning",
+  "end_event": "Services initiated",
+  "unit": "cases",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "HRA|Average wait time to speak with a customer service agent (minutes:seconds)": {
+  "id": "hra-center-wait",
+  "name": "Human Resources Administration in-person wait at benefits centers",
+  "what_for": "A person at an HRA center who has checked in with a greeter or information desk",
+  "end_event": "Met by a customer service representative",
+  "unit": "persons",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "minutes (decoded from minutes:seconds)",
+  "standard": null,
+  "caveats": [
+   "An in-person wait, per the definition: 'from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative.' Not a phone wait.",
+   "Published as minutes:seconds encoded as M.SS (96.38 = 96 minutes 38 seconds); the registry decodes it to decimal minutes and keeps the printed form.",
+   "A counter wait is not a rationed application; kept as context, excluded from any totals.",
+   "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
+  ]
+ },
+ "DHS|Average length of stay \u2014 Families with children in shelter (days)": {
+  "id": "dhs-los-families-children",
+  "name": "Families with children in shelter: length of stay",
+  "what_for": "Permanent housing after shelter",
+  "end_event": "Exit from shelter",
+  "unit": "households",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "unknown (definition silent)",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Definition: days in shelter 'from their first date of application', excluding overnight facilities; families away more than 30 days count as new applicants. The text does not say whether the average is over current residents or over those who exited; the registry treats it as ambiguous (duration_kind unknown).",
+   "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
+  ]
+ },
+ "DHS|Average length of stay \u2014 Single adults in shelter (days)": {
+  "id": "dhs-los-single-adults",
+  "name": "Single adults in shelter: length of stay",
+  "what_for": "Permanent housing after shelter",
+  "end_event": "Exit from shelter",
+  "unit": "persons",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "unknown; wording ('has spent ... during the reporting period') suggests current residents",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Own definition differs from the families line on exclusions (Safe Havens, veterans housing), clock start and treatment of gaps; see definition_quote.",
+   "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
+  ]
+ },
+ "DHS|Average length of stay \u2014 Adult families in shelters (days)": {
+  "id": "dhs-los-adult-families",
+  "name": "Adult families in shelter: length of stay",
+  "what_for": "Permanent housing after shelter",
+  "end_event": "Exit from shelter",
+  "unit": "households",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "unknown (definition silent)",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Definition text is identical in structure to the families-with-children line; the single-adults line differs. See each line's definition_quote.",
+   "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
+  ]
+ },
+ "ACS|Child care assistance applicants with eligibility determinations within 30 days (%)": {
+  "id": "acs-child-care-eligibility",
+  "name": "Child care assistance eligibility decided on time",
+  "what_for": "A child care voucher eligibility decision",
+  "end_event": "Determination issued",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "30 days of submission (indicator definition); state regulation 18 NYCRR Part 415 gives districts up to 30 days once all necessary paperwork is received (per OCFS guidance), a different clock",
+  "caveats": []
+ },
+ "NYCHH|Calendar days to third next available new appointment \u2013 Adult medicine": {
+  "id": "hh-third-next-adult",
+  "name": "Health + Hospitals: new adult primary care appointment",
+  "what_for": "An open new-patient appointment slot in adult medicine",
+  "end_event": "Appointment date",
+  "unit": "items",
+  "type": "duration",
+  "center": "not stated (single system figure)",
+  "duration_kind": "n/a",
+  "unit_of_value": "calendar days",
+  "standard": null,
+  "caveats": [
+   "'Third next available' is a standard access measure: the wait to the third open slot, which smooths out cancellations. The definition does not say whether the figure is a mean across sites."
+  ],
+  "tier": 2
+ },
+ "NYCHH|Calendar days to third next available new appointment \u2013 Pediatric medicine": {
+  "id": "hh-third-next-pediatric",
+  "name": "Health + Hospitals: new pediatric appointment",
+  "what_for": "An open new-patient appointment slot in pediatric medicine",
+  "end_event": "Appointment date",
+  "unit": "items",
+  "type": "duration",
+  "center": "not stated (single system figure)",
+  "duration_kind": "n/a",
+  "unit_of_value": "calendar days",
+  "standard": null,
+  "caveats": [
+   "See adult medicine line."
+  ],
+  "tier": 2
+ },
+ "DCAS|Median time from exam administration to exam results completion for DCAS-administered exams (business days)": {
+  "id": "dcas-exam-results",
+  "name": "Civil service exam results",
+  "what_for": "Results of a civil service exam",
+  "end_event": "Results completed",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": [
+   "Business days. Excludes New York City Transit Authority exams. 'Results completion' means list published or established at a hiring agency's request, per the definition."
+  ],
+  "related_lines": [
+   "dcas-eligible-lists"
+  ]
+ },
+ "DOF|Average time to process initial Senior Citizen Rent Increase Exemption applications (days)": {
+  "id": "dof-scrie-initial",
+  "name": "Senior Citizen Rent Increase Exemption initial applications",
+  "what_for": "A Senior Citizen Rent Increase Exemption",
+  "end_event": "Application approved, denied or deemed incomplete (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOF|Average time to process initial Disability Rent Increase Exemption applications (days)": {
+  "id": "dof-drie-initial",
+  "name": "Disability Rent Increase Exemption initial applications",
+  "what_for": "A Disability Rent Increase Exemption",
+  "end_event": "Application approved, denied or deemed incomplete (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOF|Average time to process initial Senior Citizen Homeowners' Exemption applications (days)": {
+  "id": "dof-sche-initial",
+  "name": "Senior Citizen Homeowners' Exemption initial applications",
+  "what_for": "A Senior Citizen Homeowners' Exemption",
+  "end_event": "Application approved, denied or deemed incomplete (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOF|Average time to process initial Disability Homeowners' Exemption applications (days)": {
+  "id": "dof-dhe-initial",
+  "name": "Disability Homeowners' Exemption initial applications",
+  "what_for": "A Disability Homeowners' Exemption",
+  "end_event": "Application approved, denied or deemed incomplete (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOF|Average time to issue a property tax refund (days)": {
+  "id": "dof-property-tax-refund",
+  "name": "Property tax refunds",
+  "what_for": "A property tax refund",
+  "end_event": "Refund issued",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOF|Average turnaround time to issue decision for parking summons hearing-by-mail (days)": {
+  "id": "dof-parking-hearing-mail",
+  "name": "Parking summons hearings by mail",
+  "what_for": "A decision on a contested parking ticket",
+  "end_event": "Decision issued",
+  "unit": "cases",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOF|Average turnaround time for in-person parking summons hearings (minutes)": {
+  "id": "dof-parking-hearing-inperson",
+  "name": "Parking summons hearings in person",
+  "what_for": "A hearing on a contested parking ticket",
+  "end_event": "Completion of the hearing (definition; includes the hearing itself)",
+  "unit": "cases",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "minutes",
+  "standard": null,
+  "caveats": [
+   "Non-commercial drivers only (definition)."
+  ]
+ },
+ "DOB|Average days from filing to approval \u2013 All applications (DOB NOW)": {
+  "id": "dob-filing-to-approval",
+  "name": "Buildings filings (DOB NOW): filing to approval",
+  "what_for": "Approval of a construction job filing",
+  "end_event": "Filing approved",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": [
+   "Business days, per the definition; the computed line (dob-filing-to-approval-computed) uses calendar days, so the two are not directly comparable.",
+   "Definition counts total time with the agency and the applicant."
+  ],
+  "related_lines": [
+   "dob-filing-to-approval-computed"
+  ]
+ },
+ "DOB|Average days to complete first plan review \u2013 All applications (DOB NOW)": {
+  "id": "dob-first-plan-review",
+  "name": "Buildings filings (DOB NOW): first plan review",
+  "what_for": "A first plan examination, measured from the status 'application processed - completed'",
+  "end_event": "Approved or disapproved status during first review (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOB|Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)": {
+  "id": "dob-first-plan-review-nb",
+  "name": "Buildings filings (DOB NOW), new buildings: first plan review",
+  "what_for": "A first plan examination for a new building, measured from the status 'application processed - completed'",
+  "end_event": "Approved or disapproved status during first review (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOB|Average days between construction inspection request and inspection": {
+  "id": "dob-inspection-construction",
+  "name": "Buildings Department construction inspections",
+  "what_for": "A requested construction inspection",
+  "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOB|Average days between electrical inspection request and inspection": {
+  "id": "dob-inspection-electrical",
+  "name": "Buildings Department electrical inspections",
+  "what_for": "A requested electrical inspection",
+  "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOB|Average days between plumbing inspection request and inspection": {
+  "id": "dob-inspection-plumbing",
+  "name": "Buildings Department plumbing inspections",
+  "what_for": "A requested plumbing inspection",
+  "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": []
+ },
+ "DCP|Median days for simple zoning action projects to enter public review": {
+  "id": "dcp-simple-zoning-review",
+  "name": "Simple zoning actions: pre-certification",
+  "what_for": "Certification into public review (ULURP)",
+  "end_event": "Project enters public review",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Definition: days 'under internal review and revision' before pre-certification. Separate indicators in the same dataset (not this one) report the share of that time spent with the applicant vs. with the agency."
+  ]
+ },
+ "DCP|Median days for zoning actions with CEQR (EAS) to enter public review": {
+  "id": "dcp-eas-zoning-review",
+  "name": "Zoning actions with an environmental assessment: pre-certification",
+  "what_for": "Certification into public review",
+  "end_event": "Project enters public review",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "See simple zoning line."
+  ]
+ },
+ "DCP|Median days for zoning actions with CEQR (EIS) to enter public review": {
+  "id": "dcp-eis-zoning-review",
+  "name": "Zoning actions with an environmental impact statement: pre-certification",
+  "what_for": "Certification into public review",
+  "end_event": "Project enters public review",
+  "unit": "items",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "See simple zoning line."
+  ]
+ },
+ "DCWP|Median processing time (days)": {
+  "id": "dcwp-license-processing",
+  "name": "Consumer and Worker Protection license applications",
+  "what_for": "A business or worker license, new or renewal",
+  "end_event": "Application processed",
+  "unit": "applications",
+  "type": "duration",
+  "center": "median",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Definition excludes licenses needing outside-agency approval, special inspections, mandatory waiting periods or extensive legal review; for renewals it also excludes days pending on the applicant. Includes renewals. The vendor waitlists are separate lines."
+  ]
+ },
+ "DCWP|Applications approved within 30 days (%)": {
+  "id": "dcwp-license-within-30",
+  "name": "Consumer and Worker Protection licenses within 30 days",
+  "what_for": "A business or worker license, new or renewal",
+  "end_event": "Application approved",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "30 calendar days (threshold in the indicator; the definition does not call it a standard)",
+  "caveats": [
+   "Same exclusions as the median processing time line: outside-agency approval, special inspections, mandatory waiting periods, extensive legal review."
+  ]
+ },
+ "DCWP|Average Licensing Center wait time (minutes)": {
+  "id": "dcwp-licensing-center-wait",
+  "name": "Consumer and Worker Protection Licensing Center in-person wait",
+  "what_for": "Service at the counter",
+  "end_event": "Served",
+  "unit": "persons",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "minutes",
+  "standard": null,
+  "caveats": []
+ },
+ "DOHMH|Average response time for birth certificates by mail/online/in person (days)": {
+  "id": "dohmh-birth-certificates",
+  "name": "Birth certificate requests",
+  "what_for": "A birth certificate, measured from receipt of necessary documentation",
+  "end_event": "Response or issuance (definition)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Clock starts at receipt of necessary documentation, not at the request. Outlier, voided and canceled orders are excluded (definition)."
+  ]
+ },
+ "DOHMH|Average response time for death certificates by mail/online/in person (days)": {
+  "id": "dohmh-death-certificates",
+  "name": "Death certificate requests",
+  "what_for": "A death certificate, measured from receipt of necessary documentation",
+  "end_event": "Response or issuance (definition)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Clock starts at receipt of necessary documentation. Outlier, voided and canceled orders excluded; funeral director orders included (definition)."
+  ]
+ },
+ "DORIS|Average response time to vital record requests (days)": {
+  "id": "doris-vital-records",
+  "name": "Municipal Archives vital record requests",
+  "what_for": "A historical birth, death or marriage record",
+  "end_event": "Certified copy sent, or a 'not found' statement sent (definition)",
+  "unit": "requests",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "DOT|Average time to process a permit application for customers (calendar days)": {
+  "id": "dot-permit-processing",
+  "name": "Transportation Department permit applications",
+  "what_for": "A street or sidewalk permit that was approved",
+  "end_event": "Approved permit issued (definition covers approved permits only)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "calendar days",
+  "standard": null,
+  "caveats": []
+ },
+ "BIC|Average age of pending waste hauling applications (days) \u2014 New": {
+  "id": "bic-waste-hauling-pending-age",
+  "name": "Waste hauling license applications: age of pending",
+  "what_for": "A trade waste license or registration",
+  "end_event": "Application decided",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "waiting_so_far",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "One of the few agency indicators measuring the wait of those still in line.",
+   "Definition excludes applications slated for denial or under long-term investigation, which removes the longest waits from the average."
+  ]
+ },
+ "BIC|Average time to approve waste hauling applications (days) \u2014 New": {
+  "id": "bic-waste-hauling-approval",
+  "name": "Waste hauling license applications: time to approve",
+  "what_for": "A trade waste license or registration",
+  "end_event": "Approval by the Legal Unit (definition)",
+  "unit": "applications",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Excludes applications that undergo long-term investigations and are later approved (definition), which removes the longest waits."
+  ]
+ },
+ "BIC|Waste hauling applications pending \u2014 New": {
+  "id": "bic-waste-hauling-pending",
+  "name": "Waste hauling license applications pending",
+  "what_for": "A trade waste license or registration",
+  "end_event": "Application decided",
+  "unit": "applications",
+  "type": "stock",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "applications",
+  "standard": null,
+  "caveats": [
+   "Excludes applications slated for denial or under long-term investigation (definition)."
+  ]
+ },
+ "CCHR|Average age of complaint caseload (days)": {
+  "id": "cchr-caseload-age",
+  "name": "Human Rights Commission complaints: age of open caseload",
+  "what_for": "Resolution of a discrimination complaint",
+  "end_event": "Case closed",
+  "unit": "cases",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "waiting_so_far",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Measures open cases, so this is the wait so far, not the completed wait."
+  ]
+ },
+ "CCHR|Open matters": {
+  "id": "cchr-open-matters",
+  "name": "Human Rights Commission open matters",
+  "what_for": "Resolution of a discrimination complaint",
+  "end_event": "Case closed",
+  "unit": "cases",
+  "type": "stock",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "cases",
+  "standard": null,
+  "caveats": []
+ },
+ "OATH|Average days for Judicial Hearings Officers to render decisions": {
+  "id": "oath-hearing-decisions",
+  "name": "Administrative hearings: decision after a summons hearing",
+  "what_for": "A decision on a summons heard at OATH (the definition divides total pending days by summonses heard and decided, so this is a ratio, not a per-case mean)",
+  "end_event": "Decision rendered",
+  "unit": "items",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": []
+ },
+ "OATH|Average time for OATH Trials Division to issue decisions after records closed (business days)": {
+  "id": "oath-trials-decisions",
+  "name": "Administrative Trials Division decisions",
+  "what_for": "A decision after a trial record closes",
+  "end_event": "Decision issued",
+  "unit": "cases",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "business days",
+  "standard": null,
+  "caveats": []
+ },
+ "OATH|Average time from appointment to OATH Special Education Hearing Officer to case closure": {
+  "id": "oath-special-ed-hearings",
+  "name": "Special education impartial hearings",
+  "what_for": "Closure of a special education due process case by resolution, withdrawal, dismissal or final decision",
+  "end_event": "Case closed",
+  "unit": "cases",
+  "type": "duration",
+  "center": "mean",
+  "duration_kind": "completed",
+  "unit_of_value": "days",
+  "standard": null,
+  "caveats": [
+   "Measured from hearing officer appointment, not from the parent's filing; the pre-appointment wait is not captured here."
+  ]
+ },
+ "LPC|Permits for minor work issued within 10 business days (%)": {
+  "id": "lpc-minor-work-permits",
+  "name": "Landmarks permits for minor work within 10 business days",
+  "what_for": "A permit for minor work on a landmark, measured from the application being completed",
+  "end_event": "Permit issued",
+  "unit": "applications",
+  "type": "timeliness_rate",
+  "center": "n/a",
+  "duration_kind": "n/a",
+  "unit_of_value": "percent",
+  "standard": "10 business days from a completed application (threshold in the indicator; the definition does not call it a standard)",
+  "caveats": []
+ }
+}

@@ -1,0 +1,2412 @@
+[
+ {
+  "claim_id": "nycha-section8-waitlist#0",
+  "line_id": "nycha-section8-waitlist",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "households",
+   "period_label": "At list creation, Aug. 1, 2024"
+  },
+  "source": {
+   "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+   "title": "NYCHA Establishes New Section 8 Housing Choice Voucher Waitlist and Begins Notifying Applicants of Lottery Results",
+   "publisher": "New York City Housing Authority",
+   "date": "2024-08-01",
+   "local_copy": "sources/nycha-pr-20240801.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Section 8 Housing Choice Voucher waitlist",
+   "what_for": "A Section 8 voucher",
+   "end_event": "Voucher issued (or removed from list)",
+   "unit": "households",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Count at creation, not today. The release says only that 'applicant eligibility must be confirmed'; how households leave the list is not described in the source.",
+    "The release uses several words for the same 200,000: 'households' and 'applications' in the body, 'New Yorkers' and 'families and individuals' in quotations. The registry records households, following the sentence that describes the list, and flags the inconsistency.",
+    "People who remained on the pre-2024 list 'will continue to be served and did not have to reapply', so the total list at creation exceeded 200,000; the Mayor's Management Report monthly count (nycha-section8-waitlist-mmr) was 203,000 in July 2024, peaked at 205,000 in August 2024 and stood at 197,000 in June 2025.",
+    "One household may also be on the public housing list and in Housing Connect lotteries."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#1",
+  "line_id": "nycha-section8-waitlist",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "demand",
+   "unit_of_value": "applications",
+   "period_label": "Online applications June 3 to June 9, 2024; paper applications postmarked by June 28, 2024"
+  },
+  "source": {
+   "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+   "title": "NYCHA Establishes New Section 8 Housing Choice Voucher Waitlist and Begins Notifying Applicants of Lottery Results",
+   "publisher": "New York City Housing Authority",
+   "date": "2024-08-01",
+   "local_copy": "sources/nycha-pr-20240801.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Section 8 Housing Choice Voucher waitlist",
+   "what_for": "A Section 8 voucher",
+   "end_event": "Voucher issued (or removed from list)",
+   "unit": "households",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Applications, not households: the release counts 633,808 online and 4,416 paper applications and separately says 200,000 were selected."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#2",
+  "line_id": "nycha-section8-waitlist",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "throughput",
+   "unit_of_value": "vouchers per month (goal)",
+   "period_label": "Stated goal, Aug. 1, 2024, for 'the next several years'"
+  },
+  "source": {
+   "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+   "title": "NYCHA Establishes New Section 8 Housing Choice Voucher Waitlist and Begins Notifying Applicants of Lottery Results",
+   "publisher": "New York City Housing Authority",
+   "date": "2024-08-01",
+   "local_copy": "sources/nycha-pr-20240801.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Section 8 Housing Choice Voucher waitlist",
+   "what_for": "A Section 8 voucher",
+   "end_event": "Voucher issued (or removed from list)",
+   "unit": "households",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "A goal 'contingent on funding and the authorized voucher capacity', in the release's words; not a measured rate.",
+    "NYCHA testified Sept. 29, 2025 that issuance to the general waitlist was temporarily paused to absorb Emergency Housing Voucher households.",
+    "The 7,538 figure for 2023 is in a separate sentence: 'Last year, NYCHA issued 7,538 vouchers'."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#3",
+  "line_id": "nycha-section8-waitlist",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "derived",
+   "unit_of_value": "years (implied)",
+   "period_label": "Arithmetic on Aug. 1, 2024 figures"
+  },
+  "source": {
+   "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page",
+   "title": "Derived from the Aug. 1, 2024 release",
+   "publisher": "This project",
+   "date": "2026-09-05",
+   "local_copy": "sources/nycha-pr-20240801.txt"
+  },
+  "how_to_find": "Derived figure: recompute from the figures in the same line's source.",
+  "registry_description_to_check": {
+   "line_name": "Section 8 Housing Choice Voucher waitlist",
+   "what_for": "A Section 8 voucher",
+   "end_event": "Voucher issued (or removed from list)",
+   "unit": "households",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Shown only as an illustration of scale, never in totals."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-housing-connect#0",
+  "line_id": "hpd-housing-connect",
+  "agency": "HPD",
+  "quantity": {
+   "type": "demand",
+   "unit_of_value": "applications",
+   "period_label": "Calendar 2024"
+  },
+  "source": {
+   "url": "https://www.amny.com/news/housing-lottery-new-yorkers-10000-units/",
+   "title": "6 million applicants for 10,000 units: Housing lottery leaves out New Yorkers most in need",
+   "publisher": "amNewYork (Shane O'Brien), attributing HPD Acting Commissioner Ahmed Tigani, City Council hearing April 29, 2025",
+   "date": "2025-05-13",
+   "local_copy": "sources/amny-housing-lottery-2025-05-13.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Housing Connect affordable housing lotteries",
+   "what_for": "An affordable apartment through a lottery",
+   "end_event": "Lease signed",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Applications, not households. One household can apply to many lotteries.",
+    "Not a queue by the project's definition: lottery entrants are recorded as demand, not stock."
+   ]
+  }
+ },
+ {
+  "claim_id": "dohmh-food-vendor-permit-waitlist#0",
+  "line_id": "dohmh-food-vendor-permit-waitlist",
+  "agency": "DOHMH",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "persons",
+   "period_label": "On or before Dec. 18, 2025 (date of report; agency date not given)"
+  },
+  "source": {
+   "url": "https://gothamist.com/news/thousands-more-nyc-street-vendors-will-be-able-to-operate-legally-under-bill-set-to-pass",
+   "title": "Thousands more NYC street vendors will be able to operate legally under new Council bill",
+   "publisher": "Gothamist (Arya Sundaram), attributing the Department of Health and Mental Hygiene",
+   "date": "2025-12-18",
+   "local_copy": "sources/gothamist-vendors-2025-12-18.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Food vendor waiting list (Department of Health)",
+   "what_for": "A mobile food vending permit or license: the source says 'licenses'; DOHMH's rule governs the 'full-term permit waiting list'. The registry keeps both words until the agency clarifies.",
+   "end_event": "Permit offered",
+   "unit": "persons",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "The Gothamist source says 'waitlist for food vendor licenses'; the DOHMH rule (effective Dec. 12, 2021) creates a 'full-term permit waiting list' with up to 445 permits a year for 10 years from July 1, 2022. Which list the 5,236 refers to is not stated.",
+    "The Dec. 18, 2025 source describes a Council bill, later Local Law 54 of 2026 per the DCWP proposed rule; the enacted text has not been captured here."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcwp-general-vendor-waitlist#0",
+  "line_id": "dcwp-general-vendor-waitlist",
+  "agency": "DCWP",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "persons (approx.)",
+   "period_label": "On or before Dec. 18, 2025 (date of report; agency date not given)"
+  },
+  "source": {
+   "url": "https://gothamist.com/news/thousands-more-nyc-street-vendors-will-be-able-to-operate-legally-under-bill-set-to-pass",
+   "title": "Thousands more NYC street vendors will be able to operate legally under new Council bill",
+   "publisher": "Gothamist (Arya Sundaram), attributing the Department of Consumer and Worker Protection",
+   "date": "2025-12-18",
+   "local_copy": "sources/gothamist-vendors-2025-12-18.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "General vendor license waitlist",
+   "what_for": "A general (non-food) street vendor license",
+   "end_event": "License offered",
+   "unit": "persons",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Gothamist states the general vendor license cap was 853 since 1979 (the NYC Rules page carries the same figure in a public comment). Local Law 54 of 2026 expands the count; the enacted text is needed."
+   ]
+  }
+ },
+ {
+  "claim_id": "dob-filing-to-approval-computed#0",
+  "line_id": "dob-filing-to-approval-computed",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Filings approved Sept. 1, 2025 to Aug. 31, 2026"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/DOB-NOW-Build-Job-Application-Filings/w9ak-ipjd",
+   "title": "DOB NOW: Build \u2013 Job Application Filings",
+   "publisher": "Department of Buildings via NYC Open Data",
+   "date": "2026-09-05",
+   "local_copy": "data/computed_dob_filing_to_approval.json"
+  },
+  "how_to_find": "Recompute independently from the dataset named; do not reuse any script in scripts/.",
+  "registry_description_to_check": {
+   "line_name": "DOB NOW filings: filing to approval (computed distribution)",
+   "what_for": "Approval of a construction job filing",
+   "end_event": "Filing approved",
+   "unit": "applications",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Only filings that reached approval are in the window; filings still pending are not counted, so this is a completed-wait figure.",
+    "Approval is plan approval, not permit issuance or sign-off.",
+    "Negative durations (none found) would be excluded.",
+    "filing_date carries no time of day, so durations are computed from midnight; a date-only computation gives a median of 6.0 and 90th percentile of 89."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-problem-close-computed#0",
+  "line_id": "hpd-problem-close-computed",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Problems closed March 1 to Aug. 31, 2026"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Complaints-and-Problems/ygpa-z7cr",
+   "title": "Housing Maintenance Code Complaints and Problems",
+   "publisher": "Department of Housing Preservation and Development via NYC Open Data",
+   "date": "2026-09-05",
+   "local_copy": "data/computed_hpd_problem_close.json"
+  },
+  "how_to_find": "Recompute independently from the dataset named; do not reuse any script in scripts/.",
+  "registry_description_to_check": {
+   "line_name": "HPD housing complaint problems: received to closed (computed distribution)",
+   "what_for": "Resolution of a housing maintenance complaint",
+   "end_event": "Problem closed",
+   "unit": "items (problems; one complaint can carry several problems)",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "'Closed' is HPD's status, not a repair: it includes no-access, not-found and tenant-withdrawn outcomes.",
+    "Problems still open are not in the window (completed-wait figure).",
+    "37,659 rows flagged as duplicates were dropped before computing (blind recount).",
+    "Durations use full timestamps; 105 problems were received before 2025, one in 2013, and are included."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcas-eligible-lists#0",
+  "line_id": "dcas-eligible-lists",
+  "agency": "DCAS",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "persons (list entries)",
+   "period_label": "Active lists as of July 13, 2026"
+  },
+  "source": {
+   "url": "https://joshgreenman1973.github.io/nyc-civil-service-hiring/",
+   "title": "How New York City hires (methodology and data)",
+   "publisher": "Josh Greenman, computed from DCAS Civil Service List (Active), vx8i-nprf",
+   "date": "2026-07-13",
+   "local_copy": "/Users/joshgreenman/Experiments/nyc-civil-service-hiring/data/stats.json"
+  },
+  "how_to_find": "Recompute independently from the dataset named; do not reuse any script in scripts/.",
+  "registry_description_to_check": {
+   "line_name": "Civil service eligible lists",
+   "what_for": "Appointment to a permanent civil service job from a ranked list",
+   "end_event": "Appointment, or the list's expiry; lists are established for one to four years and can be extended",
+   "unit": "persons",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "List entries, not unique people: one person can be on several lists.",
+    "Many on a list hold other jobs; being on a list is a formal ask (an exam taken and passed) but not always an active wait.",
+    "Live count on Sept. 5, 2026 was 403,777 rows, 855 exams, 432 titles (blind recount); the registry keeps the dated July 13, 2026 figure.",
+    "Lists are often extended past four years: on Sept. 5, 2026, 92,636 of 403,777 rows carried an extension date beyond their anniversary and 88,082 entries sat on lists past the four-year mark (example: Conductor exam 6601, established Feb. 14, 2018, extended to Feb. 14, 2027). Blind recount, live data."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-housing-connect-furman#0",
+  "line_id": "hpd-housing-connect-furman",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Furman Center sample; the report does not state the sample's date range (report published April 2026)"
+  },
+  "source": {
+   "url": "https://www.furmancenter.org/wp-content/uploads/2026/04/The-House-Doesnt-Always-Win_508.pdf",
+   "title": "The House Doesn't Always Win: Understanding NYC's Housing Connect Lottery System and How to Improve It",
+   "publisher": "NYU Furman Center",
+   "date": "2026-04",
+   "local_copy": "sources/furman-house-doesnt-always-win-2026-04.pdf"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Housing Connect: verification and approval (Furman Center sample)",
+   "what_for": "Approval for an affordable lottery unit",
+   "end_event": "Applicant approved for an offer",
+   "unit": "applications",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "A sample of lotteries drawn from marketing-agent processing records; the report warns its sample may overestimate processing times. Not all lotteries.",
+    "HPD's own fiscal 2025 median of 142 days runs from certificate of occupancy to approval (see hpd-lottery-applicant-approval), a different span.",
+    "Excludes, per the report, the time for appeals, complaints, HPD's audit of files and lease signing."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-housing-connect-furman#1",
+  "line_id": "hpd-housing-connect-furman",
+  "agency": "HPD",
+  "quantity": {
+   "type": "demand",
+   "unit_of_value": "unique applicants ('nearly 600,000', HPD estimate cited by Furman)",
+   "period_label": "Undated HPD estimate cited by the Furman Center (report published April 2026)"
+  },
+  "source": {
+   "url": "https://www.furmancenter.org/wp-content/uploads/2026/04/The-House-Doesnt-Always-Win_508.pdf",
+   "title": "The House Doesn't Always Win",
+   "publisher": "NYU Furman Center",
+   "date": "2026-04",
+   "local_copy": "sources/furman-house-doesnt-always-win-2026-04.pdf"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Housing Connect: verification and approval (Furman Center sample)",
+   "what_for": "Approval for an affordable lottery unit",
+   "end_event": "Applicant approved for an offer",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Two units from two periods: six million applications (2024) and roughly 600,000 unique applicants (undated HPD estimate). The registry does not compute a ratio between them."
+   ]
+  }
+ },
+ {
+  "claim_id": "doe-3k-unlisted-placement#0",
+  "line_id": "doe-3k-unlisted-placement",
+  "agency": "DOE",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "children (approx.)",
+   "period_label": "3-K offers for the 2025-26 school year, released May 20, 2025"
+  },
+  "source": {
+   "url": "https://www.chalkbeat.org/newyork/2025/05/20/preschool-offers-long-commutes-empty-seats/",
+   "title": "NYC's preschool offers leave waitlists in some districts, empty seats in others",
+   "publisher": "Chalkbeat New York (Michael Elsen-Rooney), citing Education Department officials",
+   "date": "2025-05-20",
+   "local_copy": "sources/chalkbeat-preschool-2025-05-20.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "3-K applicants placed in a program they did not list",
+   "what_for": "A seat in one of the 3-K programs the family listed",
+   "end_event": "Offer to a listed program (from the waitlist over the summer) or acceptance of the assigned program",
+   "unit": "persons",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Prior round (offers April 2024): more than 2,400 children left without seats out of 43,000 applicants (CBS New York, May 16, 2024).",
+    "For 2026-27 the city said every on-time applicant would receive an offer (Chalkbeat, Jan. 30, 2026); 94,840 3-K and pre-K applications in 2025. Chalkbeat's 'more than 27,000 of roughly 136,000 seats' unfilled is for 'the city's free child care programs for children ages 4 and under', a wider set than 3-K and pre-K alone."
+   ]
+  }
+ },
+ {
+  "claim_id": "parks-trees-sidewalks#0",
+  "line_id": "parks-trees-sidewalks",
+  "agency": "DPR",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Audit scope July 1, 2015 through Dec. 31, 2017 (report: 'The scope of this audit was July 1, 2015 through December 31, 2017'); the 419-day mean covers 1,069 sidewalks repaired in fiscal 2017, July 1, 2016 to June 30, 2017"
+  },
+  "source": {
+   "url": "https://comptroller.nyc.gov/wp-content/uploads/documents/MH18-058A.pdf",
+   "title": "Audit Report on the Department of Parks and Recreation's Trees & Sidewalks Program (MH18-058A)",
+   "publisher": "New York City Comptroller",
+   "date": "2019-06-20",
+   "local_copy": "sources/comptroller-trees-sidewalks-audit-MH18-058A.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Trees and Sidewalks repair program",
+   "what_for": "City repair of a sidewalk damaged by a street tree, for owner-occupied one- to three-family homes",
+   "end_event": "Repair completed (the 419-day figure covers repaired sidewalks only); other outcomes are waitlisting or a referral to hire a contractor",
+   "unit": "items (the 419-day mean is over 1,069 repaired sidewalks; the 101-day mean is over service requests)",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": "30-day internal service level for inspection after a request (audit: missed by 71 days on average); no target time frame for inspection-to-repair (audit)",
+   "caveats": [
+    "Stale: repairs from fiscal 2017. The program page (2026) still shows a waitlist tier for sites rated 80-90 and a three-year expectation for 90-100.",
+    "Eligibility is limited to owner-occupied Tax Class 1 homes; everyone else is told to hire a contractor, which is a rationing rule, not a queue."
+   ]
+  }
+ },
+ {
+  "claim_id": "housing-court-eviction-cases#0",
+  "line_id": "housing-court-eviction-cases",
+  "agency": "NYS Unified Court System",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "cases (approx.)",
+   "period_label": "March 2020 to March 2024 per the report's key findings (the report's introduction instead dates the rise from the January 2021 end of the eviction moratorium; the registry uses the dated version)"
+  },
+  "source": {
+   "url": "https://comptroller.nyc.gov/wp-content/uploads/documents/Evictions-Up-Representation-Down.pdf",
+   "title": "Evictions Up, Representation Down: How New York City is Undermining the Right to Counsel",
+   "publisher": "New York City Comptroller",
+   "date": "2025-05-02",
+   "local_copy": "sources/comptroller-evictions-up-representation-down-2025-05.txt"
+  },
+  "how_to_find": "Locate the figure in the source (local copy preferred) and copy the sentence verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Housing Court active eviction cases",
+   "what_for": "Resolution of an eviction case (both parties wait)",
+   "end_event": "Case disposed",
+   "unit": "cases",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Tier 3: state courts. Never in city totals.",
+    "The figure is as of March 2024, more than a year before the report and two and a half years before this registry.",
+    "Both landlords and tenants are in this line; it is a docket, not an application queue.",
+    "The report's introduction dates the rise from the January 2021 end of the moratorium; its body says the moratorium 'expired on January 15, 2022'; the key findings give March 2020 to March 2024. The registry uses the dated key-findings version."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-section8-waitlist-mmr#0",
+  "line_id": "nycha-section8-waitlist-mmr",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "households",
+   "period_label": "As of March 2026 (dataset field acceptedvalue, the month's value; the fiscal-year-to-date average, acceptedvalueytd, is 202)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Section 8 \u2014 Families on waiting list (000)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Section 8 voucher waiting list (Mayor's Management Report count)",
+   "what_for": "A Section 8 Housing Choice Voucher",
+   "end_event": "Voucher issued, or removal from the list",
+   "unit": "households (the indicator says 'families')",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Reported in thousands; the registry multiplies by 1,000.",
+    "Per the indicator's own definition the count includes applicants at the preliminary, eligibility and certification stages, not only those fully certified.",
+    "NYCHA testified on Sept. 29, 2025 that voucher issuance and outreach to the general waitlist were temporarily paused to absorb Emergency Housing Voucher households; applicants keep their position."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-vacant-unit-turnaround#0",
+  "line_id": "nycha-vacant-unit-turnaround",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average turnaround time for vacant units (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Turnaround of vacant public housing apartments",
+   "what_for": "A vacant NYCHA apartment made ready and re-rented",
+   "end_event": "Apartment re-occupied",
+   "unit": "items",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "This is the apartment's wait, not an applicant's; it bounds how fast the public housing waiting list can move."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-maintenance-work-orders#0",
+  "line_id": "nycha-maintenance-work-orders",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to complete maintenance work orders (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA maintenance work orders",
+   "what_for": "A repair by NYCHA maintenance staff",
+   "end_event": "Work completed (definition: from the date the work order is created to the date the work is completed)",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "nycha-skilled-trades-work-orders#0",
+  "line_id": "nycha-skilled-trades-work-orders",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to complete skilled trades and vendor work orders (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA skilled-trades and vendor work orders",
+   "what_for": "A repair assigned to skilled trades or, per the title, a vendor",
+   "end_event": "Work completed (definition: from work order creation to the date the work is completed)",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "nycha-elevator-outages#0",
+  "line_id": "nycha-elevator-outages",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "hours (decoded from hours:minutes)",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to resolve elevator outages (hours:minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA elevator outages",
+   "what_for": "A stopped elevator returned to service",
+   "end_event": "Outage resolved",
+   "unit": "items",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Published as hours:minutes encoded as H.MM (6.41 = 6 hours 41 minutes); decoded to decimal hours, printed form kept.",
+    "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-heat-outages#0",
+  "line_id": "nycha-heat-outages",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "hours (decoded from hours:minutes)",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to resolve heat outages (hours:minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA heat outages",
+   "what_for": "Heat restored",
+   "end_event": "Outage resolved",
+   "unit": "items",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Published as hours:minutes encoded as H.MM; decoded to decimal hours, printed form kept.",
+    "An outage, per the definition, is at the level of 'a line of apartments, stair hall, building(s), or development', not a single apartment.",
+    "Fiscal-year-to-date value covers heating-season months only: July to September rows are 0.00.",
+    "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
+   ]
+  }
+ },
+ {
+  "claim_id": "nycha-nonemergency-service-requests#0",
+  "line_id": "nycha-nonemergency-service-requests",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to resolve non-emergency service requests (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA non-emergency service requests",
+   "what_for": "A non-emergency repair",
+   "end_event": "Request resolved",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "nycha-nonemergency-within-15#0",
+  "line_id": "nycha-nonemergency-within-15",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Non-emergency service requests resolved within 15 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA non-emergency requests within 15 days",
+   "what_for": "A non-emergency repair",
+   "end_event": "Request resolved",
+   "unit": "requests",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "15 days (a reporting threshold in the indicator; the definition does not call it a standard)",
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "nycha-nonemergency-within-60#0",
+  "line_id": "nycha-nonemergency-within-60",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Non-emergency service requests resolved within 60 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA non-emergency requests within 60 days",
+   "what_for": "A non-emergency repair",
+   "end_event": "Request resolved",
+   "unit": "requests",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "60 days (a reporting threshold in the indicator; the definition does not call it a standard)",
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "nycha-emergency-transfer#0",
+  "line_id": "nycha-emergency-transfer",
+  "agency": "NYCHA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Emergency transfer disposition time (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYCHA emergency transfer requests",
+   "what_for": "Decision on an emergency transfer to another apartment",
+   "end_event": "Disposition issued",
+   "unit": "cases (definition: 'Emergency Transfer Program cases')",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "hpd-section8-voucher-issuance#0",
+  "line_id": "hpd-section8-voucher-issuance",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date; dataset valuedate Oct. 1, 2025 (quarterly rows fall at fiscal quarter ends; the dataset does not state which quarter a row closes)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Section 8 \u2014 Median time from completed application to voucher issuance (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HPD Section 8: completed application to voucher",
+   "what_for": "A voucher from HPD's Section 8 program",
+   "end_event": "Voucher issued",
+   "unit": "applications (definition); each is a household's application",
+   "center": "mean or median (source contradicts itself)",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "The indicator title says 'median' and 'completed application'; the dataset's definition text says 'average time from application received' and 'includes both complete as well as incomplete applications.' Registry records the value with the contradiction printed; grade lowered to B until HPD clarifies."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-section8-lease-up#0",
+  "line_id": "hpd-section8-lease-up",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date; dataset valuedate Oct. 1, 2025 (quarterly rows fall at fiscal quarter ends; the dataset does not state which quarter a row closes)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Section 8 \u2014 Median time from voucher issuance to lease up (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HPD Section 8: voucher to lease",
+   "what_for": "An apartment found with an HPD voucher",
+   "end_event": "Lease signed",
+   "unit": "households (voucher holders)",
+   "center": "mean or median (source contradicts itself)",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Title says 'median'; the definition says 'the average time'. Recorded with the contradiction printed.",
+    "Per the definition the span 'includes both HPD processing times, as well as search times for the voucher holder'."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-lottery-applicant-approval#0",
+  "line_id": "hpd-lottery-applicant-approval",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2025, July 1, 2024 to June 30, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-06-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Lottery units \u2014 Median time to approve an applicant (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Housing Connect: certificate of occupancy to applicant approval",
+   "what_for": "Approval for a lottery unit, measured from the building's certificate of occupancy",
+   "end_event": "Applicant approved",
+   "unit": "applications",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "The indicator's own definition measures from certificate of occupancy issuance to applicant approval, not from the applicant's log number or application. Press and the Furman Center describe this figure as the time 'to approve an applicant through the lottery process'; the definition text is narrower."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-lottery-project-approvals#0",
+  "line_id": "hpd-lottery-project-approvals",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2025, July 1, 2024 to June 30, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-06-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Lottery projects \u2014 Median time to complete applicant approvals (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Housing Connect: certificate of occupancy to 95% of applicant approvals",
+   "what_for": "Completion of 95% of applicant approvals for a lottery project, measured from certificate of occupancy issuance",
+   "end_event": "95% of approvals complete",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "The definition text is garbled in the source ('to approval to completion'); the registry reads it as certificate of occupancy to completion of 95% of applicant approvals."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-homeless-setaside-leaseup#0",
+  "line_id": "hpd-homeless-setaside-leaseup",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2025, July 1, 2024 to June 30, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-06-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to lease-up a homeless placement set-aside new construction unit (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Homeless set-aside units in new construction: lease-up",
+   "what_for": "A homeless household moving from shelter into a set-aside new construction unit",
+   "end_event": "Shelter exit date (definition), measured from temporary certificate of occupancy",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "hpd-homeless-voluntary-leaseup#0",
+  "line_id": "hpd-homeless-voluntary-leaseup",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2025, July 1, 2024 to June 30, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-06-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to lease-up a homeless placement voluntary new construction unit (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Homeless voluntary units in new construction: lease-up",
+   "what_for": "A homeless household moving from shelter into a voluntary placement new construction unit",
+   "end_event": "Shelter exit date (definition), measured from temporary certificate of occupancy",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "hpd-inspection-heat#0",
+  "line_id": "hpd-inspection-heat",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Oct. 31, 2025 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to first inspection (days) \u2014 Heat and hot water problems'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HPD heat and hot water complaints: first inspection",
+   "what_for": "An inspection after a heat or hot water complaint",
+   "end_event": "First physical inspection attempt (definition)",
+   "unit": "requests",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Counts original, non-duplicate problems received within the period; the stop is an inspection attempt, not necessarily a completed inspection."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-inspection-nonemergency#0",
+  "line_id": "hpd-inspection-nonemergency",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Oct. 31, 2025 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to first inspection (days) \u2014 Non-emergency problems'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HPD non-emergency complaints: first inspection",
+   "what_for": "An inspection after a non-emergency housing complaint",
+   "end_event": "First physical inspection attempt (definition)",
+   "unit": "requests",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Excludes lead-based paint hazard problems, per the definition; the stop is an inspection attempt."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-close-emergency#0",
+  "line_id": "hpd-close-emergency",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Oct. 31, 2025 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to close emergency problems (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HPD emergency complaint problems: close",
+   "what_for": "Resolution of an emergency housing complaint",
+   "end_event": "Problem closed",
+   "unit": "items (problems; one complaint can carry several)",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Scope is unique problems in privately owned buildings. 'Closed' means HPD closed the problem by 'inspection, callback to tenant, or repeated attempts for access' (definition); it is not the same as 'repaired'."
+   ]
+  }
+ },
+ {
+  "claim_id": "hpd-close-nonemergency#0",
+  "line_id": "hpd-close-nonemergency",
+  "agency": "HPD",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Oct. 31, 2025 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to close non-emergency problems (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HPD non-emergency complaint problems: close",
+   "what_for": "Resolution of a non-emergency housing complaint",
+   "end_event": "Problem closed",
+   "unit": "items (problems; one complaint can carry several)",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Scope is non-emergency problems in privately owned buildings (the emergency indicator, not this one, specifies 'unique' problems). 'Closed' means HPD closed the problem by inspection, callback or repeated access attempts (definition); not the same as 'repaired'."
+   ]
+  }
+ },
+ {
+  "claim_id": "hra-cash-assistance-timeliness#0",
+  "line_id": "hra-cash-assistance-timeliness",
+  "agency": "HRA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Cash Assistance \u2014 Application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Cash assistance applications decided on time",
+   "what_for": "A decision on a cash assistance application",
+   "end_event": "Application processing completed (definition)",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "30 days from date of application: 18 NYCRR 351.8 (decision within 30 days for family assistance and safety net assistance); indicator definition says 'the required 30-day time frame'; Forest v. City of New York settlement, Dec. 8, 2025",
+   "caveats": [
+    "A rate says nothing about how late the late ones are."
+   ]
+  }
+ },
+ {
+  "claim_id": "hra-snap-timeliness#0",
+  "line_id": "hra-snap-timeliness",
+  "agency": "HRA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Supplemental Nutrition Assistance Program (SNAP) \u2014 Application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "SNAP applications decided on time",
+   "what_for": "A decision on a SNAP application",
+   "end_event": "Application accepted or denied",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "30 days from date of application for non-expedited cases, 7 CFR 273.2(g); 7 days for expedited cases, 7 CFR 273.2(i). Indicator definition says 'the federally required timeframe' and covers both cash-assistance and non-cash-assistance SNAP cases.",
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "hra-medicaid-timeliness#0",
+  "line_id": "hra-medicaid-timeliness",
+  "agency": "HRA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2024 to date, July 1, 2023 through Jun. 30, 2024 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2024-06-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Medicaid \u2014 Application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Medicaid applications decided on time",
+   "what_for": "A decision on a Medicaid application",
+   "end_event": "Application accepted or denied",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "45 days, or 90 days for disability-based applications, 42 CFR 435.912; indicator definition says 'within required timeframes' for community and hospital new applications",
+   "caveats": [
+    "Data unavailable after fiscal 2024 per the PMMR; latest value is fiscal 2024 (June 2024)."
+   ]
+  }
+ },
+ {
+  "claim_id": "hra-idnyc-timeliness#0",
+  "line_id": "hra-idnyc-timeliness",
+  "agency": "HRA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='IDNYC \u2014 Application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "IDNYC cards issued on time",
+   "what_for": "An IDNYC card (denominator is cards mailed, per the definition)",
+   "end_event": "Card issued",
+   "unit": "items",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "14 business days from receipt of application to mailing of the card (indicator definition)",
+   "caveats": [
+    "Denominator is mailed cards, not applications; applications not resulting in a mailed card are not in the rate."
+   ]
+  }
+ },
+ {
+  "claim_id": "hra-hasa-timeliness#0",
+  "line_id": "hra-hasa-timeliness",
+  "agency": "HRA",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='HIV/AIDS Services Administration (HASA) \u2014 Rental assistance application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HASA rental assistance applications decided on time",
+   "what_for": "Rental assistance for a HASA client",
+   "end_event": "Application processed (definition)",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "30 days (indicator definition: 'the required 30-day timeframe')",
+   "caveats": [
+    "Definition describes the cohort as 'applications submitted in the reporting month'; the dataset field is fiscal-year-to-date, so the value may be a year-to-date aggregate of monthly cohorts."
+   ]
+  }
+ },
+ {
+  "claim_id": "hra-home-care-initiation#0",
+  "line_id": "hra-home-care-initiation",
+  "agency": "HRA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Average days to initiate home attendant and housekeeper services for all cases'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Home attendant and housekeeper services: start of care",
+   "what_for": "Home care services beginning",
+   "end_event": "Services initiated",
+   "unit": "cases",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "hra-center-wait#0",
+  "line_id": "hra-center-wait",
+  "agency": "HRA",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "minutes (decoded from minutes:seconds)",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Average wait time to speak with a customer service agent (minutes:seconds)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "HRA in-person wait at benefits centers",
+   "what_for": "A person at an HRA center who has checked in with a greeter or information desk",
+   "end_event": "Met by a customer service representative",
+   "unit": "persons",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "An in-person wait, per the definition: 'from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative.' Not a phone wait.",
+    "Published as minutes:seconds encoded as M.SS (96.38 = 96 minutes 38 seconds); the registry decodes it to decimal minutes and keeps the printed form.",
+    "A counter wait is not a rationed application; kept as context, excluded from any totals.",
+    "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
+   ]
+  }
+ },
+ {
+  "claim_id": "dhs-los-families-children#0",
+  "line_id": "dhs-los-families-children",
+  "agency": "DHS",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DHS' and indicator='Average length of stay \u2014 Families with children in shelter (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Families with children in shelter: length of stay",
+   "what_for": "Permanent housing after shelter",
+   "end_event": "Exit from shelter",
+   "unit": "households",
+   "center": "mean",
+   "duration_kind": "unknown (definition silent)",
+   "standard": null,
+   "caveats": [
+    "Definition: days in shelter 'from their first date of application', excluding overnight facilities; families away more than 30 days count as new applicants. The text does not say whether the average is over current residents or over those who exited; the registry treats it as ambiguous (duration_kind unknown).",
+    "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
+   ]
+  }
+ },
+ {
+  "claim_id": "dhs-los-single-adults#0",
+  "line_id": "dhs-los-single-adults",
+  "agency": "DHS",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DHS' and indicator='Average length of stay \u2014 Single adults in shelter (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Single adults in shelter: length of stay",
+   "what_for": "Permanent housing after shelter",
+   "end_event": "Exit from shelter",
+   "unit": "persons",
+   "center": "mean",
+   "duration_kind": "unknown; wording ('has spent ... during the reporting period') suggests current residents",
+   "standard": null,
+   "caveats": [
+    "Own definition differs from the families line on exclusions (Safe Havens, veterans housing), clock start and treatment of gaps; see definition_quote.",
+    "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
+   ]
+  }
+ },
+ {
+  "claim_id": "dhs-los-adult-families#0",
+  "line_id": "dhs-los-adult-families",
+  "agency": "DHS",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DHS' and indicator='Average length of stay \u2014 Adult families in shelters (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Adult families in shelter: length of stay",
+   "what_for": "Permanent housing after shelter",
+   "end_event": "Exit from shelter",
+   "unit": "households",
+   "center": "mean",
+   "duration_kind": "unknown (definition silent)",
+   "standard": null,
+   "caveats": [
+    "Definition text is identical in structure to the families-with-children line; the single-adults line differs. See each line's definition_quote.",
+    "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
+   ]
+  }
+ },
+ {
+  "claim_id": "acs-child-care-eligibility#0",
+  "line_id": "acs-child-care-eligibility",
+  "agency": "ACS",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='ACS' and indicator='Child care assistance applicants with eligibility determinations within 30 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Child care assistance eligibility decided on time",
+   "what_for": "A child care voucher eligibility decision",
+   "end_event": "Determination issued",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "30 days of submission (indicator definition); state regulation 18 NYCRR Part 415 gives districts up to 30 days once all necessary paperwork is received (per OCFS guidance), a different clock",
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "hh-third-next-adult#0",
+  "line_id": "hh-third-next-adult",
+  "agency": "NYCHH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "calendar days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHH' and indicator='Calendar days to third next available new appointment \u2013 Adult medicine'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYC Health + Hospitals: new adult primary care appointment",
+   "what_for": "An open new-patient appointment slot in adult medicine",
+   "end_event": "Appointment date",
+   "unit": "items",
+   "center": "not stated (single system figure)",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "'Third next available' is a standard access measure: the wait to the third open slot, which smooths out cancellations. The definition does not say whether the figure is a mean across sites."
+   ]
+  }
+ },
+ {
+  "claim_id": "hh-third-next-pediatric#0",
+  "line_id": "hh-third-next-pediatric",
+  "agency": "NYCHH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "calendar days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='NYCHH' and indicator='Calendar days to third next available new appointment \u2013 Pediatric medicine'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "NYC Health + Hospitals: new pediatric appointment",
+   "what_for": "An open new-patient appointment slot in pediatric medicine",
+   "end_event": "Appointment date",
+   "unit": "items",
+   "center": "not stated (single system figure)",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "See adult medicine line."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcas-exam-results#0",
+  "line_id": "dcas-exam-results",
+  "agency": "DCAS",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCAS' and indicator='Median time from exam administration to exam results completion for DCAS-administered exams (business days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Civil service exam results",
+   "what_for": "Results of a civil service exam",
+   "end_event": "Results completed",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Business days. Excludes New York City Transit Authority exams. 'Results completion' means list published or established at a hiring agency's request, per the definition."
+   ]
+  }
+ },
+ {
+  "claim_id": "dof-scrie-initial#0",
+  "line_id": "dof-scrie-initial",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Senior Citizen Rent Increase Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "SCRIE initial applications",
+   "what_for": "A Senior Citizen Rent Increase Exemption",
+   "end_event": "Application approved, denied or deemed incomplete (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dof-drie-initial#0",
+  "line_id": "dof-drie-initial",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Disability Rent Increase Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DRIE initial applications",
+   "what_for": "A Disability Rent Increase Exemption",
+   "end_event": "Application approved, denied or deemed incomplete (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dof-sche-initial#0",
+  "line_id": "dof-sche-initial",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Senior Citizen Homeowners' Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "SCHE initial applications",
+   "what_for": "A Senior Citizen Homeowners' Exemption",
+   "end_event": "Application approved, denied or deemed incomplete (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dof-dhe-initial#0",
+  "line_id": "dof-dhe-initial",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Disability Homeowners' Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DHE initial applications",
+   "what_for": "A Disability Homeowners' Exemption",
+   "end_event": "Application approved, denied or deemed incomplete (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dof-property-tax-refund#0",
+  "line_id": "dof-property-tax-refund",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to issue a property tax refund (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Property tax refunds",
+   "what_for": "A property tax refund",
+   "end_event": "Refund issued",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dof-parking-hearing-mail#0",
+  "line_id": "dof-parking-hearing-mail",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average turnaround time to issue decision for parking summons hearing-by-mail (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Parking summons hearings by mail",
+   "what_for": "A decision on a contested parking ticket",
+   "end_event": "Decision issued",
+   "unit": "cases",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dof-parking-hearing-inperson#0",
+  "line_id": "dof-parking-hearing-inperson",
+  "agency": "DOF",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "minutes",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average turnaround time for in-person parking summons hearings (minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Parking summons hearings in person",
+   "what_for": "A hearing on a contested parking ticket",
+   "end_event": "Completion of the hearing (definition; includes the hearing itself)",
+   "unit": "cases",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Non-commercial drivers only (definition)."
+   ]
+  }
+ },
+ {
+  "claim_id": "dob-filing-to-approval#0",
+  "line_id": "dob-filing-to-approval",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days from filing to approval \u2013 All applications (DOB NOW)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOB NOW filings: filing to approval",
+   "what_for": "Approval of a construction job filing",
+   "end_event": "Filing approved",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Business days, per the definition; the computed line (dob-filing-to-approval-computed) uses calendar days, so the two are not directly comparable.",
+    "Definition counts total time with the agency and the applicant."
+   ]
+  }
+ },
+ {
+  "claim_id": "dob-first-plan-review#0",
+  "line_id": "dob-first-plan-review",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days to complete first plan review \u2013 All applications (DOB NOW)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOB NOW filings: first plan review",
+   "what_for": "A first plan examination, measured from the status 'application processed - completed'",
+   "end_event": "Approved or disapproved status during first review (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dob-first-plan-review-nb#0",
+  "line_id": "dob-first-plan-review-nb",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOB NOW new building filings: first plan review",
+   "what_for": "A first plan examination for a new building, measured from the status 'application processed - completed'",
+   "end_event": "Approved or disapproved status during first review (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dob-inspection-construction#0",
+  "line_id": "dob-inspection-construction",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days between construction inspection request and inspection'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOB construction inspections",
+   "what_for": "A requested construction inspection",
+   "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dob-inspection-electrical#0",
+  "line_id": "dob-inspection-electrical",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days between electrical inspection request and inspection'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOB electrical inspections",
+   "what_for": "A requested electrical inspection",
+   "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dob-inspection-plumbing#0",
+  "line_id": "dob-inspection-plumbing",
+  "agency": "DOB",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Feb. 28, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days between plumbing inspection request and inspection'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOB plumbing inspections",
+   "what_for": "A requested plumbing inspection",
+   "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dcp-simple-zoning-review#0",
+  "line_id": "dcp-simple-zoning-review",
+  "agency": "DCP",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "First four months of fiscal 2026, July 1 to Oct. 31, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCP' and indicator='Median days for simple zoning action projects to enter public review'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Simple zoning actions: pre-certification",
+   "what_for": "Certification into public review (ULURP)",
+   "end_event": "Project enters public review",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Definition: days 'under internal review and revision' before pre-certification. Separate indicators in the same dataset (not this one) report the share of that time spent with the applicant vs. with the agency."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcp-eas-zoning-review#0",
+  "line_id": "dcp-eas-zoning-review",
+  "agency": "DCP",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "First four months of fiscal 2026, July 1 to Oct. 31, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCP' and indicator='Median days for zoning actions with CEQR (EAS) to enter public review'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Zoning actions with an environmental assessment: pre-certification",
+   "what_for": "Certification into public review",
+   "end_event": "Project enters public review",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "See simple zoning line."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcp-eis-zoning-review#0",
+  "line_id": "dcp-eis-zoning-review",
+  "agency": "DCP",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "First four months of fiscal 2026, July 1 to Oct. 31, 2025"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2025-10-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCP' and indicator='Median days for zoning actions with CEQR (EIS) to enter public review'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Zoning actions with an environmental impact statement: pre-certification",
+   "what_for": "Certification into public review",
+   "end_event": "Project enters public review",
+   "unit": "items",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "See simple zoning line."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcwp-license-processing#0",
+  "line_id": "dcwp-license-processing",
+  "agency": "DCWP",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCWP' and indicator='Median processing time (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DCWP license applications",
+   "what_for": "A business or worker license, new or renewal",
+   "end_event": "Application processed",
+   "unit": "applications",
+   "center": "median",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Definition excludes licenses needing outside-agency approval, special inspections, mandatory waiting periods or extensive legal review; for renewals it also excludes days pending on the applicant. Includes renewals. The vendor waitlists are separate lines."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcwp-license-within-30#0",
+  "line_id": "dcwp-license-within-30",
+  "agency": "DCWP",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCWP' and indicator='Applications approved within 30 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DCWP license applications within 30 days",
+   "what_for": "A business or worker license, new or renewal",
+   "end_event": "Application approved",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "30 calendar days (threshold in the indicator; the definition does not call it a standard)",
+   "caveats": [
+    "Same exclusions as the median processing time line: outside-agency approval, special inspections, mandatory waiting periods, extensive legal review."
+   ]
+  }
+ },
+ {
+  "claim_id": "dcwp-licensing-center-wait#0",
+  "line_id": "dcwp-licensing-center-wait",
+  "agency": "DCWP",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "minutes",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DCWP' and indicator='Average Licensing Center wait time (minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DCWP Licensing Center in-person wait",
+   "what_for": "Service at the counter",
+   "end_event": "Served",
+   "unit": "persons",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dohmh-birth-certificates#0",
+  "line_id": "dohmh-birth-certificates",
+  "agency": "DOHMH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOHMH' and indicator='Average response time for birth certificates by mail/online/in person (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Birth certificate requests",
+   "what_for": "A birth certificate, measured from receipt of necessary documentation",
+   "end_event": "Response or issuance (definition)",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Clock starts at receipt of necessary documentation, not at the request. Outlier, voided and canceled orders are excluded (definition)."
+   ]
+  }
+ },
+ {
+  "claim_id": "dohmh-death-certificates#0",
+  "line_id": "dohmh-death-certificates",
+  "agency": "DOHMH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOHMH' and indicator='Average response time for death certificates by mail/online/in person (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Death certificate requests",
+   "what_for": "A death certificate, measured from receipt of necessary documentation",
+   "end_event": "Response or issuance (definition)",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Clock starts at receipt of necessary documentation. Outlier, voided and canceled orders excluded; funeral director orders included (definition)."
+   ]
+  }
+ },
+ {
+  "claim_id": "doris-vital-records#0",
+  "line_id": "doris-vital-records",
+  "agency": "DORIS",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DORIS' and indicator='Average response time to vital record requests (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Municipal Archives vital record requests",
+   "what_for": "A historical birth, death or marriage record",
+   "end_event": "Certified copy sent, or a 'not found' statement sent (definition)",
+   "unit": "requests",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "dot-permit-processing#0",
+  "line_id": "dot-permit-processing",
+  "agency": "DOT",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "calendar days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='DOT' and indicator='Average time to process a permit application for customers (calendar days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "DOT permit applications",
+   "what_for": "A street or sidewalk permit that was approved",
+   "end_event": "Approved permit issued (definition covers approved permits only)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "bic-waste-hauling-pending-age#0",
+  "line_id": "bic-waste-hauling-pending-age",
+  "agency": "BIC",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "As of March 2026 (dataset field acceptedvalue, the month's value; the fiscal-year-to-date average, acceptedvalueytd, is 257)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='BIC' and indicator='Average age of pending waste hauling applications (days) \u2014 New'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Waste hauling license applications: age of pending",
+   "what_for": "A trade waste license or registration",
+   "end_event": "Application decided",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "waiting_so_far",
+   "standard": null,
+   "caveats": [
+    "One of the few agency indicators measuring the wait of those still in line.",
+    "Definition excludes applications slated for denial or under long-term investigation, which removes the longest waits from the average."
+   ]
+  }
+ },
+ {
+  "claim_id": "bic-waste-hauling-approval#0",
+  "line_id": "bic-waste-hauling-approval",
+  "agency": "BIC",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='BIC' and indicator='Average time to approve waste hauling applications (days) \u2014 New'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Waste hauling license applications: time to approve",
+   "what_for": "A trade waste license or registration",
+   "end_event": "Approval by the Legal Unit (definition)",
+   "unit": "applications",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Excludes applications that undergo long-term investigations and are later approved (definition), which removes the longest waits."
+   ]
+  }
+ },
+ {
+  "claim_id": "bic-waste-hauling-pending#0",
+  "line_id": "bic-waste-hauling-pending",
+  "agency": "BIC",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "applications",
+   "period_label": "As of March 2026 (dataset field acceptedvalue, the month's value; the fiscal-year-to-date average, acceptedvalueytd, is 63)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='BIC' and indicator='Waste hauling applications pending \u2014 New'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Waste hauling license applications pending",
+   "what_for": "A trade waste license or registration",
+   "end_event": "Application decided",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": [
+    "Excludes applications slated for denial or under long-term investigation (definition)."
+   ]
+  }
+ },
+ {
+  "claim_id": "cchr-caseload-age#0",
+  "line_id": "cchr-caseload-age",
+  "agency": "CCHR",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "As of February 2026 (dataset field acceptedvalue, the month's value; the fiscal-year-to-date average, acceptedvalueytd, is 658)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='CCHR' and indicator='Average age of complaint caseload (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Human Rights Commission complaints: age of open caseload",
+   "what_for": "Resolution of a discrimination complaint",
+   "end_event": "Case closed",
+   "unit": "cases",
+   "center": "mean",
+   "duration_kind": "waiting_so_far",
+   "standard": null,
+   "caveats": [
+    "Measures open cases, so this is the wait so far, not the completed wait."
+   ]
+  }
+ },
+ {
+  "claim_id": "cchr-open-matters#0",
+  "line_id": "cchr-open-matters",
+  "agency": "CCHR",
+  "quantity": {
+   "type": "stock",
+   "unit_of_value": "cases",
+   "period_label": "As of February 2026 (dataset field acceptedvalue, the month's value; the fiscal-year-to-date average, acceptedvalueytd, is 1742)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-02-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='CCHR' and indicator='Open matters'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Human Rights Commission open matters",
+   "what_for": "Resolution of a discrimination complaint",
+   "end_event": "Case closed",
+   "unit": "cases",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "oath-hearing-decisions#0",
+  "line_id": "oath-hearing-decisions",
+  "agency": "OATH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='OATH' and indicator='Average days for Judicial Hearings Officers to render decisions'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "OATH hearings: decision after hearing",
+   "what_for": "A decision on a summons heard at OATH (the definition divides total pending days by summonses heard and decided, so this is a ratio, not a per-case mean)",
+   "end_event": "Decision rendered",
+   "unit": "items",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "oath-trials-decisions#0",
+  "line_id": "oath-trials-decisions",
+  "agency": "OATH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "business days",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='OATH' and indicator='Average time for OATH Trials Division to issue decisions after records closed (business days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "OATH Trials Division decisions",
+   "what_for": "A decision after a trial record closes",
+   "end_event": "Decision issued",
+   "unit": "cases",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": []
+  }
+ },
+ {
+  "claim_id": "oath-special-ed-hearings#0",
+  "line_id": "oath-special-ed-hearings",
+  "agency": "OATH",
+  "quantity": {
+   "type": "duration",
+   "unit_of_value": "days",
+   "period_label": "Fiscal 2026 to date; dataset valuedate Mar. 1, 2026 (quarterly rows fall at fiscal quarter ends; the dataset does not state which quarter a row closes)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='OATH' and indicator='Average time from appointment to OATH Special Education Hearing Officer to case closure'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Special education impartial hearings",
+   "what_for": "Closure of a special education due process case by resolution, withdrawal, dismissal or final decision",
+   "end_event": "Case closed",
+   "unit": "cases",
+   "center": "mean",
+   "duration_kind": "completed",
+   "standard": null,
+   "caveats": [
+    "Measured from hearing officer appointment, not from the parent's filing; the pre-appointment wait is not captured here."
+   ]
+  }
+ },
+ {
+  "claim_id": "lpc-minor-work-permits#0",
+  "line_id": "lpc-minor-work-permits",
+  "agency": "LPC",
+  "quantity": {
+   "type": "timeliness_rate",
+   "unit_of_value": "percent",
+   "period_label": "Fiscal 2026 to date, July 1, 2025 through Mar. 31, 2026 (dataset field acceptedvalueytd: fiscal-year-to-date value)"
+  },
+  "source": {
+   "url": "https://data.cityofnewyork.us/City-Government/Mayor-s-Management-Report-Agency-Performance-Indic/rbed-zzin",
+   "title": "Mayor's Management Report - Agency Performance Indicators",
+   "publisher": "Mayor's Office of Operations via NYC Open Data",
+   "date": "2026-03-01",
+   "local_copy": null
+  },
+  "how_to_find": "Query rbed-zzin for agency='LPC' and indicator='Permits for minor work issued within 10 business days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
+  "registry_description_to_check": {
+   "line_name": "Landmarks permits for minor work within 10 business days",
+   "what_for": "A permit for minor work on a landmark, measured from the application being completed",
+   "end_event": "Permit issued",
+   "unit": "applications",
+   "center": "n/a",
+   "duration_kind": "n/a",
+   "standard": "10 business days from a completed application (threshold in the indicator; the definition does not call it a standard)",
+   "caveats": []
+  }
+ }
+]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Waiting City</title>
+<meta name="description" content="How many New Yorkers are standing in a line the city controls, and how long each line is. A registry of 77 lines, each measured in the agency's own terms.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="house.css">
+<style>
+:root{--ink3:#7a4f2f} /* project accent: a dull brick, the colour of a ticket stub */
+.facts{padding:16px 26px 20px;border-bottom:1px solid var(--hair);columns:2;column-gap:40px;max-width:1400px}
+@media(max-width:900px){.facts{columns:1}}
+.facts p{margin:0 0 10px;font-size:.98rem;line-height:1.55;break-inside:avoid}
+.facts p b{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums}
+.facts p .per{color:var(--ink2);font-size:.86rem}
+.sechead{padding:9px 26px;border-bottom:1px solid var(--hair);border-top:1px solid var(--ink);font-size:var(--t-micro);letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--ink2);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.rec .val{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums;float:right;margin-left:12px;font-size:var(--t-rec)}
+.grade{display:inline-block;font-size:var(--t-micro);letter-spacing:.1em;font-weight:700;padding:1px 6px;border:1px solid var(--ink2);color:var(--ink2);margin-right:6px;line-height:1.5}
+.grade.A{border-color:var(--ink1);color:var(--ink1)} .grade.Ac{border-color:var(--ink5);color:var(--ink5)} .grade.B{border-color:var(--ink2c);color:var(--ink2c)} .grade.C{border-color:var(--ink4);color:var(--ink4)} .grade.D{border-color:var(--ink3);color:var(--ink3)}
+.detail{padding:0 0 40px}
+.detail .dh{padding:14px 26px 10px;border-bottom:1px solid var(--hair)}
+.detail .dh .lbl{font-size:var(--t-micro);letter-spacing:.15em;text-transform:uppercase;font-weight:700;color:var(--ink2)}
+.detail .dh h2{margin:3px 0 0;font-family:var(--display);font-size:1.4rem;line-height:1.16;font-weight:700;letter-spacing:-.02em}
+.detail .big{font-family:var(--display);font-weight:600;font-size:1.45rem;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.quote{border-left:3px solid var(--ink3);padding:6px 12px;margin:6px 0 10px;font-size:.95rem;line-height:1.55;color:#2c302d}
+.spark{width:100%;height:150px;display:block;margin:4px 0 2px}
+.spark .l{fill:none;stroke:var(--ink1);stroke-width:1.6}
+.spark .m{fill:none;stroke:var(--ink4);stroke-width:1.2;stroke-dasharray:3 3}
+.spark .ax{stroke:var(--hair);stroke-width:1}
+.spark text{font-family:var(--sans);font-size:9.5px;fill:var(--ink2);letter-spacing:.06em}
+.legend{font-size:var(--t-micro);letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--ink2);display:flex;gap:16px;flex-wrap:wrap;margin:0 0 6px}
+.legend i{display:inline-block;width:18px;height:0;border-top:2px solid var(--ink1);vertical-align:middle;margin-right:6px}
+.legend i.m{border-top:2px dashed var(--ink4)}
+.spreadt{width:100%;border-collapse:collapse;font-size:.9rem;margin:4px 0 8px}
+.spreadt td{padding:4px 10px 4px 0;border-bottom:1px solid var(--hair2);vertical-align:top}
+.spreadt td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.caveats li{font-size:.94rem;line-height:1.55;margin-bottom:6px}
+.records{margin-top:10px}
+.records table{font-size:.86rem}
+.cbtn{font-size:var(--t-small);letter-spacing:.05em;text-transform:uppercase;font-weight:700;background:none;border:1px solid var(--ink3);color:var(--ink3);padding:6px 10px;cursor:pointer}
+.cbtn:hover{background:var(--ink3);color:var(--paper)}
+.caution{display:none}.caution.open{display:block}
+.hmark svg .a{fill:var(--ink1);opacity:.55}.hmark svg .b{fill:var(--ink3);opacity:.6}.hmark svg .c{fill:var(--ink4);opacity:.5}.hmark svg .t{fill:var(--paper)}
+.stack{display:none}
+@media(max-width:900px){.cols>.col:last-child{display:none}.stack{display:block}}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="strip"><span>The Waiting City · every line New Yorkers stand in</span><span>Registry built <span id="built"></span> · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
+
+  <div class="head">
+    <div class="hmark" aria-hidden="true">
+      <svg viewBox="0 0 300 150">
+        <g transform="rotate(-6 150 75)">
+          <rect class="c" x="118" y="52" width="150" height="56"/>
+          <rect class="b" x="88" y="44" width="150" height="56"/>
+          <rect class="a" x="58" y="36" width="150" height="56"/>
+          <circle class="t" cx="58" cy="64" r="7"/><circle class="t" cx="208" cy="64" r="7"/>
+          <g class="t" font-family="Archivo,sans-serif" font-weight="700" font-size="13"><text x="78" y="70">NOW SERVING</text></g>
+          <rect class="a" x="28" y="28" width="22" height="56"/>
+          <rect class="b" x="8" y="20" width="14" height="56"/>
+        </g>
+      </svg>
+    </div>
+    <h1>The Waiting City</h1>
+    <p class="sub">How many New Yorkers are standing in a line the city controls, and how long each line is. Seventy-seven lines, each measured in the agency's own words, each number opening the record it came from. There is no grand total, because the units don't add: a household on a waiting list, an application in a queue and a repair on a work order are different things.</p>
+    <p class="src">Sources: Mayor's Management Report indicators, agency releases and testimony, Comptroller audits, NYU Furman Center, NYC Open Data record-level files · <a href="methodology.html">How the counting works</a></p>
+  </div>
+
+  <div class="capline">Registry as built <b id="built2"></b> · Mayor's Management Report figures are fiscal 2026 to date through <b>March 2026</b> unless a line says otherwise</div>
+  <div class="counts" id="counts"></div>
+
+  <div class="sechead"><span>What the record shows</span><span>Every figure below is also a line in the registry; click through for its definition, period and source</span></div>
+  <div class="facts" id="facts"></div>
+
+  <div class="tabs" id="tabs">
+    <button class="on" data-tier="all">All lines</button>
+    <button data-tier="1">Mayoral agencies</button>
+    <button data-tier="2">City-controlled entities</button>
+    <button data-tier="3">State lines, shown apart</button>
+  </div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search lines, agencies, definitions" aria-label="Search">
+    <select id="ftype"><option value="">Any measure</option><option value="stock">How many are waiting</option><option value="duration">How long it takes</option><option value="timeliness_rate">Share on time</option><option value="throughput">Cleared per period</option><option value="demand">Demand at the door</option><option value="derived">Derived</option></select>
+    <select id="fgrade"><option value="">Any grade</option><option value="A">A: structured agency data</option><option value="A-c">A-c: computed from records</option><option value="B">B: agency or oversight document</option><option value="C">C: press, attributed</option><option value="D">D: derived or ambiguous</option></select>
+    <button class="chip" id="spreadonly" aria-pressed="false">Only lines with a published spread</button>
+    <button class="chip" id="zero" aria-pressed="false">Start y-axis at zero</button>
+  </div>
+
+  <div class="cols">
+    <div class="col" id="list"></div>
+    <div class="col"><div class="detail" id="detail"><div class="empty">Select a line.</div></div></div>
+  </div>
+
+  <div class="foot">
+    <p>A line, for this project, is a set of people (or households, applications, cases or objects) who have formally asked a government body for a specific thing, have been accepted into a waiting state and have not yet received either the thing or a final decision. <a href="methodology.html">Definitions, measurement types and grades</a> · <a href="gaps.html">Twelve lines with no public count, and defects in the sources themselves</a> · <a href="checks.html">Three blind fact-check passes</a> · <a href="data/registry.json">Registry data (JSON)</a> · <a href="https://github.com/joshgreenman1973/the-waiting-city">Code and sources</a></p>
+    <p><button class="cbtn" id="cautionbtn">And please read this AI caution.</button></p>
+    <div class="caution" id="caution">Everything substantive (the concept, which lines to include, how to define and grade them, what the page should show) was decided by the author, a human. The coding, the data pulls and the file work were done by Anthropic's Claude and Claude Code under the author's direction. The author insisted on quality controls: every figure carries a verbatim quote from its source and a local copy of the document or the exact query; every Mayor's Management Report figure was re-queried by name and compared; and three separate fact-checkers, each blind to the registry's values and to the earlier checks, re-extracted every figure and compared each line's description against the agency's own definition text, word by word. Those passes found and corrected 41 definition errors. The risks of using AI remain, and the author would be grateful to hear of any red flags in what is presented.</div>
+    <p>Josh Greenman · The Waiting City · Registry built <span id="built3"></span>.</p>
+  </div>
+</div>
+
+<div class="drawer" id="drawer"><div class="scrim" id="scrim"></div><div class="panel"><div class="dhead"><div><div class="lbl">Line</div><h2 id="dtitle"></h2></div><button class="xbtn" id="xbtn" aria-label="Close">×</button></div><div class="dbody" id="dbody"></div></div></div>
+
+<script src="app.js"></script>
+</body>
+</html>

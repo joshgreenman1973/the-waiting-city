@@ -1,0 +1,70 @@
+# agency | indicator (exact). Lines New Yorkers stand in, per METHODOLOGY.md sections 1 and 7.
+NYCHA | Section 8 — Families on waiting list (000)
+NYCHA | Average turnaround time for vacant units (days)
+NYCHA | Average time to complete maintenance work orders (days)
+NYCHA | Average time to complete skilled trades and vendor work orders (days)
+NYCHA | Average time to resolve elevator outages (hours:minutes)
+NYCHA | Average time to resolve heat outages (hours:minutes)
+NYCHA | Average time to resolve non-emergency service requests (days)
+NYCHA | Non-emergency service requests resolved within 15 days (%)
+NYCHA | Non-emergency service requests resolved within 60 days (%)
+NYCHA | Emergency transfer disposition time (days)
+HPD | Section 8 — Median time from completed application to voucher issuance (days)
+HPD | Section 8 — Median time from voucher issuance to lease up (days)
+HPD | Lottery units — Median time to approve an applicant (days)
+HPD | Lottery projects — Median time to complete applicant approvals (days)
+HPD | Median time to lease-up a homeless placement set-aside new construction unit (days)
+HPD | Median time to lease-up a homeless placement voluntary new construction unit (days)
+HPD | Median time to first inspection (days) — Heat and hot water problems
+HPD | Median time to first inspection (days) — Non-emergency problems
+HPD | Median time to close emergency problems (days)
+HPD | Median time to close non-emergency problems (days)
+HRA | Cash Assistance — Application timeliness rate (%)
+HRA | Supplemental Nutrition Assistance Program (SNAP) — Application timeliness rate (%)
+HRA | Medicaid — Application timeliness rate (%)
+HRA | IDNYC — Application timeliness rate (%)
+HRA | HIV/AIDS Services Administration (HASA) — Rental assistance application timeliness rate (%)
+HRA | Average days to initiate home attendant and housekeeper services for all cases
+HRA | Average wait time to speak with a customer service agent (minutes:seconds)
+DHS | Average length of stay — Families with children in shelter (days)
+DHS | Average length of stay — Single adults in shelter (days)
+DHS | Average length of stay — Adult families in shelters (days)
+ACS | Child care assistance applicants with eligibility determinations within 30 days (%)
+ACS | Average length of stay in detention (days) (total)
+NYCHH | Calendar days to third next available new appointment – Adult medicine
+NYCHH | Calendar days to third next available new appointment – Pediatric medicine
+DCAS | Median time from exam administration to exam results completion for DCAS-administered exams (business days)
+DOF | Average time to process initial Senior Citizen Rent Increase Exemption applications (days)
+DOF | Average time to process initial Disability Rent Increase Exemption applications (days)
+DOF | Average time to process initial Senior Citizen Homeowners' Exemption applications (days)
+DOF | Average time to process initial Disability Homeowners' Exemption applications (days)
+DOF | Average time to issue a property tax refund (days)
+DOF | Average turnaround time to issue decision for parking summons hearing-by-mail (days)
+DOF | Average turnaround time for in-person parking summons hearings (minutes)
+DOB | Average days from filing to approval – All applications (DOB NOW)
+DOB | Average days to complete first plan review – All applications (DOB NOW)
+DOB | Average days to complete first plan review – New Buildings – All applications (DOB NOW)
+DOB | Average days between construction inspection request and inspection
+DOB | Average days between electrical inspection request and inspection
+DOB | Average days between plumbing inspection request and inspection
+DOB | Average customer in-person transaction time (minutes)
+DCP | Median days for simple zoning action projects to enter public review
+DCP | Median days for zoning actions with CEQR (EAS) to enter public review
+DCP | Median days for zoning actions with CEQR (EIS) to enter public review
+DCWP | Median processing time (days)
+DCWP | Applications approved within 30 days (%)
+DCWP | Average Licensing Center wait time (minutes)
+DOHMH | Average response time for birth certificates by mail/online/in person (days)
+DOHMH | Average response time for death certificates by mail/online/in person (days)
+DORIS | Average response time to vital record requests (days)
+DOT | Average time to process a permit application for customers (calendar days)
+BIC | Average age of pending waste hauling applications (days) — New
+BIC | Average time to approve waste hauling applications (days) — New
+BIC | Waste hauling applications pending — New
+CCHR | Average age of complaint caseload (days)
+CCHR | Open matters
+OATH | Average days for Judicial Hearings Officers to render decisions
+OATH | Average time for OATH Trials Division to issue decisions after records closed (business days)
+OATH | Average time from appointment to OATH Special Education Hearing Officer to case closure
+LPC | Permits for minor work issued within 10 business days (%)
+DFTA | Meeting time to first action – Housing (% within 14 days)

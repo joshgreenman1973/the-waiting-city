@@ -1,0 +1,959 @@
+ 
+ 
+City of New York 
+OFFICE OF THE COMPTROLLER 
+Scott M. Stringer 
+COMPTROLLER 
+MANAGEMENT AUDIT 
+Marjorie Landa  
+Deputy Comptroller for Audit  
+Audit Report on the Department of 
+Parks and Recreation's Trees & 
+Sidewalks Program  
+MH18-058A 
+June 20, 2019 
+http://comptroller.nyc.gov  
+
+
+ 
+TABLE OF CONTENTS 
+EXECUTIVE SUMMARY ............................................................................ 1 
+Audit Findings and Conclusion .................................................................................... 1 
+Audit Recommendations.............................................................................................. 2 
+Agency Response ....................................................................................................... 2 
+AUDIT REPORT ......................................................................................... 3 
+Background ................................................................................................................. 3 
+Objective ...................................................................................................................... 4 
+Scope and Methodology Statement ............................................................................. 4 
+Discussion of Audit Results with DPR ......................................................................... 5 
+FINDINGS AND RECOMMENDATIONS .................................................... 6 
+Average Sidewalk Inspection Response Times Exceeded 30 Days for Fiscal 
+Years 2016 and 2017 .................................................................................................. 7 
+Recommendations ................................................................................................... 9 
+Not All Inspection Data Was Entered into ForMS 2.0 ................................................ 10 
+Recommendations .................................................................................................  12 
+Service Requests Incorrectly Labeled as Duplicate ................................................... 13 
+Recommendations .................................................................................................  13 
+DPR Has No Time Frame or Goal for Completing Sidewalk Repairs Once an 
+Inspection Is Completed ............................................................................................ 14 
+Recommendation ................................................................................................... 16 
+DETAILED SCOPE AND METHODOLOGY ............................................. 17 
+ADDENDUM 
+ 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 1 
+THE CITY OF NEW YORK 
+OFFICE OF THE COMPTROLLER 
+MANAGEMENT AUDIT 
+ 
+Audit Report on the Department of Parks and 
+Recreation's Trees & Sidewalks Program 
+MH18-058A 
+ 
+EXECUTIVE SUMMARY 
+We conducted this audit to determine whether the New York City (City) Department of Parks and 
+Recreation (DPR) has adequate controls over its Trees & Sidewalks Program to ensure sidewalks 
+are repaired in a timely manner. 
+DPR’s mission is to plan, maintain, and care for the more than 30,000- acre municipal parks 
+system that encompasses over 1,900 parks, 1,000 playgrounds, 650,000 street trees, and 2 
+million park trees.  In connection with its responsibility for street trees, DPR manages the Trees 
+& Sidewalks Program, initiated in March 2005, which seeks to repair sidewalks damaged by the 
+roots of City trees i n front of owner occupied one- , two-, and three -family homes (property tax 
+class 1) not used for commercial purposes.  The mission of the program is to preserve the integrity 
+of the trees, address any potential tree -related safety concerns, and reduce li ability of the City  
+and owners of adjacent private property. 
+According to DPR’s procedures, the sidewalk repair process is initiated when an individual makes 
+a request by either calling 3-1-1, entering information into the 3-1-1 website, or entering a request 
+into DPR’s website.  All requests received under the Trees & Sidewalks Program for a sidewalk 
+inspection should be entered into DPR’s Forestry Management System (ForMS) 2.0.  DPR’s staff 
+should review the service request to ensure that the address is eligible for the Trees & Sidewalks 
+Program and check ForMS 2.0 to determine whether it contains a record of any other complaints 
+at that address.  According to DPR’s internal standard, known as the Service Level Agreement 
+(SLA), an inspector should evaluate each eligible site within 30 days and assign a priority rating.  
+For each sidewalk that receives  a priority rating above DPR ’s threshold, DPR is supposed to 
+create a repair design and subsequently generate a corresponding work order.  Once DPR has a 
+budget and a contract to com plete sidewalk repairs, its procedures call for it to identify those 
+sidewalks with work orders within a geographic area to be repaired by the contractor.   
+Audit Findings and Conclusion 
+This audit found that DPR had inadequate controls over its Trees & Sidewalks Program to ensure 
+that sidewalks are repaired in a timely manner.  DPR has a weekly Trees and Sidewalks Indicator 
+Report that contains various activity and performance measures; however, it does not track the 
+timeliness with which the sidewalks are inspected or repaired.   Our review of 11,392 service 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 2 
+requests and 9,118 associated addresses found that homeowners had to wait an average of 101 
+days after submitting a request to have their sidewalks inspected, 71 days longer than the 30 day 
+internal DPR SLA.  Additionally, our review of 1,069 repaired sidewalks  found that the average 
+time from inspection to repair was 419 days, with the longest time for a repair taking over 11 years.  
+DPR’s data reveals that 95 percent of the sidewalk repairs were completed within 2 years and 98 
+percent were completed within 2.5 years.   According to DPR officials, the Trees & Sidewalks 
+Program does not have a target time frame for how long it should take for a sidewalk scoring 
+above the priority rating threshold to be repaired following an inspection. 
+In addition, we found that no data was recorded within the inspection fields in ForMS 2.0 for 1,527 
+service requests (associated with 1,509 unique addresses).  According to DPR, no inspection 
+record was generated for these service requests.  For many of them, the only indication that an 
+inspection may have been performed is in the service request Notes to Customer field; however, 
+there are no supporting details  (e.g., inspection identification number, date, sidewalk rating, or 
+inspector’s name) to provide a clear indication that an inspection was actually performed.   This 
+includes 143 service requests  (associated with 141 unique addresses ), where the Notes to 
+Customer field either contained no information at all or contained information that did not pertain 
+to the complaint.   
+We also found that DPR did not consistently label service requests as duplicates when it received 
+multiple service requests for the same address; we reviewed 6,446 service requests, associated 
+with 2,706 unique addresses, each of which had two or more service requests recorded in ForMS 
+2.0, and found that 1,494 service requests were not identified as duplicates by DPR.   Of these, 
+187 addresses received two or more inspections.   Additionally, of the 2,741 service requests  in 
+ForMS 2.0 that we reviewed and that were marked as duplicates, we were unable to find additional 
+service requests for 72 of them. 
+Audit Recommendations 
+Based on our findings, we make seven recommendations, including the following: 
+• DPR should incorporate additional timeliness metrics for the Trees & Sidewalks Program, 
+including for inspections, into its internal management reports.  
+• DPR should include a new step when completing inspections to record all relevant 
+information in the appropriate inspection fields and to identify any address that is ineligible 
+for the Trees & Sidewalks Program with the reason why the site is ineligible. 
+• DPR should ensure that the Forestry staff performing Trees & Sidewalks inspections are 
+fully trained on the entire process, including identifying duplicate service requests.  
+• DPR should establish a reasonable SLA target to complete sidewalk repairs after an 
+inspection is performed and results in the site’ s receiving a priority rating above the 
+threshold.  
+Agency Response 
+In its response, DPR agreed with five recommendations, did not directly address the 
+recommendation that DPR include a new step when completing inspections, and stated that it will 
+take under consideration the recommendation that DPR establish a reasonable SLA target for 
+completing sidewalk repairs once program eligibility has been determined.    
+Office of New York City Comptroller Scott M. Stringer MH18-058A 3 
+AUDIT REPORT 
+Background 
+The mission of DPR is to plan, maintain, and care for the more than 30,000-acre municipal parks 
+system that encompasses over 1,900 parks, 1,000 playgrounds, 650,000 street trees , and 2 
+million park trees .  The agency’s mission also includes  providing recreational and educational 
+opportunities for New Yorkers of all ages. 
+In connection with its responsibility for street trees, DPR manages t he Trees & Sidewalks 
+Program, initiated in March 2005, which seeks to repair sidewalks damaged by the roots of City 
+trees in front of owner occupied one-, two-, and three-family homes (property tax class 1) not 
+used for commercial purposes.1  According to DPR, the mission of the program is to preserve the 
+integrity of the trees , address the potential tree- related safety concerns , and reduce the 
+associated potential liability of the City and owners of adjacent private property. 
+The sidewalk repair process is initiated when an individual makes a request by either calling 3-1-
+1, entering information into the 3 -1-1 website, or entering a request into DPR ’s website.   All 
+requests received under the Trees & Sidewalks Program for a sidewalk inspection should be 
+entered into DPR’s ForMS 2.0, which has a two-way integration with 3-1-1.   
+ForMS 2.0 contains information on each service request, including any inspection and work order 
+related to  the requested sidewalk repair .2  The Central Forestry GIS and Analytics  team is 
+responsible for maintaining ForMS.  Inspectors should document the inspections using the ForMS 
+mobile system on their tablets, and when they return to the office they are supposed to sync their 
+tablets with ForMS 2.0 to update the information.  
+When DPR receives a complaint (service request) about a sidewalk reportedly damaged by a City 
+tree, DPR staff should review the service request to ensure that the address is eligible for the 
+Trees & Sidewalks Program and check ForMS 2.0 to determine whether  it contains a record of  
+any other complaints at that address.   Subsequent complaints for the same address should be 
+marked as duplicate.  A sidewalk that was inspected in the preceding three years should not be 
+inspected again.  This time frame was established by DPR based on its determination that it takes 
+approximately three years before the growth of nearby tree roots significantly changes the 
+condition of a sidewalk.  
+According to DPR’s procedures, after the abovementioned screening takes place, the agency will 
+send an inspector to evaluate each eligible site and assign a priority rating .  Inspections 
+determining sidewalk damage are  rated based on a priority rating  of up to 100 points, with a 
+priority rating of 100 representing the most severely damaged sidewalk.  The parameters used to 
+determine the priority rating include the following: location;3 clearance;4 vertical lift of sidewalk ; 
+number of damaged flagstones;5 tree conditions; and total number of trees at the address.   
+                                                      
+1 Mixed use properties that have three or fewer units where at least one unit is used as a commercial space are not covered by DPR’s 
+Trees & Sidewalks Program. 
+2 DPR upgraded to ForMS 2.0 in March 2015 from ForMS Classic, which was used during the preceding 10 years.   
+3 The location is rated based on the volume of pedestrian traffic; the inspector considers the number of parks, playgrounds, schools, 
+places of worship, businesses, hospitals, and subway stations nearby. 
+4 Clearance is defined as the widt h of walkable space with less than a half inch of vertical lift and/or cracks less than a half inch in 
+diameter. 
+5 The number of damaged flagstones is determined by the inspector counting the number of sidewalk flagstones which have sustained 
+damage as a result of tree roots. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 4 
+For each sidewalk that receives a priority rating at or above 80, the DPR priority rating threshold 
+as of August 14, 2017, DPR is supposed to create a repair design and subsequently generate a 
+corresponding work order.6  Once DPR has a budget and a contract to complete sidewalk repairs, 
+its procedures call for it to identify those sidewalks with work orders within a geographic area to 
+be repaired by the contractor .  From May 2016 through May 2019, the contractor employed by 
+DPR for sidewalk repairs was Hudson Hills Contracting, LLC.  According to DPR, the list of repairs 
+is updated on an ongoing basis so that there is always a pool of designs and work orders ready 
+to give the contractor at the time the contract is awarded. 
+The number of repairs to be completed depends on repair costs, which vary because some sites 
+need a repair due to damage associated with only one tree while other sites need a repair of 
+damage associated with multiple trees.  DPR can estimate the cost of repairs based on the design 
+created for each individual site.   DPR’s budget for both Fiscal Years 2016 and 2017 was 
+approximately $6 million per year. 
+According to DPR’s ForMS 2.0 Standard Operating Procedures  (SOPs), DPR has e stablished 
+SLAs, which are internal DPR standards intended to help it “manage the public’s expectations by 
+setting standards for how long it will take the Agency to resolve the condition.”  According to DPR’s 
+SOPs, m ost SLAs have two components , an Inspection component and a Work Completion 
+component.  For the Trees & Sidewalks Program, the Inspection component sets the time frame 
+to inspect the sidewalk at 30 days after the service request is entered into the ForMS 2.0 system.  
+However, currently the SLAs establish no time frame for t he Work Completion component after 
+the sidewalk has been inspected and found to meet or exceed the priority rating threshold for 
+repair.  Trees & Sidewalks work orders are scheduled according to priority rating and contract 
+capacity. 
+According to the New York City Open Data website,  7,557 of the 96,512 complaints that DPR 
+received through 3-1-1 in Fiscal Year 2017 were for sidewalk repairs.  That figure represents a 9 
+percent decrease from the 8,291 3-1-1 sidewalk repair complaints received in Fiscal Year 2016. 
+Objective 
+The objective of this audit was to determine whether DPR has adequate controls over its Trees & 
+Sidewalks Program to ensure sidewalks are repaired in a timely manner.  
+Scope and Methodology Statement 
+We conducted this performance audit in accordance with generally accepted government auditing 
+standards.  Those standards require that we plan and perform the audit to obtain sufficient, 
+appropriate evidence to provide a reasonable basis for our findings and conclusions based on our 
+audit objective.  We believe that the evidence obtained provides a reasonable basis for our 
+findings and conclusions based on our audit objective.  This audit was conducted in accordance 
+with the audit responsibili ties of the City Comptroller as set forth in Chapter 5, §93, of the New 
+York City Charter. 
+                                                      
+6 The priority rating threshold is fluid and dependent on the pool of priority ratings, funding, and contracting capacity at any given 
+time.  Parks reevaluates this threshold periodically as these conditions change. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 5 
+The scope of this audit was July 1, 2015 through December 31, 2017.  Please refer to the Detailed 
+Scope and Methodology at the end of this report for the specific procedures and tests that were 
+conducted. 
+Discussion of Audit Results with DPR 
+The matters covered in this report were discussed with DPR officials during and at the conclusion 
+of this audit.  A preliminary draft report was sent to DPR and discussed at an exit conference held 
+on April 30, 2019 .  On May 17, 2019, we submitted a draft report to DPR  with a request for 
+comments.  We received a written response from DPR on June 3, 2019.  
+In its response, DPR agreed with five of the seven recommendations, did not directly address the 
+recommendation that DPR include a new step when completing inspections, and stated that it will 
+take under consideration the recomm endation that DPR establish a reasonable SLA target to 
+complete sidewalk repairs after an inspection is performed .  However, DPR officials disagreed 
+with the audit’s overall finding, stating,  
+we take issue with the Report’s primary finding that Parks ‘had inadequate controls 
+over its Trees & Sidewalks Program to ensure sidewalks are repaired in a timely 
+manner.’  This finding represents a fundamental misconception regarding the 
+mission of the program, which strives to preserve public trees through pri oritizing 
+repairs based on relative liability, not the age of the service requests.   
+We disagree with DPR’s characterization that a timeliness goal is in conflict with the program ’s 
+overall mission.  The longer a sidewalk remains unrepaired, the greater the risk of liability at that 
+site.  As confirmed to us by DPR officials during the audit, addressing potential tree-related safety 
+concerns and reducing the associated potential liability of the City and owners of adjacent private 
+property are also integral aspects of the mission of the Trees & Sidewalks Program .  
+Consequently, we maintain that the adoption of timeliness goals would further the overall mission 
+of the program.   
+Moreover, we note that DPR’s response points to a lack of resources as being at the heart of its 
+procedures for addressing complaints.  DPR expressly states,  “[t]here will always be more sites 
+on a waiting list than there are funds available to repair given current funding levels.”  Thus, rather 
+than reflecting a “fundamental misconception” of the DPR program’s mission, the audit reveals 
+operational weaknesses in the agency ’s procedures for fulfilling that mission  and recommends 
+measures to  address them, almost all of which DPR agreed with and reports that it has begun to 
+implement.   
+The full text of DPR’s response is included as an addendum to this report. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 6 
+FINDINGS AND RECOMMENDATIONS 
+We found that DPR had inadequate controls over its Trees &  Sidewalks Program to ensure 
+sidewalks are repaired in a timely manner .  While DPR has a weekly Trees and Sidewalks 
+Indicator Report that contains various activity and performance measures , it does not track the 
+timeliness with which the sidewalks are inspected or repaired.7  Our review found:  
+• That DPR repaired 1,069 sidewalks during Fiscal Year 2017 and that the average time 
+from inspection to repair was 419 days,  with the longest time for a repair taking over 11 
+years.  According to DPR’s data, 95 percent of the sidewalk repairs were completed within 
+2 years and 98 percent were completed within 2.5 years. 
+• 449 unique addresses with work orders for sidewalk repairs with priority ratings above the 
+current threshold that were open as of December 31, 2017.   These 449 work orders had 
+been outstanding, on average, for 523 days.   
+In addition,  although the Trees & Sidewalks Program has written policies and procedures 
+governing how DPR foresters are to record sidewalk inspections, we found that those procedures 
+were not followed in a consistent manner.   
+During Fiscal Years 2016 and 2017, DPR received 16,558 service requests pertaining to 13,373 
+unique addresses, from which we determined:  
+• 3,653 addresses (27 percent) were inspected within 30 days , as required by DPR ’s 
+internal SLA.   
+• Homeowners had to wait an average of 101 days after submitting a request to have their 
+sidewalks inspected.   
+In addition, we found no data recorded in the inspection fields in ForMS 2.0 for 1,527 service 
+requests (associated with 1,509 unique addresses).  According to DPR, no data was recorded in 
+these fields because no inspection record had been generated.   For many of them, the only 
+indication that an inspection may have been performed is  in the service request Notes to 
+Customer field; however, there are no supporting details (e.g., inspection identification number, 
+date, sidewalk rating, or inspector’s name) to provide a clear indication that an inspection was 
+actually performed.  The abovementioned totals include 143 service requests  (associated with 
+141 unique addresses), where the Notes to Customer field either contained no information at all 
+or contained no information that pertained to the complaint to indicate that inspections were 
+performed or that the complaint DPR received was adequately addressed. 
+We also found that DPR did not consistently label service requests as duplicates when it received 
+multiple service requests for an address; we identified 1,494 (23 percent) out of 6,446  service 
+requests (associated with 2,706 unique addresses) that were not marked as duplicate.  Of these, 
+187 addresses received two or more inspections.   Additionally, of the 2,741 service requests in 
+ForMS 2.0 that we reviewed and that were marked as duplicates, we were unable to find additional 
+service requests for 72 of them.  
+                                                      
+7 DPR’s weekly Trees and Sidewalks Indicator Report tracks, among other things, the number of service requests received and the 
+number outstanding, the number of inspections completed, the number of designs created that week, the design goal for the year, the 
+number of sidewalks repaired, and the repair goal for the year. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 7 
+Average Sidewalk Inspection Response Times Exceeded 30 
+Days for Fiscal Years 2016 and 2017 
+DPR did not consistently meet its internal SLA goal of performing sidewalk inspections within 30 
+days.  The Trees & Sidewalk Program has a performance goal to inspect a sidewalk for damage 
+within 30 days of the service request’s being entered in ForMS 2.0.   
+However, DPR consistently failed to meet this goal.  Our review of service request data provided 
+by DPR from ForMS 2.0 disclosed that the agency received 16,558 service requests during Fiscal 
+Years 2016 and 2017 associated with 13,373 unique addresses.  Our analysis of that data 
+revealed that only 3,653 unique addresses (27 percent) received an inspection within the 30-day 
+threshold.  A breakdown of our analysis is shown in Table I below. 
+Table I 
+Analysis of Inspection Data 
+Fiscal Years 2016 and 2017 
+  Fiscal Year 2016 Fiscal Year 2017 Fiscal Years 2016  
+and 2017 
+  Service 
+Requests 
+Unique 
+Addresses 
+Service 
+Requests 
+Unique 
+Addresses 
+Service 
+Requests 
+Unique 
+Addresses 
+Data in Inspection Fields 
+Inspected within 30 days 2,229 1,744 2,237 1,909 4,466 3,653 
+Inspected after 30 days 3,715 2,744 3,211 2,721 6,926 5,465 
+Total with Data in 
+Inspection Fields  5,944 4,488 5,448 4,630 11,392 9,118 
+No Data in Inspection Fields* 
+Total without Data in 
+Inspection Fields  3,500 2,735 1,666 1,520 5,166 4,255 
+Totals 9,444 7,223 7,114 6,150 16,558 13,373 
+*  The information in the “No Data in Inspection Fields” is discussed in the following section of the report. 
+For the 9,118 unique addresses that contained data in the inspection fields within ForMS 2.0 and 
+were inspected during Fiscal Years 2016 and 2017, we found that homeowners waited 101 days 
+on average for their sidewalks to be inspected—71 days longer than the 30-day benchmark.  The 
+longest time a homeowner waited for an inspection was 863 days, or slightly more than 2.36 years 
+(service request date July 22, 2015, and inspected on December 1, 2017).  A time frequency 
+breakdown is shown in Table II below. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 8 
+Table II 
+Frequency Distribution of Addresses 
+Inspected during 
+Fiscal Years 2016 and 2017 
+Length of Time to Inspect the Address from the 
+Service Request Date 
+Number of 
+Unique 
+Addresses 
+Percent 
+0 - 30 days (0 months - 1 month) 3,653 27% 
+31 - 60 days (1 month - 2 months) 1,212 9% 
+61 - 90 days (2 months - 3 months) 776 6% 
+91 - 120 days (3 months - 4 months) 727 5% 
+121 - 150 days (4 months - 5 months) 671 5% 
+151 - 180 days (5 months - 6 months) 479 4% 
+181 - 240 days (6 months - 8 months) 636 5% 
+241 - 300 days (8 months - 10 months) 268 2% 
+301 - 360 days (10 months - 12 months) 158 1% 
+361 - 540 days (12 months - 18 months) 353 3% 
+541 - 720 days (18 months - 24 months) 183 1% 
+> 721 days (over 24 months) 2 0% 
+Total Number of Inspected Addresses 9,118 68% 
+Total Number of Addresses without Data in 
+Inspection Fields 4,255 32% 
+Totals 13,373 100% 
+ 
+According to a senior DPR official, due to limited staff resources, sidewalk inspections are a lower 
+priority for the Borough Offices than other risk-related inspections— such as trees that are down, 
+split, leaning, uprooted, or have hanging tree limb(s)—that  potentially pose a more immediate risk 
+to pedestrians.   
+In addition, while DPR has a Trees and Sidewalks Indicator Report with weekly totals by borough 
+for new service requests received,  outstanding service requests, and inspections done,  it does 
+not measure the length of time before a service request is inspected or the number of service 
+requests outstanding for more than 30 days. 
+By failing to conduct timely inspections , DPR increases the risk that repairs would be excluded 
+from the current cycle of sidewalk repairs, which would prolong the time it would take to correct 
+potentially dangerous conditions.   These unrepaired sidewalks could potentially represent a 
+tripping hazard and a potential liability to the City.   Our review of the 39 highest paid sidewalk -
+related claims against the City that were settled in Fiscal Year 2017 showed that 6 claims totaling 
+$1.3 million were settled with individuals who were injured as a result of sidewalk defects caused 
+by the roots of City trees.  
+Office of New York City Comptroller Scott M. Stringer MH18-058A 9 
+Recommendations 
+1. DPR should incorporate additional timeliness metrics for the Trees & Sidewalks 
+Program, including for inspections, into its internal management reports. 
+DPR Response:  DPR agreed with this recommendation and stated, “[b]eginning 
+in 2018, the Trees & Sidewalks Program began tracking the team’s performance 
+in meeting our internal 30 business day goal for responding to service requests 
+and will consider formalizing this tracking by including it within internal indicator 
+reports.  Parks met this goal 98%  of the time from January 2018 to the present 
+and over 99% of the time from January 2019 to the present.” 
+Auditor Comment:  We are pleased that DPR has agreed to implement this 
+recommendation; however, it is unclear as to when DPR adopted a business day 
+measure for this goal.  DPR presented no evidence to indicate that a business 
+day measure was in place during the scope of this audit.  The first time that DPR 
+stated that its 30 -day goal was measured in business days  was at the exit 
+conference.  Furthermor e, none of DPR ’s documented internal policies and 
+procedures (Trees & Sidewalks Program Manual or the ForMS 2.0 SOPs) refer to 
+business days, nor was DPR able to provide any evidence that it tracks any of its 
+metrics using business days.  Regarding the percentages referred to above, we 
+have no basis upon which to verify their accuracy because this information had 
+not been shared with us prior to this response and DPR does not provide any 
+documentation indicating the source for these figures or how these percentages 
+were calculated. 
+2. DPR should ensure that every address with one or more open service request(s) 
+is inspected within 30 days in accordance with its internal performance goal. 
+DPR Response:  DPR agreed with this recommendation and stated, “[e]nsuring 
+that every address with one or more open service request(s) is inspected within 
+30 business days is a primary focus of Parks ’ Trees & Sidewalks Program staff.  
+We are proud that since January 2018, 98% of all service requests were inspected 
+with[in] 30 business days, and since January 2019, more than 99% of all service 
+requests were similarly inspected.  Further, while not currently included within 
+Parks’ internal indicator report, each week, Parks ’ Trees & Sidewalks Program 
+staff use a custom repor t to monitor pending service requests, as well as to 
+prioritize those approaching 30 business days without an inspection.  Please note 
+that completing inspections with[in] 30 business days is an internal goal, which 
+may be affected by matters outside of Parks’ control, including storms and other 
+events that may require reallocation of staff resources to meet more immediate 
+health and safety needs.” 
+Auditor Comment:  We are pleased that DPR decided to implement our 
+recommendation and track how many service requests were inspected within the 
+new goal of 30 business days.  As stated above, however, DPR did not provide 
+the source for its figures so we are unable to confirm their accuracy.   
+Office of New York City Comptroller Scott M. Stringer MH18-058A 10 
+Not All Inspection Data Was Entered into ForMS 2.0  
+The inspection fiel ds in ForMS 2.0 should contain specific information about the completed 
+inspection, such as the inspection identification number, the inspection address, the sidewalk 
+rating total determined during inspection, the inspection date, and the name of the DPR s taff 
+member who conducted the inspection.   However, our review of the service requests revealed 
+that some had no data recorded within the inspection fields.   As a result, it was difficult, and in 
+some cases impossible, to determine whether an inspection had been conducted or if it might 
+have been improperly overlooked.   Comptroller’s Directive # 1, Standard 4.4, Information and 
+Communications states,  
+Management requires both operational and financial data to determine whet her 
+they are meeting their agencies' strategic and annual performance plans as well 
+as achieving their goals for the effective and efficient use of resources.   
+Of the 16,558 service requests  generated during our review period, we identified 5,166 (31 
+percent), associated with 4,255 unique addresses that had no data recorded within the inspection 
+fields in ForMS 2.0.  According to DPR, an inspection record is generated in response to a Trees 
+& Sidewalks service request only to record a sidewalk rati ng on a site that is eligible for the 
+program.  We determined that 3,639 of those service requests , associated with 2,746 unique 
+addresses, would not have needed to be inspected for one of the following reasons  that DPR 
+provided: (1) an incorrect or invalid address was provided to DPR (such as when only an 
+intersection is provided); (2) the property at the address is not a one-  to three-unit residential 
+property, known as property tax class 1 , which may be determined through a database check 
+without an inspec tion; (3) the property (apart from its tax classification) contains a place of 
+business; or (4) the service request had been identified as a duplicate of an address that had 
+already been inspected within the preceding three years.  
+Even though we found no inspection record had been generated for the remaining 1,527 service 
+requests, we found comments in the Notes to Customer  field within the service request data for 
+1,384 of those cases , indicating an inspection may have been completed.  Thus, f or the 1,527 
+service requests , associated with 1,509 unique addresses, we attempted to determine the 
+possible outcome of the DPR inspection or review by evaluating the information provided in DPR’s 
+Notes to C ustomer contained in the service request  fields of ForMS 2.0 for each one of the 
+complaints.  The results of our evaluations are compiled in Table III below.   
+Office of New York City Comptroller Scott M. Stringer MH18-058A 11 
+Table III 
+Analysis of Service Requests without 
+Data in Inspection Fields – Unclear 
+Whether Inspection Was Completed 
+Fiscal Years 2016 and 2017 
+ Fiscal Year 2016 Fiscal Year 2017 Fiscal Years 2016  
+and 2017 
+Auditor-
+Determined 
+Outcome 
+Service 
+Requests 
+Unique 
+Addresses 
+Service 
+Requests 
+Unique 
+Addresses 
+Service 
+Requests 
+Unique 
+Addresses 
+No record in 
+Notes to 
+Customer field of 
+an Inspection 
+103 102 40 39 143 141 
+Inspected-
+Appears to be 
+Eligible for 
+Program 
+322 319 153 153 475 472 
+Inspected-
+Ineligible for 
+Program 
+566 553 343 343 909 896 
+Total 991 974 536 535 1,527 1,509 
+ 
+The Notes to Customer  and other service request fields were not a complete substitute for 
+information that should be contained in the inspection fields because they did not consistently 
+contain all of the information that would be included in an inspection record, such as the inspection 
+identification number, the date of inspection, the sidewalk rating total, and the inspector’s name.  
+Thus, the records were missing key information that c ould have been  used for operational 
+decision making.  Moreover, 143 service requests were blank or lacked sufficient information in 
+the Notes to Customer  field to indicate whether the condition was inspected and whether the 
+complaint was addressed in any way.  Our review revealed the following: 
+• 143 service requests, associated with 141 unique addresses, were not associated with 
+any inspection record and contained insufficient information to indicate why they were 
+closed, because the Notes to C ustomer fields were also blank, or did not address the 
+complaint (e.g., such as when the complaint was about tree roots lifting the sidewalk, and 
+the Notes to Customer states that the tree will be pruned during the city block pruning 
+cycle).  Therefore, in the absence of any relevant information , we could not tell how or 
+whether DPR addressed these service requests/complaints.  In this group of 143 service 
+requests, 2 reported conditions appeared to have remained uninspected and unaddressed 
+for 914 days (about 2.5 years), in that the requests, received on July 1, 2015, remained 
+uninspected as of December 31, 2017.  These cases involved the longest period in which 
+any service request in this group remained unaddressed.  However, according to DPR, all 
+of the service requests in this group were closed, signifying that they were either inspected 
+or did not need to be inspected for a specific reason.   As noted above, however, DPR’s 
+records of these service requests lack the information that would show either the results 
+of the inspection or the reasons the conditions did not need to be inspected. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 12 
+• 909 service requests, associated with 896 unique addresses, which based on the Notes 
+to Customer fields, appear to have been inspected by DPR and found ineligible for the 
+Trees & Sidewalks Program, in part because: the sidewalk had already been repaired or 
+was under construction; the sidewalks had insignificant damage (less than ½” of lift caused 
+by a City-owned tree); or damage to the sidewalk was not caused by a City-owned tree. 
+• 475 service requests, associated with 472 unique addresses, which based on the Notes 
+to Customer fields, appear to have been inspected.  DPR officials explained that after the 
+inspection was completed, DPR staff may have failed to link the inspection data to the 
+service request when the service request was closed,  which would have resulted in the 
+absence of that data from the inspection fields in the data provided to us.  
+As stated above, according to DPR, some sidewalks when inspected were found ineligible for the 
+Trees & Sidewalk Program, as in the 909 cases in which sidewalks had been repaired, were under 
+construction, where the damage was insignificant, or the damage was not caused by a City-owned 
+tree.  In such cases, according to DPR, inspection records were not generated in ForMS 2.0.  
+However, in the absence of  an inspection record, DPR cannot readily ascertain the date of the 
+observation or the identity of the inspector who made it.  
+Moreover, because DPR is not creating an inspection record for all inspections, the agency may 
+not be properly accounting for the work time that its staff utilizes in visiting the locations.  Without 
+a consistent method for recording inspection results, it  is not clear how DPR can  assess the 
+average amount of time reasonably required to conduct an inspection from the receipt of the 
+service request.  The absence of such information hinders the agency’s ability to properly manage 
+its fin ite staffing resources , measure the time spent addressing these service requests , and 
+reliably determine appropriate performance targets for addressing them. 
+In addition, and most importantly, DPR does not know the degree to which missing inspection 
+data is due to errors relating to data entry versus properties being ineligible for the program. 
+Recommendations 
+3. DPR should ensure that all inspection data is correctly linking to the associated 
+service request. 
+DPR Response:  DPR agreed with this recommendation and stated, “[t]he Trees 
+& Sidewalks Program now performs regular quality control checks for data quality 
+on a bi-weekly basis.  Revamped class and field trainings, in addition to regular 
+check-ins with field staff, have also ensured that procedures are enforced.  The 
+data quality discrepancies cited in the Report have no operational impact on the 
+prioritization or assignment of priority repairs to contracts, the program’s primary 
+goal.  Since Parks tracks records based on addresses in ForMS 2.0, even if an 
+inspection was not linked to a service request number, it would still be connected 
+to the relevant address.” 
+4. DPR should include a new step when completing inspections to record all relevant 
+information in the appropriate inspection fields and to identify any address that is 
+ineligible for the Trees & Sidewalks Program  with the reason why the site is 
+ineligible. 
+DPR Response:  “As of March 2018, Parks adopted a standardized Notes to 
+Customer field to be entered into the service request to ensure that information 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 13 
+on ineligible sites are recorded and communicated in a clear and consistent 
+manner.” 
+Auditor Comment:  DPR did not directly address this recommendation, instead 
+stating that it has standardized the Notes to Customer  field within the service 
+request data.  However, standardizing the Notes to Customer  field does not 
+ensure that all relevant information is recorded in the appropriate inspection fields.  
+We urge DPR to implement this recommendation so that it can better determine 
+the number of sites inspected, as well as account for the work time that its staff 
+utilizes in visiting locations to assess whether the trees and sidewalks in question 
+are eligible for the program.   
+Service Requests Incorrectly Labeled as Duplicate  
+Anomalies were found in data provided from the ForMS 2.0 Trees &  Sidewalks database , 
+specifically relating to addresses with multiple service requests that were not marked as duplicate 
+as required.   
+DPR’s ForMS 2.0 SOPs states that service requests for conditions that have previously been 
+reported should be marked as duplicates in ForMS 2.0, because it is inefficient to send staff out 
+to a site more than once to inspect the same condition.  Based on those procedures, DPR staff 
+must check each service request  using the “Duplicate Handler for SR#” within ForMS 2.0.  The 
+search will return all service requests both open and closed on the same street segment as the 
+original service request.  If a similar service request type is found at the same location, then DPR 
+staff must mark the service request as duplicate. 
+Our review of 6,446 service requests, associated with 2,706 unique addresses, each of which 
+had two or more service requests recorded in ForMS 2.0, revealed that 1,494 service requests 
+(23 percent) were not identified as duplicates by DPR.   
+In addition, we reviewed 2,741 service requests DPR marked as “duplicate” in Fiscal Years 2016 
+and 2017 and were unable to find an original service request in the data for 72 of them.  Erroneous 
+or unverifiable “duplicate” service request  classifications increase the risk that potentially 
+dangerous conditions associated with these addresses may not be inspected.   
+These issues may have occurred because DPR staff did not follow the SOPs that DPR developed 
+to facilitate checking for and managing duplicates when reviewing service requests.  As a result, 
+DPR incurs an increased risk that staff will conduct multiple inspections of the same address and 
+may leave other addresses uninspected, an inefficient use of what DPR has already indicated to 
+be scarce resources.  Of the 947 unique addresses associated with the above-mentioned 1,493 
+service requests that should have been but were not marked as duplicates, DPR staff inspected 
+187 (19.7 percent) of them more than once, including 8  addresses that were each inspected 3  
+times. 
+Recommendations  
+5. DPR should ensure that the Forestry staff performing Trees & Sidewalks 
+inspections are fully trained on the entire process , including identifying duplicate 
+service requests. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 14 
+DPR Response:  DPR agreed with this recommendation and stated, “Parks fully 
+trains its staff performing Tree & Sidewalks inspections on the entire process, 
+including identifying duplicate service requests.  Procedures are more 
+standardized than they were during the early part of the audit period and 
+additional trainings have been implemented including revised classroom 
+trainings, extended shadowing periods, and in -field reviews by the program 
+manager.  An automated report is also used to facilitate identifying duplicate 
+information.” 
+6. DPR should ensure that service request s identified as duplicates are properly 
+linked to the original service re quest and ensure that the address has been 
+inspected. 
+DPR Response:  DPR agreed with this recommendation and stated, “Parks has 
+adopted standardized procedures to ensure that this takes place.  Duplicate 
+handling was a new procedure implemented with the transition to the new ForMS 
+2.0 database.  An automated report is also used to facilitate duplicate information.  
+Please note that when the response to the original service request did not contain 
+the standardized Notes to Customer described above, the new service request 
+will intentionally not be linked as a duplicate so as to ensure that customers 
+receive the most appropriate response.” 
+DPR Has No Time Frame or Goal for Completing Sidewalk 
+Repairs Once an Inspection Is Completed 
+DPR does not have a target time frame for how long it should take for a sidewalk scoring above 
+the priority rating threshold to be repaired following an inspection.  DPR’s ForMS 2.0 SOPs states 
+the SLA for Work Completion is “0” days for the Trees & Sidewalks Program, and DPR officials 
+confirmed that there is no target goal for how long it takes to complete a sidewalk repair. 
+According to Comptroller’s Directive #1, section 5.2,  
+Management . . . should be comparing actual functional or activity level 
+performance data to planned or expected results, analyzing significant variances 
+and introducing corrective action as appropriate.  Key indicator tracking and  self-
+assessment checklists are important tools in measuring the control posture of 
+various functional activities. 
+As stated earlier, for sidewalks with a priority rating at or above the threshold, DPR is supposed 
+to create a repair design and generate a corresponding work order to be assigned to a contractor 
+for the repair.  DPR stated that it assigns work orders  to contracts based on priority rating and 
+contract capacity.  Based on work order data from ForMS 2.0 provided by DPR, 1,069 sidewalks 
+were repaired during Fiscal Year 2017 (July 1, 2016 through June 30, 2017).8  Our review found 
+that the average length of time it took to repair a sidewalk following the inspection was 419 days 
+(1.15 years).  However, we note that more than half—579—of the service requests associated 
+with the 1,069 work orders were received prior to DPR ’s transition to ForMS 2.0.  DPR did not 
+upload the service request data into ForMS 2.0.  Consequently, we were not able to measure the 
+                                                      
+8 The 1,069 work orders analyzed were extracted from 1,080 work orders in ForMS 2.0 which contained an Actual Finish Date during 
+Fiscal Year 2017.  We excluded 8 work orders because they w ere missing an inspection date, and 3 work orders that included an 
+inspection date after the Actual Finish Date. 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 15 
+amount of time between the receipt of the service request to the completion of the repair  and 
+instead measured the time between the inspection (which was in ForMS 2.0) and the Actual Finish 
+Date.   
+A time frequency breakdown is shown in Table IV. 
+Table IV  
+Work Orders Completed during 
+Fiscal Year 2017 
+Length of Time to Repair from Inspection 
+Date 
+Number of 
+Addresses 
+Repaired 
+Percent 
+0 - 180 Days (0 months - 6 months) 94 8.8% 
+181 - 360 Days (6 months - 12 months) 375 35.1% 
+361 - 540 Days (12 months - 18 months) 391 36.6% 
+541 - 720 Days (18 months - 24 months) 151 14.1% 
+721 - 900 Days (24 months - 30 months) 34 3.2% 
+901 - 1,080 Days (30 months - 36 months) 9 0.8% 
+1,081 - 1,460 Days (3 years to 4 years) 8 0.7% 
+1,461 - 2,190 Days (4 years to 6 years) 2 0.2% 
+2,191 - 2,920 Days (6 years to 8 years) 3 0.3% 
+> 2,921 Days (over 8 years) 2 0.2% 
+Total 1,069 100.0% 
+ 
+The longest time for a repair was 4,172 days (11.43 years) after the inspection date .  At  15 
+addresses it took DPR and its contractors longer than 3 years to make repairs, and repairs at 2 
+of those addresses took over 8 years from the inspection date to the repair completion date .  
+Overall, 95 percent of the repairs were completed within 2 years and 98 percent were completed 
+within 2.5 years. 
+In addition, according to data provided by DPR from ForMS 2.0, 449 work orders for sites scoring 
+at or above the priority rating threshold of 80, were open as of December 31, 2017.  These 449 
+work orders had been outstanding for 523 days (1.43 years) on average—the oldest work order 
+had been outstanding for 2,166 days (5.93 years). 
+DPR officials explained that they have not set a target time frame for repairing a sidewalk because 
+such a time frame would be dependent on the continuous existence of active contracts operating 
+at a consistent performance level, while the number of active contracts in place has varied widely 
+over the past several years.  For example, during this period, the Trees & Sidewalks Program was 
+operating with a single contractor, reflecting significantly reduced contracting capacity.   
+Notwithstanding that explanation, however, unrepaired sidewalks represent tripping hazards and 
+a potential liability to the City.  Therefore, the longer a sidewalk remains unrepaired, the greater 
+the risk of liability at that site .  In the absence of a target time frame for such repairs the City 
+cannot properly address and mitigate the risks posed by unrepaired sidewalks or balance those 
+risks against the costs it would incur to meet its target.    
+Office of New York City Comptroller Scott M. Stringer MH18-058A 16 
+Recommendation 
+7. DPR should establish a reasonable SLA target to complete sidewalk repairs after 
+an inspection is performed and results in the site’s receiving a priority rating above 
+the threshold. 
+DPR Response:  “While we understand the desire to see repairs completed in a 
+timely manner and can consider this recommendation, we maintain that the goal 
+of the Trees & Sidewalks Program is to preserve trees in the course of sidewalk 
+repair, while addressing sidewalk defects that may present risk to the public and 
+liability to the City and property owners.  There will always be more sites on a 
+waiting list than there are funds available to repair given current funding levels.  
+The best way to prioritize repairs with these limited resources remains prioritizing 
+the highest rated sites first, regardless of their age.  As new requests are always 
+coming in and we are required to repair those sites that have the most severe 
+damage first, we cannot give a guaranteed timeframe for a given repair.  Parks 
+allows for the possibility that continued tree root growth can increase the severity 
+of sidewalk damage over time by allowing for a re-inspection of sites with a rating 
+more than three years old, upon request.  Additionally, there are other programs 
+through which the City bears the cost to repair sidewalks damaged by City trees, 
+including DOT ’s sidewalk repair program and through claims submitted by 
+property owners to the Office of the Comptroller for repairs made privately.  
+We note that the Report finds that during the audit period, 95% of repairs were 
+completed within two years and 98% of repairs were completed within two and a 
+half years – even though the Trees & Sidewalks Program was operating with only 
+a single contractor, being directed to mobilize around the five boroughs of New 
+York City.  Parks maintains that our existing priori ty rating system remains the 
+appropriate means for achieving the mission of the Trees & Sidewalks Program.” 
+Auditor Comment:  We continue to maintain that establishing a reasonable SLA 
+target for repair ing sidewalks it deems eligible for repair would enable DPR to 
+better assess the degree to which such repairs are completed in a timely manner 
+so as to reduce the City ’s risk of liability at those sites .  We therefore urge DPR 
+to implement this recommendation.  
+ 
+ 
+  
+Office of New York City Comptroller Scott M. Stringer MH18-058A 17 
+DETAILED SCOPE AND METHODOLOGY 
+We conducted this performance audit in accordance with generally accepted government auditing 
+standards.  Those standards require that we plan and perform the audit to obtain sufficient, 
+appropriate evidence to provide a reasonable basis for our findings and conclusions based on our 
+audit objective.  We believe that the evidence obtained provides a reasonable basis for our 
+findings and conclusions based on our audit objective.  This audit was conducted in accordance 
+with the audit responsibilities of the Cit y Comptroller as set forth in Chapter 5, §93, of the New 
+York City Charter. 
+The audit scope was from July 1, 2015 through December 31, 2017. 
+To obtain an understanding of the policies, procedures, and regulations concerning the Trees &  
+Sidewalks Program, we reviewed and used the following as criteria: 
+• Information from DPR’s website regarding the Trees & Sidewalks Program; 
+• Trees & Sidewalks Program Manual; 
+• Forestry Management System 2.0 SOPs, 2/27/2015 and updated 10/3/2017;  
+• Trees & Sidewalks Rating Methodology - Feb. 2017; 
+• Trees and Sidewalks Indicator Reports;  
+• ForMS 2.0 data dictionary; 
+• List of Resolution Actions; 
+• NYC Open Data website of 311 complaints made to DPR during Fiscal Years 2016 and 
+2017;  
+• NYC Comptroller’s Directive #1, Principles of Internal Control; and 
+• NYC Mayor’s Management Report, Fiscal Year 2018. 
+To obtain an understanding of DPR ’s policies and procedures , we interviewed the Assistant 
+Commissioner of Forestry, Horticulture & Natural Resources ; Chief of Forestry & Horticulture ; 
+Senior Forester for Trees & Sidewalks ; Director of Tree Preservation ; Director of Brooklyn 
+Forestry; Director of Queens Forestry ; Deputy Director Queens Forestry ; Trees & Sidewalks 
+Program Manager; Director of GIS & Analytics; and the Senior Forester for ForMS. 
+On March 29, 2018, we received two Access data tables containing data from DPR downloaded 
+from ForMS 2.0.   The first data table included data related to all service requests created or 
+maintained in ForMS 2.0 from March 4, 2015, to June 30, 2017, including all related inspections 
+and work orders.  The second data table contained data from ForMS 2.0 related to all work orders 
+that were active, pending, or closed during Fiscal Year 2017, including all related service requests 
+and inspections. 
+To calculate the average sidewalk inspection response time, our review was limited to service 
+requests created during Fiscal Years 2016 and 2017 (July 1, 2015 through June 30, 2017).   For 
+addresses with multiple service requests, we took the earliest service request date and computed 
+the length of time to the earliest inspection date (for addresses that had more than one inspection 
+date).  We determined how many unique addresses and related service requests were inspected 
+within 30 days, and the number of unique addresses and related service requests that took longer 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 18 
+than 30 days to be inspected.   We then calculated the average length of time for all the unique 
+addresses, as well as the longest length of time between a service request date and the inspection 
+date. 
+Since DPR’s policy is to only inspect unique addresses once every three years, addresses that 
+had multiple service requests in the period we reviewed should only have had one inspection.   
+However, we had found 187 unique addresses that had two or three inspections, therefore, we 
+calculated the length of time from the earliest service request to the earliest inspection.  If this 
+calculation between the earliest service request and inspect ion was completed within 30 days, 
+we counted all service requests associated with the address within the category of being 
+completed within 30 days.   
+To determine how many service requests did not have any inspection data recorded in the 
+inspection fields we sorted and filtered out all service requests containing data in the various 
+inspections fields.   For the remaining service request s that did not contain any data in the 
+inspection fields we compared the addresses in these records to determine whether any of them 
+matched any other service request for the scope period and classified them as duplicate.   We 
+then reviewed the remaining service requests and sorted them into the following groups : No 
+record of Inspection—Blank/Unaddressed ; Inspected and eligible for the sidewalk repair program; 
+Inspected – Ineligible for the program; and Not Inspected – Ineligible for the program, based on 
+the text in the Notes to Customer field.  We then determined how many unique addresses were 
+associated with each group of these service requests.  
+In addition, to determine how many service requests were not correctly identified as duplicate by 
+DPR, we used excel to sort the unique addresses by their Community Boards  and then by 
+address.  We used the “Conditional Formatting” command to highlight identical addresses.  We 
+then manually checked for any additional service requests for the same address that excel could 
+not identify because of data inconsistencies  (e.g., if one service request was Avenue, and the 
+second was Ave, if the street was misspelled, or if there was a dash in address [12-34 vs. 1234]).  
+We then determined how many service requests should have been marked as duplicate for a 
+unique address and were not.  Finally, we determined how many unique addresses had multiple 
+inspections completed.   
+To determine the number of service requests that were labeled as a duplicate, but for which we 
+were unable to identify an original service request, we extracted all service requests that were 
+labeled by DPR staff as duplicate in the DuplicateStatus  column during Fiscal Years 2016 and 
+2017.  We then sorted these records by address and compared them to the addresses in the full 
+data set provided by DPR.   For the remaining service requests where we did not find any 
+additional service requests with a matching address, we manually compared them to ForMS 2.0 
+and ForMS Classic  to identify if another service request (s) existed for that address with an 
+alternate spelling or formatting variation. 
+To determine the length of time it took DPR to complete sidewalk repairs from the time it was 
+inspected, we used the second Access data table containing the data on work orders.  For all 
+work orders that have a sidewalk repair, we calculated how long it took from the inspection date 
+to the date of repair.   We excluded eight work orders that were repaired but didn’ t have an 
+inspection date and three work orders which had an inspection date after it was repaired.  For the 
+remaining work orders we broke down the length of time between inspection and repair into six  
+month categories.  We also determined the average length of time and the longest time DPR took 
+to repair a sidewalk from the time it was inspected.   (M ore than half of the service requests 
+associated with the 1,069 work orders were received prior to DPR migrating to ForMS 2.0 ; thus 
+DPR did not upload these service requests into ForMS 2.0.  Consequently, for these requests we 
+Office of New York City Comptroller Scott M. Stringer MH18-058A 19 
+were not able to measure the  amount of time between the receipt of the service request to the 
+completion of the repair.) 
+In addition to the work orders that had sidewalk repairs, the second data table also contained data 
+on work orders that were still pending.   We excluded all work orders that were cancelled, since 
+these sidewalks may have already been repaired by the homeowner or the Department of 
+Transportation, and there is no longer a defect in the sidewalk.   For the remaining work orders, 
+we calculated the time from the InspectionDate until December 31, 2017, and then broke down 
+the work orders by the SWRatingTotal.  We then calculated the total number of work orders that 
+had a priority rating above the threshold,  as well as the average length of time and the longest 
+length of time that a sidewalk had not been repaired following an inspection. 
+To determine how many claims related to sidewalk damage were settled by the City of New York, 
+we reviewed Sidewalk Claims settled during Fiscal Year 2017.   We determined the number of  
+claims settled and the total amount of those settlements, limiting our review to all settlements that 
+were $100,000 or more.   
+ 
+ 
+Jennifer Greenfeld 
+Assistant Commissioner 
+Forestry, Horticulture &  
+Natural Resources 
+T 212.360.1488 E jennifer.greenfeld@parks.nyc.gov City of New York 
+Parks & Recreation 
+Arsenal North 
+New York, NY 10029 
+www.nyc.gov/parks 
+ 
+Re: Audit Report on the Department of Parks & Recreation’s Trees & Sidewalks 
+Program; MH18-058A 
+Dear Deputy Comptroller Landa: 
+This letter addresses the findings and recommendations contained in the New York City 
+Comptroller's ("Comptroller") Draft Audit Report ("Report"), dated May 17, 2019, on the above 
+subject matter.   
+While we appreciate your interest in the Trees & Sidewalks Program, we take issue with the 
+Report’s primary finding that Parks “had inadequate controls over its Trees & Sidewalks Program 
+to ensure sidewalks are repaired in a timely manner.”  This finding represents a fundamental 
+misconception regarding the mission of the program, which strives to preserve public trees 
+through prioritizing repairs based on relative liability, not the age of the service requests.  Sites are 
+prioritized for repair based on the severity of damage, amount of pedestrian traffic, and the 
+availability of funding and contracts.  Those sites that receive the higher priority rating are those 
+that contain the most significant tripping hazards, and therefore pose greater risk to the public and 
+expose the City to greater potential losses through litigation.  Sites are repaired in order of priority, 
+with those receiving the highest priority rating being repaired first. 
+Further, the scope of the audit was July 1, 2015 through December 31, 2017.  Near the end of this 
+period, Parks began implementing programmatic changes and process improvements that have 
+addressed many of the findings contained in this Report.  For example, in July 2017, Parks began 
+to address Trees & Sidewalks service requests centrally instead of by the borough forestry offices.  
+This addressed a large backlog of Trees & Sidewalks service requests for inspections.  As a result, 
+from January 2018 through the present, we are proud to report that 98% of all Trees & Sidewalks 
+service requests were inspected within 30 business days, and from January 2019 to the present, 
+over 99% of all Trees & Sidewalks service requests were inspected within 30 business days. 
+The audit period also began three months after Parks manually transitioned its data for the Trees 
+& Sidewalks Program from ForMS Classic to ForMS 2.0.  The conversion of all data into the new 
+database required all staff to adjust their day-to-day data handling and inspection procedures.  As 
+this was a major transition resulting in policy and procedural changes, there were data quality 
+effects during the audit period, none of which had any operational impacts on prioritization or 
+assignment of priority repairs to contracts. 
+Additionally, Parks’ contracting capacity for the Trees & Sidewalks Program during nearly the 
+entire audit period was greatly reduced to a single contractor.  Parks was able to successfully 
+continue this program with a single contractor, performing repairs in all five boroughs.  Parks also 
+successfully managed the Trees & Sidewalks Program in many areas that are not discussed in this 
+Report, including contract management, supervision/design consultant oversight, the quality of 
+contractual work, and the consistency and quality of post-repair inspections. 
+This Report includes seven recommendations to Parks ("DPR"): 
+June 3, 2019 
+Marjorie Landa 
+Deputy Comptroller for Audit 
+City of New York Office of the Comptroller 
+1 Centre Street, Room 1100 
+New York, NY 10007 
+ADDENDUM Page 1 of 3
+Recommendation 1 - DPR should incorporate additional timeliness metrics for the 
+Trees & Sidewalks Program, including for inspections, into its internal management 
+reports. 
+Beginning in 2018, the Trees & Sidewalks Program began tracking the team’s performance in 
+meeting our internal 30 business day goal for responding to service requests and will consider 
+formalizing this tracking by including it within internal indicator reports.  Parks met this goal 98% 
+of the time from January 2018 to the present and over 99% of the time from January 2019 to the 
+present.    
+Recommendation 2 – DPR should ensure that every address with one or more open 
+service request(s) is inspected within 30 days in accordance with its internal 
+performance goal. 
+Ensuring that every address with one or more open service request(s) is inspected within 30 
+business days is a primary focus of Parks’ Trees & Sidewalks Program staff.  We are proud that 
+since January 2018, 98% of all service requests were inspected with 30 business days, and since 
+January 2019, more than 99% of all service requests were similarly inspected.  Further, while not 
+currently included within Parks’ internal indicator report, each week, Parks’ Trees & Sidewalks 
+Program staff use a custom report to monitor pending service requests, as well as to prioritize 
+those approaching 30 business days without an inspection.  Please note that completing 
+inspections with 30 business days is an internal goal, which may be affected by matters outside of 
+Parks’ control, including storms and other events that may require reallocation of staff resources 
+to meet more immediate health and safety needs.  
+Recommendation 3 – DPR should ensure that all inspection data is correctly linking 
+to the associated service request. 
+The Trees & Sidewalks Program now performs regular quality control checks for data quality on a 
+bi-weekly basis.  Revamped class and field trainings, in addition to regular check-ins with field 
+staff, have also ensured that procedures are enforced.  The data quality discrepancies cited in the 
+Report have no operational impact on the prioritization or assignment of priority repairs to 
+contracts, the program’s primary goal.  Since Parks tracks records based on addresses in ForMS 
+2.0, even if an inspection was not linked to a service request number, it would still be connected to 
+the relevant address.  
+Recommendation 4 – DPR should include a new step when completing inspections 
+to record all relevant information in the appropriate inspection fields and to identify 
+any address that is ineligible for the Trees & Sidewalks Program with the reason why 
+the site is ineligible. 
+As of March 2018, Parks adopted a standardized Notes to Customer field to be entered into the 
+service request to ensure that information on ineligible sites are recorded and communicated in a 
+clear and consistent manner. 
+Recommendation 5 – DPR should ensure that Forestry staff performing Trees & 
+Sidewalks inspections are fully trained on the entire process, including identifying 
+duplicate service requests. 
+Parks fully trains its staff performing Tree & Sidewalks inspections on the entire process, including 
+identifying duplicate service requests.  Procedures are more standardized than they were during 
+the early part of the audit period and additional trainings have been implemented including 
+revised classroom trainings, extended shadowing periods, and in-field reviews by the program 
+manager.  An automated report is also used to facilitate identifying duplicate information.   
+ADDENDUM Page 2 of 3
+Recommendation 6 – DPR should ensure that service requests identified as 
+duplicates are properly linked to the original service request and ensure that the 
+address has been inspected. 
+Parks has adopted standardized procedures to ensure that this takes place.  Duplicate handling 
+was a new procedure implemented with the transition to the new ForMS 2.0 database.  An 
+automated report is also used to facilitate duplicate information. Please note that when the 
+response to the original service request did not contain the standardized Notes to Customer 
+described above, the new service request will intentionally not be linked as a duplicate so as to 
+ensure that customers receive the most appropriate response.  
+Recommendation 7 – DPR should establish a reasonable SLA target to complete 
+sidewalk repairs after an inspection is performed and results in the site’s receiving a 
+priority rating above the threshold. 
+While we understand the desire to see repairs completed in a timely manner and can consider this 
+recommendation, we maintain that the goal of the Trees & Sidewalks Program is to preserve trees 
+in the course of sidewalk repair, while addressing sidewalk defects that may present risk to the 
+public and liability to the City and property owners.  There will always be more sites on a waiting 
+list than there are funds available to repair given current funding levels.  The best way to prioritize 
+repairs with these limited resources remains prioritizing the highest rated sites first, regardless of 
+their age.  As new requests are always coming in and we are required to repair those sites that have 
+the most severe damage first, we cannot give a guaranteed timeframe for a given repair.  Parks 
+allows for the possibility that continued tree root growth can increase the severity of sidewalk 
+damage over time by allowing for a re-inspection of sites with a rating more than three years old, 
+upon request.  Additionally, there are other programs through which the City bears the cost to 
+repair sidewalks damaged by City trees, including DOT’s sidewalk repair program and through 
+claims submitted by property owners to the Office of the Comptroller for repairs made privately. 
+We note that the Report finds that during the audit period, 95% of repairs were completed within 
+two years and 98% of repairs were completed within two and a half years – even though the Trees 
+& Sidewalks Program was operating with only a single contractor, being directed to mobilize 
+around the five boroughs of New York City.  Parks maintains that our existing priority rating 
+system remains the appropriate means for achieving the mission of the Trees & Sidewalks 
+Program. 
+Finally, Parks wishes to thank you and your audit staff for the time and effort devoted to 
+completing this report. 
+Sincerely, 
+Jennifer Greenfeld 
+ ADDENDUM Page 3 of 3

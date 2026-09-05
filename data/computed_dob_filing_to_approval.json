@@ -1,0 +1,180 @@
+{
+ "dataset": "w9ak-ipjd",
+ "measure": "days from filing_date to approved_date, filings approved Sept. 1, 2025 to Aug. 31, 2026",
+ "query_template": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=approved_date+%3E%3D+%272025-09-01T00%3A00%3A00%27+and+approved_date+%3C+%272026-09-01T00%3A00%3A00%27+and+filing_date+IS+NOT+NULL&%24select=job_filing_number%2Cfiling_date%2Capproved_date%2Cborough%2Cjob_type%2Cfiling_review_type",
+ "computed": "2026-09-05",
+ "all": {
+  "n": 141118,
+  "mean": 36.5,
+  "median": 6.87,
+  "p75": 30.61,
+  "p90": 89.49,
+  "p99": 422.6129999999987,
+  "max": 2721.27,
+  "share_over_30": 0.253,
+  "share_over_90": 0.099,
+  "share_over_365": 0.013
+ },
+ "by_borough": {
+  "Brooklyn": {
+   "n": 38492,
+   "mean": 42.5,
+   "median": 9.69,
+   "p75": 40.41,
+   "p90": 109.599,
+   "p99": 447.67619999999937,
+   "max": 2553.55,
+   "share_over_30": 0.298,
+   "share_over_90": 0.122,
+   "share_over_365": 0.016
+  },
+  "Manhattan": {
+   "n": 52383,
+   "mean": 25.6,
+   "median": 4.95,
+   "p75": 20.71,
+   "p90": 60.888000000000176,
+   "p99": 290.398,
+   "max": 2278.42,
+   "share_over_30": 0.188,
+   "share_over_90": 0.064,
+   "share_over_365": 0.007
+  },
+  "Queens": {
+   "n": 28327,
+   "mean": 44.0,
+   "median": 8.58,
+   "p75": 41.42,
+   "p90": 113.53600000000006,
+   "p99": 491.5569999999999,
+   "max": 2414.4,
+   "share_over_30": 0.307,
+   "share_over_90": 0.127,
+   "share_over_365": 0.018
+  },
+  "Staten Island": {
+   "n": 7975,
+   "mean": 42.0,
+   "median": 4.35,
+   "p75": 24.705,
+   "p90": 92.542,
+   "p99": 685.0548000000005,
+   "max": 2167.62,
+   "share_over_30": 0.22,
+   "share_over_90": 0.102,
+   "share_over_365": 0.028
+  },
+  "Bronx": {
+   "n": 13941,
+   "mean": 42.1,
+   "median": 11.62,
+   "p75": 35.72,
+   "p90": 99.66,
+   "p99": 457.54400000000004,
+   "max": 2721.27,
+   "share_over_30": 0.282,
+   "share_over_90": 0.112,
+   "share_over_365": 0.015
+  }
+ },
+ "by_job_type": {
+  "Alteration": {
+   "n": 106907,
+   "mean": 23.5,
+   "median": 4.47,
+   "p75": 19.65,
+   "p90": 56.5,
+   "p99": 261.4988000000001,
+   "max": 2721.27,
+   "share_over_30": 0.18,
+   "share_over_90": 0.054,
+   "share_over_365": 0.006
+  },
+  "No Work": {
+   "n": 2458,
+   "mean": 34.1,
+   "median": 6.7,
+   "p75": 17.59,
+   "p90": 74.43700000000001,
+   "p99": 513.3084999999996,
+   "max": 2268.59,
+   "share_over_30": 0.179,
+   "share_over_90": 0.087,
+   "share_over_365": 0.016
+  },
+  "Alteration CO": {
+   "n": 11219,
+   "mean": 74.4,
+   "median": 29.44,
+   "p75": 88.455,
+   "p90": 190.65000000000003,
+   "p99": 622.3233999999994,
+   "max": 1796.43,
+   "share_over_30": 0.493,
+   "share_over_90": 0.246,
+   "share_over_365": 0.032
+  },
+  "ALT-CO - New Building with Existing Elements to Remain": {
+   "n": 4120,
+   "mean": 84.6,
+   "median": 39.43,
+   "p75": 104.57,
+   "p90": 215.00599999999997,
+   "p99": 630.4262,
+   "max": 1753.59,
+   "share_over_30": 0.567,
+   "share_over_90": 0.284,
+   "share_over_365": 0.036
+  },
+  "New Building": {
+   "n": 14065,
+   "mean": 87.7,
+   "median": 29.41,
+   "p75": 91.66,
+   "p90": 226.48000000000002,
+   "p99": 880.7980000000005,
+   "max": 1902.38,
+   "share_over_30": 0.492,
+   "share_over_90": 0.254,
+   "share_over_365": 0.049
+  },
+  "Full Demolition": {
+   "n": 2349,
+   "mean": 58.5,
+   "median": 29.86,
+   "p75": 76.42,
+   "p90": 144.43800000000002,
+   "p99": 383.66319999999996,
+   "max": 1014.03,
+   "share_over_30": 0.499,
+   "share_over_90": 0.203,
+   "share_over_365": 0.011
+  }
+ },
+ "by_review_type": {
+  "Professional Certification": {
+   "n": 65704,
+   "mean": 4.4,
+   "median": 1.62,
+   "p75": 3.52,
+   "p90": 5.59,
+   "p99": 40.517600000000094,
+   "max": 2553.55,
+   "share_over_30": 0.013,
+   "share_over_90": 0.005,
+   "share_over_365": 0.001
+  },
+  "Standard Plan Examination": {
+   "n": 75414,
+   "mean": 64.4,
+   "median": 27.14,
+   "p75": 65.41,
+   "p90": 150.4309999999999,
+   "p99": 574.3024999999965,
+   "max": 2721.27,
+   "share_over_30": 0.462,
+   "share_over_90": 0.182,
+   "share_over_365": 0.024
+  }
+ }
+}

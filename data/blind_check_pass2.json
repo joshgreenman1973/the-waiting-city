@@ -1,0 +1,488 @@
+[
+ {
+  "claim_id": "nycha-section8-waitlist#0",
+  "definition_check": "mismatch",
+  "notes": "200,000 households; release: '200,000 households randomly selected via lottery' and later 'a total of 200,000 applications were randomly selected by lottery' -- both units present, caveat correct. 'will continue to be served and did not have to reapply' verbatim. MMR series checked live: July 2024 = 203, Aug 2024 = 205, June 2025 = 197 (thousands), as the caveat says. One unsupported clause: registry caveat says 'Households leave the list when housed, when they fail to respond or when found ineligible'; the release only says 'Being named to the waitlist does not necessarily guarantee receipt of a voucher, as applicant eligibility must be confirmed.' Failure to respond is not in the source. Minor.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#1",
+  "definition_check": "match",
+  "notes": "Release: 'NYCHA received 633,808 online applications during the eligible window' and 'received 4,416 paper applications that were postmarked by the June 28 deadline'; online window June 3-9, 2024. Unit applications correct.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#2",
+  "definition_check": "match",
+  "notes": "Release: 'a goal of issuing 1,000 vouchers a month contingent on funding and the authorized voucher capacity' over 'the next several years'; 'Last year, NYCHA issued 7,538 vouchers' is a separate sentence. Sept. 29, 2025 testimony: 'NYCHA must temporarily pause voucher issuance and outreach to applicants on the general HCV waitlist ... they will not be removed from the waitlist.'",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist#3",
+  "definition_check": "match",
+  "notes": "Derived: 200,000 / 1,000 per month = 200 months = 16.7 years. Arithmetic on figures present in the release; labeled illustration only.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-housing-connect#0",
+  "definition_check": "match",
+  "notes": "amNY: 'In 2024 alone, Housing Connect received six million applications for just 10,000 available units.' Unit applications correct; the sentence is in the reporter's voice, immediately followed by the Tigani April 29 hearing reference, so the attribution 'attributing HPD Acting Commissioner Ahmed Tigani' is inferred rather than explicit in the text.",
+  "confidence": "medium"
+ },
+ {
+  "claim_id": "dohmh-food-vendor-permit-waitlist#0",
+  "definition_check": "match",
+  "notes": "Gothamist: 'The Department of Health said 5,236 people are on the waitlist for food vendor licenses.' Unit persons correct; 'licenses' is the source's word. NYC Rules page: adopted DOHMH rule, effective date December 12, 2021, 'expansion of the current mobile food vending full-term permit waiting list ... up to 445 food vending permits each year for 10 years beginning on July 1, 2022.' DCWP proposed rule names 'Local Law 54 of 2026'.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-general-vendor-waitlist#0",
+  "definition_check": "match",
+  "notes": "Gothamist: 'About 8,900 people are currently on the waitlist for general merchandise licenses, according to the Department of Consumer and Worker Protection.' and 'The number of general vendor licenses has been capped at 853 since 1979.' NYC Rules page carries 853 in a public comment ('refusing to increase the number of licenses beyond 853'). Unit persons (approx.) correct.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-filing-to-approval-computed#0",
+  "definition_check": "match",
+  "notes": "Dataset w9ak-ipjd has filing_date and approved_date (also filing_status, job_type, first_permit_date, signoff_date), so a calendar-day filing-to-approval distribution over filings with an approved_date in the window is supported; pending filings have no approved_date and drop out, consistent with duration_kind completed. Values not recomputed this pass.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-problem-close-computed#0",
+  "definition_check": "match",
+  "notes": "Dataset ygpa-z7cr is problem-level (problem_id under complaint_id) with received_date, problem_status, problem_status_date and status_description, so received-to-closed by problem with closure outcomes (no access, not found, etc.) is supported. Values not recomputed this pass.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcas-eligible-lists#0",
+  "definition_check": "match",
+  "notes": "Live vx8i-nprf on Sept. 5, 2026: 403,777 rows, 855 distinct exam_no, 432 distinct list_title_code, exactly as the caveat states. Source stats.json (generated 2026-07-13): 403,200 candidates, 850 exams, 428 titles; removed_total 1,674,337 and appointed 452,206 with cert_range starting 2007-11-07, matching '1.67 million removals against 452,206 appointments since 2007'. Row = list entry, not unique person, as stated.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-housing-connect-furman#0",
+  "definition_check": "match",
+  "notes": "Furman: 'the median time to complete the verification and offering process and be approved is 118 days'; data set 'begins when applicants receive a log number'; sample of 'approximately 64,000 applications ... for 101 buildings' from 'software that marketing agents use'; appendix: 'this data is not representative of the lottery system as a whole' and differences 'more likely to result in overestimates'. No date range for the sample found in the report. Registry also correctly separates HPD's 142-day FY2025 figure.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-housing-connect-furman#1",
+  "definition_check": "match",
+  "notes": "Furman footnote 17: 'Separately, in conversations with HPD, officials estimated nearly 600,000 unique Housing Connect applicants.' Undated; unit unique applicants (approx.) correct.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "doe-3k-unlisted-placement#0",
+  "definition_check": "mismatch",
+  "notes": "Chalkbeat May 20, 2025: 'Roughly 15% of 3-K applicants, more than 6,000 students, didn't get into any of the programs they listed on their application and were instead assigned other options by the city'; 'Some families might get into programs off waitlists over the summer' supports the end_event. CBS 2024: 'more than 2,400 New York City kids were left without seats, out of the 43,000 who applied' matches. Chalkbeat Jan. 30, 2026: 'any family that applies by the deadline will receive an offer' and 'some 94,840' 3-K and pre-K applications match. One scope slip: registry caveat says 'about 27,000 of 136,000 seats unfilled' right after the 3-K/pre-K figure; the source says 'seats for the city's free child care programs for children ages 4 and under, or more than 27,000 of roughly 136,000 seats, went unfilled' -- that denominator includes infant and toddler care, not only 3-K and pre-K (Chalkbeat 2025 put 3-K plus pre-K capacity at roughly 117,000). Minor.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "parks-trees-sidewalks#0",
+  "definition_check": "mismatch",
+  "notes": "Landing page: 'our review of 1,069 repaired sidewalks found that the average time from inspection to repair was 419 days'; 'homeowners had to wait an average of 101 days ... 71 days longer than the 30 day internal DPR SLA'; 'does not have a target time frame'; eligibility 'owner occupied one-, two-, and three-family homes (property tax class 1)'. Those match. Two mismatches: (1) registry caveat says 'Stale: fiscal 2017-18 data' but the full audit (MH18-058A.pdf, fetched live) says 'The scope of this audit was July 1, 2015 through December 31, 2017' and '1,069 sidewalks were repaired during Fiscal Year 2017 (July 1, 2016 through June 30, 2017)' -- the 419-day figure is fiscal 2017 repairs, and the audit covers fiscal 2016-17, not 2017-18; the period_label's 'the full report should be pulled' can now be resolved. (2) registry caveat says the program page describes 'a waitlist tier for sites rated 80 to 89 and a three-year expectation for 90 and above'; the page's rating chart reads '<80', '80-90', '90-100', with 'Site has been waitlisted' under 80-90 and 'Site expected to be repaired within three years' under 90-100. The registry's '80 to 89' / '90 and above' is a reading, not the page's wording.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "housing-court-eviction-cases#0",
+  "definition_check": "match",
+  "notes": "Comptroller key findings: 'Between March 2020 and March 2024, the number of active eviction cases in New York rose 440%, from approximately 33,000 cases to 177,000 cases.' Introduction: 'Following the expiration of the eviction moratorium in January 2021, the number of active eviction cases in New York City rose 440%'. Registry flags the two datings correctly; unit cases (approx.) correct.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-section8-waitlist-mmr#0",
+  "definition_check": "match",
+  "notes": "Live definition: 'The number of families on the waiting list to receive a Section 8 voucher (federal rent assistance), including applicants in the eligibility and certification stages of the process and those who are in the preliminary stage of the application process.' multiplication_factor = 1000, so x1,000 is right; latest 202 (Mar. 2026). Note: definition and title say 'families'; registry unit says 'households' (HUD's 'family' includes single persons, so this is a synonym, not an error). Pause caveat matches Sept. 29, 2025 testimony.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-vacant-unit-turnaround#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average time from when a unit becomes vacant to when it's re-occupied.' Mean, completed, end = re-occupied. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-maintenance-work-orders#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average days to complete a work order performed by a Maintenance Worker from the date the work order is created to the date the work is completed.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-skilled-trades-work-orders#0",
+  "definition_check": "match",
+  "notes": "Definition: 'work order performed by a skilled trades worker (i.e. carpenter, painter, plasterer, plumber, etc.) from the date the work order is created to the date the work is completed.' Title adds 'and vendor'; registry flags that. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-elevator-outages#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of hours to resolve reported elevator outages.' Title unit '(hours:minutes)', measurement_type TimeSpan. Live series: 129 non-NA values, fractional part never above .58 (e.g. 6.41, 6.30, 7.09, 8.10), consistent with H.MM encoding. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-heat-outages#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average time to resolve a heat outage from the date/time it is reported to when the work is completed. A heat outage is a disruption of heat service to a line of apartments, stair hall, building(s), or development.' Live series: 82 non-NA values, fractional part never above .59, consistent with H.MM. Both caveats supported. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-nonemergency-service-requests#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of days to resolve complaints that are not emergency complaints.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-nonemergency-within-15#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The percentage of non-emergency service requests that are resolved within 15 days.' Registry correctly calls 15 days a threshold, not a standard. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-nonemergency-within-60#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The percentage of non-emergency service requests that are resolved within 60 days.' Threshold, not standard. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "nycha-emergency-transfer#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Average number of days to disposition Emergency Transfer Program cases.' Registry unit 'requests' vs definition 'cases' -- same thing here. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-section8-voucher-issuance#0",
+  "definition_check": "match",
+  "notes": "Title: 'Median time from completed application to voucher issuance'; definition: 'The average time from application received by to the issuance of a voucher ... Includes both complete as well as incomplete applications'. Registry prints the contradiction. Quarterly; latest Oct. 2025 = 78. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-section8-lease-up#0",
+  "definition_check": "match",
+  "notes": "Title 'Median'; definition 'The average time from voucher issued to successful lease up ... Includes both HPD processing times, as well as search times for the voucher holder.' Contradiction and caveat both recorded. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-lottery-applicant-approval#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Median days from the certificate of occupancy issuance to applicant approval for a lottery unit.' Annual; FY2025 = 142. Registry's clock-start caveat is exactly right. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-lottery-project-approvals#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Median days from the certificate of occupancy issuance to approval to completion of 95% of applicant approvals for a lottery project.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-homeless-setaside-leaseup#0",
+  "definition_check": "match",
+  "notes": "Definition: 'timing between when the project received TCO and the homeless household exited shelter ... Median days from TCO to shelter exit date for set-aside units.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-homeless-voluntary-leaseup#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Median days from TCO to shelter exit date for voluntary units'; 'Voluntary units are additional affordable units developers chose to lease-up for homeless households through HPS.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-inspection-heat#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The median number of days it takes a Housing Inspector to make the first physical inspection attempt in response to an original (non-duplicate) problem related to heat or hot water received within the period.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-inspection-nonemergency#0",
+  "definition_check": "match",
+  "notes": "Definition: 'first physical inspection attempt in response to a report of an non-emergency problem (not including lead-based paint hazard problems) received within the period.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-close-emergency#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The median number of calendar days to close a unique emergency housing maintenance problems received before or during the period in a privately-owned building that was closed within the reporting period. An emergency problem can be closed due to an inspection, callback to tenant, or repeated attempts for access.' Registry caveat matches. Unit is problems (registry says 'requests'); calendar days. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hpd-close-nonemergency#0",
+  "definition_check": "mismatch",
+  "notes": "Definition: 'The median number of calendar days to close a nonemergency problem in a privately-owned building received before or during the period that was closed during the reporting period. Problems can be closed due to an inspection, callback to tenant, or repeated attempts for access.' Registry caveat says 'Scope is unique problems in privately owned buildings' -- the word 'unique' appears only in the emergency line's definition, not this one. Everything else matches. Minor.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-cash-assistance-timeliness#0",
+  "definition_check": "match",
+  "notes": "Definition: 'the percent of Cash Assistance application processing completed by the Agency in the required 30-day time frame.' Registry quotes it correctly and separately cites 18 NYCRR 351.8 and the Forest settlement (legal citations not checked here). Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-snap-timeliness#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The percent of Supplemental Nutrition Assistance Program Cash Assistance and Non-Cash Assistance application processing completed by the Agency in the federally required timeframe.' Registry standard text matches; CFR cites not checked here. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-medicaid-timeliness#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Percent of Community and Hospital new applications processed by the Agency within required timeframes.' PMMR 2026 HRA: 'Data for the indicator Medicaid-Application timeliness rate (%) in Goal 1c has been unavailable since Fiscal 2024'; FY2024 value 88.4 in both PMMR table and live data. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-idnyc-timeliness#0",
+  "definition_check": "match",
+  "notes": "Definition: 'percentage of mailed IDNYC cards that have been mailed within 14 business days of receiving an application.' Registry's denominator caveat and 14-business-day standard match. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-hasa-timeliness#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The percentage of HASA rent-related financial benefits applications submitted in the reporting month that are processed by the agency in the required 30-day timeframe.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-home-care-initiation#0",
+  "definition_check": "match",
+  "notes": "Definition: 'the average number of days from the date of application to the commencement of service for all new Home Attendant and Housekeeping cases during the reporting month ... include applicants who are currently enrolled in Medicaid and those who have applied for but not begun to receive Medicaid.' Mean, completed, unit cases. Match; the Medicaid-pending inclusion could be a caveat but nothing in the registry contradicts it.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hra-center-wait#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average time in minutes from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative.' Title unit '(minutes:seconds)', TimeSpan. Live series: 129 non-NA values (e.g. 96.38, 95.30, 83.49, 77.14), fractional part never above .59, consistent with M.SS. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dhs-los-families-children#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of days families with children spend in shelter, excluding overnight facilities, from their first date of application. Families who leave the DHS shelter system for more than 30 days are considered new applicants.' Silent on current vs exited; registry marks it unknown. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dhs-los-single-adults#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of days an adult has spent in the DHS shelter services system during the reporting period, excluding clients in Safe Havens and Veterans short-term housing. Non-consecutive days spent in shelter are counted as one stay in the average calculation.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dhs-los-adult-families#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of days adult families spend in shelter, excluding overnight facilities, from their first date of application. Families who leave the DHS shelter system for more than 30 days are considered new applicants.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "acs-child-care-eligibility#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Percent of childcare voucher applications with eligibility determinations within 30 days of submission.' Match; the 18 NYCRR 415 comparison is not checked here.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hh-third-next-adult#0",
+  "definition_check": "match",
+  "notes": "Definition: 'TNAA is calculated by identifying the date of the third next available new appointment slot for a patient and counting the number of days from the date of request (adult medicine).' Calendar days; no mean/median stated. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "hh-third-next-pediatric#0",
+  "definition_check": "match",
+  "notes": "Same definition text with '(pediatric medicine)'. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcas-exam-results#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The median number of business days elapsed from the date a civil service exam was given to the date exam results were completed (list published or directly established at the request of a hiring agency) ... excluding NYCTA exams'. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-scrie-initial#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The time, measured in calendar days, between the date an initial SCRIE application is received at the SCRIE unit and the date the review process is completed, that is, the application is approved, denied or deemed incomplete.' 'Average' comes from the title only. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-drie-initial#0",
+  "definition_check": "match",
+  "notes": "Same form for DRIE. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-sche-initial#0",
+  "definition_check": "match",
+  "notes": "Same form for SCHE. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-dhe-initial#0",
+  "definition_check": "match",
+  "notes": "Same form for DHE. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-property-tax-refund#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of calendar days it takes Finance to issue a property tax refund, measured from when the application is received to the date the check is mailed.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-parking-hearing-mail#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of calendar days from receipt of a written request for a hearing until a decision is issued by an Administrative Law Judge.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dof-parking-hearing-inperson#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Average number of minutes from the time a motorist(non-commercial vehicle driver) receives a Q-Matic ticket to the completion of the hearing by an Administrative Law Judge'. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-filing-to-approval#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Averaged count of business days (or fraction thereof) from filing date to first approval date (total time with the agency and the applicant).' Both caveats match. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-first-plan-review#0",
+  "definition_check": "match",
+  "notes": "Definition: 'the average number of business days for jobs to go from status of application processed - completed to either disapproved status or approved status during first review.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-first-plan-review-nb#0",
+  "definition_check": "match",
+  "notes": "Same definition for new building applications. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-inspection-construction#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of business days between the receipt of a request for a construction inspection and the first available date that an inspector can visit a job site.' Registry's appointment-availability reading is right. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-inspection-electrical#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Appointment wait time is the average number of business days between the receipt of a request for an electrical inspection and the first available date that an inspector can visit a job site.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dob-inspection-plumbing#0",
+  "definition_check": "match",
+  "notes": "Same form for plumbing. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcp-simple-zoning-review#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The median number of days that simple zoning actions spent under internal review and revision before starting the public review process.' Match. The applicant-vs-agency split is a registry note not in this definition.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcp-eas-zoning-review#0",
+  "definition_check": "match",
+  "notes": "Definition: 'zoning actions with CEQR requiring an Environmental Assessment Statement spent under internal review and revision before starting the public review process.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcp-eis-zoning-review#0",
+  "definition_check": "match",
+  "notes": "Definition: 'zoning actions with CEQR requiring an Environmental Impact Statement ...'. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-license-processing#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The median number of calendar days required to process new and renewal applications for DCWP-issued licenses. Licenses requiring approval by outside agencies, special inspections, mandatory waiting periods, or extensive legal review are excluded ... Days where the renewal is pending additional information from the applicant ... are not included'. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-license-within-30#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The percent of new and renewal applications for DCWP-issued licenses approved within 30 calendar days' with the same exclusions. Threshold, not standard. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dcwp-licensing-center-wait#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of minutes a customer waits to speak with a customer service representative who processes applications at all DCWP Licensing Centers, measured from the time the customer receives a Q-matic ticket to the time the customer reaches their first service window.' Match; clock start (Q-matic ticket) could be added.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dohmh-birth-certificates#0",
+  "definition_check": "match",
+  "notes": "Definition: 'from receipt of necessary documentation to response/issuance. Outlier, voided and canceled orders are excluded.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dohmh-death-certificates#0",
+  "definition_check": "match",
+  "notes": "Definition adds 'including funeral director orders'. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "doris-vital-records#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average time it took the Department to conduct a record search and send the search results (either a certified copy of the record or a \"not found\" statement) to the customer.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "dot-permit-processing#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Average time to issue an approved permit from the time the customer applies using NYCStreets.' Calendar days from the title. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "bic-waste-hauling-pending-age#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of days new waste hauling license and registration applications are pending, from the date of the filing through the current reporting period. This does not include applications slated for denial or under long-term investigation.' waiting_so_far correct. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "bic-waste-hauling-approval#0",
+  "definition_check": "match",
+  "notes": "Definition: 'from the date of filing of the application to the date of approval by the Legal Unit. This does not include applications that undergo long-term investigations and are subsequently approved.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "bic-waste-hauling-pending#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The number of new waste hauling license and registration applications pending, from the date of the filing, at the end of the current reporting period. This does not include applications slated for denial or under long-term investigation.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "cchr-caseload-age#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average time open complaints have been in progress measured from the date the complaint was filed through to the close of the reporting period.' waiting_so_far correct. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "cchr-open-matters#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Number of pending matters at the close of the reporting period.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "oath-hearing-decisions#0",
+  "definition_check": "mismatch",
+  "notes": "Definition: 'The average time decisions were pending at the OATH Hearings Division calculated by dividing the total number of days decisions were pending at the Hearings Division by the total number of summonses heard and having a decision rendered at the OATH Hearings Division during the reporting period.' Registry unit is 'cases'; the definition counts summonses. The figure is also a ratio (total pending-days over decisions rendered), which the registry labels a completed mean without saying so. Minor.",
+  "confidence": "medium"
+ },
+ {
+  "claim_id": "oath-trials-decisions#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The average number of business days it took the OATH Trials Division to issue a decision after the record is closed.' Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "oath-special-ed-hearings#0",
+  "definition_check": "match",
+  "notes": "Definition: 'Average calendar days from appointment of Special Education Hearing Officer to case closure by either resolution, withdrawal, dismissal, or final decision'. Quarterly. Match.",
+  "confidence": "high"
+ },
+ {
+  "claim_id": "lpc-minor-work-permits#0",
+  "definition_check": "match",
+  "notes": "Definition: 'The percentage of Permits for Minor Work issued within 10 business days of the application being completed.' Threshold, not standard; clock from completed application. Match.",
+  "confidence": "high"
+ }
+]
