@@ -436,7 +436,7 @@
      "retrieved": "2026-09-05",
      "local_copy": "data/computed_dob_filing_to_approval.json"
     },
-    "definition_quote": "filing_date: date the job filing was submitted. approved_date: date the filing was approved (dataset field names; DOB's data dictionary should be quoted here once retrieved).",
+    "definition_quote": "Dataset fields used: filing_date and approved_date, as published in DOB NOW: Build \u2013 Job Application Filings. The dataset's own data dictionary was not retrieved; field names are taken as labeled.",
     "grade": "A-c",
     "grade_reason": "Computed from record-level public data with the query published; reconciles against the Mayor's Management Report average (dob-filing-to-approval).",
     "refresh": {

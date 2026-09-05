@@ -234,7 +234,7 @@
   },
   "how_to_find": "Recompute independently from the dataset named; do not reuse any script in scripts/.",
   "registry_description_to_check": {
-   "line_name": "DOB NOW filings: filing to approval (computed distribution)",
+   "line_name": "Buildings filings (DOB NOW): filing to approval, computed distribution",
    "what_for": "Approval of a construction job filing",
    "end_event": "Filing approved",
    "unit": "applications",
@@ -267,7 +267,7 @@
   },
   "how_to_find": "Recompute independently from the dataset named; do not reuse any script in scripts/.",
   "registry_description_to_check": {
-   "line_name": "HPD housing complaint problems: received to closed (computed distribution)",
+   "line_name": "Housing complaint problems: received to closed, computed distribution",
    "what_for": "Resolution of a housing maintenance complaint",
    "end_event": "Problem closed",
    "unit": "items (problems; one complaint can carry several problems)",
@@ -552,7 +552,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to complete maintenance work orders (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA maintenance work orders",
+   "line_name": "Public housing maintenance work orders",
    "what_for": "A repair by NYCHA maintenance staff",
    "end_event": "Work completed (definition: from the date the work order is created to the date the work is completed)",
    "unit": "requests",
@@ -580,7 +580,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to complete skilled trades and vendor work orders (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA skilled-trades and vendor work orders",
+   "line_name": "Public housing skilled-trades and vendor work orders",
    "what_for": "A repair assigned to skilled trades or, per the title, a vendor",
    "end_event": "Work completed (definition: from work order creation to the date the work is completed)",
    "unit": "requests",
@@ -608,7 +608,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to resolve elevator outages (hours:minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA elevator outages",
+   "line_name": "Public housing elevator outages",
    "what_for": "A stopped elevator returned to service",
    "end_event": "Outage resolved",
    "unit": "items",
@@ -639,7 +639,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to resolve heat outages (hours:minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA heat outages",
+   "line_name": "Public housing heat outages",
    "what_for": "Heat restored",
    "end_event": "Outage resolved",
    "unit": "items",
@@ -672,7 +672,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Average time to resolve non-emergency service requests (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA non-emergency service requests",
+   "line_name": "Public housing non-emergency service requests",
    "what_for": "A non-emergency repair",
    "end_event": "Request resolved",
    "unit": "requests",
@@ -700,7 +700,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Non-emergency service requests resolved within 15 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA non-emergency requests within 15 days",
+   "line_name": "Public housing non-emergency requests within 15 days",
    "what_for": "A non-emergency repair",
    "end_event": "Request resolved",
    "unit": "requests",
@@ -728,7 +728,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Non-emergency service requests resolved within 60 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA non-emergency requests within 60 days",
+   "line_name": "Public housing non-emergency requests within 60 days",
    "what_for": "A non-emergency repair",
    "end_event": "Request resolved",
    "unit": "requests",
@@ -756,7 +756,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHA' and indicator='Emergency transfer disposition time (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYCHA emergency transfer requests",
+   "line_name": "Public housing emergency transfer requests",
    "what_for": "Decision on an emergency transfer to another apartment",
    "end_event": "Disposition issued",
    "unit": "cases (definition: 'Emergency Transfer Program cases')",
@@ -784,7 +784,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Section 8 \u2014 Median time from completed application to voucher issuance (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HPD Section 8: completed application to voucher",
+   "line_name": "Housing Preservation Section 8: application to voucher",
    "what_for": "A voucher from HPD's Section 8 program",
    "end_event": "Voucher issued",
    "unit": "applications (definition); each is a household's application",
@@ -814,7 +814,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Section 8 \u2014 Median time from voucher issuance to lease up (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HPD Section 8: voucher to lease",
+   "line_name": "Housing Preservation Section 8: voucher to lease",
    "what_for": "An apartment found with an HPD voucher",
    "end_event": "Lease signed",
    "unit": "households (voucher holders)",
@@ -961,7 +961,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to first inspection (days) \u2014 Heat and hot water problems'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HPD heat and hot water complaints: first inspection",
+   "line_name": "Heat and hot water complaints: first inspection attempt",
    "what_for": "An inspection after a heat or hot water complaint",
    "end_event": "First physical inspection attempt (definition)",
    "unit": "requests",
@@ -991,7 +991,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to first inspection (days) \u2014 Non-emergency problems'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HPD non-emergency complaints: first inspection",
+   "line_name": "Non-emergency housing complaints: first inspection attempt",
    "what_for": "An inspection after a non-emergency housing complaint",
    "end_event": "First physical inspection attempt (definition)",
    "unit": "requests",
@@ -1021,7 +1021,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to close emergency problems (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HPD emergency complaint problems: close",
+   "line_name": "Emergency housing complaint problems: time to close",
    "what_for": "Resolution of an emergency housing complaint",
    "end_event": "Problem closed",
    "unit": "items (problems; one complaint can carry several)",
@@ -1051,7 +1051,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HPD' and indicator='Median time to close non-emergency problems (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HPD non-emergency complaint problems: close",
+   "line_name": "Non-emergency housing complaint problems: time to close",
    "what_for": "Resolution of a non-emergency housing complaint",
    "end_event": "Problem closed",
    "unit": "items (problems; one complaint can carry several)",
@@ -1111,7 +1111,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Supplemental Nutrition Assistance Program (SNAP) \u2014 Application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "SNAP applications decided on time",
+   "line_name": "Supplemental Nutrition Assistance Program applications decided on time",
    "what_for": "A decision on a SNAP application",
    "end_event": "Application accepted or denied",
    "unit": "applications",
@@ -1147,7 +1147,7 @@
    "duration_kind": "n/a",
    "standard": "45 days, or 90 days for disability-based applications, 42 CFR 435.912; indicator definition says 'within required timeframes' for community and hospital new applications",
    "caveats": [
-    "Data unavailable after fiscal 2024 per the PMMR; latest value is fiscal 2024 (June 2024)."
+    "Data unavailable after fiscal 2024 per the Preliminary Mayor's Management Report; latest value is fiscal 2024 (June 2024)."
    ]
   }
  },
@@ -1199,7 +1199,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='HIV/AIDS Services Administration (HASA) \u2014 Rental assistance application timeliness rate (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HASA rental assistance applications decided on time",
+   "line_name": "HIV/AIDS Services Administration rental assistance decided on time",
    "what_for": "Rental assistance for a HASA client",
    "end_event": "Application processed (definition)",
    "unit": "applications",
@@ -1257,7 +1257,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='HRA' and indicator='Average wait time to speak with a customer service agent (minutes:seconds)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "HRA in-person wait at benefits centers",
+   "line_name": "Human Resources Administration in-person wait at benefits centers",
    "what_for": "A person at an HRA center who has checked in with a greeter or information desk",
    "end_event": "Met by a customer service representative",
    "unit": "persons",
@@ -1411,7 +1411,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHH' and indicator='Calendar days to third next available new appointment \u2013 Adult medicine'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYC Health + Hospitals: new adult primary care appointment",
+   "line_name": "Health + Hospitals: new adult primary care appointment",
    "what_for": "An open new-patient appointment slot in adult medicine",
    "end_event": "Appointment date",
    "unit": "items",
@@ -1441,7 +1441,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='NYCHH' and indicator='Calendar days to third next available new appointment \u2013 Pediatric medicine'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "NYC Health + Hospitals: new pediatric appointment",
+   "line_name": "Health + Hospitals: new pediatric appointment",
    "what_for": "An open new-patient appointment slot in pediatric medicine",
    "end_event": "Appointment date",
    "unit": "items",
@@ -1501,7 +1501,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Senior Citizen Rent Increase Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "SCRIE initial applications",
+   "line_name": "Senior Citizen Rent Increase Exemption initial applications",
    "what_for": "A Senior Citizen Rent Increase Exemption",
    "end_event": "Application approved, denied or deemed incomplete (definition)",
    "unit": "applications",
@@ -1529,7 +1529,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Disability Rent Increase Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DRIE initial applications",
+   "line_name": "Disability Rent Increase Exemption initial applications",
    "what_for": "A Disability Rent Increase Exemption",
    "end_event": "Application approved, denied or deemed incomplete (definition)",
    "unit": "applications",
@@ -1557,7 +1557,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Senior Citizen Homeowners' Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "SCHE initial applications",
+   "line_name": "Senior Citizen Homeowners' Exemption initial applications",
    "what_for": "A Senior Citizen Homeowners' Exemption",
    "end_event": "Application approved, denied or deemed incomplete (definition)",
    "unit": "applications",
@@ -1585,7 +1585,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOF' and indicator='Average time to process initial Disability Homeowners' Exemption applications (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DHE initial applications",
+   "line_name": "Disability Homeowners' Exemption initial applications",
    "what_for": "A Disability Homeowners' Exemption",
    "end_event": "Application approved, denied or deemed incomplete (definition)",
    "unit": "applications",
@@ -1699,7 +1699,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days from filing to approval \u2013 All applications (DOB NOW)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOB NOW filings: filing to approval",
+   "line_name": "Buildings filings (DOB NOW): filing to approval",
    "what_for": "Approval of a construction job filing",
    "end_event": "Filing approved",
    "unit": "applications",
@@ -1730,7 +1730,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days to complete first plan review \u2013 All applications (DOB NOW)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOB NOW filings: first plan review",
+   "line_name": "Buildings filings (DOB NOW): first plan review",
    "what_for": "A first plan examination, measured from the status 'application processed - completed'",
    "end_event": "Approved or disapproved status during first review (definition)",
    "unit": "applications",
@@ -1758,7 +1758,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOB NOW new building filings: first plan review",
+   "line_name": "Buildings filings (DOB NOW), new buildings: first plan review",
    "what_for": "A first plan examination for a new building, measured from the status 'application processed - completed'",
    "end_event": "Approved or disapproved status during first review (definition)",
    "unit": "applications",
@@ -1786,7 +1786,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days between construction inspection request and inspection'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOB construction inspections",
+   "line_name": "Buildings Department construction inspections",
    "what_for": "A requested construction inspection",
    "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
    "unit": "requests",
@@ -1814,7 +1814,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days between electrical inspection request and inspection'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOB electrical inspections",
+   "line_name": "Buildings Department electrical inspections",
    "what_for": "A requested electrical inspection",
    "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
    "unit": "requests",
@@ -1842,7 +1842,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOB' and indicator='Average days between plumbing inspection request and inspection'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOB plumbing inspections",
+   "line_name": "Buildings Department plumbing inspections",
    "what_for": "A requested plumbing inspection",
    "end_event": "First available date an inspector can visit (definition); an appointment-availability measure, not the inspection itself",
    "unit": "requests",
@@ -1960,7 +1960,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DCWP' and indicator='Median processing time (days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DCWP license applications",
+   "line_name": "Consumer and Worker Protection license applications",
    "what_for": "A business or worker license, new or renewal",
    "end_event": "Application processed",
    "unit": "applications",
@@ -1990,7 +1990,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DCWP' and indicator='Applications approved within 30 days (%)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DCWP license applications within 30 days",
+   "line_name": "Consumer and Worker Protection licenses within 30 days",
    "what_for": "A business or worker license, new or renewal",
    "end_event": "Application approved",
    "unit": "applications",
@@ -2020,7 +2020,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DCWP' and indicator='Average Licensing Center wait time (minutes)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DCWP Licensing Center in-person wait",
+   "line_name": "Consumer and Worker Protection Licensing Center in-person wait",
    "what_for": "Service at the counter",
    "end_event": "Served",
    "unit": "persons",
@@ -2136,7 +2136,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='DOT' and indicator='Average time to process a permit application for customers (calendar days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "DOT permit applications",
+   "line_name": "Transportation Department permit applications",
    "what_for": "A street or sidewalk permit that was approved",
    "end_event": "Approved permit issued (definition covers approved permits only)",
    "unit": "applications",
@@ -2313,7 +2313,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='OATH' and indicator='Average days for Judicial Hearings Officers to render decisions'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "OATH hearings: decision after hearing",
+   "line_name": "Administrative hearings: decision after a summons hearing",
    "what_for": "A decision on a summons heard at OATH (the definition divides total pending days by summonses heard and decided, so this is a ratio, not a per-case mean)",
    "end_event": "Decision rendered",
    "unit": "items",
@@ -2341,7 +2341,7 @@
   },
   "how_to_find": "Query rbed-zzin for agency='OATH' and indicator='Average time for OATH Trials Division to issue decisions after records closed (business days)'; take the latest non-NA acceptedvalueytd and its valuedate; also copy the description field verbatim.",
   "registry_description_to_check": {
-   "line_name": "OATH Trials Division decisions",
+   "line_name": "Administrative Trials Division decisions",
    "what_for": "A decision after a trial record closes",
    "end_event": "Decision issued",
    "unit": "cases",
