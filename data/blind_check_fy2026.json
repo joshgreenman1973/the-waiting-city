@@ -1,0 +1,870 @@
+{
+ "what": "Independent blind extraction of the fiscal 2026 actuals from sources/mmr2026.txt by a checker barred from data/ and scripts/, run Sept. 17, 2026. Compared against data/mmr_fy2026_pdf.json: 68 of 69 agree on value and page; the 69th is the HRA row the printed report renamed.",
+ "run": "2026-09-17",
+ "answers": {
+  "NYCHA|Section 8 — Families on waiting list (000)": {
+   "fy2026": "202",
+   "fy22_fy25": [
+    "17",
+    "16",
+    "5",
+    "197"
+   ],
+   "pdf_page": 430,
+   "row_line": "® Section 8 — Families on waiting list (000) 17 16 5 197 202 * * Up Down",
+   "confidence": "high"
+  },
+  "NYCHA|Average turnaround time for vacant units (days)": {
+   "fy2026": "357.6",
+   "fy22_fy25": [
+    "160.8",
+    "370.0",
+    "424.4",
+    "371.1"
+   ],
+   "pdf_page": 428,
+   "row_line": " Average turnaround time for vacant units (days) 160.8 370.0 424.4 371.1 357.6 300.0 300.0 Up Down",
+   "confidence": "high"
+  },
+  "NYCHA|Average time to complete maintenance work orders (days)": {
+   "fy2026": "3.98",
+   "fy22_fy25": [
+    "8.10",
+    "6.23",
+    "5.03",
+    "4.06"
+   ],
+   "pdf_page": 427,
+   "row_line": "Average time to complete maintenance work orders (days) 8.10 6.23 5.03 4.06 3.98 7.00 7.00 Down Down",
+   "confidence": "high"
+  },
+  "NYCHA|Average time to complete skilled trades and vendor work orders (days)": {
+   "fy2026": "119.14",
+   "fy22_fy25": [
+    "77.40",
+    "109.04",
+    "133.37",
+    "129.65"
+   ],
+   "pdf_page": 427,
+   "row_line": "(days) 77.40 109.04 133.37 129.65 119.14 * * Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line is 'Average time to complete skilled trades and vendor work orders '"
+  },
+  "NYCHA|Average time to resolve elevator outages (hours:minutes)": {
+   "fy2026": "6:48",
+   "fy22_fy25": [
+    "11:49",
+    "9:07",
+    "6:44",
+    "6:03"
+   ],
+   "pdf_page": 427,
+   "row_line": " Average time to resolve elevator outages (hours:minutes) 11:49 9:07 6:44 6:03 6:48 10:00 10:00 Down Down",
+   "confidence": "high"
+  },
+  "NYCHA|Average time to resolve heat outages (hours:minutes)": {
+   "fy2026": "7:12",
+   "fy22_fy25": [
+    "8:16",
+    "7:30",
+    "6:37",
+    "6:50"
+   ],
+   "pdf_page": 427,
+   "row_line": " Average time to resolve heat outages (hours:minutes) 8:16 7:30 6:37 6:50 7:12 12:00 12:00 Down Down",
+   "confidence": "high"
+  },
+  "NYCHA|Average time to resolve non-emergency service requests (days)": {
+   "fy2026": "63.3",
+   "fy22_fy25": [
+    "49.1",
+    "65.4",
+    "65.7",
+    "66.0"
+   ],
+   "pdf_page": 427,
+   "row_line": " Average time to resolve non-emergency service requests (days) 49.1 65.4 65.7 66.0 63.3 ò ò Up Down",
+   "confidence": "high"
+  },
+  "NYCHA|Non-emergency service requests resolved within 15 days (%)": {
+   "fy2026": "76%",
+   "fy22_fy25": [
+    "74%",
+    "71%",
+    "75%",
+    "77%"
+   ],
+   "pdf_page": 427,
+   "row_line": "Non-emergency service requests resolved within 15 days (%) 74% 71% 75% 77% 76% 75% 75% Neutral Up",
+   "confidence": "high"
+  },
+  "NYCHA|Non-emergency service requests resolved within 60 days (%)": {
+   "fy2026": "86%",
+   "fy22_fy25": [
+    "85%",
+    "82%",
+    "85%",
+    "85%"
+   ],
+   "pdf_page": 427,
+   "row_line": "Non-emergency service requests resolved within 60 days (%) 85% 82% 85% 85% 86% 100% 100% Neutral Up",
+   "confidence": "high"
+  },
+  "NYCHA|Emergency transfer disposition time (days)": {
+   "fy2026": "12.31",
+   "fy22_fy25": [
+    "12.20",
+    "13.34",
+    "10.09",
+    "11.68"
+   ],
+   "pdf_page": 430,
+   "row_line": " Emergency transfer disposition time (days) 12.20 13.34 10.09 11.68 12.31 45.00 45.00 Neutral Down",
+   "confidence": "high"
+  },
+  "HPD|Section 8 — Median time from completed application to voucher issuance (days)": {
+   "fy2026": "53",
+   "fy22_fy25": [
+    "26",
+    "57",
+    "44",
+    "77"
+   ],
+   "pdf_page": 417,
+   "row_line": "issuance (days) 26 57 44 77 53 * * Up *",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Section 8 — Median time from completed application to voucher '"
+  },
+  "HPD|Section 8 — Median time from voucher issuance to lease up (days)": {
+   "fy2026": "71",
+   "fy22_fy25": [
+    "101",
+    "99",
+    "81",
+    "142"
+   ],
+   "pdf_page": 417,
+   "row_line": "(days) 101 99 81 142 71 * * Neutral *",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Section 8 — Median time from voucher issuance to lease up '"
+  },
+  "HPD|Lottery units — Median time to approve an applicant (days)": {
+   "fy2026": "136",
+   "fy22_fy25": [
+    "163",
+    "192",
+    "191",
+    "142"
+   ],
+   "pdf_page": 416,
+   "row_line": " Lottery units — Median time to approve an applicant (days) 163 192 191 142 136 * * Down *",
+   "confidence": "high"
+  },
+  "HPD|Lottery projects — Median time to complete applicant approvals (days)": {
+   "fy2026": "236",
+   "fy22_fy25": [
+    "171",
+    "262",
+    "202",
+    "210"
+   ],
+   "pdf_page": 416,
+   "row_line": "als (days) 171 262 202 210 236 * * Up *",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Lottery projects — Median time to complete applicant approv -'"
+  },
+  "HPD|Median time to lease-up a homeless placement set-aside new construction unit (days)": {
+   "fy2026": "190",
+   "fy22_fy25": [
+    "203",
+    "243",
+    "196",
+    "235"
+   ],
+   "pdf_page": 416,
+   "row_line": "new construction unit (days) 203 243 196 235 190 * * Neutral *",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Median time to lease-up a homeless placement set-aside '"
+  },
+  "HPD|Median time to lease-up a homeless placement voluntary new construction unit (days)": {
+   "fy2026": "194",
+   "fy22_fy25": [
+    "214",
+    "142",
+    "156",
+    "162"
+   ],
+   "pdf_page": 416,
+   "row_line": "construction unit (days) 214 142 156 162 194 * * Neutral *",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Median time to lease-up a homeless placement voluntary new '"
+  },
+  "HPD|Median time to first inspection (days) — Heat and hot water problems": {
+   "fy2026": "2.0",
+   "fy22_fy25": [
+    "2.1",
+    "2.0",
+    "1.6",
+    "1.9"
+   ],
+   "pdf_page": 410,
+   "row_line": "water problems 2.1 2.0 1.6 1.9 2.0 * * Neutral Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Median time to first inspection (days) — Heat and hot '"
+  },
+  "HPD|Median time to first inspection (days) — Non-emergency problems": {
+   "fy2026": "7.1",
+   "fy22_fy25": [
+    "7.0",
+    "7.9",
+    "7.1",
+    "6.0"
+   ],
+   "pdf_page": 410,
+   "row_line": "cy problems 7.0 7.9 7.1 6.0 7.1 * * Neutral Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Median time to first inspection (days) — Non-emergen -'"
+  },
+  "HPD|Median time to close emergency problems (days)": {
+   "fy2026": "3.0",
+   "fy22_fy25": [
+    "4.0",
+    "4.0",
+    "3.0",
+    "3.0"
+   ],
+   "pdf_page": 410,
+   "row_line": " Median time to close emergency problems (days) 4.0 4.0 3.0 3.0 3.0 ò ò Down Down",
+   "confidence": "high"
+  },
+  "HPD|Median time to close non-emergency problems (days)": {
+   "fy2026": "12.0",
+   "fy22_fy25": [
+    "13.0",
+    "13.0",
+    "12.0",
+    "10.0"
+   ],
+   "pdf_page": 410,
+   "row_line": "(days) 13.0 13.0 12.0 10.0 12.0 ò ò Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Median time to close non-emergency problems '"
+  },
+  "HRA|Cash Assistance — Application timeliness rate (%)": {
+   "fy2026": "65.8%",
+   "fy22_fy25": [
+    "82.3%",
+    "28.8%",
+    "42.4%",
+    "63.2%"
+   ],
+   "pdf_page": 239,
+   "row_line": " Cash Assistance — Application timeliness rate (%) 82.3% 28.8% 42.4% 63.2% 65.8% 95.0% 95.0% Neutral Up",
+   "confidence": "high"
+  },
+  "HRA|Supplemental Nutrition Assistance Program (SNAP) — Application timeliness rate (%)": {
+   "fy2026": "84.7%",
+   "fy22_fy25": [
+    "60.1%",
+    "39.7%",
+    "65.1%",
+    "87.6%"
+   ],
+   "pdf_page": 240,
+   "row_line": " SNAP — Application timeliness rate (%) 60.1% 39.7% 65.1% 87.6% 84.7% 95.0% 95.0% Up Up",
+   "confidence": "high",
+   "note": "Printed row label is abbreviated 'SNAP — Application timeliness rate (%)'"
+  },
+  "HRA|Medicaid — Application timeliness rate (%)": {
+   "fy2026": "NA",
+   "fy22_fy25": [
+    "96.8%",
+    "94.2%",
+    "88.4%",
+    "NA"
+   ],
+   "pdf_page": 240,
+   "row_line": "Medicaid — Application timeliness rate (%) 96.8% 94.2% 88.4% NA NA 95.0% 95.0% NA Up",
+   "confidence": "high",
+   "note": "Chapter note (p.248) says FY2025 and FY2026 are not available due to a data issue."
+  },
+  "HRA|IDNYC — Application timeliness rate (%)": {
+   "fy2026": "98.7%",
+   "fy22_fy25": [
+    "98.2%",
+    "90.6%",
+    "96.7%",
+    "97.0%"
+   ],
+   "pdf_page": 242,
+   "row_line": "IDNYC — Application timeliness rate (%) 98.2% 90.6% 96.7% 97.0% 98.7% * * Neutral Up",
+   "confidence": "high"
+  },
+  "HRA|HIV/AIDS Services Administration (HASA) — Rental assistance application timeliness rate (%)": {
+   "fy2026": "92.9%",
+   "fy22_fy25": [
+    "97.4%",
+    "96.2%",
+    "97.7%",
+    "94.6%"
+   ],
+   "pdf_page": 245,
+   "row_line": "HASA — Rental assistance application timeliness rate (%) 97.4% 96.2% 97.7% 94.6% 92.9% 95.0% 95.0% Neutral Up",
+   "confidence": "high",
+   "note": "Printed row label is abbreviated 'HASA — ...'"
+  },
+  "HRA|Average days to initiate home attendant and housekeeper services for all cases": {
+   "fy2026": "43.8",
+   "fy22_fy25": [
+    "29.3",
+    "33.3",
+    "34.3",
+    "45.0"
+   ],
+   "pdf_page": 245,
+   "row_line": "services for all cases 29.3 33.3 34.3 45.0 43.8 ò ò Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average days to initiate home attendant and housekeeper '"
+  },
+  "HRA|Average wait time to speak with a customer service agent (minutes:seconds)": {
+   "fy2026": null,
+   "fy22_fy25": null,
+   "pdf_page": 246,
+   "row_line": "Average customer in-person wait time (minutes:seconds) 44:26 68:00 77:30 81:25 97:03 60:00 60:00 Up Down",
+   "confidence": "low",
+   "note": "NO SUCH ROW in the HRA chapter (pp. 225-248 printed / PDF 237-248). I read every row of HRA's AGENCY CUSTOMER SERVICE table: Completed requests for interpretation; Letters responded to within 14 days (%); E-mails responded to within 14 days (%); Average customer in-person wait time (minutes:seconds); CORE facility rating; Calls answered within 30 seconds (%); Customer satisfaction rating for Public Health Insurance Program services. There is no phone-agent wait row. The row_line given is the ONLY minutes:seconds wait row in the HRA chapter and it measures IN-PERSON wait (FY22-FY25: 44:26, 68:00, 77:30, 81:25; FY26: 97:03). Other agencies (FDNY p76, DCWP p186, NYCHA p431, DCAS p450, DHS p267) do carry 'Average wait time to speak with a customer service agent'; HRA does not. Do not treat 97:03 as this indicator without checking."
+  },
+  "DHS|Average length of stay — Families with children in shelter (days)": {
+   "fy2026": "415",
+   "fy22_fy25": [
+    "534",
+    "437",
+    "354",
+    "372"
+   ],
+   "pdf_page": 265,
+   "row_line": " Average length of stay — Families with children in shelter (days) 534 437 354 372 415 ò ò Down Down",
+   "confidence": "high"
+  },
+  "DHS|Average length of stay — Single adults in shelter (days)": {
+   "fy2026": "372",
+   "fy22_fy25": [
+    "509",
+    "412",
+    "392",
+    "378"
+   ],
+   "pdf_page": 265,
+   "row_line": " Average length of stay — Single adults in shelter (days) 509 412 392 378 372 ò ò Down Down",
+   "confidence": "high"
+  },
+  "DHS|Average length of stay — Adult families in shelters (days)": {
+   "fy2026": "340",
+   "fy22_fy25": [
+    "855",
+    "750",
+    "498",
+    "379"
+   ],
+   "pdf_page": 265,
+   "row_line": " Average length of stay — Adult families in shelters (days) 855 750 498 379 340 ò ò Down Down",
+   "confidence": "high"
+  },
+  "ACS|Child care assistance applicants with eligibility determinations within 30 days (%)": {
+   "fy2026": "92%",
+   "fy22_fy25": [
+    "96%",
+    "92%",
+    "80%",
+    "92%"
+   ],
+   "pdf_page": 255,
+   "row_line": "within 30 days (%) 96% 92% 80% 92% 92% 90% 90% Neutral Up",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Child care assistance applicants with eligibility determinations '"
+  },
+  "ACS|Average length of stay in detention (days) (total)": {
+   "fy2026": "56",
+   "fy22_fy25": [
+    "38",
+    "39",
+    "40",
+    "46"
+   ],
+   "pdf_page": 257,
+   "row_line": " Average length of stay in detention (days) (total) 38 39 40 46 56 ò ò Up Down",
+   "confidence": "high"
+  },
+  "NYCHH|Calendar days to third next available new appointment – Adult medicine": {
+   "fy2026": "9.0",
+   "fy22_fy25": [
+    "12.0",
+    "12.0",
+    "20.0",
+    "13.0"
+   ],
+   "pdf_page": 231,
+   "row_line": "Adult medicine 12.0 12.0 20.0 13.0 9.0 14.0 14.0 Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Calendar days to third next available new appointment – '"
+  },
+  "NYCHH|Calendar days to third next available new appointment – Pediatric medicine": {
+   "fy2026": "13.0",
+   "fy22_fy25": [
+    "12.0",
+    "13.0",
+    "23.0",
+    "17.0"
+   ],
+   "pdf_page": 231,
+   "row_line": "Pediatric medicine 12.0 13.0 23.0 17.0 13.0 5.0 5.0 Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Calendar days to third next available new appointment – '"
+  },
+  "DCAS|Median time from exam administration to exam results completion for DCAS-administered exams (business days)": {
+   "fy2026": "101",
+   "fy22_fy25": [
+    "167",
+    "149",
+    "139",
+    "158"
+   ],
+   "pdf_page": 444,
+   "row_line": "tion for DCAS-administered exams (business days) 167 149 139 158 101 197 197 Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Median time from exam administration to exam results comple -'"
+  },
+  "DOF|Average time to process initial Senior Citizen Rent Increase Exemption applications (days)": {
+   "fy2026": "31.2",
+   "fy22_fy25": [
+    "11.1",
+    "25.8",
+    "16.2",
+    "12.2"
+   ],
+   "pdf_page": 465,
+   "row_line": "Exemption applications (days) 11.1 25.8 16.2 12.2 31.2 10.0 10.0 Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average time to process initial Senior Citizen Rent Increase '. Distinct from the RENEWAL row (15.1)."
+  },
+  "DOF|Average time to process initial Disability Rent Increase Exemption applications (days)": {
+   "fy2026": "33.8",
+   "fy22_fy25": [
+    "10.0",
+    "22.7",
+    "15.6",
+    "12.7"
+   ],
+   "pdf_page": 465,
+   "row_line": "applications (days) 10.0 22.7 15.6 12.7 33.8 10.0 10.0 Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average time to process initial Disability Rent Increase Exemption '. Distinct from the RENEWAL row (14.5)."
+  },
+  "DOF|Average time to process initial Senior Citizen Homeowners' Exemption applications (days)": {
+   "fy2026": "8.4",
+   "fy22_fy25": [
+    "10.3",
+    "14.5",
+    "21.6",
+    "3.5"
+   ],
+   "pdf_page": 465,
+   "row_line": "Exemption applications (days) 10.3 14.5 21.6 3.5 8.4 ò ò Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average time to process initial Senior Citizen Homeowners’ '. Distinct from the RENEWAL row (6.3)."
+  },
+  "DOF|Average time to process initial Disability Homeowners' Exemption applications (days)": {
+   "fy2026": "5.3",
+   "fy22_fy25": [
+    "5.9",
+    "10.0",
+    "27.0",
+    "4.9"
+   ],
+   "pdf_page": 465,
+   "row_line": "tion applications (days) 5.9 10.0 27.0 4.9 5.3 ò ò Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average time to process initial Disability Homeowners’ Exemp -'. Distinct from the RENEWAL row (12.1)."
+  },
+  "DOF|Average time to issue a property tax refund (days)": {
+   "fy2026": "25",
+   "fy22_fy25": [
+    "13",
+    "13",
+    "25",
+    "35"
+   ],
+   "pdf_page": 463,
+   "row_line": " Average time to issue a property tax refund (days) 13 13 25 35 25 20 20 Up Down",
+   "confidence": "high"
+  },
+  "DOF|Average turnaround time to issue decision for parking summons hearing-by-mail (days)": {
+   "fy2026": "6.8",
+   "fy22_fy25": [
+    "6.9",
+    "7.8",
+    "6.6",
+    "6.7"
+   ],
+   "pdf_page": 464,
+   "row_line": "summons hearing-by-mail (days) 6.9 7.8 6.6 6.7 6.8 14.0 14.0 Neutral Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average turnaround time to issue decision for parking '. Distinct from the hearing-by-WEB row (3.9)."
+  },
+  "DOF|Average turnaround time for in-person parking summons hearings (minutes)": {
+   "fy2026": "7.3",
+   "fy22_fy25": [
+    "1.3",
+    "3.3",
+    "5.3",
+    "11.2"
+   ],
+   "pdf_page": 464,
+   "row_line": "hearings (minutes) 1.3 3.3 5.3 11.2 7.3 12.0 12.0 Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average turnaround time for in-person parking summons '"
+  },
+  "DOB|Average days from filing to approval – All applications (DOB NOW)": {
+   "fy2026": "25.4",
+   "fy22_fy25": [
+    "14.7",
+    "18.1",
+    "20.2",
+    "20.3"
+   ],
+   "pdf_page": 370,
+   "row_line": "NOW) 14.7 18.1 20.2 20.3 25.4 * * Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Average days from filing to approval – All applications (DOB '"
+  },
+  "DOB|Average days to complete first plan review – All applications (DOB NOW)": {
+   "fy2026": "5.4",
+   "fy22_fy25": [
+    "2.9",
+    "2.7",
+    "3.3",
+    "3.7"
+   ],
+   "pdf_page": 370,
+   "row_line": "NOW) 2.9 2.7 3.3 3.7 5.4 * * Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Average days to complete first plan review – All applications (DOB '"
+  },
+  "DOB|Average days to complete first plan review – New Buildings – All applications (DOB NOW)": {
+   "fy2026": "9.4",
+   "fy22_fy25": [
+    "7.7",
+    "6.5",
+    "6.5",
+    "6.3"
+   ],
+   "pdf_page": 370,
+   "row_line": "All applications (DOB NOW) 7.7 6.5 6.5 6.3 9.4 ò ò Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average days to complete first plan review – New Buildings – '"
+  },
+  "DOB|Average days between construction inspection request and inspection": {
+   "fy2026": "5.2",
+   "fy22_fy25": [
+    "1.2",
+    "1.5",
+    "4.4",
+    "5.4"
+   ],
+   "pdf_page": 371,
+   "row_line": "inspection 1.2 1.5 4.4 5.4 5.2 ò ò Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average days between construction inspection request and '"
+  },
+  "DOB|Average days between electrical inspection request and inspection": {
+   "fy2026": "12.6",
+   "fy22_fy25": [
+    "2.8",
+    "3.3",
+    "4.6",
+    "12.8"
+   ],
+   "pdf_page": 371,
+   "row_line": "inspection 2.8 3.3 4.6 12.8 12.6 ò ò Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average days between electrical inspection request and '"
+  },
+  "DOB|Average days between plumbing inspection request and inspection": {
+   "fy2026": "4.8",
+   "fy22_fy25": [
+    "2.4",
+    "2.2",
+    "2.6",
+    "5.0"
+   ],
+   "pdf_page": 371,
+   "row_line": "inspection 2.4 2.2 2.6 5.0 4.8 ò ò Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average days between plumbing inspection request and '"
+  },
+  "DOB|Average customer in-person transaction time (minutes)": {
+   "fy2026": "7",
+   "fy22_fy25": [
+    "5",
+    "6",
+    "6",
+    "7"
+   ],
+   "pdf_page": 369,
+   "row_line": " Average customer in-person transaction time (minutes) 5 6 6 7 7 ò ò Up Down",
+   "confidence": "high",
+   "note": "Distinct from the adjacent 'Average customer in-person wait time (minutes)' row (FY26 = 6)."
+  },
+  "DCP|Median days for simple zoning action projects to enter public review": {
+   "fy2026": "258",
+   "fy22_fy25": [
+    "NA",
+    "NA",
+    "307",
+    "278"
+   ],
+   "pdf_page": 389,
+   "row_line": "Median days for projects to enter public review NA NA 307 278 258 365 365 NA Down",
+   "confidence": "high",
+   "note": "Row sits under 'Simple zoning action projects' goal table (rows above: 'Simple zoning action projects that entered public review 76 53 69 53 68')."
+  },
+  "DCP|Median days for zoning actions with CEQR (EAS) to enter public review": {
+   "fy2026": "572",
+   "fy22_fy25": [
+    "NA",
+    "NA",
+    "527",
+    "482"
+   ],
+   "pdf_page": 390,
+   "row_line": "Median days for projects to enter public review NA NA 527 482 572 456 456 NA Down",
+   "confidence": "high",
+   "note": "Row sits under the CEQR (EAS) goal table (rows above: 'Zoning actions with CEQR (EAS) that entered public review 58 44 53 52 56'). Narrative confirms 'a median of 572 days ... longer than the 482 days in Fiscal 2025'."
+  },
+  "DCP|Median days for zoning actions with CEQR (EIS) to enter public review": {
+   "fy2026": "659",
+   "fy22_fy25": [
+    "NA",
+    "NA",
+    "148",
+    "369"
+   ],
+   "pdf_page": 390,
+   "row_line": "Median days for projects to enter public review NA NA 148 369 659 669 669 NA Down",
+   "confidence": "high",
+   "note": "Row sits under the CEQR (EIS) goal table (rows above: 'Zoning actions with CEQR (EIS) that entered public review 7 3 9 11 5'). Narrative confirms 'a median of 659 days'. Two other identically labelled rows exist in DCP: City projects non-zoning (106) and Renewals (135)."
+  },
+  "DCWP|Median processing time (days)": {
+   "fy2026": "2",
+   "fy22_fy25": [
+    "1",
+    "1",
+    "1",
+    "2"
+   ],
+   "pdf_page": 183,
+   "row_line": " Median processing time (days) 1 1 1 2 2 4 4 Up Down",
+   "confidence": "high"
+  },
+  "DCWP|Applications approved within 30 days (%)": {
+   "fy2026": "99%",
+   "fy22_fy25": [
+    "90%",
+    "94%",
+    "97%",
+    "98%"
+   ],
+   "pdf_page": 183,
+   "row_line": "Applications approved within 30 days (%) 90% 94% 97% 98% 99% 95% 95% Neutral Up",
+   "confidence": "high"
+  },
+  "DCWP|Average Licensing Center wait time (minutes)": {
+   "fy2026": "6",
+   "fy22_fy25": [
+    "4",
+    "3",
+    "5",
+    "4"
+   ],
+   "pdf_page": 183,
+   "row_line": " Average Licensing Center wait time (minutes) 4 3 5 4 6 15 15 Up Down",
+   "confidence": "high"
+  },
+  "DOHMH|Average response time for birth certificates by mail/online/in person (days)": {
+   "fy2026": "3.0",
+   "fy22_fy25": [
+    "5.4",
+    "2.0",
+    "1.6",
+    "2.7"
+   ],
+   "pdf_page": 211,
+   "row_line": "person (days) 5.4 2.0 1.6 2.7 3.0 3.0 3.0 Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average response time for birth certificates by mail/online/in '"
+  },
+  "DOHMH|Average response time for death certificates by mail/online/in person (days)": {
+   "fy2026": "1.6",
+   "fy22_fy25": [
+    "4.2",
+    "1.3",
+    "0.9",
+    "1.4"
+   ],
+   "pdf_page": 211,
+   "row_line": "person (days) 4.2 1.3 0.9 1.4 1.6 3.0 3.0 Down Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average response time for death certificates by mail/online/in '"
+  },
+  "DORIS|Average response time to vital record requests (days)": {
+   "fy2026": "9.6",
+   "fy22_fy25": [
+    "24.8",
+    "10.7",
+    "6.9",
+    "12.9"
+   ],
+   "pdf_page": 458,
+   "row_line": " Average response time to vital record requests (days) 24.8 10.7 6.9 12.9 9.6 10.0 10.0 Down Down",
+   "confidence": "high"
+  },
+  "DOT|Average time to process a permit application for customers (calendar days)": {
+   "fy2026": "2.44",
+   "fy22_fy25": [
+    "1.63",
+    "1.87",
+    "2.24",
+    "2.37"
+   ],
+   "pdf_page": 363,
+   "row_line": "dar days) 1.63 1.87 2.24 2.37 2.44 * * Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Average time to process a permit application for customers (calen -'"
+  },
+  "BIC|Average age of pending waste hauling applications (days) — New": {
+   "fy2026": "247",
+   "fy22_fy25": [
+    "165",
+    "186",
+    "247",
+    "324"
+   ],
+   "pdf_page": 144,
+   "row_line": "Average age of pending waste hauling applications (days) — New 165 186 247 324 247 * * Up Down",
+   "confidence": "high",
+   "note": "Renewal counterpart row is 220."
+  },
+  "BIC|Average time to approve waste hauling applications (days) — New": {
+   "fy2026": "234",
+   "fy22_fy25": [
+    "209",
+    "168",
+    "120",
+    "192"
+   ],
+   "pdf_page": 144,
+   "row_line": "New 209 168 120 192 234 150 150 Up Down",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average time to approve waste hauling applications (days) — '. Renewal counterpart is 298."
+  },
+  "BIC|Waste hauling applications pending — New": {
+   "fy2026": "71",
+   "fy22_fy25": [
+    "105",
+    "74",
+    "72",
+    "75"
+   ],
+   "pdf_page": 144,
+   "row_line": "Waste hauling applications pending — New 105 74 72 75 71 * * Down *",
+   "confidence": "high"
+  },
+  "CCHR|Average age of complaint caseload (days)": {
+   "fy2026": "659",
+   "fy22_fy25": [
+    "503",
+    "514",
+    "593",
+    "614"
+   ],
+   "pdf_page": 129,
+   "row_line": " Average age of complaint caseload (days) 503 514 593 614 659 * * Up *",
+   "confidence": "high"
+  },
+  "CCHR|Open matters": {
+   "fy2026": "1,808",
+   "fy22_fy25": [
+    "1,555",
+    "1,180",
+    "1,206",
+    "1,358"
+   ],
+   "pdf_page": 129,
+   "row_line": "Open matters 1,555 1,180 1,206 1,358 1,808 * * Up *",
+   "confidence": "high"
+  },
+  "OATH|Average days for Judicial Hearings Officers to render decisions": {
+   "fy2026": "16",
+   "fy22_fy25": [
+    "10",
+    "9",
+    "12",
+    "11"
+   ],
+   "pdf_page": 136,
+   "row_line": " Average days for Judicial Hearings Officers to render decisions 10 9 12 11 16 * * Up *",
+   "confidence": "high"
+  },
+  "OATH|Average time for OATH Trials Division to issue decisions after records closed (business days)": {
+   "fy2026": "45.2",
+   "fy22_fy25": [
+    "33.5",
+    "31.4",
+    "36.0",
+    "40.7"
+   ],
+   "pdf_page": 135,
+   "row_line": "closed (business days) 33.5 31.4 36.0 40.7 45.2 * * Up *",
+   "confidence": "high",
+   "note": "Label wraps: previous line 'Average time for OATH Trials Division to issue decisions after records '"
+  },
+  "OATH|Average time from appointment to OATH Special Education Hearing Officer to case closure": {
+   "fy2026": "124.7",
+   "fy22_fy25": [
+    "NA",
+    "NA",
+    "84.5",
+    "101.9"
+   ],
+   "pdf_page": 136,
+   "row_line": "Hearing Officer to case closure NA NA 84.5 101.9 124.7 105.0 105.0 NA *",
+   "confidence": "high",
+   "note": "Label wraps: previous line '[critical-indicator glyph] Average time from appointment to OATH Special Education '"
+  },
+  "LPC|Permits for minor work issued within 10 business days (%)": {
+   "fy2026": "90%",
+   "fy22_fy25": [
+    "82%",
+    "84%",
+    "86%",
+    "92%"
+   ],
+   "pdf_page": 435,
+   "row_line": "Permits for minor work issued within 10 business days (%) 82% 84% 86% 92% 90% 85% 85% Up Up",
+   "confidence": "high"
+  },
+  "DFTA|Meeting time to first action – Housing (% within 14 days)": {
+   "fy2026": "100%",
+   "fy22_fy25": [
+    "100%",
+    "100%",
+    "100%",
+    "100%"
+   ],
+   "pdf_page": 276,
+   "row_line": "Meeting time to first action – Housing (% within 14 days) 100% 100% 100% 100% 100% 100% 100% Neutral Up",
+   "confidence": "high"
+  }
+ }
+}

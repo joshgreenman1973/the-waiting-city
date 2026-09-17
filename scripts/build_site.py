@@ -44,10 +44,14 @@ def md_to_html(md):
     return '\n'.join(out)
 
 CHROME=open('site_chrome.html').read()
+# AP-style date in the page chrome, to match the front page
+_b=dt.date.fromisoformat(R['built'])
+_MON=["Jan.","Feb.","March","April","May","June","July","Aug.","Sept.","Oct.","Nov.","Dec."]
+BUILT=f"{_MON[_b.month-1]} {_b.day}, {_b.year}"
 pages=[("methodology.html","How the counting works",["METHODOLOGY.md"]),
        ("checks.html","Fact-checking record",["data/blind_check_report.md","data/blind_check_agent_summary.md","data/blind_check_pass2_summary.md","data/blind_check_pass3_summary.md"]),
        ("gaps.html","Lines with no public count",["data/gaps.md","data/source_issues.md"])]
 for fn,title,srcs in pages:
     body='\n<hr class="rule">\n'.join(md_to_html(open(s).read()) for s in srcs)
-    open(fn,'w').write(CHROME.replace('{{TITLE}}',title).replace('{{BODY}}',body).replace('{{BUILT}}',R['built']))
+    open(fn,'w').write(CHROME.replace('{{TITLE}}',title).replace('{{BODY}}',body).replace('{{BUILT}}',BUILT))
     print("wrote",fn)

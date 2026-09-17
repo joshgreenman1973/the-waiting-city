@@ -1,5 +1,5 @@
 {
- "NYCHA|Section 8 \u2014 Families on waiting list (000)": {
+ "NYCHA|Section 8 — Families on waiting list (000)": {
   "id": "nycha-section8-waitlist-mmr",
   "name": "Section 8 voucher waiting list (Mayor's Management Report count)",
   "what_for": "A Section 8 Housing Choice Voucher",
@@ -165,7 +165,7 @@
   "caveats": [],
   "tier": 2
  },
- "HPD|Section 8 \u2014 Median time from completed application to voucher issuance (days)": {
+ "HPD|Section 8 — Median time from completed application to voucher issuance (days)": {
   "id": "hpd-section8-voucher-issuance",
   "name": "Housing Preservation Section 8: application to voucher",
   "what_for": "A voucher from HPD's Section 8 program",
@@ -181,7 +181,7 @@
   ],
   "grade_override": "B"
  },
- "HPD|Section 8 \u2014 Median time from voucher issuance to lease up (days)": {
+ "HPD|Section 8 — Median time from voucher issuance to lease up (days)": {
   "id": "hpd-section8-lease-up",
   "name": "Housing Preservation Section 8: voucher to lease",
   "what_for": "An apartment found with an HPD voucher",
@@ -198,7 +198,7 @@
   ],
   "grade_override": "B"
  },
- "HPD|Lottery units \u2014 Median time to approve an applicant (days)": {
+ "HPD|Lottery units — Median time to approve an applicant (days)": {
   "id": "hpd-lottery-applicant-approval",
   "name": "Housing Connect: certificate of occupancy to applicant approval",
   "what_for": "Approval for a lottery unit, measured from the building's certificate of occupancy",
@@ -216,7 +216,7 @@
    "hpd-housing-connect"
   ]
  },
- "HPD|Lottery projects \u2014 Median time to complete applicant approvals (days)": {
+ "HPD|Lottery projects — Median time to complete applicant approvals (days)": {
   "id": "hpd-lottery-project-approvals",
   "name": "Housing Connect: certificate of occupancy to 95% of applicant approvals",
   "what_for": "Completion of 95% of applicant approvals for a lottery project, measured from certificate of occupancy issuance",
@@ -260,7 +260,7 @@
   "standard": null,
   "caveats": []
  },
- "HPD|Median time to first inspection (days) \u2014 Heat and hot water problems": {
+ "HPD|Median time to first inspection (days) — Heat and hot water problems": {
   "id": "hpd-inspection-heat",
   "name": "Heat and hot water complaints: first inspection attempt",
   "what_for": "An inspection after a heat or hot water complaint",
@@ -275,7 +275,7 @@
    "Counts original, non-duplicate problems received within the period; the stop is an inspection attempt, not necessarily a completed inspection."
   ]
  },
- "HPD|Median time to first inspection (days) \u2014 Non-emergency problems": {
+ "HPD|Median time to first inspection (days) — Non-emergency problems": {
   "id": "hpd-inspection-nonemergency",
   "name": "Non-emergency housing complaints: first inspection attempt",
   "what_for": "An inspection after a non-emergency housing complaint",
@@ -320,7 +320,7 @@
    "Scope is non-emergency problems in privately owned buildings (the emergency indicator, not this one, specifies 'unique' problems). 'Closed' means HPD closed the problem by inspection, callback or repeated access attempts (definition); not the same as 'repaired'."
   ]
  },
- "HRA|Cash Assistance \u2014 Application timeliness rate (%)": {
+ "HRA|Cash Assistance — Application timeliness rate (%)": {
   "id": "hra-cash-assistance-timeliness",
   "name": "Cash assistance applications decided on time",
   "what_for": "A decision on a cash assistance application",
@@ -335,7 +335,7 @@
    "A rate says nothing about how late the late ones are."
   ]
  },
- "HRA|Supplemental Nutrition Assistance Program (SNAP) \u2014 Application timeliness rate (%)": {
+ "HRA|Supplemental Nutrition Assistance Program (SNAP) — Application timeliness rate (%)": {
   "id": "hra-snap-timeliness",
   "name": "Supplemental Nutrition Assistance Program applications decided on time",
   "what_for": "A decision on a SNAP application",
@@ -348,7 +348,7 @@
   "standard": "30 days from date of application for non-expedited cases, 7 CFR 273.2(g); 7 days for expedited cases, 7 CFR 273.2(i). Indicator definition says 'the federally required timeframe' and covers both cash-assistance and non-cash-assistance SNAP cases.",
   "caveats": []
  },
- "HRA|Medicaid \u2014 Application timeliness rate (%)": {
+ "HRA|Medicaid — Application timeliness rate (%)": {
   "id": "hra-medicaid-timeliness",
   "name": "Medicaid applications decided on time",
   "what_for": "A decision on a Medicaid application",
@@ -363,7 +363,7 @@
    "Data unavailable after fiscal 2024 per the Preliminary Mayor's Management Report; latest value is fiscal 2024 (June 2024)."
   ]
  },
- "HRA|IDNYC \u2014 Application timeliness rate (%)": {
+ "HRA|IDNYC — Application timeliness rate (%)": {
   "id": "hra-idnyc-timeliness",
   "name": "IDNYC cards issued on time",
   "what_for": "An IDNYC card (denominator is cards mailed, per the definition)",
@@ -378,7 +378,7 @@
    "Denominator is mailed cards, not applications; applications not resulting in a mailed card are not in the rate."
   ]
  },
- "HRA|HIV/AIDS Services Administration (HASA) \u2014 Rental assistance application timeliness rate (%)": {
+ "HRA|HIV/AIDS Services Administration (HASA) — Rental assistance application timeliness rate (%)": {
   "id": "hra-hasa-timeliness",
   "name": "HIV/AIDS Services Administration rental assistance decided on time",
   "what_for": "Rental assistance for a HASA client",
@@ -419,12 +419,13 @@
   "standard": null,
   "caveats": [
    "An in-person wait, per the definition: 'from the time a customer meets with a greeter or information desk representative until he or she is met by a customer service representative.' Not a phone wait.",
+   "The printed fiscal 2026 report renames this row “Average customer in-person wait time (minutes:seconds)” (page 234), which matches the definition; NYC Open Data still publishes it under the old name.",
    "Published as minutes:seconds encoded as M.SS (96.38 = 96 minutes 38 seconds); the registry decodes it to decimal minutes and keeps the printed form.",
    "A counter wait is not a rationed application; kept as context, excluded from any totals.",
    "The dataset never states the H.MM/M.SS encoding; it is inferred from the label and from the fractional part never exceeding .59 in any published value."
   ]
  },
- "DHS|Average length of stay \u2014 Families with children in shelter (days)": {
+ "DHS|Average length of stay — Families with children in shelter (days)": {
   "id": "dhs-los-families-children",
   "name": "Families with children in shelter: length of stay",
   "what_for": "Permanent housing after shelter",
@@ -440,7 +441,7 @@
    "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
   ]
  },
- "DHS|Average length of stay \u2014 Single adults in shelter (days)": {
+ "DHS|Average length of stay — Single adults in shelter (days)": {
   "id": "dhs-los-single-adults",
   "name": "Single adults in shelter: length of stay",
   "what_for": "Permanent housing after shelter",
@@ -456,7 +457,7 @@
    "A stay in shelter is a wait for housing, but exits include destinations other than permanent housing."
   ]
  },
- "DHS|Average length of stay \u2014 Adult families in shelters (days)": {
+ "DHS|Average length of stay — Adult families in shelters (days)": {
   "id": "dhs-los-adult-families",
   "name": "Adult families in shelter: length of stay",
   "what_for": "Permanent housing after shelter",
@@ -485,7 +486,7 @@
   "standard": "30 days of submission (indicator definition); state regulation 18 NYCRR Part 415 gives districts up to 30 days once all necessary paperwork is received (per OCFS guidance), a different clock",
   "caveats": []
  },
- "NYCHH|Calendar days to third next available new appointment \u2013 Adult medicine": {
+ "NYCHH|Calendar days to third next available new appointment – Adult medicine": {
   "id": "hh-third-next-adult",
   "name": "Health + Hospitals: new adult primary care appointment",
   "what_for": "An open new-patient appointment slot in adult medicine",
@@ -501,7 +502,7 @@
   ],
   "tier": 2
  },
- "NYCHH|Calendar days to third next available new appointment \u2013 Pediatric medicine": {
+ "NYCHH|Calendar days to third next available new appointment – Pediatric medicine": {
   "id": "hh-third-next-pediatric",
   "name": "Health + Hospitals: new pediatric appointment",
   "what_for": "An open new-patient appointment slot in pediatric medicine",
@@ -628,7 +629,7 @@
    "Non-commercial drivers only (definition)."
   ]
  },
- "DOB|Average days from filing to approval \u2013 All applications (DOB NOW)": {
+ "DOB|Average days from filing to approval – All applications (DOB NOW)": {
   "id": "dob-filing-to-approval",
   "name": "Buildings filings (DOB NOW): filing to approval",
   "what_for": "Approval of a construction job filing",
@@ -647,7 +648,7 @@
    "dob-filing-to-approval-computed"
   ]
  },
- "DOB|Average days to complete first plan review \u2013 All applications (DOB NOW)": {
+ "DOB|Average days to complete first plan review – All applications (DOB NOW)": {
   "id": "dob-first-plan-review",
   "name": "Buildings filings (DOB NOW): first plan review",
   "what_for": "A first plan examination, measured from the status 'application processed - completed'",
@@ -660,7 +661,7 @@
   "standard": null,
   "caveats": []
  },
- "DOB|Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)": {
+ "DOB|Average days to complete first plan review – New Buildings – All applications (DOB NOW)": {
   "id": "dob-first-plan-review-nb",
   "name": "Buildings filings (DOB NOW), new buildings: first plan review",
   "what_for": "A first plan examination for a new building, measured from the status 'application processed - completed'",
@@ -856,7 +857,7 @@
   "standard": null,
   "caveats": []
  },
- "BIC|Average age of pending waste hauling applications (days) \u2014 New": {
+ "BIC|Average age of pending waste hauling applications (days) — New": {
   "id": "bic-waste-hauling-pending-age",
   "name": "Waste hauling license applications: age of pending",
   "what_for": "A trade waste license or registration",
@@ -872,7 +873,7 @@
    "Definition excludes applications slated for denial or under long-term investigation, which removes the longest waits from the average."
   ]
  },
- "BIC|Average time to approve waste hauling applications (days) \u2014 New": {
+ "BIC|Average time to approve waste hauling applications (days) — New": {
   "id": "bic-waste-hauling-approval",
   "name": "Waste hauling license applications: time to approve",
   "what_for": "A trade waste license or registration",
@@ -887,7 +888,7 @@
    "Excludes applications that undergo long-term investigations and are later approved (definition), which removes the longest waits."
   ]
  },
- "BIC|Waste hauling applications pending \u2014 New": {
+ "BIC|Waste hauling applications pending — New": {
   "id": "bic-waste-hauling-pending",
   "name": "Waste hauling license applications pending",
   "what_for": "A trade waste license or registration",

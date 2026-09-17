@@ -2,12 +2,13 @@
 
 How many New Yorkers are standing in a line the city controls, and how long each line is. A registry of queues, with every figure tied to a source document or a re-runnable query, graded by how it was measured, and carrying whatever the source says about the spread, not just the average.
 
-Status, Sept. 5, 2026: definitions and registry stage, three blind-check passes run. No page yet. See data/blind_check_report.md and data/gaps.md.
+Status, Sept. 17, 2026: fiscal 2026 figures updated from the Mayor's Management Report released that morning. See data/blind_check_report.md and data/gaps.md.
 
 - [METHODOLOGY.md](METHODOLOGY.md): what counts as a line, the four measurement types, units and why they are never summed, completed vs. waiting-so-far durations, variability requirements, confidence grades, exclusions, scope tiers.
 - [data/registry.json](data/registry.json): the registry. Built by `scripts/build_registry.py` from:
   - `data/queues_manual.json`: hand-sourced lines (press releases, testimony, audits, research reports, computed distributions), each with a verbatim quote.
   - `data/mmr_lines.json` + `data/mmr_series.json`: lines drawn from the Mayor's Management Report indicators dataset (rbed-zzin), with the dataset's own definition text per figure and the full fiscal-year series. Fetched by `scripts/fetch_mmr.py` from the list in `data/mmr_selected.txt`.
+  - `data/mmr_fy2026_pdf.json`: fiscal 2026 actuals read from the printed report by `scripts/fetch_mmr_pdf.py`, used while NYC Open Data still ends at the preliminary report. Each row is accepted only if its own fiscal 2022-2025 columns match the dataset (METHODOLOGY.md, section 10a). The extracted report text is kept at `sources/mmr2026.txt`; the 16 MB PDF itself is not committed, and the script records its sha256.
 - `data/registry_schema.md`: field definitions.
 - `scripts/compute_dob.py`, `scripts/compute_hpd.py`: distributions computed from record-level Open Data (grade A-c), outputs in `data/computed_*.json`.
 - `scripts/blind_check.py`: independent re-verification (see below).

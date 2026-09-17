@@ -26,7 +26,7 @@ hr.rule{border:0;border-top:1px solid var(--ink);margin:36px 0 10px}
 </head>
 <body>
 <div class="sheet">
-  <div class="strip"><span><a href="index.html">The Waiting City</a> · How the counting works</span><span>Registry built 2026-09-05 · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
+  <div class="strip"><span><a href="index.html">The Waiting City</a> · How the counting works</span><span>Registry built Sept. 17, 2026 · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
   <div class="head" style="padding-right:26px"><h1>How the counting works</h1></div>
   <div class="doc"><h2>The Waiting City: how the counting works</h2>
 <p>Draft 1, Sept. 5, 2026. This document comes before the numbers. Nothing appears on the page unless it can be described in the terms below.</p>
@@ -106,6 +106,15 @@ hr.rule{border:0;border-top:1px solid var(--ink);margin:36px 0 10px}
 <p>Every figure carries the period it describes, printed as a date or date range ("first four months of fiscal 2026, July 1 to Oct. 31, 2025"), never as a relative phrase. Fiscal years are the city's (July to June) unless the source says otherwise. Where a source gives no date, the figure gets grade C at best and the publication date of the source is shown as an upper bound.</p>
 <h3>10. Refresh and provenance</h3>
 <p>Each registry entry records how its figure is refreshed: automated query (with the query stored), document re-fetch (with the URL and a hash of the copy we hold), manual (with the person and date) or FOIL pending (with the request date). Every number on the page opens the source and the verbatim sentence or table row it came from. Where our figure differs from a widely reported one, both are shown and the difference is explained.</p>
+<h3>10a. When the printed report arrives before the data file</h3>
+<p>The Mayor's Management Report is published twice a year as a PDF, and its indicators are also published as a dataset (rbed-zzin) on NYC Open Data. The two do not land together. The fiscal 2026 report was released Sept. 17, 2026; the dataset was still carrying the preliminary report, whose last fiscal 2026 figures cover July 2025 through March 2026.</p>
+<p>Where that happens, the registry takes the fiscal year's figure from the printed report and says so in the figure's period line, its source line and its caveats. Three rules govern it:</p>
+<ul>
+<li><strong>The row has to prove it is the right row.</strong> <code>scripts/fetch_mmr_pdf.py</code> does not match an indicator by name. It reads every performance-indicator table in the report, then accepts a row for an indicator only if that row's own fiscal 2022 to 2025 columns equal the values the dataset publishes for those years. Where two rows both clear that bar, the one whose printed label matches the indicator name is used, and only if it is clearly closer than the runner-up; otherwise the script stops. It also stops if any selected indicator cannot be placed at all. For the 69 indicators read on Sept. 17, 2026, every printed fiscal 2022 to 2025 column matched the dataset, so the report restated nothing.</li>
+<li><strong>The quote is the table row.</strong> The source quote stored with a printed-report figure is the row as the report prints it, label and all five years, with the page number. The mechanical check finds that row in the local copy of the report text and re-reads the fiscal 2026 column out of it.</li>
+<li><strong>The definition still comes from the dataset.</strong> The printed report does not repeat the indicator definitions in its tables, so the definition shown with the figure is the dataset's own description field from the last year it published one. Where that matters it is in the caveats.</li>
+</ul>
+<p>When the dataset catches up, the build switches back to it on its own: the printed figure is used only while Open Data has no June row for the fiscal year.</p>
 <h3>11. What the agency's own words mean</h3>
 <p>Agencies define "timely," "processed," "pending" and "waitlist" differently, and the same agency changes definitions between years. The registry stores the source's own definition verbatim alongside each figure. Where the Mayor's Management Report changes an indicator's definition, the dataset's own description field is stored per fiscal year and breaks in the series are marked.</p>
 <p>Two habits this project adopted after the first blind check:</p>

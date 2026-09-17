@@ -1,4 +1,4 @@
-# Known lines with no usable public count (Sept. 5, 2026)
+# Known lines with no usable public count (Sept. 5, 2026; reviewed against the fiscal 2026 Mayor's Management Report, Sept. 17, 2026)
 
 Lines that pass the definition in METHODOLOGY.md section 1 but fail test 3 (no record we can cite). Each is a candidate FOIL request. None appears in the registry as a figure.
 
@@ -15,4 +15,5 @@ Lines that pass the definition in METHODOLOGY.md section 1 but fail test 3 (no r
 | Housing Court, current pending | NYS courts (tier 3) | Comptroller figure as of March 2024 | Current pending count with "active" defined, from OCA |
 | Access-A-Ride eligibility | MTA (tier 3) | Agency states a 21-day standard after assessment | Actual processing times and assessment-appointment waits |
 | IDNYC appointment availability | HRA | MMR measures mailing within 14 business days of application | Days to next available enrollment appointment |
+| Child care assistance vouchers (CCAP) | ACS / HRA | The fiscal 2026 Mayor's Management Report (page 31) says the city stopped issuing new low-income vouchers in fiscal 2025 when State Child Care Block Grant funding fell short and "established a waitlist for eligible applicants"; it publishes enrollment (average 109,875 children in fiscal 2026) but no waitlist figure | Count of families or children on the voucher waitlist, how it is ordered and how long applicants have waited |
 | Cannabis retail licenses (NYC applicants) | NYS OCM (tier 3) | Public application counts exist statewide | Pending applications from New York City by age |

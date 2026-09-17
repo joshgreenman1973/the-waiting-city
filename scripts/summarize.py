@@ -14,8 +14,16 @@ for tier,title in ((1,"Tier 1: mayoral agencies"),(2,"Tier 2: city-controlled en
             yoy=""
             s=f.get('series')
             if s and f['value'] is not None:
-                last=s[-1]; prior=[r for r in s if r['date']==(dt.date.fromisoformat(last['date']).replace(year=dt.date.fromisoformat(last['date']).year-1)).isoformat() and r['value'] is not None]
-                if prior: yoy=f" (same month prior year: {prior[0]['value']:g})"
+                last=s[-1]
+                if last.get('from_printed_report') or last['date'][5:7]=='06':
+                    # a full fiscal year: compare with the prior fiscal year's own figure, not a month.
+                    # series values are as the source prints them, so carry over the registry's scaling.
+                    scale=(f['value']/last['value']) if last.get('value') else 1
+                    prior=[r for r in s if r.get('fy')==str(int(last['fy'])-1) and r['value'] is not None]
+                    if prior: yoy=f" (fiscal {int(last['fy'])-1}: {fmt(prior[-1]['value']*scale,'').strip()})"
+                else:
+                    prior=[r for r in s if r['date']==(dt.date.fromisoformat(last['date']).replace(year=dt.date.fromisoformat(last['date']).year-1)).isoformat() and r['value'] is not None]
+                    if prior: yoy=f" (same month prior year: {prior[0]['value']:g})"
             out.append(f"| {l['name']} | {l['agency']} | {f['type']} | {fmt(f['value'],f['unit_of_value'])}{yoy} | {f['period_label'].split(' (')[0]} | {f.get('center')} | {spread} | {f['grade']} |")
     out.append("")
 open('data/registry_summary.md','w').write('\n'.join(out)); print(len(out),"lines written")

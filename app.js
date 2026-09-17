@@ -16,21 +16,25 @@ function primary(l){return l.figures[0];}
 
 // counts
 (function(){const figs=L.flatMap(l=>l.figures);const gA=figs.filter(f=>f.grade==='A'||f.grade==='A-c').length;const spread=L.filter(l=>l.figures.some(f=>f.spread)).length;const ags=new Set(L.map(l=>l.agency)).size;
-$('#counts').innerHTML=[[L.length,'lines tracked'],[figs.length,'figures'],[gA+' of '+figs.length,'figures re-queryable (grade A)'],[ags,'agencies and bodies'],[spread,'lines with a published spread'],[12,'lines with no public count']].map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join('');})();
+$('#counts').innerHTML=[[L.length,'lines tracked'],[figs.length,'figures'],[gA+' of '+figs.length,'figures re-queryable (grade A)'],[ags,'agencies and bodies'],[spread,'lines with a published spread'],[13,'lines with no public count']].map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join('');})();
 
 // facts, all pulled from the registry so they cannot drift from it
+const fyOf=d=>{const [y,m]=d.split('-').map(Number);return m>=7?y+1:y};
+const fySeries=(f,fy)=>{const p=(f.series||[]).filter(x=>fyOf(x[0])===fy);return p.length?p[p.length-1][1]:null};
+const unitScale=f=>{const s=f.series||[];const last=s.length?s[s.length-1][1]:null;return (last&&f.value)?f.value/last:1};
+const priorFY=(f,fy)=>{const v=fySeries(f,fy);return v===null?null:v*unitScale(f)};
 const FACTS=[
- ['nycha-section8-waitlist-mmr',f=>`<b>${fmtNum(f.value,'households')}</b> were on the New York City Housing Authority's Section 8 voucher waiting list in March 2026. Voucher issuance to that list was paused as of Sept. 29, 2025, while the authority absorbed Emergency Housing Voucher households.`],
+ ['nycha-section8-waitlist-mmr',f=>`<b>${fmtNum(f.value,'households')}</b> were on the New York City Housing Authority's Section 8 voucher waiting list in June 2026, against ${fmtNum(priorFY(f,2025),'')} a year earlier. Voucher issuance to that list was paused as of Sept. 29, 2025, while the authority absorbed Emergency Housing Voucher households.`],
  ['hpd-housing-connect',f=>`Housing Connect received about <b>${fmtNum(f.value,'applications')}</b> for about 10,000 units in 2024. The Furman Center cites an HPD estimate of nearly 600,000 unique applicants, undated.`],
  ['dcas-eligible-lists',f=>`<b>${fmtNum(f.value,'entries')}</b> sat on active civil service eligible lists on July 13, 2026. On Sept. 5, 88,082 of the live entries were on lists past their four-year anniversary.`],
- ['hra-cash-assistance-timeliness',f=>`<b>${f.value}%</b> of cash assistance applications were decided within the 30-day standard, fiscal 2026 to date through March 2026. The fiscal 2024 figure was 42.4%.`],
- ['nycha-vacant-unit-turnaround',f=>`A vacant public housing apartment took <b>${fmtNum(f.value,'days')}</b> on average to be re-occupied, fiscal 2026 to date through March 2026.`],
- ['cchr-caseload-age',f=>`The open complaints before the Commission on Human Rights had been open <b>${fmtNum(f.value,'days')}</b> on average in February 2026, against 607 a year earlier; open matters rose from 1,309 to 1,742.`],
- ['dcp-eas-zoning-review',f=>`Zoning actions with an environmental assessment took a median <b>${fmtNum(f.value,'days')}</b> to enter public review in the first four months of fiscal 2026, against 278 a year earlier.`],
+ ['hra-cash-assistance-timeliness',f=>`<b>${f.value}%</b> of cash assistance applications were decided within the 30-day standard in fiscal 2026, against ${priorFY(f,2025)}% in fiscal 2025 and 42.4% in fiscal 2024.`],
+ ['nycha-vacant-unit-turnaround',f=>`A vacant public housing apartment took <b>${fmtNum(f.value,'days')}</b> on average to be re-occupied in fiscal 2026, against ${fmtNum(priorFY(f,2025),'days')} in fiscal 2025.`],
+ ['cchr-caseload-age',f=>`The open complaints before the Commission on Human Rights had been open <b>${fmtNum(f.value,'days')}</b> on average in June 2026, against ${fmtNum(priorFY(f,2025),'days')} a year earlier; open matters rose from ${fmtNum(priorFY(primary(byId['cchr-open-matters']),2025),'')} to ${fmtNum(primary(byId['cchr-open-matters']).value,'')}.`],
+ ['dcp-eas-zoning-review',f=>`Zoning actions with an environmental assessment took a median <b>${fmtNum(f.value,'days')}</b> to enter public review in fiscal 2026, against ${fmtNum(priorFY(f,2025),'days')} in fiscal 2025; those needing a full environmental impact statement took ${fmtNum(primary(byId['dcp-eis-zoning-review']).value,'days')}, against ${fmtNum(priorFY(primary(byId['dcp-eis-zoning-review']),2025),'days')}.`],
  ['dob-filing-to-approval-computed',f=>`Department of Buildings filings: median <b>${f.value.toFixed(1)} days</b> from filing to approval, but professionally certified filings clear in ${f.spread.by_review_type['Professional Certification'].median.toFixed(1)} days and standard plan examination in ${f.spread.by_review_type['Standard Plan Examination'].median.toFixed(1)}, with a 90th percentile of ${Math.round(f.spread.by_review_type['Standard Plan Examination'].p90)}. Filings approved Sept. 1, 2025 to Aug. 31, 2026.`],
  ['hpd-problem-close-computed',f=>`Housing complaints: non-emergency problems took a median <b>${f.spread.by_type['NON EMERGENCY'].median} days</b> to close, with a 90th percentile of ${f.spread.by_type['NON EMERGENCY'].p90}. That 90th percentile was ${f.spread.by_type_borough['NON EMERGENCY|MANHATTAN'].p90} in Manhattan and ${f.spread.by_type_borough['NON EMERGENCY|STATEN ISLAND'].p90} in Staten Island. Problems closed March 1 to Aug. 31, 2026.`],
- ['nycha-skilled-trades-work-orders',f=>`Public housing repairs needing skilled trades or vendors took <b>${fmtNum(f.value,'days')}</b> on average, fiscal 2026 to date through March 2026; the authority's own metrics page shows trade averages from 18 days (roofer) to 608 (painter) and 761 (vendor), undated.`],
- [null,()=>`<b>No public count</b> exists for the public housing waiting list itself. It leads the <a href="gaps.html">list of twelve lines with no citable figure</a>.`]
+ ['nycha-skilled-trades-work-orders',f=>`Public housing repairs needing skilled trades or vendors took <b>${fmtNum(f.value,'days')}</b> on average in fiscal 2026, against ${fmtNum(priorFY(f,2025),'days')} in fiscal 2025; the authority's own metrics page shows trade averages from 18 days (roofer) to 608 (painter) and 761 (vendor), undated.`],
+ [null,()=>`<b>No public count</b> exists for the public housing waiting list itself. It leads the <a href="gaps.html">list of thirteen lines with no citable figure</a>.`]
 ];
 $('#facts').innerHTML=FACTS.map(([id,fn])=>{const l=id?byId[id]:null;const f=l?primary(l):null;try{return `<p>${fn(f)}${l?` <a href="#${l.id}" data-sel="${l.id}" class="per">See the line</a>`:''}</p>`}catch(e){return ''}}).join('');
 

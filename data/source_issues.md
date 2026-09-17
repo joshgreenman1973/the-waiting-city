@@ -7,7 +7,7 @@ Found by three blind-check passes on Sept. 5, 2026. These are defects in the age
 - HPD "Section 8 — Median time from completed application to voucher issuance" and "... from voucher issuance to lease up": titles say median, definitions say average; the first also includes incomplete applications.
 - HPD "Lottery projects — Median time to complete applicant approvals": definition text garbled ("to approval to completion"). HPD "voluntary new construction unit" lease-up definition has typos ("revealed TCO", "HPS").
 - HPD "Lottery units — Median time to approve an applicant": clock starts at certificate of occupancy, not at the applicant's log number, which is how the press and the Furman Center describe the figure.
-- HRA "Average wait time to speak with a customer service agent": an in-person greeter-to-caseworker wait, not a phone wait. The printed PMMR shows "90:60" for a minutes:seconds value.
+- HRA "Average wait time to speak with a customer service agent": an in-person greeter-to-caseworker wait, not a phone wait. The printed PMMR shows "90:60" for a minutes:seconds value. Confirmed Sept. 17, 2026: the printed fiscal 2026 report renames the same series "Average customer in-person wait time (minutes:seconds)" (page 234); the fiscal 2022-2025 values are identical, and NYC Open Data still carries the old name.
 - HRA SNAP timeliness: November 2025 row blank. HRA Medicaid timeliness: no values after fiscal 2024.
 - Commission on Human Rights "Open matters": "matters" undefined.
 - Quarterly indicators carry valuedates that do not say which quarter a row closes; some rows repeat the prior month's value.

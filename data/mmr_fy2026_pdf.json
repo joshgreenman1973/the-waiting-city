@@ -1,0 +1,1396 @@
+{
+ "source": {
+  "title": "Mayor's Management Report, Fiscal 2026",
+  "publisher": "Mayor's Office of Operations, City of New York",
+  "url": "https://www.nyc.gov/assets/operations/downloads/pdf/mmr2026/2026_mmr.pdf",
+  "released": "2026-09-17",
+  "last_modified_header": "Thu, 17 Sep 2026 20:42:07 GMT",
+  "bytes": 16524931,
+  "sha256": "c37349e065e6306d972fc2a2ec2cb8c053efc48fea276c631f62caefd44fcb7d",
+  "retrieved": "2026-09-17",
+  "local_text": "sources/mmr2026.txt",
+  "why": "NYC Open Data's Mayor's Management Report indicator file (rbed-zzin) had not been refreshed past the preliminary fiscal 2026 report when this was built, so fiscal 2026 figures are read from the printed report and each row is checked against the dataset's own fiscal 2022-2025 values."
+ },
+ "indicators": {
+  "NYCHA|Section 8 \u2014 Families on waiting list (000)": {
+   "agency": "NYCHA",
+   "indicator": "Section 8 \u2014 Families on waiting list (000)",
+   "row_label": "FY22 FY23 FY24 FY25 FY26 FY26 FY27 5-Year Desired Direction \u00ae Section 8 \u2014 Families on waiting list",
+   "row_line": "\u00ae Section 8 \u2014 Families on waiting list (000) 17 16 5 197 202 * * Up Down",
+   "pdf_page": 430,
+   "printed_page": 418,
+   "actuals_fy22_fy26": [
+    "17",
+    "16",
+    "5",
+    "197",
+    "202"
+   ],
+   "fy2026_printed": "202",
+   "fy2026_value": 202.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "NYCHA|Average turnaround time for vacant units (days)": {
+   "agency": "NYCHA",
+   "indicator": "Average turnaround time for vacant units (days)",
+   "row_label": "FY22 FY23 FY24 FY25 FY26 FY26 FY27 5-Year Desired Direction \uf0ab Average turnaround time for vacant units (days)",
+   "row_line": "\uf0ab Average turnaround time for vacant units (days) 160.8 370.0 424.4 371.1 357.6 300.0 300.0 Up Down",
+   "pdf_page": 428,
+   "printed_page": 416,
+   "actuals_fy22_fy26": [
+    "160.8",
+    "370.0",
+    "424.4",
+    "371.1",
+    "357.6"
+   ],
+   "fy2026_printed": "357.6",
+   "fy2026_value": 357.6,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Average time to complete maintenance work orders (days)": {
+   "agency": "NYCHA",
+   "indicator": "Average time to complete maintenance work orders (days)",
+   "row_label": "Average time to complete maintenance work orders (days)",
+   "row_line": "Average time to complete maintenance work orders (days) 8.10 6.23 5.03 4.06 3.98 7.00 7.00 Down Down",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "8.10",
+    "6.23",
+    "5.03",
+    "4.06",
+    "3.98"
+   ],
+   "fy2026_printed": "3.98",
+   "fy2026_value": 3.98,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Average time to complete skilled trades and vendor work orders (days)": {
+   "agency": "NYCHA",
+   "indicator": "Average time to complete skilled trades and vendor work orders (days)",
+   "row_label": "Average time to complete skilled trades and vendor work orders (days)",
+   "row_line": "(days) 77.40 109.04 133.37 129.65 119.14 * * Up Down",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "77.40",
+    "109.04",
+    "133.37",
+    "129.65",
+    "119.14"
+   ],
+   "fy2026_printed": "119.14",
+   "fy2026_value": 119.14,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Average time to resolve elevator outages (hours:minutes)": {
+   "agency": "NYCHA",
+   "indicator": "Average time to resolve elevator outages (hours:minutes)",
+   "row_label": "\uf0ab Average time to resolve elevator outages (hours:minutes)",
+   "row_line": "\uf0ab Average time to resolve elevator outages (hours:minutes) 11:49 9:07 6:44 6:03 6:48 10:00 10:00 Down Down",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "11:49",
+    "9:07",
+    "6:44",
+    "6:03",
+    "6:48"
+   ],
+   "fy2026_printed": "6:48",
+   "fy2026_value": 6.48,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Average time to resolve heat outages (hours:minutes)": {
+   "agency": "NYCHA",
+   "indicator": "Average time to resolve heat outages (hours:minutes)",
+   "row_label": "\uf0ab Average time to resolve heat outages (hours:minutes)",
+   "row_line": "\uf0ab Average time to resolve heat outages (hours:minutes) 8:16 7:30 6:37 6:50 7:12 12:00 12:00 Down Down",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "8:16",
+    "7:30",
+    "6:37",
+    "6:50",
+    "7:12"
+   ],
+   "fy2026_printed": "7:12",
+   "fy2026_value": 7.12,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Average time to resolve non-emergency service requests (days)": {
+   "agency": "NYCHA",
+   "indicator": "Average time to resolve non-emergency service requests (days)",
+   "row_label": "\uf0ab Average time to resolve non-emergency service requests (days)",
+   "row_line": "\uf0ab Average time to resolve non-emergency service requests (days) 49.1 65.4 65.7 66.0 63.3 \u00f2 \u00f2 Up Down",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "49.1",
+    "65.4",
+    "65.7",
+    "66.0",
+    "63.3"
+   ],
+   "fy2026_printed": "63.3",
+   "fy2026_value": 63.3,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Non-emergency service requests resolved within 15 days (%)": {
+   "agency": "NYCHA",
+   "indicator": "Non-emergency service requests resolved within 15 days (%)",
+   "row_label": "Non-emergency service requests resolved within 15 days (%)",
+   "row_line": "Non-emergency service requests resolved within 15 days (%) 74% 71% 75% 77% 76% 75% 75% Neutral Up",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "74%",
+    "71%",
+    "75%",
+    "77%",
+    "76%"
+   ],
+   "fy2026_printed": "76%",
+   "fy2026_value": 76.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Non-emergency service requests resolved within 60 days (%)": {
+   "agency": "NYCHA",
+   "indicator": "Non-emergency service requests resolved within 60 days (%)",
+   "row_label": "Non-emergency service requests resolved within 60 days (%)",
+   "row_line": "Non-emergency service requests resolved within 60 days (%) 85% 82% 85% 85% 86% 100% 100% Neutral Up",
+   "pdf_page": 427,
+   "printed_page": 415,
+   "actuals_fy22_fy26": [
+    "85%",
+    "82%",
+    "85%",
+    "85%",
+    "86%"
+   ],
+   "fy2026_printed": "86%",
+   "fy2026_value": 86.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHA|Emergency transfer disposition time (days)": {
+   "agency": "NYCHA",
+   "indicator": "Emergency transfer disposition time (days)",
+   "row_label": "\uf0ab Emergency transfer disposition time (days)",
+   "row_line": "\uf0ab Emergency transfer disposition time (days) 12.20 13.34 10.09 11.68 12.31 45.00 45.00 Neutral Down",
+   "pdf_page": 430,
+   "printed_page": 418,
+   "actuals_fy22_fy26": [
+    "12.20",
+    "13.34",
+    "10.09",
+    "11.68",
+    "12.31"
+   ],
+   "fy2026_printed": "12.31",
+   "fy2026_value": 12.31,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HPD|Section 8 \u2014 Median time from completed application to voucher issuance (days)": {
+   "agency": "HPD",
+   "indicator": "Section 8 \u2014 Median time from completed application to voucher issuance (days)",
+   "row_label": "\uf0ab Section 8 \u2014 Median time from completed application to voucher issuance (days)",
+   "row_line": "issuance (days) 26 57 44 77 53 * * Up *",
+   "pdf_page": 417,
+   "printed_page": 405,
+   "actuals_fy22_fy26": [
+    "26",
+    "57",
+    "44",
+    "77",
+    "53"
+   ],
+   "fy2026_printed": "53",
+   "fy2026_value": 53.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HPD|Section 8 \u2014 Median time from voucher issuance to lease up (days)": {
+   "agency": "HPD",
+   "indicator": "Section 8 \u2014 Median time from voucher issuance to lease up (days)",
+   "row_label": "\uf0ab Section 8 \u2014 Median time from voucher issuance to lease up (days)",
+   "row_line": "(days) 101 99 81 142 71 * * Neutral *",
+   "pdf_page": 417,
+   "printed_page": 405,
+   "actuals_fy22_fy26": [
+    "101",
+    "99",
+    "81",
+    "142",
+    "71"
+   ],
+   "fy2026_printed": "71",
+   "fy2026_value": 71.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "HPD|Lottery units \u2014 Median time to approve an applicant (days)": {
+   "agency": "HPD",
+   "indicator": "Lottery units \u2014 Median time to approve an applicant (days)",
+   "row_label": "\uf0ab Lottery units \u2014 Median time to approve an applicant (days)",
+   "row_line": "\uf0ab Lottery units \u2014 Median time to approve an applicant (days) 163 192 191 142 136 * * Down *",
+   "pdf_page": 416,
+   "printed_page": 404,
+   "actuals_fy22_fy26": [
+    "163",
+    "192",
+    "191",
+    "142",
+    "136"
+   ],
+   "fy2026_printed": "136",
+   "fy2026_value": 136.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "HPD|Lottery projects \u2014 Median time to complete applicant approvals (days)": {
+   "agency": "HPD",
+   "indicator": "Lottery projects \u2014 Median time to complete applicant approvals (days)",
+   "row_label": "Lottery projects \u2014 Median time to complete applicant approv - als (days)",
+   "row_line": "als (days) 171 262 202 210 236 * * Up *",
+   "pdf_page": 416,
+   "printed_page": 404,
+   "actuals_fy22_fy26": [
+    "171",
+    "262",
+    "202",
+    "210",
+    "236"
+   ],
+   "fy2026_printed": "236",
+   "fy2026_value": 236.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "HPD|Median time to lease-up a homeless placement set-aside new construction unit (days)": {
+   "agency": "HPD",
+   "indicator": "Median time to lease-up a homeless placement set-aside new construction unit (days)",
+   "row_label": "\uf0ab Median time to lease-up a homeless placement set-aside new construction unit (days)",
+   "row_line": "new construction unit (days) 203 243 196 235 190 * * Neutral *",
+   "pdf_page": 416,
+   "printed_page": 404,
+   "actuals_fy22_fy26": [
+    "203",
+    "243",
+    "196",
+    "235",
+    "190"
+   ],
+   "fy2026_printed": "190",
+   "fy2026_value": 190.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "HPD|Median time to lease-up a homeless placement voluntary new construction unit (days)": {
+   "agency": "HPD",
+   "indicator": "Median time to lease-up a homeless placement voluntary new construction unit (days)",
+   "row_label": "Median time to lease-up a homeless placement voluntary new construction unit (days)",
+   "row_line": "construction unit (days) 214 142 156 162 194 * * Neutral *",
+   "pdf_page": 416,
+   "printed_page": 404,
+   "actuals_fy22_fy26": [
+    "214",
+    "142",
+    "156",
+    "162",
+    "194"
+   ],
+   "fy2026_printed": "194",
+   "fy2026_value": 194.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "HPD|Median time to first inspection (days) \u2014 Heat and hot water problems": {
+   "agency": "HPD",
+   "indicator": "Median time to first inspection (days) \u2014 Heat and hot water problems",
+   "row_label": "Median time to first inspection (days) \u2014 Heat and hot water problems",
+   "row_line": "water problems 2.1 2.0 1.6 1.9 2.0 * * Neutral Down",
+   "pdf_page": 410,
+   "printed_page": 398,
+   "actuals_fy22_fy26": [
+    "2.1",
+    "2.0",
+    "1.6",
+    "1.9",
+    "2.0"
+   ],
+   "fy2026_printed": "2.0",
+   "fy2026_value": 2.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HPD|Median time to first inspection (days) \u2014 Non-emergency problems": {
+   "agency": "HPD",
+   "indicator": "Median time to first inspection (days) \u2014 Non-emergency problems",
+   "row_label": "Median time to first inspection (days) \u2014 Non-emergen - cy problems",
+   "row_line": "cy problems 7.0 7.9 7.1 6.0 7.1 * * Neutral Down",
+   "pdf_page": 410,
+   "printed_page": 398,
+   "actuals_fy22_fy26": [
+    "7.0",
+    "7.9",
+    "7.1",
+    "6.0",
+    "7.1"
+   ],
+   "fy2026_printed": "7.1",
+   "fy2026_value": 7.1,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HPD|Median time to close emergency problems (days)": {
+   "agency": "HPD",
+   "indicator": "Median time to close emergency problems (days)",
+   "row_label": "\uf0ab Median time to close emergency problems (days)",
+   "row_line": "\uf0ab Median time to close emergency problems (days) 4.0 4.0 3.0 3.0 3.0 \u00f2 \u00f2 Down Down",
+   "pdf_page": 410,
+   "printed_page": 398,
+   "actuals_fy22_fy26": [
+    "4.0",
+    "4.0",
+    "3.0",
+    "3.0",
+    "3.0"
+   ],
+   "fy2026_printed": "3.0",
+   "fy2026_value": 3.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HPD|Median time to close non-emergency problems (days)": {
+   "agency": "HPD",
+   "indicator": "Median time to close non-emergency problems (days)",
+   "row_label": "\uf0ab Median time to close non-emergency problems (days)",
+   "row_line": "(days) 13.0 13.0 12.0 10.0 12.0 \u00f2 \u00f2 Down Down",
+   "pdf_page": 410,
+   "printed_page": 398,
+   "actuals_fy22_fy26": [
+    "13.0",
+    "13.0",
+    "12.0",
+    "10.0",
+    "12.0"
+   ],
+   "fy2026_printed": "12.0",
+   "fy2026_value": 12.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|Cash Assistance \u2014 Application timeliness rate (%)": {
+   "agency": "HRA",
+   "indicator": "Cash Assistance \u2014 Application timeliness rate (%)",
+   "row_label": "\uf0ab Cash Assistance \u2014 Application timeliness rate (%)",
+   "row_line": "\uf0ab Cash Assistance \u2014 Application timeliness rate (%) 82.3% 28.8% 42.4% 63.2% 65.8% 95.0% 95.0% Neutral Up",
+   "pdf_page": 239,
+   "printed_page": 227,
+   "actuals_fy22_fy26": [
+    "82.3%",
+    "28.8%",
+    "42.4%",
+    "63.2%",
+    "65.8%"
+   ],
+   "fy2026_printed": "65.8%",
+   "fy2026_value": 65.8,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|Supplemental Nutrition Assistance Program (SNAP) \u2014 Application timeliness rate (%)": {
+   "agency": "HRA",
+   "indicator": "Supplemental Nutrition Assistance Program (SNAP) \u2014 Application timeliness rate (%)",
+   "row_label": "\uf0ab SNAP \u2014 Application timeliness rate (%)",
+   "row_line": "\uf0ab SNAP \u2014 Application timeliness rate (%) 60.1% 39.7% 65.1% 87.6% 84.7% 95.0% 95.0% Up Up",
+   "pdf_page": 240,
+   "printed_page": 228,
+   "actuals_fy22_fy26": [
+    "60.1%",
+    "39.7%",
+    "65.1%",
+    "87.6%",
+    "84.7%"
+   ],
+   "fy2026_printed": "84.7%",
+   "fy2026_value": 84.7,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|Medicaid \u2014 Application timeliness rate (%)": {
+   "agency": "HRA",
+   "indicator": "Medicaid \u2014 Application timeliness rate (%)",
+   "row_label": "Medicaid \u2014 Application timeliness rate (%)",
+   "row_line": "Medicaid \u2014 Application timeliness rate (%) 96.8% 94.2% 88.4% NA NA 95.0% 95.0% NA Up",
+   "pdf_page": 240,
+   "printed_page": 228,
+   "actuals_fy22_fy26": [
+    "96.8%",
+    "94.2%",
+    "88.4%",
+    "NA",
+    "NA"
+   ],
+   "fy2026_printed": "NA",
+   "fy2026_value": null,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 3,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|IDNYC \u2014 Application timeliness rate (%)": {
+   "agency": "HRA",
+   "indicator": "IDNYC \u2014 Application timeliness rate (%)",
+   "row_label": "IDNYC \u2014 Application timeliness rate (%)",
+   "row_line": "IDNYC \u2014 Application timeliness rate (%) 98.2% 90.6% 96.7% 97.0% 98.7% * * Neutral Up",
+   "pdf_page": 242,
+   "printed_page": 230,
+   "actuals_fy22_fy26": [
+    "98.2%",
+    "90.6%",
+    "96.7%",
+    "97.0%",
+    "98.7%"
+   ],
+   "fy2026_printed": "98.7%",
+   "fy2026_value": 98.7,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|HIV/AIDS Services Administration (HASA) \u2014 Rental assistance application timeliness rate (%)": {
+   "agency": "HRA",
+   "indicator": "HIV/AIDS Services Administration (HASA) \u2014 Rental assistance application timeliness rate (%)",
+   "row_label": "HASA \u2014 Rental assistance application timeliness rate (%)",
+   "row_line": "HASA \u2014 Rental assistance application timeliness rate (%) 97.4% 96.2% 97.7% 94.6% 92.9% 95.0% 95.0% Neutral Up",
+   "pdf_page": 245,
+   "printed_page": 233,
+   "actuals_fy22_fy26": [
+    "97.4%",
+    "96.2%",
+    "97.7%",
+    "94.6%",
+    "92.9%"
+   ],
+   "fy2026_printed": "92.9%",
+   "fy2026_value": 92.9,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|Average days to initiate home attendant and housekeeper services for all cases": {
+   "agency": "HRA",
+   "indicator": "Average days to initiate home attendant and housekeeper services for all cases",
+   "row_label": "\uf0ab Average days to initiate home attendant and housekeeper services for all cases",
+   "row_line": "services for all cases 29.3 33.3 34.3 45.0 43.8 \u00f2 \u00f2 Up Down",
+   "pdf_page": 245,
+   "printed_page": 233,
+   "actuals_fy22_fy26": [
+    "29.3",
+    "33.3",
+    "34.3",
+    "45.0",
+    "43.8"
+   ],
+   "fy2026_printed": "43.8",
+   "fy2026_value": 43.8,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "HRA|Average wait time to speak with a customer service agent (minutes:seconds)": {
+   "agency": "HRA",
+   "indicator": "Average wait time to speak with a customer service agent (minutes:seconds)",
+   "row_label": "Average customer in-person wait time (minutes:seconds)",
+   "row_line": "Average customer in-person wait time (minutes:seconds) 44:26 68:00 77:30 81:25 97:03 60:00 60:00 Up Down",
+   "pdf_page": 246,
+   "printed_page": 234,
+   "actuals_fy22_fy26": [
+    "44:26",
+    "68:00",
+    "77:30",
+    "81:25",
+    "97:03"
+   ],
+   "fy2026_printed": "97:03",
+   "fy2026_value": 97.03,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DHS|Average length of stay \u2014 Families with children in shelter (days)": {
+   "agency": "DHS",
+   "indicator": "Average length of stay \u2014 Families with children in shelter (days)",
+   "row_label": "\uf0ab Average length of stay \u2014 Families with children in shelter (days)",
+   "row_line": "\uf0ab Average length of stay \u2014 Families with children in shelter (days) 534 437 354 372 415 \u00f2 \u00f2 Down Down",
+   "pdf_page": 265,
+   "printed_page": 253,
+   "actuals_fy22_fy26": [
+    "534",
+    "437",
+    "354",
+    "372",
+    "415"
+   ],
+   "fy2026_printed": "415",
+   "fy2026_value": 415.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DHS|Average length of stay \u2014 Single adults in shelter (days)": {
+   "agency": "DHS",
+   "indicator": "Average length of stay \u2014 Single adults in shelter (days)",
+   "row_label": "\uf0ab Average length of stay \u2014 Single adults in shelter (days)",
+   "row_line": "\uf0ab Average length of stay \u2014 Single adults in shelter (days) 509 412 392 378 372 \u00f2 \u00f2 Down Down",
+   "pdf_page": 265,
+   "printed_page": 253,
+   "actuals_fy22_fy26": [
+    "509",
+    "412",
+    "392",
+    "378",
+    "372"
+   ],
+   "fy2026_printed": "372",
+   "fy2026_value": 372.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DHS|Average length of stay \u2014 Adult families in shelters (days)": {
+   "agency": "DHS",
+   "indicator": "Average length of stay \u2014 Adult families in shelters (days)",
+   "row_label": "\uf0ab Average length of stay \u2014 Adult families in shelters (days)",
+   "row_line": "\uf0ab Average length of stay \u2014 Adult families in shelters (days) 855 750 498 379 340 \u00f2 \u00f2 Down Down",
+   "pdf_page": 265,
+   "printed_page": 253,
+   "actuals_fy22_fy26": [
+    "855",
+    "750",
+    "498",
+    "379",
+    "340"
+   ],
+   "fy2026_printed": "340",
+   "fy2026_value": 340.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "ACS|Child care assistance applicants with eligibility determinations within 30 days (%)": {
+   "agency": "ACS",
+   "indicator": "Child care assistance applicants with eligibility determinations within 30 days (%)",
+   "row_label": "Child care assistance applicants with eligibility determinations within 30 days (%)",
+   "row_line": "within 30 days (%) 96% 92% 80% 92% 92% 90% 90% Neutral Up",
+   "pdf_page": 255,
+   "printed_page": 243,
+   "actuals_fy22_fy26": [
+    "96%",
+    "92%",
+    "80%",
+    "92%",
+    "92%"
+   ],
+   "fy2026_printed": "92%",
+   "fy2026_value": 92.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "ACS|Average length of stay in detention (days) (total)": {
+   "agency": "ACS",
+   "indicator": "Average length of stay in detention (days) (total)",
+   "row_label": "\uf0ab Average length of stay in detention (days) (total)",
+   "row_line": "\uf0ab Average length of stay in detention (days) (total) 38 39 40 46 56 \u00f2 \u00f2 Up Down",
+   "pdf_page": 257,
+   "printed_page": 245,
+   "actuals_fy22_fy26": [
+    "38",
+    "39",
+    "40",
+    "46",
+    "56"
+   ],
+   "fy2026_printed": "56",
+   "fy2026_value": 56.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "NYCHH|Calendar days to third next available new appointment \u2013 Adult medicine": {
+   "agency": "NYCHH",
+   "indicator": "Calendar days to third next available new appointment \u2013 Adult medicine",
+   "row_label": "Calendar days to third next available new appointment \u2013 Adult medicine",
+   "row_line": "Adult medicine 12.0 12.0 20.0 13.0 9.0 14.0 14.0 Down Down",
+   "pdf_page": 231,
+   "printed_page": 219,
+   "actuals_fy22_fy26": [
+    "12.0",
+    "12.0",
+    "20.0",
+    "13.0",
+    "9.0"
+   ],
+   "fy2026_printed": "9.0",
+   "fy2026_value": 9.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "NYCHH|Calendar days to third next available new appointment \u2013 Pediatric medicine": {
+   "agency": "NYCHH",
+   "indicator": "Calendar days to third next available new appointment \u2013 Pediatric medicine",
+   "row_label": "Calendar days to third next available new appointment \u2013 Pediatric medicine",
+   "row_line": "Pediatric medicine 12.0 13.0 23.0 17.0 13.0 5.0 5.0 Up Down",
+   "pdf_page": 231,
+   "printed_page": 219,
+   "actuals_fy22_fy26": [
+    "12.0",
+    "13.0",
+    "23.0",
+    "17.0",
+    "13.0"
+   ],
+   "fy2026_printed": "13.0",
+   "fy2026_value": 13.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "DCAS|Median time from exam administration to exam results completion for DCAS-administered exams (business days)": {
+   "agency": "DCAS",
+   "indicator": "Median time from exam administration to exam results completion for DCAS-administered exams (business days)",
+   "row_label": "Desired Direction \uf0ab Median time from exam administration to exam results comple - tion for DCAS-administered exams (business days)",
+   "row_line": "tion for DCAS-administered exams (business days) 167 149 139 158 101 197 197 Down Down",
+   "pdf_page": 444,
+   "printed_page": 432,
+   "actuals_fy22_fy26": [
+    "167",
+    "149",
+    "139",
+    "158",
+    "101"
+   ],
+   "fy2026_printed": "101",
+   "fy2026_value": 101.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average time to process initial Senior Citizen Rent Increase Exemption applications (days)": {
+   "agency": "DOF",
+   "indicator": "Average time to process initial Senior Citizen Rent Increase Exemption applications (days)",
+   "row_label": "\uf0ab Average time to process initial Senior Citizen Rent Increase Exemption applications (days)",
+   "row_line": "Exemption applications (days) 11.1 25.8 16.2 12.2 31.2 10.0 10.0 Up Down",
+   "pdf_page": 465,
+   "printed_page": 453,
+   "actuals_fy22_fy26": [
+    "11.1",
+    "25.8",
+    "16.2",
+    "12.2",
+    "31.2"
+   ],
+   "fy2026_printed": "31.2",
+   "fy2026_value": 31.2,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average time to process initial Disability Rent Increase Exemption applications (days)": {
+   "agency": "DOF",
+   "indicator": "Average time to process initial Disability Rent Increase Exemption applications (days)",
+   "row_label": "\uf0ab Average time to process initial Disability Rent Increase Exemption applications (days)",
+   "row_line": "applications (days) 10.0 22.7 15.6 12.7 33.8 10.0 10.0 Up Down",
+   "pdf_page": 465,
+   "printed_page": 453,
+   "actuals_fy22_fy26": [
+    "10.0",
+    "22.7",
+    "15.6",
+    "12.7",
+    "33.8"
+   ],
+   "fy2026_printed": "33.8",
+   "fy2026_value": 33.8,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average time to process initial Senior Citizen Homeowners' Exemption applications (days)": {
+   "agency": "DOF",
+   "indicator": "Average time to process initial Senior Citizen Homeowners' Exemption applications (days)",
+   "row_label": "\uf0ab Average time to process initial Senior Citizen Homeowners\u2019 Exemption applications (days)",
+   "row_line": "Exemption applications (days) 10.3 14.5 21.6 3.5 8.4 \u00f2 \u00f2 Down Down",
+   "pdf_page": 465,
+   "printed_page": 453,
+   "actuals_fy22_fy26": [
+    "10.3",
+    "14.5",
+    "21.6",
+    "3.5",
+    "8.4"
+   ],
+   "fy2026_printed": "8.4",
+   "fy2026_value": 8.4,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average time to process initial Disability Homeowners' Exemption applications (days)": {
+   "agency": "DOF",
+   "indicator": "Average time to process initial Disability Homeowners' Exemption applications (days)",
+   "row_label": "\uf0ab Average time to process initial Disability Homeowners\u2019 Exemp - tion applications (days)",
+   "row_line": "tion applications (days) 5.9 10.0 27.0 4.9 5.3 \u00f2 \u00f2 Down Down",
+   "pdf_page": 465,
+   "printed_page": 453,
+   "actuals_fy22_fy26": [
+    "5.9",
+    "10.0",
+    "27.0",
+    "4.9",
+    "5.3"
+   ],
+   "fy2026_printed": "5.3",
+   "fy2026_value": 5.3,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average time to issue a property tax refund (days)": {
+   "agency": "DOF",
+   "indicator": "Average time to issue a property tax refund (days)",
+   "row_label": "\uf0ab Average time to issue a property tax refund (days)",
+   "row_line": "\uf0ab Average time to issue a property tax refund (days) 13 13 25 35 25 20 20 Up Down",
+   "pdf_page": 463,
+   "printed_page": 451,
+   "actuals_fy22_fy26": [
+    "13",
+    "13",
+    "25",
+    "35",
+    "25"
+   ],
+   "fy2026_printed": "25",
+   "fy2026_value": 25.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average turnaround time to issue decision for parking summons hearing-by-mail (days)": {
+   "agency": "DOF",
+   "indicator": "Average turnaround time to issue decision for parking summons hearing-by-mail (days)",
+   "row_label": "\uf0ab Average turnaround time to issue decision for parking summons hearing-by-mail (days)",
+   "row_line": "summons hearing-by-mail (days) 6.9 7.8 6.6 6.7 6.8 14.0 14.0 Neutral Down",
+   "pdf_page": 464,
+   "printed_page": 452,
+   "actuals_fy22_fy26": [
+    "6.9",
+    "7.8",
+    "6.6",
+    "6.7",
+    "6.8"
+   ],
+   "fy2026_printed": "6.8",
+   "fy2026_value": 6.8,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOF|Average turnaround time for in-person parking summons hearings (minutes)": {
+   "agency": "DOF",
+   "indicator": "Average turnaround time for in-person parking summons hearings (minutes)",
+   "row_label": "\uf0ab Average turnaround time for in-person parking summons hearings (minutes)",
+   "row_line": "hearings (minutes) 1.3 3.3 5.3 11.2 7.3 12.0 12.0 Up Down",
+   "pdf_page": 464,
+   "printed_page": 452,
+   "actuals_fy22_fy26": [
+    "1.3",
+    "3.3",
+    "5.3",
+    "11.2",
+    "7.3"
+   ],
+   "fy2026_printed": "7.3",
+   "fy2026_value": 7.3,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average days from filing to approval \u2013 All applications (DOB NOW)": {
+   "agency": "DOB",
+   "indicator": "Average days from filing to approval \u2013 All applications (DOB NOW)",
+   "row_label": "Average days from filing to approval \u2013 All applications (DOB NOW)",
+   "row_line": "NOW) 14.7 18.1 20.2 20.3 25.4 * * Up Down",
+   "pdf_page": 370,
+   "printed_page": 358,
+   "actuals_fy22_fy26": [
+    "14.7",
+    "18.1",
+    "20.2",
+    "20.3",
+    "25.4"
+   ],
+   "fy2026_printed": "25.4",
+   "fy2026_value": 25.4,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average days to complete first plan review \u2013 All applications (DOB NOW)": {
+   "agency": "DOB",
+   "indicator": "Average days to complete first plan review \u2013 All applications (DOB NOW)",
+   "row_label": "Average days to complete first plan review \u2013 All applications (DOB NOW)",
+   "row_line": "NOW) 2.9 2.7 3.3 3.7 5.4 * * Up Down",
+   "pdf_page": 370,
+   "printed_page": 358,
+   "actuals_fy22_fy26": [
+    "2.9",
+    "2.7",
+    "3.3",
+    "3.7",
+    "5.4"
+   ],
+   "fy2026_printed": "5.4",
+   "fy2026_value": 5.4,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)": {
+   "agency": "DOB",
+   "indicator": "Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)",
+   "row_label": "\uf0ab Average days to complete first plan review \u2013 New Buildings \u2013 All applications (DOB NOW)",
+   "row_line": "All applications (DOB NOW) 7.7 6.5 6.5 6.3 9.4 \u00f2 \u00f2 Up Down",
+   "pdf_page": 370,
+   "printed_page": 358,
+   "actuals_fy22_fy26": [
+    "7.7",
+    "6.5",
+    "6.5",
+    "6.3",
+    "9.4"
+   ],
+   "fy2026_printed": "9.4",
+   "fy2026_value": 9.4,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average days between construction inspection request and inspection": {
+   "agency": "DOB",
+   "indicator": "Average days between construction inspection request and inspection",
+   "row_label": "Desired Direction \uf0ab Average days between construction inspection request and inspection",
+   "row_line": "inspection 1.2 1.5 4.4 5.4 5.2 \u00f2 \u00f2 Up Down",
+   "pdf_page": 371,
+   "printed_page": 359,
+   "actuals_fy22_fy26": [
+    "1.2",
+    "1.5",
+    "4.4",
+    "5.4",
+    "5.2"
+   ],
+   "fy2026_printed": "5.2",
+   "fy2026_value": 5.2,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average days between electrical inspection request and inspection": {
+   "agency": "DOB",
+   "indicator": "Average days between electrical inspection request and inspection",
+   "row_label": "\uf0ab Average days between electrical inspection request and inspection",
+   "row_line": "inspection 2.8 3.3 4.6 12.8 12.6 \u00f2 \u00f2 Up Down",
+   "pdf_page": 371,
+   "printed_page": 359,
+   "actuals_fy22_fy26": [
+    "2.8",
+    "3.3",
+    "4.6",
+    "12.8",
+    "12.6"
+   ],
+   "fy2026_printed": "12.6",
+   "fy2026_value": 12.6,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average days between plumbing inspection request and inspection": {
+   "agency": "DOB",
+   "indicator": "Average days between plumbing inspection request and inspection",
+   "row_label": "\uf0ab Average days between plumbing inspection request and inspection",
+   "row_line": "inspection 2.4 2.2 2.6 5.0 4.8 \u00f2 \u00f2 Up Down",
+   "pdf_page": 371,
+   "printed_page": 359,
+   "actuals_fy22_fy26": [
+    "2.4",
+    "2.2",
+    "2.6",
+    "5.0",
+    "4.8"
+   ],
+   "fy2026_printed": "4.8",
+   "fy2026_value": 4.8,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOB|Average customer in-person transaction time (minutes)": {
+   "agency": "DOB",
+   "indicator": "Average customer in-person transaction time (minutes)",
+   "row_label": "\uf0ab Average customer in-person transaction time (minutes)",
+   "row_line": "\uf0ab Average customer in-person transaction time (minutes) 5 6 6 7 7 \u00f2 \u00f2 Up Down",
+   "pdf_page": 369,
+   "printed_page": 357,
+   "actuals_fy22_fy26": [
+    "5",
+    "6",
+    "6",
+    "7",
+    "7"
+   ],
+   "fy2026_printed": "7",
+   "fy2026_value": 7.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DCP|Median days for simple zoning action projects to enter public review": {
+   "agency": "DCP",
+   "indicator": "Median days for simple zoning action projects to enter public review",
+   "row_label": "Median days for projects to enter public review",
+   "row_line": "Median days for projects to enter public review NA NA 307 278 258 365 365 NA Down",
+   "pdf_page": 389,
+   "printed_page": 377,
+   "actuals_fy22_fy26": [
+    "NA",
+    "NA",
+    "307",
+    "278",
+    "258"
+   ],
+   "fy2026_printed": "258",
+   "fy2026_value": 258.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 2,
+   "printed_equals_june_month_value": false
+  },
+  "DCP|Median days for zoning actions with CEQR (EAS) to enter public review": {
+   "agency": "DCP",
+   "indicator": "Median days for zoning actions with CEQR (EAS) to enter public review",
+   "row_label": "Median days for projects to enter public review",
+   "row_line": "Median days for projects to enter public review NA NA 527 482 572 456 456 NA Down",
+   "pdf_page": 390,
+   "printed_page": 378,
+   "actuals_fy22_fy26": [
+    "NA",
+    "NA",
+    "527",
+    "482",
+    "572"
+   ],
+   "fy2026_printed": "572",
+   "fy2026_value": 572.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 2,
+   "printed_equals_june_month_value": false
+  },
+  "DCP|Median days for zoning actions with CEQR (EIS) to enter public review": {
+   "agency": "DCP",
+   "indicator": "Median days for zoning actions with CEQR (EIS) to enter public review",
+   "row_label": "Median days for projects to enter public review",
+   "row_line": "Median days for projects to enter public review NA NA 148 369 659 669 669 NA Down",
+   "pdf_page": 390,
+   "printed_page": 378,
+   "actuals_fy22_fy26": [
+    "NA",
+    "NA",
+    "148",
+    "369",
+    "659"
+   ],
+   "fy2026_printed": "659",
+   "fy2026_value": 659.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 2,
+   "printed_equals_june_month_value": false
+  },
+  "DCWP|Median processing time (days)": {
+   "agency": "DCWP",
+   "indicator": "Median processing time (days)",
+   "row_label": "\uf0ab Median processing time (days)",
+   "row_line": "\uf0ab Median processing time (days) 1 1 1 2 2 4 4 Up Down",
+   "pdf_page": 183,
+   "printed_page": 171,
+   "actuals_fy22_fy26": [
+    "1",
+    "1",
+    "1",
+    "2",
+    "2"
+   ],
+   "fy2026_printed": "2",
+   "fy2026_value": 2.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "DCWP|Applications approved within 30 days (%)": {
+   "agency": "DCWP",
+   "indicator": "Applications approved within 30 days (%)",
+   "row_label": "Applications approved within 30 days (%)",
+   "row_line": "Applications approved within 30 days (%) 90% 94% 97% 98% 99% 95% 95% Neutral Up",
+   "pdf_page": 183,
+   "printed_page": 171,
+   "actuals_fy22_fy26": [
+    "90%",
+    "94%",
+    "97%",
+    "98%",
+    "99%"
+   ],
+   "fy2026_printed": "99%",
+   "fy2026_value": 99.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DCWP|Average Licensing Center wait time (minutes)": {
+   "agency": "DCWP",
+   "indicator": "Average Licensing Center wait time (minutes)",
+   "row_label": "\uf0ab Average Licensing Center wait time (minutes)",
+   "row_line": "\uf0ab Average Licensing Center wait time (minutes) 4 3 5 4 6 15 15 Up Down",
+   "pdf_page": 183,
+   "printed_page": 171,
+   "actuals_fy22_fy26": [
+    "4",
+    "3",
+    "5",
+    "4",
+    "6"
+   ],
+   "fy2026_printed": "6",
+   "fy2026_value": 6.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOHMH|Average response time for birth certificates by mail/online/in person (days)": {
+   "agency": "DOHMH",
+   "indicator": "Average response time for birth certificates by mail/online/in person (days)",
+   "row_label": "Desired Direction \uf0ab Average response time for birth certificates by mail/online/in person (days)",
+   "row_line": "person (days) 5.4 2.0 1.6 2.7 3.0 3.0 3.0 Down Down",
+   "pdf_page": 211,
+   "printed_page": 199,
+   "actuals_fy22_fy26": [
+    "5.4",
+    "2.0",
+    "1.6",
+    "2.7",
+    "3.0"
+   ],
+   "fy2026_printed": "3.0",
+   "fy2026_value": 3.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOHMH|Average response time for death certificates by mail/online/in person (days)": {
+   "agency": "DOHMH",
+   "indicator": "Average response time for death certificates by mail/online/in person (days)",
+   "row_label": "\uf0ab Average response time for death certificates by mail/online/in person (days)",
+   "row_line": "person (days) 4.2 1.3 0.9 1.4 1.6 3.0 3.0 Down Down",
+   "pdf_page": 211,
+   "printed_page": 199,
+   "actuals_fy22_fy26": [
+    "4.2",
+    "1.3",
+    "0.9",
+    "1.4",
+    "1.6"
+   ],
+   "fy2026_printed": "1.6",
+   "fy2026_value": 1.6,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DORIS|Average response time to vital record requests (days)": {
+   "agency": "DORIS",
+   "indicator": "Average response time to vital record requests (days)",
+   "row_label": "\uf0ab Average response time to vital record requests (days)",
+   "row_line": "\uf0ab Average response time to vital record requests (days) 24.8 10.7 6.9 12.9 9.6 10.0 10.0 Down Down",
+   "pdf_page": 458,
+   "printed_page": 446,
+   "actuals_fy22_fy26": [
+    "24.8",
+    "10.7",
+    "6.9",
+    "12.9",
+    "9.6"
+   ],
+   "fy2026_printed": "9.6",
+   "fy2026_value": 9.6,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DOT|Average time to process a permit application for customers (calendar days)": {
+   "agency": "DOT",
+   "indicator": "Average time to process a permit application for customers (calendar days)",
+   "row_label": "Desired Direction Average time to process a permit application for customers (calen - dar days)",
+   "row_line": "dar days) 1.63 1.87 2.24 2.37 2.44 * * Up Down",
+   "pdf_page": 363,
+   "printed_page": 351,
+   "actuals_fy22_fy26": [
+    "1.63",
+    "1.87",
+    "2.24",
+    "2.37",
+    "2.44"
+   ],
+   "fy2026_printed": "2.44",
+   "fy2026_value": 2.44,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "BIC|Average age of pending waste hauling applications (days) \u2014 New": {
+   "agency": "BIC",
+   "indicator": "Average age of pending waste hauling applications (days) \u2014 New",
+   "row_label": "Average age of pending waste hauling applications (days) \u2014 New",
+   "row_line": "Average age of pending waste hauling applications (days) \u2014 New 165 186 247 324 247 * * Up Down",
+   "pdf_page": 144,
+   "printed_page": 132,
+   "actuals_fy22_fy26": [
+    "165",
+    "186",
+    "247",
+    "324",
+    "247"
+   ],
+   "fy2026_printed": "247",
+   "fy2026_value": 247.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "BIC|Average time to approve waste hauling applications (days) \u2014 New": {
+   "agency": "BIC",
+   "indicator": "Average time to approve waste hauling applications (days) \u2014 New",
+   "row_label": "\uf0ab Average time to approve waste hauling applications (days) \u2014 New",
+   "row_line": "New 209 168 120 192 234 150 150 Up Down",
+   "pdf_page": 144,
+   "printed_page": 132,
+   "actuals_fy22_fy26": [
+    "209",
+    "168",
+    "120",
+    "192",
+    "234"
+   ],
+   "fy2026_printed": "234",
+   "fy2026_value": 234.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "BIC|Waste hauling applications pending \u2014 New": {
+   "agency": "BIC",
+   "indicator": "Waste hauling applications pending \u2014 New",
+   "row_label": "FY22 FY23 FY24 FY25 FY26 FY26 FY27 5-Year Desired Direction Waste hauling applications pending \u2014 New",
+   "row_line": "Waste hauling applications pending \u2014 New 105 74 72 75 71 * * Down *",
+   "pdf_page": 144,
+   "printed_page": 132,
+   "actuals_fy22_fy26": [
+    "105",
+    "74",
+    "72",
+    "75",
+    "71"
+   ],
+   "fy2026_printed": "71",
+   "fy2026_value": 71.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "CCHR|Average age of complaint caseload (days)": {
+   "agency": "CCHR",
+   "indicator": "Average age of complaint caseload (days)",
+   "row_label": "\uf0ab Average age of complaint caseload (days)",
+   "row_line": "\uf0ab Average age of complaint caseload (days) 503 514 593 614 659 * * Up *",
+   "pdf_page": 129,
+   "printed_page": 117,
+   "actuals_fy22_fy26": [
+    "503",
+    "514",
+    "593",
+    "614",
+    "659"
+   ],
+   "fy2026_printed": "659",
+   "fy2026_value": 659.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "CCHR|Open matters": {
+   "agency": "CCHR",
+   "indicator": "Open matters",
+   "row_label": "Open matters",
+   "row_line": "Open matters 1,555 1,180 1,206 1,358 1,808 * * Up *",
+   "pdf_page": 129,
+   "printed_page": 117,
+   "actuals_fy22_fy26": [
+    "1,555",
+    "1,180",
+    "1,206",
+    "1,358",
+    "1,808"
+   ],
+   "fy2026_printed": "1,808",
+   "fy2026_value": 1808.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  },
+  "OATH|Average days for Judicial Hearings Officers to render decisions": {
+   "agency": "OATH",
+   "indicator": "Average days for Judicial Hearings Officers to render decisions",
+   "row_label": "\uf0ab Average days for Judicial Hearings Officers to render decisions",
+   "row_line": "\uf0ab Average days for Judicial Hearings Officers to render decisions 10 9 12 11 16 * * Up *",
+   "pdf_page": 136,
+   "printed_page": 124,
+   "actuals_fy22_fy26": [
+    "10",
+    "9",
+    "12",
+    "11",
+    "16"
+   ],
+   "fy2026_printed": "16",
+   "fy2026_value": 16.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "OATH|Average time for OATH Trials Division to issue decisions after records closed (business days)": {
+   "agency": "OATH",
+   "indicator": "Average time for OATH Trials Division to issue decisions after records closed (business days)",
+   "row_label": "Average time for OATH Trials Division to issue decisions after records closed (business days)",
+   "row_line": "closed (business days) 33.5 31.4 36.0 40.7 45.2 * * Up *",
+   "pdf_page": 135,
+   "printed_page": 123,
+   "actuals_fy22_fy26": [
+    "33.5",
+    "31.4",
+    "36.0",
+    "40.7",
+    "45.2"
+   ],
+   "fy2026_printed": "45.2",
+   "fy2026_value": 45.2,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "OATH|Average time from appointment to OATH Special Education Hearing Officer to case closure": {
+   "agency": "OATH",
+   "indicator": "Average time from appointment to OATH Special Education Hearing Officer to case closure",
+   "row_label": "\uf0ab Average time from appointment to OATH Special Education Hearing Officer to case closure",
+   "row_line": "Hearing Officer to case closure NA NA 84.5 101.9 124.7 105.0 105.0 NA *",
+   "pdf_page": 136,
+   "printed_page": 124,
+   "actuals_fy22_fy26": [
+    "NA",
+    "NA",
+    "84.5",
+    "101.9",
+    "124.7"
+   ],
+   "fy2026_printed": "124.7",
+   "fy2026_value": 124.7,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 2,
+   "printed_equals_june_month_value": false
+  },
+  "LPC|Permits for minor work issued within 10 business days (%)": {
+   "agency": "LPC",
+   "indicator": "Permits for minor work issued within 10 business days (%)",
+   "row_label": "Permits for minor work issued within 10 business days (%)",
+   "row_line": "Permits for minor work issued within 10 business days (%) 82% 84% 86% 92% 90% 85% 85% Up Up",
+   "pdf_page": 435,
+   "printed_page": 423,
+   "actuals_fy22_fy26": [
+    "82%",
+    "84%",
+    "86%",
+    "92%",
+    "90%"
+   ],
+   "fy2026_printed": "90%",
+   "fy2026_value": 90.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": false
+  },
+  "DFTA|Meeting time to first action \u2013 Housing (% within 14 days)": {
+   "agency": "DFTA",
+   "indicator": "Meeting time to first action \u2013 Housing (% within 14 days)",
+   "row_label": "Meeting time to first action \u2013 Housing (% within 14 days)",
+   "row_line": "Meeting time to first action \u2013 Housing (% within 14 days) 100% 100% 100% 100% 100% 100% 100% Neutral Up",
+   "pdf_page": 276,
+   "printed_page": 264,
+   "actuals_fy22_fy26": [
+    "100%",
+    "100%",
+    "100%",
+    "100%",
+    "100%"
+   ],
+   "fy2026_printed": "100%",
+   "fy2026_value": 100.0,
+   "history_matched_field": "acceptedvalueytd",
+   "history_years_matched": 4,
+   "printed_equals_june_month_value": true
+  }
+ }
+}
