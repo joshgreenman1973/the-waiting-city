@@ -3,20 +3,70 @@ const AG={ACS:"Administration for Children's Services",BIC:"Business Integrity C
 const TYPE={stock:"how many are waiting",duration:"how long it takes",timeliness_rate:"share handled on time",throughput:"cleared per period",demand:"demand at the door",derived:"derived"};
 const R=await (await fetch('data/site.json')).json();
 const L=R.lines; const byId=Object.fromEntries(L.map(l=>[l.id,l]));
-for(const id of ['built','built2','built3']) document.getElementById(id).textContent=fmtDate(R.built);
+for(const id of ['built','built3']){const e=document.getElementById(id);if(e)e.textContent=fmtDate(R.built);}
 const $=s=>document.querySelector(s);
 let tier='all', q='', ftype='', fgrade='', spreadOnly=false, zero=false, sel=null;
 
-function fmtDate(s){const d=new Date(s+'T12:00:00');return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}).replace(/(\w{3}) /,'$1. ');}
+function fmtDate(s){const [y,m,d]=s.split('-').map(Number);return ['Jan.','Feb.','March','April','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'][m-1]+' '+d+', '+y;}
 function fmtNum(v,u){if(v==null)return 'n/a';const n=Math.abs(v)>=1000?Math.round(v).toLocaleString('en-US'):(Number.isInteger(v)?v:+v.toFixed(1)).toLocaleString('en-US');return n+(u?' '+u:'');}
 function unitShort(f){let u=f.unit_of_value||'';return u.split(' (')[0];}
 function gradeCls(g){return 'grade '+(g==='A-c'?'Ac':g);}
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function primary(l){return l.figures[0];}
 
-// counts
+// counts, written into the lede
 (function(){const figs=L.flatMap(l=>l.figures);const gA=figs.filter(f=>f.grade==='A'||f.grade==='A-c').length;const spread=L.filter(l=>l.figures.some(f=>f.spread)).length;const ags=new Set(L.map(l=>l.agency)).size;
-$('#counts').innerHTML=[[L.length,'lines tracked'],[figs.length,'figures'],[gA+' of '+figs.length,'figures re-queryable (grade A)'],[ags,'agencies and bodies'],[spread,'lines with a published spread'],[13,'lines with no public count']].map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join('');})();
+const dur=L.filter(l=>toDays(primary(l))!=null).length;
+$('#lede').innerHTML=`How many New Yorkers are standing in a line the city controls, and how long each line is. The registry holds <b>${L.length}</b> lines at <b>${ags}</b> agencies and other bodies, each measured in the agency's own words: <b>${figs.length}</b> figures, <b>${gA}</b> of which can be re-queried from structured city data. Of the lines, <b>${dur}</b> report a wait as a length of time and are plotted below on one clock; the rest are counts and on-time rates. A spread as well as an average is published for <b>${spread}</b> lines, and <b>13</b> more lines have <a href="gaps.html">no public count</a> at all. Mayor's Management Report figures cover fiscal 2026, July 1, 2025, to June 30, 2026, unless a line says otherwise.`;})();
+
+// the opening chart: every line reported as a length of time, on one log-scale clock
+function toDays(f){if(!f||f.type!=='duration'||f.value==null)return null;const u=(f.unit_of_value||'').toLowerCase();
+  if(u.startsWith('minutes'))return f.value/1440;if(u.startsWith('hours'))return f.value/24;if(u.startsWith('business days'))return f.value*1.4;
+  if(u.startsWith('calendar days')||u.startsWith('days'))return f.value;return null;}
+const SHORT={NYCHA:'Housing Authority',HPD:'Housing Preservation',DOHMH:'Health Department',DCWP:'Consumer and Worker Protection',DOB:'Buildings',DCAS:'Citywide Administrative Services',DOE:'Education',DPR:'Parks',
+ 'NYS Unified Court System':'State courts',HRA:'Human Resources Administration',DHS:'Homeless Services',ACS:"Children's Services",NYCHH:'Health + Hospitals',DOF:'Finance',DCP:'City Planning',DORIS:'Records',
+ DOT:'Transportation',BIC:'Business Integrity Commission',CCHR:'Human Rights Commission',OATH:'Administrative Trials and Hearings',LPC:'Landmarks'};
+const GROUPS=[['Housing','vermilion',['NYCHA','HPD','NYS Unified Court System']],['Shelter and benefits','orange',['DHS','HRA','ACS','DOE']],['Health','rose',['DOHMH','NYCHH']],
+ ['Building and land use','cyan',['DOB','DCP','LPC','DPR','DOT']],['Licenses, taxes and records','sun',['DCWP','DOF','BIC','DCAS','DORIS']],['Hearings and rights','mint',['OATH','CCHR']]];
+const grpOf=a=>GROUPS.find(g=>g[2].includes(a))||['Other','fg2',[]];
+const centerOf=f=>f.center&&!/n\/a|not stated/.test(f.center)?f.center.split(' (')[0]:'';
+const W=L.map(l=>{const f=primary(l);return {id:l.id,n:l.name,a:l.agency,f,days:toDays(f)}}).filter(x=>x.days!=null);
+const agMax={};W.forEach(l=>agMax[l.a]=Math.max(agMax[l.a]||0,l.days));const AGS=Object.keys(agMax).sort((a,b)=>agMax[b]-agMax[a]);
+function tok(el){const st=getComputedStyle(el);const g=n=>st.getPropertyValue('--'+n).trim();const o={bg:g('bg'),fg:g('fg'),fg2:g('fg2'),grid:g('grid'),blend:g('blend')==='screen'?'screen':'multiply'};
+  ['cobalt','vermilion','sun','mint','rose','cyan','orange','lilac'].forEach(k=>o[k]=g(k));return o;}
+function drawClock(){const cv=$('#clock'),ro=$('#clockro'),T=tok(cv.parentElement);
+  const stacked=cv.parentElement.clientWidth<560,rowH=stacked?34:22,H=rowH*AGS.length+44;const r=cv.getBoundingClientRect();const dpr=Math.min(2,window.devicePixelRatio||1);
+  cv.width=Math.round(r.width*dpr);cv.height=Math.round(H*dpr);cv.style.height=H+'px';const ctx=cv.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);
+  const w=r.width,h=H,narrow=w<560;ctx.font=(narrow?'12px':'13px')+' Karla, sans-serif';const labW=Math.max(...AGS.map(a=>ctx.measureText(SHORT[a]||a).width));const Lm=stacked?12:Math.ceil(Math.min(labW+18,w*.42)),Rm=14,Tp=10,B=30,pw=w-Lm-Rm,lo=Math.log(1/1440),hi=Math.log(1000),xs=d=>Lm+(Math.log(d)-lo)/(hi-lo)*pw;
+  const rowY=i=>Tp+i*rowH+(stacked?rowH-10:rowH/2);const pts=W.map(l=>({...l,x:xs(l.days),y:rowY(AGS.indexOf(l.a)),col:T[grpOf(l.a)[1]]||T.fg2}));
+  function base(sel){ctx.globalCompositeOperation='source-over';ctx.fillStyle=T.bg;ctx.fillRect(0,0,w,h);ctx.font=(narrow?'12px':'13px')+' Karla, sans-serif';ctx.textBaseline='middle';
+    AGS.forEach((a,i)=>{const y=rowY(i);ctx.fillStyle=T.fg2;const t=SHORT[a]||a;if(stacked){ctx.textAlign='left';ctx.fillText(t,Lm,y-13);}else{ctx.textAlign='right';ctx.fillText(t,Lm-10,y);}
+      ctx.strokeStyle=T.grid;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(Lm,y+.5);ctx.lineTo(w-Rm,y+.5);ctx.stroke();});
+    ctx.textAlign='center';ctx.textBaseline='alphabetic';
+    [[1/1440,'1 minute'],[1/24,'1 hour'],[1,'1 day'],[7,'1 week'],[30.4,'1 month'],[365,'1 year']].forEach(([d,t])=>{const x=xs(d);
+      ctx.strokeStyle=T.grid;ctx.setLineDash([2,3]);ctx.beginPath();ctx.moveTo(x+.5,Tp);ctx.lineTo(x+.5,h-B+4);ctx.stroke();ctx.setLineDash([]);
+      ctx.fillStyle=T.fg2;if(!(narrow&&(t==='1 week'||t==='1 month'))){const tw=ctx.measureText(t).width;ctx.fillText(t,Math.max(tw/2,Math.min(w-tw/2,x)),h-9);}});
+    ctx.globalCompositeOperation=T.blend;pts.forEach(p=>{ctx.globalAlpha=.92;ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,narrow?4.5:5.5,0,7);ctx.fill();});
+    ctx.globalAlpha=1;ctx.globalCompositeOperation='source-over';
+    if(sel){ctx.strokeStyle=T.fg;ctx.lineWidth=2;ctx.beginPath();ctx.arc(sel.x,sel.y,9,0,7);ctx.stroke();}}
+  const def=ro.dataset.def;base();ro.innerHTML=def;
+  const near=ev=>{const b=cv.getBoundingClientRect(),mx=ev.clientX-b.left,my=ev.clientY-b.top;let best=null,bd=324;pts.forEach(p=>{const d=(p.x-mx)**2+(p.y-my)**2;if(d<bd){bd=d;best=p;}});return best;};
+  cv.onpointermove=ev=>{const p=near(ev);base(p);if(!p){ro.innerHTML=def;cv.style.cursor='default';return;}cv.style.cursor='pointer';const c=centerOf(p.f);
+    ro.innerHTML=`${esc(p.n)}, ${esc(SHORT[p.a]||p.a)}: <b>${esc(fmtNum(p.f.value,unitShort(p.f)))}</b>${c?' ('+esc(c)+')':''}.`;};
+  cv.onpointerleave=()=>{base();ro.innerHTML=def;};
+  cv.onclick=ev=>{const p=near(ev);if(p)selectLine(p.id,true);};}
+$('#groupkey').innerHTML=GROUPS.map(g=>`<span class="key"><i style="background:var(--${g[1]})"></i>${g[0]}</span>`).join('');
+
+// what each line measures, one square per line
+(function(){const types=[['duration','A length of time','cobalt'],['timeliness_rate','A share handled on time','mint'],['stock','How many are waiting','vermilion'],['demand','How many applied','sun']];
+  const known=new Set(types.map(t=>t[0]));const other=L.filter(l=>!known.has(primary(l).type)).length;
+  const order=[];types.forEach(t=>L.forEach(l=>{if(primary(l).type===t[0])order.push(t[2]);}));for(let i=0;i<other;i++)order.push('fg2');
+  $('#waffle').setAttribute('aria-label',`${L.length} lines by what they measure`);
+  $('#waffle').innerHTML=order.map(c=>`<i style="background:var(--${c})"></i>`).join('');
+  $('#wafflekey').innerHTML=types.map(t=>`<span class="key"><i style="background:var(--${t[2]})"></i>${t[1]}: ${L.filter(l=>primary(l).type===t[0]).length}</span>`).join('')+(other?`<span class="key"><i style="background:var(--fg2)"></i>Other: ${other}</span>`:'');})();
+
+// the longest waits
+$('#longest').innerHTML=W.slice().sort((a,b)=>b.days-a.days).slice(0,8).map(l=>{const c=centerOf(l.f);return `<div class="row" data-sel="${l.id}" role="link" tabindex="0"><span class="sw" style="background:var(--${grpOf(l.a)[1]})"></span><div><span class="nm">${esc(l.n)}</span><span class="sub">${esc(SHORT[l.a]||l.a)}${c?', '+esc(c):''}</span></div><span class="num">${esc(fmtNum(l.f.value,unitShort(l.f)))}</span></div>`;}).join('');
 
 // facts, all pulled from the registry so they cannot drift from it
 const fyOf=d=>{const [y,m]=d.split('-').map(Number);return m>=7?y+1:y};
@@ -60,7 +110,7 @@ function spark(f){const s=f.series;if(!s||s.length<3)return '';const W=640,H=150
   const yt=[lo+pad,hi-pad].map(v=>`<text x="${P.l-6}" y="${y(v)+3}" text-anchor="end">${fmtNum(+v.toFixed(v<10?1:0))}</text>`).join('');
   const xt=`<text x="${P.l}" y="${H-6}">${s[0][0].slice(0,7)}</text><text x="${W-P.r}" y="${H-6}" text-anchor="end">${s[s.length-1][0].slice(0,7)}</text>`;
   const zeroLine=zero?`<line class="ax" x1="${P.l}" x2="${W-P.r}" y1="${y(0)}" y2="${y(0)}"/>`:'';
-  return `<div class="legend"><span><i></i>${monthsDiffer?'fiscal-year-to-date value':'published value'}</span>${monthsDiffer?'<span><i class="m"></i>month value</span>':''}<span>${zero?'y-axis starts at zero':'y-axis fitted to the data (toggle above)'}</span></div><svg class="spark" viewBox="0 0 ${W} ${H}" role="img" aria-label="Series"><line class="ax" x1="${P.l}" x2="${W-P.r}" y1="${H-P.b}" y2="${H-P.b}"/>${zeroLine}${path('l')}${monthsDiffer?path('m'):''}${yt}${xt}</svg>`;}
+  return `<div class="slegend"><span><i></i>${monthsDiffer?'fiscal-year-to-date value':'published value'}</span>${monthsDiffer?'<span><i class="m"></i>month value</span>':''}<span>${zero?'y-axis starts at zero':'y-axis fitted to the data (toggle above)'}</span></div><svg class="spark" viewBox="0 0 ${W} ${H}" role="img" aria-label="Series"><line class="ax" x1="${P.l}" x2="${W-P.r}" y1="${H-P.b}" y2="${H-P.b}"/>${zeroLine}${path('l')}${monthsDiffer?path('m'):''}${yt}${xt}</svg>`;}
 
 function spreadTable(sp){if(!sp)return '';const rows=[];const walk=(o,pre)=>{for(const[k,v]of Object.entries(o)){const key=(pre?pre+' · ':'')+k.replace(/_/g,' ');if(v&&typeof v==='object'&&!Array.isArray(v)){if('median' in v||'p90' in v||'n' in v){rows.push([key,Object.entries(v).map(([a,b])=>`${a.replace(/_/g,' ')} ${typeof b==='number'?fmtNum(b):esc(b)}`).join(', ')]);}else walk(v,key);}else rows.push([key,typeof v==='number'?fmtNum(v):esc(String(v))]);}};walk(sp,'');
   return `<table class="spreadt">${rows.map(([k,v])=>`<tr><td>${esc(k)}</td><td class="n">${v}</td></tr>`).join('')}</table>`;}
@@ -76,7 +126,7 @@ function detailHTML(l){const f=primary(l);const others=l.figures.slice(1);
     <div><dt>Spread</dt><dd>${f.spread?spreadTable(f.spread):''}${f.spread_note?esc(f.spread_note):(f.spread?'':'Not published.')}</dd></div>
    </dl>
    ${f.series?spark(f):''}
-   ${f.definition_quote?`<div class="narr"><h4>The source's own definition</h4><div class="quote">${esc(f.definition_quote)}</div>${f.definition_changes&&f.definition_changes.length>1?`<p style="font-size:.9rem;color:var(--ink2)">The definition text changed ${f.definition_changes.length-1} time(s) across fiscal years in the dataset; each version is in the registry data.</p>`:''}</div>`:''}
+   ${f.definition_quote?`<div class="narr"><h4>The source's own definition</h4><div class="quote">${esc(f.definition_quote)}</div>${f.definition_changes&&f.definition_changes.length>1?`<p style="font-size:.9rem;color:var(--fg2)">The definition text changed ${f.definition_changes.length-1} time(s) across fiscal years in the dataset; each version is in the registry data.</p>`:''}</div>`:''}
    ${f.caveats&&f.caveats.length?`<div class="narr"><h4>Read with</h4><ul class="caveats">${f.caveats.map(c=>`<li>${esc(c)}</li>`).join('')}</ul></div>`:''}
    <div class="narr"><h4>Source</h4><p>${esc(f.source.title)}. ${esc(f.source.publisher)}${f.source.date?', '+esc(f.source.date):''}.</p>${f.source.quote&&f.type!=='derived'?`<div class="quote">${esc(f.source.quote)}</div>`:''}
    ${f.source.url?`<a class="srcbtn" href="${esc(f.source.url)}" target="_blank" rel="noopener">Open the source</a>`:''} ${f.refresh&&f.refresh.method==='soql'&&f.refresh.query_or_url.includes('rbed-zzin')?`<button class="srcbtn" data-soql="${esc(f.refresh.query_or_url)}">See the records</button>`:''}
@@ -89,12 +139,14 @@ function detailHTML(l){const f=primary(l);const others=l.figures.slice(1);
 
 function renderDetail(openDrawer){const l=byId[sel];const el=$('#detail');if(!l){el.innerHTML='<div class="empty">Select a line.</div>';return;}el.innerHTML=detailHTML(l);
   if(openDrawer&&window.matchMedia('(max-width:900px)').matches){$('#dtitle').textContent=l.name;$('#dbody').innerHTML=detailHTML(l);$('#drawer').classList.add('open');}}
-async function loadRecords(btn){const url=btn.dataset.soql;const box=btn.closest('.narr').querySelector('.records');box.innerHTML='<p style="font-size:.9rem;color:var(--ink2)">Loading the rows behind this figure…</p>';
+async function loadRecords(btn){const url=btn.dataset.soql;const box=btn.closest('.narr').querySelector('.records');box.innerHTML='<p style="font-size:.9rem;color:var(--fg2)">Loading the rows behind this figure…</p>';
   try{const rows=await (await fetch(url)).json();if(!rows.length)throw new Error('no rows');
-   box.innerHTML=`<p style="font-size:.9rem;color:var(--ink2)">${rows.length} rows from the Mayor's Management Report indicators dataset, oldest first. Value is the dataset's fiscal-year-to-date field; the month value is shown where the dataset has one.</p><div style="overflow-x:auto"><table class="h"><tr><th>Fiscal year</th><th>Date</th><th class="n">Value (FYTD)</th><th class="n">Month value</th><th>Frequency</th></tr>${rows.slice().reverse().map(r=>`<tr><td>${esc(r.fiscalyear)}</td><td>${esc((r.valuedate||'').slice(0,10))}</td><td class="n">${esc(r.acceptedvalueytd)}</td><td class="n">${esc(r.acceptedvalue??'')}</td><td>${esc(r.frequency||'')}</td></tr>`).join('')}</table></div><p style="font-size:.86rem"><a href="${esc(url)}" target="_blank" rel="noopener">The query itself</a> (returns machine-readable JSON).</p>`;}
-  catch(e){box.innerHTML='<p style="font-size:.9rem;color:var(--ink4)">The records could not be loaded just now. <a href="'+esc(url)+'" target="_blank" rel="noopener">Open the query directly.</a></p>';}}
+   box.innerHTML=`<p style="font-size:.9rem;color:var(--fg2)">${rows.length} rows from the Mayor's Management Report indicators dataset, oldest first. Value is the dataset's fiscal-year-to-date field; the month value is shown where the dataset has one.</p><div style="overflow-x:auto"><table class="h"><tr><th>Fiscal year</th><th>Date</th><th class="n">Value (FYTD)</th><th class="n">Month value</th><th>Frequency</th></tr>${rows.slice().reverse().map(r=>`<tr><td>${esc(r.fiscalyear)}</td><td>${esc((r.valuedate||'').slice(0,10))}</td><td class="n">${esc(r.acceptedvalueytd)}</td><td class="n">${esc(r.acceptedvalue??'')}</td><td>${esc(r.frequency||'')}</td></tr>`).join('')}</table></div><p style="font-size:.86rem"><a href="${esc(url)}" target="_blank" rel="noopener">The query itself</a> (returns machine-readable JSON).</p>`;}
+  catch(e){box.innerHTML='<p style="font-size:.9rem;color:var(--sun)">The records could not be loaded just now. <a href="'+esc(url)+'" target="_blank" rel="noopener">Open the query directly.</a></p>';}}
 
-document.addEventListener('click',e=>{const s=e.target.closest('[data-sel]');if(s){e.preventDefault();sel=s.dataset.sel;history.replaceState(null,'','#'+sel);renderList();renderDetail(true);const d=$('#detail');if(!window.matchMedia('(max-width:900px)').matches)d.scrollIntoView({block:'nearest'});return;}
+function selectLine(id,jump){sel=id;history.replaceState(null,'','#'+sel);renderList();renderDetail(true);if(!window.matchMedia('(max-width:900px)').matches){const d=$('#detail');if(jump)d.scrollIntoView({block:'start',behavior:'smooth'});else d.scrollIntoView({block:'nearest'});}}
+document.addEventListener('keydown',e=>{if(e.key==='Enter'){const s=e.target.closest('.row[data-sel]');if(s)selectLine(s.dataset.sel,true);}});
+document.addEventListener('click',e=>{const s=e.target.closest('[data-sel]');if(s){e.preventDefault();selectLine(s.dataset.sel,!!s.closest('.list'));return;}
   const b=e.target.closest('[data-soql]');if(b){loadRecords(b);return;}});
 $('#tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;tier=b.dataset.tier;[...$('#tabs').children].forEach(x=>x.classList.toggle('on',x===b));renderList();});
 $('#q').addEventListener('input',e=>{q=e.target.value.trim().toLowerCase();renderList();});
@@ -106,4 +158,6 @@ $('#cautionbtn').addEventListener('click',()=>$('#caution').classList.toggle('op
 $('#xbtn').addEventListener('click',()=>$('#drawer').classList.remove('open'));$('#scrim').addEventListener('click',()=>$('#drawer').classList.remove('open'));
 const h=location.hash.slice(1);if(h&&byId[h])sel=h;else sel='nycha-section8-waitlist-mmr';
 renderList();renderDetail();
+(document.fonts?document.fonts.ready:Promise.resolve()).then(drawClock);
+let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(drawClock,150);});
 })();

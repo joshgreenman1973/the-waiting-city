@@ -7,75 +7,87 @@
 <meta name="description" content="How many New Yorkers are standing in a line the city controls, and how long each line is. A registry of 77 lines, each measured in the agency's own terms.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="house.css">
 <style>
-:root{--ink3:#7a4f2f} /* project accent: a dull brick, the colour of a ticket stub */
-.facts{padding:16px 26px 20px;border-bottom:1px solid var(--hair);columns:2;column-gap:40px;max-width:1400px}
+:root{--accent:var(--lilac)} /* project lead ink */
+.fig canvas{width:100%;touch-action:pan-y;cursor:pointer}
+.fig .src{margin:6px 0 0}
+.sec .list .row[data-sel]{cursor:pointer}
+.sec .list .row[data-sel]:hover .nm{text-decoration:underline;text-decoration-color:var(--fg2);text-underline-offset:3px}
+.facts{padding:16px clamp(16px,4vw,48px) 20px;border-bottom:1px solid var(--line2);columns:2;column-gap:40px;max-width:1400px}
 @media(max-width:900px){.facts{columns:1}}
 .facts p{margin:0 0 10px;font-size:.98rem;line-height:1.55;break-inside:avoid}
-.facts p b{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums}
-.facts p .per{color:var(--ink2);font-size:.86rem}
-.sechead{padding:9px 26px;border-bottom:1px solid var(--hair);border-top:1px solid var(--ink);font-size:var(--t-micro);letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--ink2);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.rec .val{font-family:var(--display);font-weight:600;font-variant-numeric:tabular-nums;float:right;margin-left:12px;font-size:var(--t-rec)}
-.grade{display:inline-block;font-size:var(--t-micro);letter-spacing:.1em;font-weight:700;padding:1px 6px;border:1px solid var(--ink2);color:var(--ink2);margin-right:6px;line-height:1.5}
-.grade.A{border-color:var(--ink1);color:var(--ink1)} .grade.Ac{border-color:var(--ink5);color:var(--ink5)} .grade.B{border-color:var(--ink2c);color:var(--ink2c)} .grade.C{border-color:var(--ink4);color:var(--ink4)} .grade.D{border-color:var(--ink3);color:var(--ink3)}
+.facts p b{font-family:var(--display);font-variation-settings:'wdth' 88;font-weight:600;font-variant-numeric:tabular-nums}
+.facts p .per{color:var(--fg2);font-size:var(--t-small)}
+.sechead{padding:30px clamp(16px,4vw,48px) 8px}
+.sechead h2{margin:0}
+.sechead span{display:block;margin-top:4px;font-size:15px;color:var(--fg2);max-width:62ch}
+.rec .val{font-family:var(--display);font-variation-settings:'wdth' 88;font-weight:600;font-variant-numeric:tabular-nums;float:right;margin-left:12px;font-size:var(--t-rec)}
+.grade{display:inline-block;font-size:var(--t-micro);font-weight:700;padding:0 6px;border:1px solid var(--fg2);color:var(--fg2);margin-right:6px;line-height:1.5}
+.grade.A{border-color:var(--cobalt);color:var(--cobalt)} .grade.Ac{border-color:var(--cyan);color:var(--cyan)} .grade.B{border-color:var(--mint);color:var(--mint)} .grade.C{border-color:var(--sun);color:var(--sun)} .grade.D{border-color:var(--accent);color:var(--accent)}
 .detail{padding:0 0 40px}
-.detail .dh{padding:14px 26px 10px;border-bottom:1px solid var(--hair)}
-.detail .dh .lbl{font-size:var(--t-micro);letter-spacing:.15em;text-transform:uppercase;font-weight:700;color:var(--ink2)}
-.detail .dh h2{margin:3px 0 0;font-family:var(--display);font-size:1.4rem;line-height:1.16;font-weight:700;letter-spacing:-.02em}
-.detail .big{font-family:var(--display);font-weight:600;font-size:1.45rem;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
-.quote{border-left:3px solid var(--ink3);padding:6px 12px;margin:6px 0 10px;font-size:.95rem;line-height:1.55;color:#2c302d}
+.detail .dh{padding:14px clamp(16px,4vw,48px) 10px;border-bottom:1px solid var(--line2)}
+.detail .dh .lbl{font-size:var(--t-small);color:var(--fg2)}
+.detail .dh h2{margin:3px 0 0;font-size:1.4rem;line-height:1.16}
+.detail .big{font-family:var(--display);font-variation-settings:'wdth' 88;font-weight:600;font-size:1.45rem;font-variant-numeric:tabular-nums}
+.per{color:var(--fg2)}
+.quote{border-left:3px solid var(--accent);padding:6px 12px;margin:6px 0 10px;font-size:.95rem;line-height:1.55;color:var(--fg)}
 .spark{width:100%;height:150px;display:block;margin:4px 0 2px}
-.spark .l{fill:none;stroke:var(--ink1);stroke-width:1.6}
-.spark .m{fill:none;stroke:var(--ink4);stroke-width:1.2;stroke-dasharray:3 3}
-.spark .ax{stroke:var(--hair);stroke-width:1}
-.spark text{font-family:var(--sans);font-size:9.5px;fill:var(--ink2);letter-spacing:.06em}
-.legend{font-size:var(--t-micro);letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--ink2);display:flex;gap:16px;flex-wrap:wrap;margin:0 0 6px}
-.legend i{display:inline-block;width:18px;height:0;border-top:2px solid var(--ink1);vertical-align:middle;margin-right:6px}
-.legend i.m{border-top:2px dashed var(--ink4)}
+.spark .l{fill:none;stroke:var(--cobalt);stroke-width:1.8}
+.spark .m{fill:none;stroke:var(--sun);stroke-width:1.3;stroke-dasharray:3 3}
+.spark .ax{stroke:var(--line);stroke-width:1}
+.spark text{font-family:var(--sans);font-size:13px;fill:var(--fg2)}
+.slegend{font-size:var(--t-small);color:var(--fg2);display:flex;gap:6px 16px;flex-wrap:wrap;margin:0 0 6px}
+.slegend i{display:inline-block;width:18px;height:0;border-top:2px solid var(--cobalt);vertical-align:middle;margin-right:6px}
+.slegend i.m{border-top:2px dashed var(--sun)}
 .spreadt{width:100%;border-collapse:collapse;font-size:.9rem;margin:4px 0 8px}
-.spreadt td{padding:4px 10px 4px 0;border-bottom:1px solid var(--hair2);vertical-align:top}
+.spreadt td{padding:4px 10px 4px 0;border-bottom:1px solid var(--line2);vertical-align:top}
 .spreadt td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .caveats li{font-size:.94rem;line-height:1.55;margin-bottom:6px}
 .records{margin-top:10px}
 .records table{font-size:.86rem}
-.cbtn{font-size:var(--t-small);letter-spacing:.05em;text-transform:uppercase;font-weight:700;background:none;border:1px solid var(--ink3);color:var(--ink3);padding:6px 10px;cursor:pointer}
-.cbtn:hover{background:var(--ink3);color:var(--paper)}
+.cbtn{font-size:var(--t-small);font-weight:700;background:none;border:1px solid var(--accent);color:var(--accent);padding:6px 10px;cursor:pointer}
+.cbtn:hover{background:var(--accent);color:var(--bg)}
 .caution{display:none}.caution.open{display:block}
-.hmark svg .a{fill:var(--ink1);opacity:.55}.hmark svg .b{fill:var(--ink3);opacity:.6}.hmark svg .c{fill:var(--ink4);opacity:.5}.hmark svg .t{fill:var(--paper)}
 .cols>.col:last-child{position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto}
-.stack{display:none}
-@media(max-width:900px){.cols>.col:last-child{display:none}.stack{display:block}}
+@media(max-width:900px){.cols>.col:last-child{display:none}}
 </style>
 </head>
 <body>
 <div class="sheet">
-  <div class="strip"><span>The Waiting City · every line New Yorkers stand in</span><span>Registry built <span id="built"></span> · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
+  <div class="strip"><span>Lines the New York City government controls</span><span>Figures as of <span id="built"></span> · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
 
   <div class="head">
-    <div class="hmark" aria-hidden="true">
-      <svg viewBox="0 0 300 150">
-        <g transform="rotate(-6 150 75)">
-          <rect class="c" x="118" y="52" width="150" height="56"/>
-          <rect class="b" x="88" y="44" width="150" height="56"/>
-          <rect class="a" x="58" y="36" width="150" height="56"/>
-          <circle class="t" cx="58" cy="64" r="7"/><circle class="t" cx="208" cy="64" r="7"/>
-          <g class="t" font-family="Archivo,sans-serif" font-weight="700" font-size="13"><text x="78" y="70">NOW SERVING</text></g>
-          <rect class="a" x="28" y="28" width="22" height="56"/>
-          <rect class="b" x="8" y="20" width="14" height="56"/>
-        </g>
-      </svg>
-    </div>
     <h1>The Waiting City</h1>
-    <p class="sub">How many New Yorkers are standing in a line the city controls, and how long each line is. Seventy-seven lines, each measured in the agency's own words, each number opening the record it came from. There is no grand total, because the units don't add: a household on a waiting list, an application in a queue and a repair on a work order are different things.</p>
-    <p class="src">Sources: Mayor's Management Report indicators, agency releases and testimony, Comptroller audits, NYU Furman Center, NYC Open Data record-level files · <a href="methodology.html">How the counting works</a></p>
+    <p class="finding">The waits the city reports run from six minutes at a licensing counter to 659 days for a zoning review.</p>
+    <p class="lede" id="lede">How many New Yorkers are standing in a line the city controls, and how long each line is. There is no grand total, because the units don't add: a household on a waiting list, an application in a queue and a repair on a work order are different things.</p>
   </div>
 
-  <div class="capline">Registry as built <b id="built2"></b> · Mayor's Management Report figures are full fiscal 2026, <b>July 1, 2025 to June 30, 2026</b>, from the report released Sept. 17, 2026, unless a line says otherwise</div>
-  <div class="counts" id="counts"></div>
+  <div class="fig">
+    <div class="figcap"><span><b>Each dot is one line, placed by its reported wait, on a log scale.</b></span><span id="groupkey"></span></div>
+    <canvas id="clock" aria-label="Reported waits for each line, grouped by agency, on a log scale from one minute to more than a year"></canvas>
+    <div class="readout" id="clockro" data-def="Hover a dot, or tap it to open the line below. Business days are converted to calendar days (times 1.4) so the lines share one clock."></div>
+  </div>
 
-  <div class="sechead"><span>What the record shows</span><span>Every figure below is also a line in the registry; click through for its definition, period and source</span></div>
+  <section class="sec">
+    <div class="split">
+      <div>
+        <h3>What each line actually measures</h3>
+        <p class="aside">One square per line. Agencies report waiting in four different ways, and only the first can be put on a clock. That is why there is no grand total.</p>
+        <div class="waffle" id="waffle" role="img" aria-label="Lines by what they measure"></div>
+        <div class="legend" id="wafflekey"></div>
+      </div>
+      <div>
+        <h3>The longest waits</h3>
+        <p class="aside">Mean or median, whichever the agency reports. The swatch is the agency's group from the chart above. Select a line to open its record.</p>
+        <div class="list" id="longest"></div>
+      </div>
+    </div>
+    <p class="src">Sources: Mayor's Management Report indicators, agency releases and testimony, Comptroller audits, NYU Furman Center, NYC Open Data record-level files · <a href="methodology.html">How the counting works</a></p>
+  </section>
+
+  <div class="sechead"><h2>What the record shows</h2><span>Every figure below is also a line in the registry; click through for its definition, period and source.</span></div>
   <div class="facts" id="facts"></div>
 
   <div class="tabs" id="tabs">

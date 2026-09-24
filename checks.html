@@ -6,28 +6,30 @@
 <title>Fact-checking record · The Waiting City</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="house.css">
 <style>
-:root{--ink3:#7a4f2f}
-.doc{max-width:78ch;padding:18px 26px 40px}
-.doc h2{font-family:var(--display);font-size:1.5rem;letter-spacing:-.02em;margin:26px 0 8px;line-height:1.15}
-.doc h3{font-family:var(--display);font-size:1.15rem;margin:22px 0 6px}
-.doc h4{font-size:var(--t-micro);letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);font-weight:700;margin:18px 0 6px}
+:root{--accent:var(--lilac)}
+.doc{max-width:78ch;padding:18px clamp(16px,4vw,48px) 40px}
+.doc h2{font-size:1.5rem;margin:30px 0 8px;line-height:1.15}
+.doc h3{font-size:1.15rem;margin:22px 0 6px}
+.doc h4,.doc h5{font-size:15px;font-weight:700;color:var(--fg);margin:18px 0 6px}
 .doc p,.doc li{font-size:1rem;line-height:1.62}
 .doc p.num{margin:4px 0}
-.doc code{font-family:ui-monospace,Menlo,monospace;font-size:.88em;background:var(--paper2);padding:0 4px}
+.doc strong{color:var(--fg)}
+.doc code{font-family:inherit;font-size:.95em;background:var(--bg2);color:var(--fg);padding:0 4px}
 .doc .tw{overflow-x:auto;margin:10px 0 16px}
 .doc table{border-collapse:collapse;font-size:.9rem;min-width:100%}
-.doc th{font-size:var(--t-micro);letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--ink2);text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--ink);vertical-align:bottom}
-.doc td{padding:6px 10px 6px 0;border-bottom:1px solid var(--hair2);vertical-align:top}
-hr.rule{border:0;border-top:1px solid var(--ink);margin:36px 0 10px}
+.doc th{font-size:var(--t-small);font-weight:700;color:var(--fg2);text-align:left;padding:6px 10px 6px 6px;vertical-align:bottom}
+.doc td{padding:6px 10px 6px 6px;vertical-align:top}
+.doc tr:nth-child(even) td{background:var(--bg2)}
+hr.rule{border:0;margin:40px 0 0}
 </style>
 </head>
 <body>
 <div class="sheet">
   <div class="strip"><span><a href="index.html">The Waiting City</a> · Fact-checking record</span><span>Registry built Sept. 17, 2026 · <a href="methodology.html">Methodology</a> · <a href="checks.html">Checks</a> · <a href="gaps.html">Gaps</a></span></div>
-  <div class="head" style="padding-right:26px"><h1>Fact-checking record</h1></div>
+  <div class="head"><h1>Fact-checking record</h1></div>
   <div class="doc"><h2>Blind check report</h2>
 <p>Pass 1 (values and definitions) ran against the registry as built at about 14:00 ET on Sept. 5, 2026, with the checker blind to every registry value. It found 32 definition mismatches and about 20 further notes (data/blind_check_agent_summary.md); every one was then addressed in data/mmr_lines.json and data/queues_manual.json and the registry rebuilt. Pass 2 re-checked the corrected descriptions against the sources (data/blind_check_pass2_summary.md): 76 match, 5 caveat-wording issues, all corrected. Pass 3 was a fresh checker barred from the registry and from both earlier check files (data/blind_check_pass3_summary.md): values agreed on every figure; 4 definition mismatches and 33 notes, all addressed in the rebuild at about 17:15 ET, including a switch to the month value (dataset field acceptedvalue) for point-in-time counts, which the fiscal-year-to-date field had been averaging. Source-internal defects the passes surfaced are listed in data/source_issues.md. Pass 2 and 3 notes shown below describe the registry text as it stood before each fix.</p>
 <h3>Update, Sept. 17, 2026: the fiscal 2026 Mayor's Management Report</h3>
