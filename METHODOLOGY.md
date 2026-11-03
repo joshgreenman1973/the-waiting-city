@@ -30,14 +30,14 @@ Every figure in the registry is tagged with exactly one measurement type. They a
 Every figure carries a unit: **persons**, **households**, **applications**, **cases**, **requests**, **items** (an elevator, a tree, a sidewalk flag) or **seats**. These differ in ways that matter:
 
 - One household can file many applications. Housing Connect received about six million applications in 2024. That is not six million households; one household applying to 50 lotteries is 50 applications. The registry records the figure as applications and says so.
-- Applications are not the waitlist. NYCHA received 633,808 online applications for the 2024 Section 8 lottery and placed 200,000 households on the list. The stock is 200,000 households. The 633,808 measures demand at the door, a different quantity, recorded separately.
+- Applications are not the waitlist. The New York City Housing Authority (NYCHA) received 633,808 online applications for the 2024 Section 8 lottery and placed 200,000 households on the list. The stock is 200,000 households. The 633,808 measures demand at the door, a different quantity, recorded separately.
 - One person can be on several lists at once. A family can be on the NYCHA public housing list, the Section 8 list and in a dozen Housing Connect lotteries. No dataset lets us deduplicate across agencies.
 
 Consequence: **the registry does not produce one number for "New Yorkers waiting."** Where the page shows a total, it is a sum over a named set of lines that share a unit and a measurement type, labeled "sum of published counts, overlap across lists unknown." A sum across units is never shown.
 
 ## 4. Duration is two different things
 
-"How long do people wait" has two honest answers and they can diverge by years:
+"How long do people wait" has two answers and they can diverge by years:
 
 - **Completed-wait duration**: among those who reached the end, how long it took. This is what agencies usually report. It cannot describe people who have not yet reached the end, and in a growing backlog it understates the wait of those still in line.
 - **Waiting-so-far duration**: among those still in line, how long they have waited to date. Rarely published. It understates the eventual wait because none of these waits is over.
@@ -75,9 +75,9 @@ Each figure gets a grade based on who measured it and how it can be checked. The
 | **C** | Reported in the press with attribution to a named agency and a date, and we could not find the primary document. Or a primary document without a date or a definition. |
 | **D** | Derived by us (Section 5), or a figure whose unit or definition the source leaves ambiguous. |
 
-One more class sits alongside grade A: **computed**. Where an agency publishes only a mean, but also publishes record-level data (every permit filing with its dates, every complaint with open and close dates, every exam with its administration and results dates), this project computes the distribution itself: median, 90th percentile, share over a threshold, spread across boroughs or offices. Computed figures are graded **A-c**: re-queryable and fully specified, but produced by this project rather than the agency, so the code and the query are published with the figure and the agency's own mean is shown next to it for reconciliation. Where the two disagree, the disagreement is printed, not resolved quietly.
+One more class sits alongside grade A: **computed**. Where an agency publishes only a mean, but also publishes record-level data (every permit filing with its dates, every complaint with open and close dates, every exam with its administration and results dates), this project computes the distribution itself: median, 90th percentile, share over a threshold, spread across boroughs or offices. Computed figures are graded **A-c**: re-queryable and fully specified, but produced by this project rather than the agency, so the code and the query are published with the figure and the agency's own mean is shown next to it for reconciliation. Where the two disagree, the disagreement is printed.
 
-A grade C or D figure is never used in a headline or a total. It appears in the registry so the gap is visible, with a note on what would raise its grade (usually a Freedom of Information Law request, which is then logged).
+A grade C or D figure is never used in a headline or a total. It appears in the registry so the gap is visible, with a note on what would raise its grade (usually a Freedom of Information Law, or FOIL, request, which is then logged).
 
 ## 7. What is left out
 

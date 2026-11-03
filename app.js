@@ -75,7 +75,7 @@ const unitScale=f=>{const s=f.series||[];const last=s.length?s[s.length-1][1]:nu
 const priorFY=(f,fy)=>{const v=fySeries(f,fy);return v===null?null:v*unitScale(f)};
 const FACTS=[
  ['nycha-section8-waitlist-mmr',f=>`<b>${fmtNum(f.value,'households')}</b> were on the New York City Housing Authority's Section 8 voucher waiting list in June 2026, against ${fmtNum(priorFY(f,2025),'')} a year earlier. Voucher issuance to that list was paused as of Sept. 29, 2025, while the authority absorbed Emergency Housing Voucher households.`],
- ['hpd-housing-connect',f=>`Housing Connect received about <b>${fmtNum(f.value,'applications')}</b> for about 10,000 units in 2024. The Furman Center cites an HPD estimate of nearly 600,000 unique applicants, undated.`],
+ ['hpd-housing-connect',f=>`Housing Connect received about <b>${fmtNum(f.value,'applications')}</b> for about 10,000 units in 2024. The Furman Center cites a Department of Housing Preservation and Development estimate of nearly 600,000 unique applicants, undated.`],
  ['dcas-eligible-lists',f=>`<b>${fmtNum(f.value,'entries')}</b> sat on active civil service eligible lists on July 13, 2026. On Sept. 5, 88,082 of the live entries were on lists past their four-year anniversary.`],
  ['hra-cash-assistance-timeliness',f=>`<b>${f.value}%</b> of cash assistance applications were decided within the 30-day standard in fiscal 2026, against ${priorFY(f,2025)}% in fiscal 2025 and 42.4% in fiscal 2024.`],
  ['nycha-vacant-unit-turnaround',f=>`A vacant public housing apartment took <b>${fmtNum(f.value,'days')}</b> on average to be re-occupied in fiscal 2026, against ${fmtNum(priorFY(f,2025),'days')} in fiscal 2025.`],

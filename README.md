@@ -1,6 +1,6 @@
 # The Waiting City
 
-How many New Yorkers are standing in a line the city controls, and how long each line is. A registry of queues, with every figure tied to a source document or a re-runnable query, graded by how it was measured, and carrying whatever the source says about the spread, not just the average.
+How many New Yorkers are standing in a line the city controls, and how long each line is. A registry of queues, with every figure tied to a source document or a re-runnable query, graded by how it was measured, and carrying whatever the source says about the spread as well as the average.
 
 Status, Sept. 17, 2026: fiscal 2026 figures updated from the Mayor's Management Report released that morning. See data/blind_check_report.md and data/gaps.md.
 

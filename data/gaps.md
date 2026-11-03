@@ -1,6 +1,6 @@
 # Known lines with no usable public count (Sept. 5, 2026; reviewed against the fiscal 2026 Mayor's Management Report, Sept. 17, 2026)
 
-Lines that pass the definition in METHODOLOGY.md section 1 but fail test 3 (no record we can cite). Each is a candidate FOIL request. None appears in the registry as a figure.
+Lines that pass the definition in METHODOLOGY.md section 1 but fail test 3 (no record we can cite). Each is a candidate Freedom of Information Law (FOIL) request. None appears in the registry as a figure.
 
 | Line | Agency | What exists | What is missing |
 |---|---|---|---|
