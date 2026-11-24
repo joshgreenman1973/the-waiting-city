@@ -37,9 +37,9 @@ function tok(el){const st=getComputedStyle(el);const g=n=>st.getPropertyValue('-
 function drawClock(){const cv=$('#clock'),ro=$('#clockro'),T=tok(cv.parentElement);
   const stacked=cv.parentElement.clientWidth<560,rowH=stacked?34:22,H=rowH*AGS.length+44;const r=cv.getBoundingClientRect();const dpr=Math.min(2,window.devicePixelRatio||1);
   cv.width=Math.round(r.width*dpr);cv.height=Math.round(H*dpr);cv.style.height=H+'px';const ctx=cv.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);
-  const w=r.width,h=H,narrow=w<560;ctx.font=(narrow?'12px':'13px')+' Karla, sans-serif';const labW=Math.max(...AGS.map(a=>ctx.measureText(SHORT[a]||a).width));const Lm=stacked?12:Math.ceil(Math.min(labW+18,w*.42)),Rm=14,Tp=10,B=30,pw=w-Lm-Rm,lo=Math.log(1/1440),hi=Math.log(1000),xs=d=>Lm+(Math.log(d)-lo)/(hi-lo)*pw;
+  const w=r.width,h=H,narrow=w<560;ctx.font=(narrow?'12px':'13px')+' "Helvetica Neue", Helvetica, Arial, sans-serif';const labW=Math.max(...AGS.map(a=>ctx.measureText(SHORT[a]||a).width));const Lm=stacked?12:Math.ceil(Math.min(labW+18,w*.42)),Rm=14,Tp=10,B=30,pw=w-Lm-Rm,lo=Math.log(1/1440),hi=Math.log(1000),xs=d=>Lm+(Math.log(d)-lo)/(hi-lo)*pw;
   const rowY=i=>Tp+i*rowH+(stacked?rowH-10:rowH/2);const pts=W.map(l=>({...l,x:xs(l.days),y:rowY(AGS.indexOf(l.a)),col:T[grpOf(l.a)[1]]||T.fg2}));
-  function base(sel){ctx.globalCompositeOperation='source-over';ctx.fillStyle=T.bg;ctx.fillRect(0,0,w,h);ctx.font=(narrow?'12px':'13px')+' Karla, sans-serif';ctx.textBaseline='middle';
+  function base(sel){ctx.globalCompositeOperation='source-over';ctx.fillStyle=T.bg;ctx.fillRect(0,0,w,h);ctx.font=(narrow?'12px':'13px')+' "Helvetica Neue", Helvetica, Arial, sans-serif';ctx.textBaseline='middle';
     AGS.forEach((a,i)=>{const y=rowY(i);ctx.fillStyle=T.fg2;const t=SHORT[a]||a;if(stacked){ctx.textAlign='left';ctx.fillText(t,Lm,y-13);}else{ctx.textAlign='right';ctx.fillText(t,Lm-10,y);}
       ctx.strokeStyle=T.grid;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(Lm,y+.5);ctx.lineTo(w-Rm,y+.5);ctx.stroke();});
     ctx.textAlign='center';ctx.textBaseline='alphabetic';
